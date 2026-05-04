@@ -812,7 +812,6 @@ section {
 
 .project-footer {
   padding-top: 4px;
-  border-top: 1px solid var(--border);
 }
 
 @media (max-width: 900px) {
