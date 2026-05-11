@@ -661,5 +661,18 @@ const BLOGS = [
     excerpt: "April 1, 2026 marked a fundamental shift in BC's energy incentive landscape — CleanBC moved from universal rebates to income-qualified tiers, added property value caps ($1.23M for detached homes, $772K for condos), and BC Hydro raised rates 3.75%. This guide breaks down the four eligibility tiers, which Greater Vancouver homeowners now qualify, and how SEER2/HSPF2 standards affect what equipment counts for rebates.",
     tags: ["HVAC", "Rebates", "CleanBC", "British Columbia", "Heat Pump", "Energy Efficiency", "Buying Guide"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--pink))"
+  },
+  {
+    id: 52,
+    title: "Analyse approfondie LogisVert 2026 – Maximiser vos subventions ce printemps",
+    publication: "AuraClimatpro",
+    date: "March 27, 2026",
+    dateISO: "2026-03-27",
+    wordCount: 2200,
+    readTime: 11,
+    url: "https://auraclimatpro.com/analyse-approfondie-logisvert-2026-maximiser-vos-subventions-ce-printemps/",
+    excerpt: "LogisVert a transformé ses exigences en 2026 avec la certification ENERGY STAR obligatoire (en vigueur depuis novembre 2025) et un bonus de 5% pour les mesures multiples expirant le 30 avril. Ce guide couvre les subventions québécoises pour thermopompes (jusqu'à 6 700$), systèmes géothermiques et enveloppe du bâtiment, le programme ERR en Ontario, et les normes de performance à -15°C pour le couloir Gatineau-Montréal-Ottawa.",
+    tags: ["HVAC", "Thermopompe", "Subventions", "Quebec", "French", "LogisVert", "Ottawa", "Spring"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
   }
 ];
