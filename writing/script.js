@@ -167,6 +167,19 @@ const BLOGS = [
     excerpt: "Ten budget-friendly strategies to cut winter heating costs without sacrificing comfort — from weatherstripping and programmable thermostats to HVAC maintenance and smart home upgrades, with practical thresholds for when a professional tune-up pays for itself.",
     tags: ["Energy Efficiency", "HVAC", "Home Improvement", "Montreal", "Smart Home", "Winter"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
+  {
+    id: 14,
+    title: "Arrêtez de grimacer devant votre facture d'énergie: 10 façons de rester au chaud à moindre coût",
+    publication: "AuraClimatpro",
+    date: "January 23, 2026",
+    dateISO: "2026-01-23",
+    wordCount: 1200,
+    readTime: 5,
+    url: "https://auraclimatpro.com/arretez-de-grimacer-devant-votre-facture-denergie-10-facons-de-rester-au-chaud-a-moindre-cout/",
+    excerpt: "Dix stratégies pratiques pour réduire les factures de chauffage hivernal — calfeutrage des fuites, thermostats intelligents et optimisation de la ventilation — pour rester au chaud à Montréal sans sacrifier le budget.",
+    tags: ["Energy Efficiency", "HVAC", "Home Improvement", "Montreal", "French", "Winter"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
   }
 ];
 
