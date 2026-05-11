@@ -248,6 +248,19 @@ const BLOGS = [
   },
   {
     id: 20,
+    title: "When Should You Replace Your Furnace? 5 Clear Warning Signs",
+    publication: "AuraClimatpro",
+    date: "February 2, 2026",
+    dateISO: "2026-02-02",
+    wordCount: 1150,
+    readTime: 6,
+    url: "https://auraclimatpro.com/when-should-you-replace-your-furnace-5-clear-warning-signs/",
+    excerpt: "Five clear signs your furnace needs replacing — age over 15 years, rising utility bills, unusual noises, uneven heating, and frequent repairs — with Montreal-specific guidance on professional installation, heritage home considerations, and how 2026 rebates make upgrading more affordable than ever.",
+    tags: ["HVAC", "Furnace", "Troubleshooting", "Montreal", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
+    id: 21,
     title: "Quand devriez-vous remplacer votre fournaise? 5 signes qui ne trompent pas",
     publication: "AuraClimatpro",
     date: "January 30, 2026",
