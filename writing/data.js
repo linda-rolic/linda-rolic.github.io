@@ -739,5 +739,18 @@ const BLOGS = [
     excerpt: "Quebec's Construction Code and Ontario's 2024 Building Code updates now mandate mechanical ventilation — and non-compliance has real estate and insurance consequences. This guide compares HRV vs. ERV technologies for regional climates, covers new radon sub-floor depressurization requirements, LogisVert and Ontario Home Renovation Savings rebates, and AuraClimatPro's seven-step diagnostic for verifying air exchanger compliance.",
     tags: ["HVAC", "Air Quality", "Quebec", "Ottawa", "HRV", "Compliance", "Rebates", "Health"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
+  },
+  {
+    id: 58,
+    title: "L'ultimatum des échangeurs d'air – Votre habitation est-elle conforme?",
+    publication: "AuraClimatpro",
+    date: "April 6, 2026",
+    dateISO: "2026-04-06",
+    wordCount: 2100,
+    readTime: 11,
+    url: "https://auraclimatpro.com/lultimatum-des-echangeurs-dair-votre-habitation-est-elle-conforme/",
+    excerpt: "Les nouveaux codes du bâtiment du Québec et de l'Ontario 2024 rendent la ventilation mécanique obligatoire — et la non-conformité entraîne des conséquences immobilières et d'assurance. Ce guide compare VRC et VRE selon les climats régionaux, couvre les nouvelles exigences de dépressurisation pour le radon, les subventions LogisVert et le programme Rénovation domiciliaire de l'Ontario (jusqu'à 14 000$), et le diagnostic en sept étapes d'AuraClimatPro.",
+    tags: ["HVAC", "Qualité de l'air", "Quebec", "Ottawa", "VRC", "Conformité", "Subventions", "French"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   }
 ];
