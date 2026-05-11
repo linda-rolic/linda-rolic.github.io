@@ -115,6 +115,19 @@ const BLOGS = [
     excerpt: "Boston homes battle temperature imbalances caused by the stack effect, aging ductwork, and urban heat islands — this guide covers professional air balancing, zoning systems, and ductless mini-splits as targeted fixes, with Mass Save rebates that can offset upgrade costs.",
     tags: ["HVAC", "Boston", "Heat Pump", "Energy Efficiency", "Mass Save", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
+  },
+  {
+    id: 10,
+    title: "Where Should You Actually Put CO Detectors in a Split-Level Home?",
+    publication: "WiserAire",
+    date: "January 22, 2026",
+    dateISO: "2026-01-22",
+    wordCount: 1100,
+    readTime: 5,
+    url: "https://wiseraire.com/where-should-you-actually-put-co-detectors-in-a-split-level-home/",
+    excerpt: "CO doesn't sink or rise — it follows airflow, which makes split-level homes especially tricky. This guide covers the exact placement rules for bedroom doors, garage entries, and mechanical spaces, plus the common installation mistakes that leave dangerous blind spots.",
+    tags: ["Safety", "Carbon Monoxide", "HVAC", "Furnace", "Winnipeg", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   }
 ];
 
