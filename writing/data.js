@@ -323,5 +323,18 @@ const BLOGS = [
     excerpt: "Quand la fournaise lâche à -20°C à 2h du matin, chaque minute compte — ce guide d'urgence couvre la checklist de base, l'inspection des filtres et des conduits PVC, les mesures anti-gel pour les tuyaux, et les trois signaux (gaz, CO, fumée) qui exigent une évacuation immédiate.",
     tags: ["HVAC", "Furnace", "Emergency", "Montreal", "French", "Safety", "Winter"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
+    id: 26,
+    title: "The 2 AM Chill: What to Do During a Mid-Winter Heating Emergency",
+    publication: "AuraClimatpro",
+    date: "February 9, 2026",
+    dateISO: "2026-02-09",
+    wordCount: 900,
+    readTime: 5,
+    url: "https://auraclimatpro.com/the-2-am-chill-what-to-do-during-a-mid-winter-heating-emergency/",
+    excerpt: "When your furnace dies at -20°C in the middle of the night, every minute counts — this emergency guide walks through the quick-check checklist, airflow fixes, pipe-freeze prevention, and the three warning signs (gas, CO, burning smell) that mean you need to evacuate immediately.",
+    tags: ["HVAC", "Furnace", "Emergency", "Montreal", "Safety", "Winter"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--mint))"
   }
 ];
