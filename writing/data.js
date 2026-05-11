@@ -531,5 +531,18 @@ const BLOGS = [
     excerpt: "Scheduling AC maintenance in March — before the summer rush hits — means shorter waits, better rebate availability, and catching winter dormancy damage before it compounds. This piece covers 2026 Mass Save changes, the R-410A phase-out, and why Boston's triple-deckers and brownstones need region-specific cooling strategies.",
     tags: ["HVAC", "Air Conditioning", "Boston", "Rebates", "Mass Save", "Heat Pump", "Spring"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--lavender))"
+  },
+  {
+    id: 42,
+    title: "5 Mistakes to Avoid When Choosing a New AC Unit in Boston: Sizing, SEER2, and Rebate Traps",
+    publication: "ComfiTrust",
+    date: "March 17, 2026",
+    dateISO: "2026-03-17",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://comfitrust.com/5-mistakes-to-avoid-when-choosing-a-new-ac-unit-in-boston-sizing-seer2-and-rebate-traps/",
+    excerpt: "Oversizing, ignoring SEER2 minimums, skipping ductwork assessment, missing the R-410A phase-out, and falling into Mass Save rebate traps — five costly mistakes Boston homeowners make when buying a new AC unit. This guide walks through each one with the Manual J and Manual D math that actually matters.",
+    tags: ["HVAC", "Air Conditioning", "Boston", "Mass Save", "Rebates", "Energy Efficiency", "Buying Guide"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
   }
 ];
