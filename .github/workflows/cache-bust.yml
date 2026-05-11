@@ -1,0 +1,27 @@
+name: Cache Bust on Deploy
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  cache-bust:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update cache-bust version
+        run: |
+          VERSION=$(date +%Y%m%d%H%M%S)
+          sed -i "s/?v=[0-9]\+/?v=${VERSION}/g" index.html writing/index.html
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html writing/index.html
+          git diff --staged --quiet || git commit -m "Bump cache-bust version [skip ci]"
+          git push
