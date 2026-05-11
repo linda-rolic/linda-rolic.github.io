@@ -56,7 +56,7 @@ function renderCard(blog) {
         </div>
         <h3>${blog.title}</h3>
         <div class="blog-meta-row">
-          <span class="blog-badge words">&#128218; ${blog.wordCount.toLocaleString()} words</span>
+          <span class="blog-badge words">&#128218; ~${blog.wordCount.toLocaleString()} words</span>
           <span class="blog-badge time">&#9201; ${blog.readTime} min read</span>
         </div>
         <p class="blog-excerpt">${blog.excerpt}</p>
@@ -75,7 +75,7 @@ function updateStats(visible) {
     ? Math.round(visible.reduce((s, b) => s + b.readTime, 0) / visible.length)
     : 0;
   document.getElementById('stat-count').textContent = visible.length;
-  document.getElementById('stat-words').textContent = totalWords.toLocaleString();
+  document.getElementById('stat-words').textContent = '~' + totalWords.toLocaleString();
   document.getElementById('stat-read').textContent = visible.length ? `${avgRead} min` : '—';
 }
 
