@@ -388,5 +388,18 @@ const BLOGS = [
     excerpt: "Vancouver's cloudy reputation undersells its solar potential — modern PERC panels capture diffuse light effectively, and BC's 2026 rebates stack up to $10,000 before April 1st changes hit. This guide covers net metering credits, battery integration, optimal roof angles for rain self-cleaning, and financial projections showing break-even in 8–12 years.",
     tags: ["Solar", "Energy Efficiency", "British Columbia", "Rebates", "Battery Storage", "Smart Home"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
+  },
+  {
+    id: 31,
+    title: "Furnace End-of-Life: Repair or Replace? (The $500 Rule)",
+    publication: "AireEnergy",
+    date: "February 2026",
+    dateISO: "2026-02-01",
+    wordCount: 1100,
+    readTime: 6,
+    url: "https://aireenergy.com/furnace-end-of-life-repair-or-replace-the-500-rule/",
+    excerpt: "Three rules help Vancouver homeowners decide between furnace repair and replacement: the $500 Rule for minor fixes, the 5000 HVAC Rule (age × repair cost), and the 50% Rule when quotes approach half the cost of a new system — plus why a cracked heat exchanger almost always tips the math toward replacement.",
+    tags: ["HVAC", "Furnace", "Troubleshooting", "British Columbia", "Home Improvement", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   }
 ];
