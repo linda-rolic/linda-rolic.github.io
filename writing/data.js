@@ -362,5 +362,18 @@ const BLOGS = [
     excerpt: "Indoor air can be up to five times more polluted than outdoor air in winter — sealed homes, furnace dust, low humidity, and cooking particulates all compound the problem. This Boston-focused guide covers True HEPA filtration, UV-C light purification, and the 30-50% humidity \"Goldilocks Zone\" for healthier winter air.",
     tags: ["HVAC", "Air Quality", "Boston", "Health", "Furnace", "Smart Home"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
+  },
+  {
+    id: 29,
+    title: "Furnace End-of-Life: Repair or Replace? (The $500 Rule)",
+    publication: "WiserAire",
+    date: "February 11, 2026",
+    dateISO: "2026-02-11",
+    wordCount: 1100,
+    readTime: 6,
+    url: "https://wiseraire.com/furnace-end-of-life-repair-or-replace-the-500-rule/",
+    excerpt: "Three rules help Winnipeg homeowners decide between furnace repair and replacement: the $500 Rule for minor fixes, the 5000 HVAC Rule (age × repair cost), and the 50% Rule when quotes approach half the cost of a new system — plus why a cracked heat exchanger almost always tips the math toward replacement.",
+    tags: ["HVAC", "Furnace", "Troubleshooting", "Winnipeg", "Home Improvement", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   }
 ];
