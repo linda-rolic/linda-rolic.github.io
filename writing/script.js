@@ -40,6 +40,19 @@ const BLOGS = [
   },
   {
     id: 4,
+    title: "Nova Scotia Rebate Update: The 2026 Guide",
+    publication: "Auxaire",
+    date: "January 13, 2026",
+    dateISO: "2026-01-13",
+    wordCount: 1000,
+    readTime: 5,
+    url: "https://auxaire.com/2026/01/13/nova-scotia-rebate-update-the-2026-guide/",
+    excerpt: "Nova Scotia homeowners can stack up to $30,000 in 2026 rebates for switching from oil to heat pumps — but major programs are expected to deplete early. This guide covers OHPA grants, income-based top-ups, Efficiency NS home assessments, supplemental insulation rebates, and 0% PACE financing options.",
+    tags: ["Rebates", "Nova Scotia", "Heat Pump", "Energy Efficiency", "HVAC", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
+    id: 5,
     title: "Is Your Heat Pump Ready for -30°C? A Maritime Survival Guide",
     publication: "Auxaire",
     date: "January 9, 2026",
