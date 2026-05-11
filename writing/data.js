@@ -817,5 +817,18 @@ const BLOGS = [
     excerpt: "The Gatineau-Montreal corridor faces three distinct pollen waves — tree, grass, and ragweed — amplified by the Valley Effect and urban heat islands extending each season. This guide recommends MERV 13 as the allergy sweet spot, covers HRV/ERV integration, UV-C germicidal systems, bio-sludge remediation, and the 7-to-1 rule for peak pollen hours, positioning HVAC as the primary defense for corridor residents.",
     tags: ["HVAC", "Air Quality", "Montreal", "Ottawa", "Allergy", "MERV", "HRV", "Health"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
+  },
+  {
+    id: 64,
+    title: "Le calendrier du pollen Gatineau-Montréal – le CVC comme première ligne de défense",
+    publication: "AuraClimatpro",
+    date: "May 8, 2026",
+    dateISO: "2026-05-08",
+    wordCount: 2200,
+    readTime: 11,
+    url: "https://auraclimatpro.com/le-calendrier-du-pollen-gatineau-montreal-le-cvc-comme-premiere-ligne-de-defense/",
+    excerpt: "Le corridor Gatineau-Montréal subit trois vagues polliniques de mars à octobre — arbres printaniers (érable, bouleau, chêne, frêne), graminées estivales et l'ambroisie responsable de 90% des rhinites saisonnières. Ce guide couvre les cotes MERV (13 recommandé, capturant 90% des allergènes), les VRC, les lampes UV-C germicides, la bio-boue sur les serpentins de refroidissement, et l'effet d'îlot de chaleur urbain qui prolonge les saisons de 2-3 semaines.",
+    tags: ["HVAC", "Qualité de l'air", "Montreal", "Ottawa", "Allergie", "MERV", "VRC", "French"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
   }
 ];
