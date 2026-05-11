@@ -141,6 +141,19 @@ const BLOGS = [
     excerpt: "A furnace blowing cold air isn't always a crisis — seven common culprits from thermostat mode to dirty filters can be ruled out before calling a tech. This Montreal-focused guide walks through each cause and the DIY fix or escalation threshold for each.",
     tags: ["HVAC", "Furnace", "Troubleshooting", "Montreal", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--lavender))"
+  },
+  {
+    id: 12,
+    title: "Pourquoi mon fournaise souffle-t-elle de l'air froid?",
+    publication: "AuraClimatpro",
+    date: "January 23, 2026",
+    dateISO: "2026-01-23",
+    wordCount: 1200,
+    readTime: 5,
+    url: "https://auraclimatpro.com/pourquoi-mon-fournaise-souffle-t-elle-de-lair-froid/",
+    excerpt: "Une fournaise qui souffle de l'air froid n'est pas toujours en panne — sept causes courantes, du réglage du thermostat au filtre encrassé, peuvent être éliminées avant d'appeler un technicien. Guide de dépannage pour propriétaires montréalais.",
+    tags: ["HVAC", "Furnace", "Troubleshooting", "Montreal", "French", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   }
 ];
 
