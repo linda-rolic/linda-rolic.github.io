@@ -11,6 +11,19 @@ const BLOGS = [
     excerpt: "As of 2026, Boston's HVAC sector has crossed the tipping point where system intelligence replaces mechanical reliability as the primary quality metric — driven by BERDO emissions mandates, R-410A refrigerant phase-outs, and AI-powered predictive comfort systems reshaping how Greater Boston homes manage climate and energy.",
     tags: ["HVAC", "Smart Home", "Energy Efficiency", "Boston", "AI", "Real Estate"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
+  },
+  {
+    id: 2,
+    title: "The Emergency 'No-Heat' Playbook: What to Do During a Polar Vortex",
+    publication: "ComfiTrust",
+    date: "January 8, 2026",
+    dateISO: "2026-01-08",
+    wordCount: 800,
+    readTime: 4,
+    url: "https://comfitrust.com/the-emergency-no-heat-playbook-what-to-do-during-a-polar-vortex/",
+    excerpt: "When a Polar Vortex hits Greater Boston, it's a brutal test of your home's high-efficiency heating system. This step-by-step emergency playbook covers safety triage, PVC vent checks, error code decoding for Gree, Mitsubishi, and Bosch systems, and how to protect your pipes — so you're never left in the cold at 2 AM.",
+    tags: ["HVAC", "Emergency", "Heat Pump", "Boston", "Winter", "Troubleshooting"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   }
 ];
 
