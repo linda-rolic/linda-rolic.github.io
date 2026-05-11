@@ -466,5 +466,18 @@ const BLOGS = [
     excerpt: "Ductless mini-split systems promise zoned comfort and significant energy savings — but are they the right fit for Canadian homes? This guide examines cold-climate performance, installation costs, Quebec and Ontario rebate eligibility, and how mini-splits stack up against traditional central systems for Ottawa and Gatineau homeowners.",
     tags: ["HVAC", "Heat Pump", "Mini-Split", "Energy Efficiency", "Ottawa", "Rebates", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--mint))"
+  },
+  {
+    id: 37,
+    title: "Mini-splits sans conduits: Est-ce vraiment la solution idéale pour votre foyer?",
+    publication: "AuraClimatpro",
+    date: "March 2, 2026",
+    dateISO: "2026-03-02",
+    wordCount: 1200,
+    readTime: 6,
+    url: "https://auraclimatpro.com/mini-splits-sans-conduits-est-ce-vraiment-la-solution-ideale-pour-votre-foyer/",
+    excerpt: "Les systèmes mini-split sans conduits promettent confort par zone et économies d'énergie — mais sont-ils le bon choix pour les maisons canadiennes? Ce guide examine les performances en climat froid, les coûts d'installation, l'admissibilité aux subventions du Québec et de l'Ontario, et la comparaison avec les systèmes centraux traditionnels pour les propriétaires d'Ottawa-Gatineau.",
+    tags: ["HVAC", "Thermopompe", "Mini-Split", "Efficacité Énergétique", "Ottawa", "Subventions", "French"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   }
 ];
