@@ -310,5 +310,18 @@ const BLOGS = [
     excerpt: "BC's aging grid and severe weather events are driving demand for home battery storage — this guide covers time-of-use rate optimization with BC Hydro's new pricing structure, LFP battery technology, stacking $10,000+ in solar and storage rebates before the April 2026 deadline, and how to integrate batteries with heat pumps and EV chargers.",
     tags: ["Energy Efficiency", "Solar", "Battery Storage", "British Columbia", "Rebates", "Smart Home"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
+  {
+    id: 25,
+    title: "Le frisson de 2h du matin: que faire lors d'une urgence de chauffage en plein hiver?",
+    publication: "AuraClimatpro",
+    date: "February 6, 2026",
+    dateISO: "2026-02-06",
+    wordCount: 950,
+    readTime: 5,
+    url: "https://auraclimatpro.com/le-frisson-de-2h-du-matin-que-faire-lors-dune-urgence-de-chauffage-en-plein-hiver/",
+    excerpt: "Quand la fournaise lâche à -20°C à 2h du matin, chaque minute compte — ce guide d'urgence couvre la checklist de base, l'inspection des filtres et des conduits PVC, les mesures anti-gel pour les tuyaux, et les trois signaux (gaz, CO, fumée) qui exigent une évacuation immédiate.",
+    tags: ["HVAC", "Furnace", "Emergency", "Montreal", "French", "Safety", "Winter"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   }
 ];
