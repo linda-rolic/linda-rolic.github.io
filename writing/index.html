@@ -132,19 +132,21 @@
 
     <!-- Controls -->
     <div class="blog-controls">
-      <div class="blog-search-wrap">
-        <span class="blog-search-icon">&#128269;</span>
-        <input type="text" id="blog-search" placeholder="Search articles, topics, tags&hellip;" class="blog-search" />
+      <div class="blog-controls-row">
+        <div class="blog-search-wrap">
+          <span class="blog-search-icon">&#128269;</span>
+          <input type="text" id="blog-search" placeholder="Search articles, topics, tags&hellip;" class="blog-search" />
+        </div>
+        <select id="blog-sort" class="blog-sort">
+          <option value="newest">Newest First</option>
+          <option value="oldest">Oldest First</option>
+          <option value="longest">Longest First</option>
+          <option value="shortest">Shortest First</option>
+        </select>
       </div>
       <div class="blog-filter-chips" id="blog-filter-chips">
         <button class="filter-chip active" data-company="all">All</button>
       </div>
-      <select id="blog-sort" class="blog-sort">
-        <option value="newest">Newest First</option>
-        <option value="oldest">Oldest First</option>
-        <option value="longest">Longest First</option>
-        <option value="shortest">Shortest First</option>
-      </select>
     </div>
 
     <!-- Blog cards -->

@@ -953,10 +953,15 @@ footer {
 
 .blog-controls {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 12px;
   margin-bottom: 28px;
-  flex-wrap: wrap;
+}
+
+.blog-controls-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .blog-search-wrap {
