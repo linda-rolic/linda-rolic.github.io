@@ -518,5 +518,18 @@ const BLOGS = [
     excerpt: "Ice dams aren't just a winter nuisance — they're a sign of thermal failure in your attic. This guide explains how freeze-thaw cycles in Maritime climates drive ice dam formation, what proper intake and exhaust ventilation should look like, and how Nova Scotia, New Brunswick, and PEI rebate programs can offset the cost of fixing it.",
     tags: ["HVAC", "Insulation", "Attic", "Nova Scotia", "Winter", "Rebates", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
+  },
+  {
+    id: 41,
+    title: "The Early Bird Special: Why March is the Smartest Month for a Boston AC Tune-Up",
+    publication: "ComfiTrust",
+    date: "March 5, 2026",
+    dateISO: "2026-03-05",
+    wordCount: 1200,
+    readTime: 6,
+    url: "https://comfitrust.com/the-early-bird-special-why-march-is-the-smartest-month-for-a-boston-ac-tune-up/",
+    excerpt: "Scheduling AC maintenance in March — before the summer rush hits — means shorter waits, better rebate availability, and catching winter dormancy damage before it compounds. This piece covers 2026 Mass Save changes, the R-410A phase-out, and why Boston's triple-deckers and brownstones need region-specific cooling strategies.",
+    tags: ["HVAC", "Air Conditioning", "Boston", "Rebates", "Mass Save", "Heat Pump", "Spring"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--lavender))"
   }
 ];
