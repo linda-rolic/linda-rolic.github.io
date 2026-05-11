@@ -622,5 +622,18 @@ const BLOGS = [
     excerpt: "Boston's 2026 pollen season is hitting in a compressed 4–5 week burst after a prolonged winter — and historic triple-deckers and brownstones leak air in ways that defeat standard filters. This guide covers HEPA filtration (99.97% capture at 0.3 microns vs. 30% for standard), UV-C coil and air sterilization, neighborhood-level air quality disparities in Allston, Roxbury, and Back Bay, and current Mass Save rebates.",
     tags: ["HVAC", "Air Quality", "Boston", "HEPA", "Mass Save", "Rebates", "Allergy", "Health"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
+  },
+  {
+    id: 49,
+    title: "The April AC Switchover: 5 Checks Before You Power Up",
+    publication: "WiserAire",
+    date: "March 24, 2026",
+    dateISO: "2026-03-24",
+    wordCount: 1300,
+    readTime: 7,
+    url: "https://wiseraire.com/the-april-ac-switchover-5-checks-before-you-power-up/",
+    excerpt: "Winnipeg homeowners switching from heat to AC face a real risk of compressor damage if they power up too early — the 60-Degree Rule exists for a reason. This checklist covers clearing road salt and debris from outdoor units without pressure-washing the fins, filter upgrades before spring dust season, thermostat testing, and Efficiency Manitoba rebates available for heat pump upgrades.",
+    tags: ["HVAC", "Air Conditioning", "Winnipeg", "Manitoba", "Spring", "Maintenance", "Rebates"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--lavender))"
   }
 ];
