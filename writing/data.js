@@ -349,5 +349,18 @@ const BLOGS = [
     excerpt: "Ontario's Oil to Heat Pump Affordability Program — funded by NRCan and the IESO — offers eligible oil-heated homeowners a free electric heat pump installation. Constant Home Comfort is an approved CLEAResult referral contractor for the program.",
     tags: ["Heat Pump", "Rebates", "Energy Efficiency", "Ontario", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
+    id: 28,
+    title: "The Winter Trap: Why Your Indoor Air Quality Drops When the Temperature Plummets",
+    publication: "ComfiTrust",
+    date: "February 10, 2026",
+    dateISO: "2026-02-10",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://comfitrust.com/the-winter-trap-why-your-indoor-air-quality-drops-when-the-temperature-plummets/",
+    excerpt: "Indoor air can be up to five times more polluted than outdoor air in winter — sealed homes, furnace dust, low humidity, and cooking particulates all compound the problem. This Boston-focused guide covers True HEPA filtration, UV-C light purification, and the 30-50% humidity \"Goldilocks Zone\" for healthier winter air.",
+    tags: ["HVAC", "Air Quality", "Boston", "Health", "Furnace", "Smart Home"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
   }
 ];
