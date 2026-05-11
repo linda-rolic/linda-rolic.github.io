@@ -674,5 +674,18 @@ const BLOGS = [
     excerpt: "LogisVert a transformé ses exigences en 2026 avec la certification ENERGY STAR obligatoire (en vigueur depuis novembre 2025) et un bonus de 5% pour les mesures multiples expirant le 30 avril. Ce guide couvre les subventions québécoises pour thermopompes (jusqu'à 6 700$), systèmes géothermiques et enveloppe du bâtiment, le programme ERR en Ontario, et les normes de performance à -15°C pour le couloir Gatineau-Montréal-Ottawa.",
     tags: ["HVAC", "Thermopompe", "Subventions", "Quebec", "French", "LogisVert", "Ottawa", "Spring"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
+  },
+  {
+    id: 53,
+    title: "The 2026 LogisVert Deep Dive – Maximizing Your Spring Rebates",
+    publication: "AuraClimatpro",
+    date: "March 27, 2026",
+    dateISO: "2026-03-27",
+    wordCount: 1900,
+    readTime: 10,
+    url: "https://auraclimatpro.com/the-2026-logisvert-deep-dive-maximizing-your-spring-rebates/",
+    excerpt: "The English companion to AuraClimatPro's LogisVert guide — covering Hydro-Québec's mandatory ENERGY STAR shift (November 2025), Quebec rebates for heat pumps ($6,700), geothermal ($750/1,000 BTU/h), and ETS ($15,000–$22,000), plus Ottawa ccASHP rebates up to $7,500. The April 30, 2026 deadline for the 5% multi-measure bonus and smaller upgrades makes spring the critical window for the Gatineau-Montreal-Ottawa corridor.",
+    tags: ["HVAC", "Heat Pump", "Rebates", "Quebec", "Ottawa", "LogisVert", "Energy Efficiency", "Spring"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
   }
 ];
