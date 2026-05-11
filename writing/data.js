@@ -765,5 +765,18 @@ const BLOGS = [
     excerpt: "The federal OHPA program hit capacity on February 11, 2026, leaving Nova Scotia homeowners in a queue rather than rejected outright. This guide maps alternative paths: the Moderate Income Rebate (up to $15,000 with income thresholds $37,260–$126,500+), thermal envelope upgrades with rebates up to $5,000, PACE financing at 4.75% in Halifax and Bridgewater, and cold-climate heat pump specs (HSPF2 6.6+, SEER2 15.2+) needed to qualify when funding opens.",
     tags: ["HVAC", "Heat Pump", "Nova Scotia", "Rebates", "Energy Efficiency", "Maritime", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
+  },
+  {
+    id: 60,
+    title: "Why Attic Insulation is the Secret to Unlocking the $8,500 Mass Save Heat Pump Rebate",
+    publication: "ComfiTrust",
+    date: "May 4, 2026",
+    dateISO: "2026-05-04",
+    wordCount: 2100,
+    readTime: 11,
+    url: "https://comfitrust.com/why-attic-insulation-is-the-secret-to-unlocking-the-8500-mass-save-heat-pump-rebate/",
+    excerpt: "The $8,500 Mass Save heat pump rebate has a weatherization prerequisite most homeowners miss — attic insulation. Proper insulation reduces heating loads by 20–40%, enabling a smaller system that qualifies for an extra $500 sizing bonus, while the Stack Effect math shows exactly why skipping this step forces heat pumps to work inefficiently. Also covers the R-410A ban (January 2026), R-32/R-454B compliant units, and 0% financing for income-eligible Boston households.",
+    tags: ["HVAC", "Heat Pump", "Boston", "Mass Save", "Rebates", "Insulation", "Attic", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--peach))"
   }
 ];
