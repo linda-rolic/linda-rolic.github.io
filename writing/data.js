@@ -687,5 +687,18 @@ const BLOGS = [
     excerpt: "The English companion to AuraClimatPro's LogisVert guide — covering Hydro-Québec's mandatory ENERGY STAR shift (November 2025), Quebec rebates for heat pumps ($6,700), geothermal ($750/1,000 BTU/h), and ETS ($15,000–$22,000), plus Ottawa ccASHP rebates up to $7,500. The April 30, 2026 deadline for the 5% multi-measure bonus and smaller upgrades makes spring the critical window for the Gatineau-Montreal-Ottawa corridor.",
     tags: ["HVAC", "Heat Pump", "Rebates", "Quebec", "Ottawa", "LogisVert", "Energy Efficiency", "Spring"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
+  {
+    id: 54,
+    title: "The Spring Maintenance Pivot: Why Your Lower Mainland Home Needs a Strategic HVAC Tune-Up for 2026",
+    publication: "AireEnergy",
+    date: "April 6, 2026",
+    dateISO: "2026-04-06",
+    wordCount: 1700,
+    readTime: 9,
+    url: "https://aireenergy.com/the-spring-maintenance-pivot-why-your-lower-mainland-home-needs-a-strategic-hvac-tune-up-for-2026/",
+    excerpt: "Vancouver's \"False Spring\" weather pattern and upcoming wildfire season make spring HVAC servicing a strategic move, not just routine upkeep. This guide covers coil cleaning, condensate line flushing, capacitor testing, pollen-season filter upgrades, and smoke readiness — with location-specific advice from coastal salt-air zones to urban heat islands, plus CleanBC rebates up to $19,000 for qualifying systems.",
+    tags: ["HVAC", "Maintenance", "British Columbia", "CleanBC", "Rebates", "Air Quality", "Spring"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   }
 ];
