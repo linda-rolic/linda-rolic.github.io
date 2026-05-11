@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Writing — Yulin Chen</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet" />
+  <style>
+    /* ── Writing page overrides ── */
+    body { padding-top: 80px; }
+
+    .writing-nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      padding: 0 24px;
+      transition: background var(--transition), box-shadow var(--transition);
+    }
+
+    .writing-nav.scrolled {
+      background: rgba(253,251,255,0.88);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 1px 0 var(--border);
+    }
+
+    .writing-nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .writing-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--muted);
+      transition: color var(--transition), gap var(--transition);
+    }
+
+    .writing-back:hover { color: var(--text); gap: 10px; }
+
+    .writing-hero {
+      padding: 56px 0 40px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 48px;
+    }
+
+    .writing-hero-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .writing-hero h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.2;
+      margin: 8px 0 12px;
+    }
+
+    .writing-hero p {
+      color: var(--muted);
+      font-size: 1rem;
+      max-width: 520px;
+    }
+
+    .writing-main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+    }
+
+    footer.writing-footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 0.82rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+
+    footer.writing-footer a {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    footer.writing-footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="writing-nav" id="writing-nav">
+    <div class="writing-nav-inner">
+      <a href="../" class="writing-back">&larr; Back to Portfolio</a>
+      <a href="../" class="nav-logo">YC</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="writing-hero">
+    <div class="writing-hero-inner">
+      <div class="section-label">Writing</div>
+      <h1>Published Articles</h1>
+      <p>Articles written across companies — spanning HVAC, energy, smart home technology, and more.</p>
+    </div>
+  </div>
+
+  <!-- DASHBOARD -->
+  <main class="writing-main">
+
+    <!-- Stats bar -->
+    <div class="blog-stats">
+      <div class="blog-stat" style="--bs-color: var(--lavender)">
+        <span class="blog-stat-val" id="stat-count">—</span>
+        <span class="blog-stat-label">Articles Published</span>
+      </div>
+      <div class="blog-stat" style="--bs-color: var(--mint)">
+        <span class="blog-stat-val" id="stat-words">—</span>
+        <span class="blog-stat-label">Total Words Written</span>
+      </div>
+      <div class="blog-stat" style="--bs-color: var(--peach)">
+        <span class="blog-stat-val" id="stat-read">—</span>
+        <span class="blog-stat-label">Avg. Read Time</span>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="blog-controls">
+      <div class="blog-search-wrap">
+        <span class="blog-search-icon">&#128269;</span>
+        <input type="text" id="blog-search" placeholder="Search articles, topics, tags&hellip;" class="blog-search" />
+      </div>
+      <div class="blog-filter-chips" id="blog-filter-chips">
+        <button class="filter-chip active" data-company="all">All</button>
+      </div>
+      <select id="blog-sort" class="blog-sort">
+        <option value="newest">Newest First</option>
+        <option value="oldest">Oldest First</option>
+        <option value="longest">Longest First</option>
+        <option value="shortest">Shortest First</option>
+      </select>
+    </div>
+
+    <!-- Blog cards -->
+    <div id="blog-grid" class="blog-grid"></div>
+    <div id="blog-empty" class="blog-empty" style="display:none">
+      <p>No articles match your search. Try a different keyword or company.</p>
+    </div>
+
+  </main>
+
+  <footer class="writing-footer">
+    <p>&copy; 2026 Yulin Chen &middot; <a href="../">Back to Portfolio</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
