@@ -544,5 +544,18 @@ const BLOGS = [
     excerpt: "Oversizing, ignoring SEER2 minimums, skipping ductwork assessment, missing the R-410A phase-out, and falling into Mass Save rebate traps — five costly mistakes Boston homeowners make when buying a new AC unit. This guide walks through each one with the Manual J and Manual D math that actually matters.",
     tags: ["HVAC", "Air Conditioning", "Boston", "Mass Save", "Rebates", "Energy Efficiency", "Buying Guide"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
+  },
+  {
+    id: 43,
+    title: "Supporting Local: Why Choosing a Boston-Based HVAC Firm Matters",
+    publication: "ComfiTrust",
+    date: "March 17, 2026",
+    dateISO: "2026-03-17",
+    wordCount: 1200,
+    readTime: 6,
+    url: "https://comfitrust.com/supporting-local-why-choosing-a-boston-based-hvac-firm-matters/",
+    excerpt: "Local Boston HVAC contractors bring more than just proximity — they bring knowledge of historic district compliance, coastal corrosion challenges, and 2026 Mass Save rebate navigation that national chains simply don't have. Every $100 spent locally recirculates $50 back into Greater Boston, versus $15 with a national chain.",
+    tags: ["HVAC", "Boston", "Mass Save", "Heat Pump", "Local Business", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   }
 ];
