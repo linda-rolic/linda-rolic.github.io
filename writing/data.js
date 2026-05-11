@@ -271,5 +271,18 @@ const BLOGS = [
     excerpt: "Votre fournaise envoie souvent des signaux d'alarme bien avant de lâcher — âge de 15 ans et plus, factures en hausse inexpliquée, bruits inhabituels, chaleur inégale, et réparations répétées sont les cinq signes qui indiquent qu'un remplacement est plus économique qu'une réparation. Guide montréalais avec conseils d'installation professionnelle.",
     tags: ["HVAC", "Furnace", "Montreal", "French", "Troubleshooting", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--peach))"
+  },
+  {
+    id: 22,
+    title: "The Hidden Threat: Why Your Boston Home Needs a Winter Furnace Check-up Right Now",
+    publication: "ComfiTrust",
+    date: "February 3, 2026",
+    dateISO: "2026-02-03",
+    wordCount: 1100,
+    readTime: 6,
+    url: "https://comfitrust.com/the-hidden-threat-why-your-boston-home-needs-a-winter-furnace-check-up-right-now/",
+    excerpt: "Carbon monoxide is undetectable by human senses and mimics flu symptoms — making winter the most dangerous season for Boston homeowners with aging furnaces. This guide covers snow-blocked vents, heat exchanger cracks, Massachusetts Nicole's Law detector requirements, and why a professional combustion analysis beats relying on alarms alone.",
+    tags: ["HVAC", "Furnace", "Safety", "Boston", "Carbon Monoxide", "Winter"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   }
 ];
