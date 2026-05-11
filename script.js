@@ -21,7 +21,7 @@ const durationEl = document.getElementById('blog-project-duration');
 if (durationEl) {
   const start = new Date(2026, 0); // January 2026
   const now = new Date();
-  const months = (now.getFullYear() - start.getFullYear()) * 12 + (now.getMonth() - start.getMonth());
+  const months = (now.getFullYear() - start.getFullYear()) * 12 + (now.getMonth() - start.getMonth()) + 1;
   durationEl.textContent = months <= 1 ? '1 Month' : `${months} Months`;
 }
 
