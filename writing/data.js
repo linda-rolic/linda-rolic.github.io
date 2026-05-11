@@ -648,5 +648,18 @@ const BLOGS = [
     excerpt: "Salt creep corrodes aluminum fins and copper coils in Halifax, Moncton, and Charlottetown faster than anywhere inland — Maritime HVAC spring prep is a different beast. This checklist separates DIY tasks (filter checks, drain flushing with vinegar, debris clearing) from pro-only work (chemical coil neutralization, anti-corrosive shielding, refrigerant leak detection), plus 2026 rebates up to $30,000 in Nova Scotia and $16,500 in New Brunswick.",
     tags: ["HVAC", "Nova Scotia", "Maintenance", "Spring", "Rebates", "Heat Pump", "Maritime"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
+    id: 51,
+    title: "The Post-April 1 Rebate Reality Check",
+    publication: "AireEnergy",
+    date: "April 2026",
+    dateISO: "2026-04-01",
+    wordCount: 2200,
+    readTime: 11,
+    url: "https://aireenergy.com/the-post-april-1-rebate-reality-check/",
+    excerpt: "April 1, 2026 marked a fundamental shift in BC's energy incentive landscape — CleanBC moved from universal rebates to income-qualified tiers, added property value caps ($1.23M for detached homes, $772K for condos), and BC Hydro raised rates 3.75%. This guide breaks down the four eligibility tiers, which Greater Vancouver homeowners now qualify, and how SEER2/HSPF2 standards affect what equipment counts for rebates.",
+    tags: ["HVAC", "Rebates", "CleanBC", "British Columbia", "Heat Pump", "Energy Efficiency", "Buying Guide"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--pink))"
   }
 ];
