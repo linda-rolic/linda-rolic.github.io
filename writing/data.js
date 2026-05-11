@@ -700,5 +700,18 @@ const BLOGS = [
     excerpt: "Vancouver's \"False Spring\" weather pattern and upcoming wildfire season make spring HVAC servicing a strategic move, not just routine upkeep. This guide covers coil cleaning, condensate line flushing, capacitor testing, pollen-season filter upgrades, and smoke readiness — with location-specific advice from coastal salt-air zones to urban heat islands, plus CleanBC rebates up to $19,000 for qualifying systems.",
     tags: ["HVAC", "Maintenance", "British Columbia", "CleanBC", "Rebates", "Air Quality", "Spring"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
+    id: 55,
+    title: "Tree Pollen Survival: How to Actually Breathe in Winnipeg This Spring",
+    publication: "WiserAire",
+    date: "April 6, 2026",
+    dateISO: "2026-04-06",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://wiseraire.com/tree-pollen-survival-how-to-actually-breathe-in-winnipeg-this-spring/",
+    excerpt: "Winnipeg's \"Spring of Deception\" brings white birch, bur oak, maple, and box elder pollen plus Big Thaw dust — a brutal combo for allergy sufferers. This guide navigates MERV ratings (13 is the Goldilocks zone), Photocatalytic Oxidation with the Lennox PureAir S, HRV vs. ERV tradeoffs for Manitoba homes, and why DIY filter upgrades can backfire through airflow complications.",
+    tags: ["HVAC", "Air Quality", "Winnipeg", "Manitoba", "Allergy", "MERV", "Spring", "Health"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--mint))"
   }
 ];
