@@ -570,5 +570,18 @@ const BLOGS = [
     excerpt: "Choosing the right HVAC system in BC isn't a one-size-fits-all decision — coastal properties near Squamish and Delta need corrosion-resistant equipment, humid Surrey and Langley homes require strong dehumidification, and Vancouver's urban heat islands demand efficient nighttime operation. This 2026 guide covers Manual J sizing, variable-speed heat pumps, cold-climate options rated to -25°C, wildfire smoke filtration, and CleanBC rebates up to $24,000 for qualified homeowners.",
     tags: ["HVAC", "Heat Pump", "British Columbia", "Rebates", "Energy Efficiency", "CleanBC", "Buying Guide"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--peach))"
+  },
+  {
+    id: 45,
+    title: "The Winnipeg HVAC Landscape: Climate Extremes, Smoke Records, and the Duct Cleaning Debate",
+    publication: "WiserAire",
+    date: "March 17, 2026",
+    dateISO: "2026-03-17",
+    wordCount: 1400,
+    readTime: 7,
+    url: "https://wiseraire.com/the-winnipeg-hvac-landscape-climate-extremes-smoke-records-and-the-duct-cleaning-debate/",
+    excerpt: "Winnipeg logged 352 smoke hours in summer 2025 — roughly 25x the historical average — driving wildfire particulates deep into home HVAC systems. This piece unpacks when duct cleaning is genuinely necessary versus when it's a scam (spoofed local numbers, bait-and-switch pricing), how restricted airflow accelerates blower motor wear in Manitoba's extreme climate, and what WiserAire's rebate and financing options offer local homeowners.",
+    tags: ["HVAC", "Duct Cleaning", "Winnipeg", "Air Quality", "Wildfire Smoke", "Manitoba", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   }
 ];
