@@ -752,5 +752,18 @@ const BLOGS = [
     excerpt: "Les nouveaux codes du bâtiment du Québec et de l'Ontario 2024 rendent la ventilation mécanique obligatoire — et la non-conformité entraîne des conséquences immobilières et d'assurance. Ce guide compare VRC et VRE selon les climats régionaux, couvre les nouvelles exigences de dépressurisation pour le radon, les subventions LogisVert et le programme Rénovation domiciliaire de l'Ontario (jusqu'à 14 000$), et le diagnostic en sept étapes d'AuraClimatPro.",
     tags: ["HVAC", "Qualité de l'air", "Quebec", "Ottawa", "VRC", "Conformité", "Subventions", "French"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
+  },
+  {
+    id: 59,
+    title: "Navigating the Nova Scotia Rebate Standby List – What Now?",
+    publication: "Auxaire",
+    date: "May 1, 2026",
+    dateISO: "2026-05-01",
+    wordCount: 2500,
+    readTime: 13,
+    url: "https://auxaire.com/2026/05/01/navigating-the-nova-scotia-rebate-standby-list-what-now/",
+    excerpt: "The federal OHPA program hit capacity on February 11, 2026, leaving Nova Scotia homeowners in a queue rather than rejected outright. This guide maps alternative paths: the Moderate Income Rebate (up to $15,000 with income thresholds $37,260–$126,500+), thermal envelope upgrades with rebates up to $5,000, PACE financing at 4.75% in Halifax and Bridgewater, and cold-climate heat pump specs (HSPF2 6.6+, SEER2 15.2+) needed to qualify when funding opens.",
+    tags: ["HVAC", "Heat Pump", "Nova Scotia", "Rebates", "Energy Efficiency", "Maritime", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   }
 ];
