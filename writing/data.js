@@ -557,5 +557,18 @@ const BLOGS = [
     excerpt: "Local Boston HVAC contractors bring more than just proximity — they bring knowledge of historic district compliance, coastal corrosion challenges, and 2026 Mass Save rebate navigation that national chains simply don't have. Every $100 spent locally recirculates $50 back into Greater Boston, versus $15 with a national chain.",
     tags: ["HVAC", "Boston", "Mass Save", "Heat Pump", "Local Business", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
+    id: 44,
+    title: "How to Choose the Right HVAC System for Your Home: A 2026 Guide for BC Homeowners",
+    publication: "AireEnergy",
+    date: "May 2026",
+    dateISO: "2026-05-01",
+    wordCount: 1500,
+    readTime: 8,
+    url: "https://aireenergy.com/how-to-choose-the-right-hvac-system-for-your-home-a-2026-guide-for-bc-homeowners/",
+    excerpt: "Choosing the right HVAC system in BC isn't a one-size-fits-all decision — coastal properties near Squamish and Delta need corrosion-resistant equipment, humid Surrey and Langley homes require strong dehumidification, and Vancouver's urban heat islands demand efficient nighttime operation. This 2026 guide covers Manual J sizing, variable-speed heat pumps, cold-climate options rated to -25°C, wildfire smoke filtration, and CleanBC rebates up to $24,000 for qualified homeowners.",
+    tags: ["HVAC", "Heat Pump", "British Columbia", "Rebates", "Energy Efficiency", "CleanBC", "Buying Guide"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--peach))"
   }
 ];
