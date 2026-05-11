@@ -76,6 +76,19 @@ const BLOGS = [
     excerpt: "Modern cold-climate heat pumps can hold the line at -30°C — but only if they're properly sized, coated for coastal salt air, and backed by the right dual-fuel strategy. This Maritime survival guide covers Enhanced Vapor Injection technology, anti-corrosion coatings, frost management, and 2026 rebate programs offering up to $30,000 in Nova Scotia.",
     tags: ["HVAC", "Heat Pump", "Nova Scotia", "Winter", "Rebates", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
+    id: 7,
+    title: "Navigating the 2026 Mass Save Rebate Reductions: What You Need to Know NOW",
+    publication: "ComfiTrust",
+    date: "January 15, 2026",
+    dateISO: "2026-01-15",
+    wordCount: 2100,
+    readTime: 9,
+    url: "https://comfitrust.com/navigating-the-2026-mass-save-rebate-reductions-what-you-need-to-know-now/",
+    excerpt: "Massachusetts homeowners face a \"triple hit\" to heat pump budgets in 2026 as Mass Save slashes maximum rebates from $10,000 to $8,500, new tonnage-based calculations and refrigerant compliance rules tighten eligibility, and federal Section 25C tax credits expire — with a breakdown of what to do before the cuts take full effect.",
+    tags: ["HVAC", "Heat Pump", "Massachusetts", "Rebates", "Energy Efficiency", "Mass Save"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   }
 ];
 
