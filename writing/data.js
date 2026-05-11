@@ -583,5 +583,18 @@ const BLOGS = [
     excerpt: "Winnipeg logged 352 smoke hours in summer 2025 — roughly 25x the historical average — driving wildfire particulates deep into home HVAC systems. This piece unpacks when duct cleaning is genuinely necessary versus when it's a scam (spoofed local numbers, bait-and-switch pricing), how restricted airflow accelerates blower motor wear in Manitoba's extreme climate, and what WiserAire's rebate and financing options offer local homeowners.",
     tags: ["HVAC", "Duct Cleaning", "Winnipeg", "Air Quality", "Wildfire Smoke", "Manitoba", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
+    id: 46,
+    title: "Combi Boilers in BC: The Real Truth About Benefits, Costs, and Rebates",
+    publication: "AireEnergy",
+    date: "May 2026",
+    dateISO: "2026-05-01",
+    wordCount: 1300,
+    readTime: 7,
+    url: "https://aireenergy.com/combi-boilers-in-bc-the-real-truth-about-benefits-costs-and-rebates/",
+    excerpt: "Combi boilers combine central heating and domestic hot water in one unit — but are they worth the $6,000–$18,000 install cost for BC homeowners? This guide covers coastal hard water scaling, freeze protection quirks, FortisBC rebates, CleanBC Energy Savings Program incentives, and multi-upgrade bonuses that can meaningfully offset upfront costs in Greater Vancouver.",
+    tags: ["HVAC", "Boiler", "British Columbia", "Rebates", "CleanBC", "Energy Efficiency", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
   }
 ];
