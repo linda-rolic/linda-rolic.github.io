@@ -635,5 +635,18 @@ const BLOGS = [
     excerpt: "Winnipeg homeowners switching from heat to AC face a real risk of compressor damage if they power up too early — the 60-Degree Rule exists for a reason. This checklist covers clearing road salt and debris from outdoor units without pressure-washing the fins, filter upgrades before spring dust season, thermostat testing, and Efficiency Manitoba rebates available for heat pump upgrades.",
     tags: ["HVAC", "Air Conditioning", "Winnipeg", "Manitoba", "Spring", "Maintenance", "Rebates"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--lavender))"
+  },
+  {
+    id: 50,
+    title: "The Spring \"Awakening\" Checklist for Maritime HVAC Systems",
+    publication: "Auxaire",
+    date: "March 27, 2026",
+    dateISO: "2026-03-27",
+    wordCount: 2100,
+    readTime: 11,
+    url: "https://auxaire.com/2026/03/27/the-spring-awakening-checklist-for-maritime-hvac-systems/",
+    excerpt: "Salt creep corrodes aluminum fins and copper coils in Halifax, Moncton, and Charlottetown faster than anywhere inland — Maritime HVAC spring prep is a different beast. This checklist separates DIY tasks (filter checks, drain flushing with vinegar, debris clearing) from pro-only work (chemical coil neutralization, anti-corrosive shielding, refrigerant leak detection), plus 2026 rebates up to $30,000 in Nova Scotia and $16,500 in New Brunswick.",
+    tags: ["HVAC", "Nova Scotia", "Maintenance", "Spring", "Rebates", "Heat Pump", "Maritime"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   }
 ];
