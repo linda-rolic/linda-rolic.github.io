@@ -27,6 +27,19 @@ const BLOGS = [
   },
   {
     id: 3,
+    title: "Massachusetts Heat Pump Reality Check: Do They Really Work at -15°F?",
+    publication: "ComfiTrust",
+    date: "January 12, 2026",
+    dateISO: "2026-01-12",
+    wordCount: 1050,
+    readTime: 5,
+    url: "https://comfitrust.com/massachusetts-heat-pump-reality-check-do-they-really-work-at-15f/",
+    excerpt: "A technical reality check on air-source heat pumps in New England winters — examining COP ratings across temperature ranges, EVI and Flash Injection technology, brand comparisons across Mitsubishi, Bosch, and Daikin, and Massachusetts-specific rebates and the No-Cost Heat Pump Program.",
+    tags: ["HVAC", "Heat Pump", "Massachusetts", "Winter", "Rebates", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--peach))"
+  },
+  {
+    id: 4,
     title: "Is Your Heat Pump Ready for -30°C? A Maritime Survival Guide",
     publication: "Auxaire",
     date: "January 9, 2026",
