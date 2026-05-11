@@ -6,11 +6,6 @@ window.addEventListener('scroll', () => {
   writingNav.classList.toggle('scrolled', window.scrollY > 20);
 });
 
-// Fade-in observer
-const observer = new IntersectionObserver(
-  entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
-  { threshold: 0.08 }
-);
 
 // Build company filter chips
 function buildChips() {
@@ -118,7 +113,6 @@ function renderBlogs() {
   empty.style.display = filtered.length ? 'none' : 'block';
   updateStats(filtered);
 
-  grid.querySelectorAll('.blog-card').forEach(el => observer.observe(el));
 }
 
 // Wire up controls
