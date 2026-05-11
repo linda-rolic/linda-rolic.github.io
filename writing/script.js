@@ -232,6 +232,19 @@ const BLOGS = [
     excerpt: "Modern cold-climate heat pumps have made the furnace vs. heat pump debate more nuanced than ever. This guide explains why dual-energy systems — pairing an electric heat pump with a gas furnace backup — are the smart choice for Quebec homeowners looking to leverage low hydro rates without sacrificing winter comfort.",
     tags: ["HVAC", "Heat Pump", "Furnace", "Montreal", "Energy Efficiency", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
+    id: 19,
+    title: "Fournaise vs Thermopompe: Quel est le meilleur choix pour l'hiver québécois?",
+    publication: "AuraClimatpro",
+    date: "January 28, 2026",
+    dateISO: "2026-01-28",
+    wordCount: 1178,
+    readTime: 6,
+    url: "https://auraclimatpro.com/fournaise-vs-thermopompe-quel-est-le-meilleur-choix-pour-lhiver-quebecois/",
+    excerpt: "La technologie moderne des thermopompes pour climat froid a changé la donne — cet article compare fournaise et thermopompe pour les hivers québécois et explique pourquoi les systèmes biénergie, combinant les deux, permettent de profiter des bas tarifs d'Hydro-Québec sans compromettre le confort.",
+    tags: ["HVAC", "Heat Pump", "Furnace", "Montreal", "French", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
   }
 ];
 
