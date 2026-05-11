@@ -53,6 +53,19 @@ const BLOGS = [
   },
   {
     id: 5,
+    title: "The \"Burning Plastic\" Smell: Is Your Furnace Safe?",
+    publication: "WiserAire",
+    date: "January 14, 2026",
+    dateISO: "2026-01-14",
+    wordCount: 950,
+    readTime: 4,
+    url: "https://wiseraire.com/the-burning-plastic-smell-is-your-furnace-safe/",
+    excerpt: "That burning plastic smell from your furnace could be dust — or a failing blower motor, electrical arcing, or a cracked heat exchanger leaking carbon monoxide. This Winnipeg-focused guide walks through the three main causes, emergency shutdown steps, and when to call for 24/7 repair.",
+    tags: ["HVAC", "Furnace", "Safety", "Winnipeg", "Carbon Monoxide", "Troubleshooting"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
+  {
+    id: 6,
     title: "Is Your Heat Pump Ready for -30°C? A Maritime Survival Guide",
     publication: "Auxaire",
     date: "January 9, 2026",
