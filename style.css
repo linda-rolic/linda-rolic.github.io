@@ -156,6 +156,12 @@ strong { font-weight: 600; }
   margin-bottom: 16px;
 }
 
+.hero-name-aka {
+  color: var(--muted);
+  font-size: 0.75em;
+  font-style: italic;
+}
+
 .hero-title {
   font-size: 1.1rem;
   font-weight: 500;
