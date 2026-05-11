@@ -128,6 +128,19 @@ const BLOGS = [
     excerpt: "CO doesn't sink or rise — it follows airflow, which makes split-level homes especially tricky. This guide covers the exact placement rules for bedroom doors, garage entries, and mechanical spaces, plus the common installation mistakes that leave dangerous blind spots.",
     tags: ["Safety", "Carbon Monoxide", "HVAC", "Furnace", "Winnipeg", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
+    id: 11,
+    title: "Why Is My Furnace Blowing Cold Air?",
+    publication: "AuraClimatpro",
+    date: "January 23, 2026",
+    dateISO: "2026-01-23",
+    wordCount: 1200,
+    readTime: 5,
+    url: "https://auraclimatpro.com/why-is-my-furnace-blowing-cold-air/",
+    excerpt: "A furnace blowing cold air isn't always a crisis — seven common culprits from thermostat mode to dirty filters can be ruled out before calling a tech. This Montreal-focused guide walks through each cause and the DIY fix or escalation threshold for each.",
+    tags: ["HVAC", "Furnace", "Troubleshooting", "Montreal", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--lavender))"
   }
 ];
 
