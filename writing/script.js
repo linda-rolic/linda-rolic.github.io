@@ -102,6 +102,19 @@ const BLOGS = [
     excerpt: "Five practical strategies for cutting Manitoba Hydro bills through furnace optimization — from filter swaps and duct sealing to smart thermostats and intelligent monitoring — with cost estimates and expected savings for each upgrade.",
     tags: ["HVAC", "Furnace", "Energy Efficiency", "Winnipeg", "Manitoba", "Smart Home"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--pink))"
+  },
+  {
+    id: 9,
+    title: "Why Your Boston Home Has Hot and Cold Spots (and How to Fix Them)",
+    publication: "ComfiTrust",
+    date: "January 20, 2026",
+    dateISO: "2026-01-20",
+    wordCount: 1800,
+    readTime: 8,
+    url: "https://comfitrust.com/why-your-boston-home-has-hot-and-cold-spots-and-how-to-fix-them/",
+    excerpt: "Boston homes battle temperature imbalances caused by the stack effect, aging ductwork, and urban heat islands — this guide covers professional air balancing, zoning systems, and ductless mini-splits as targeted fixes, with Mass Save rebates that can offset upgrade costs.",
+    tags: ["HVAC", "Boston", "Heat Pump", "Energy Efficiency", "Mass Save", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
   }
 ];
 
