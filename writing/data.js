@@ -336,5 +336,18 @@ const BLOGS = [
     excerpt: "When your furnace dies at -20°C in the middle of the night, every minute counts — this emergency guide walks through the quick-check checklist, airflow fixes, pipe-freeze prevention, and the three warning signs (gas, CO, burning smell) that mean you need to evacuate immediately.",
     tags: ["HVAC", "Furnace", "Emergency", "Montreal", "Safety", "Winter"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--mint))"
+  },
+  {
+    id: 27,
+    title: "Heating Your Home with Oil? Switch to an Electric Heat Pump at No Cost",
+    publication: "ConstantHomeComfort",
+    date: "February 9, 2026",
+    dateISO: "2026-02-09",
+    wordCount: 150,
+    readTime: 1,
+    url: "https://constanthomecomfort.com/heating-your-home-with-oil-switch-to-an-electric-heat-pump-at-no-cost/",
+    excerpt: "Ontario's Oil to Heat Pump Affordability Program — funded by NRCan and the IESO — offers eligible oil-heated homeowners a free electric heat pump installation. Constant Home Comfort is an approved CLEAResult referral contractor for the program.",
+    tags: ["Heat Pump", "Rebates", "Energy Efficiency", "Ontario", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   }
 ];
