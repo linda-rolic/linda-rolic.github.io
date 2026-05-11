@@ -16,6 +16,15 @@ navLinks.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => navLinks.classList.remove('open'));
 });
 
+// Dynamic duration for blog dashboard project card
+const durationEl = document.getElementById('blog-project-duration');
+if (durationEl) {
+  const start = new Date(2026, 0); // January 2026
+  const now = new Date();
+  const months = (now.getFullYear() - start.getFullYear()) * 12 + (now.getMonth() - start.getMonth());
+  durationEl.textContent = months <= 1 ? '1 Month' : `${months} Months`;
+}
+
 // Fade-in on scroll
 const fadeEls = document.querySelectorAll(
   '.timeline-card, .stat-card, .skill-group, .cert-card, .edu-card, .hero-content, .about-text, .about-cards'
