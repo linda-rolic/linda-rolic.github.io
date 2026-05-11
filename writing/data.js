@@ -284,5 +284,18 @@ const BLOGS = [
     excerpt: "Carbon monoxide is undetectable by human senses and mimics flu symptoms — making winter the most dangerous season for Boston homeowners with aging furnaces. This guide covers snow-blocked vents, heat exchanger cracks, Massachusetts Nicole's Law detector requirements, and why a professional combustion analysis beats relying on alarms alone.",
     tags: ["HVAC", "Furnace", "Safety", "Boston", "Carbon Monoxide", "Winter"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
+  },
+  {
+    id: 23,
+    title: "The Manitoba Hydro Home Energy Efficiency Loan: A Step-by-Step Guide",
+    publication: "WiserAire",
+    date: "February 4, 2026",
+    dateISO: "2026-02-04",
+    wordCount: 1050,
+    readTime: 5,
+    url: "https://wiseraire.com/the-manitoba-hydro-home-energy-efficiency-loan-a-step-by-step-guide/",
+    excerpt: "Manitoba Hydro's 2026 energy efficiency loan offers up to $12,500 (or $20,000 for solar/geothermal) at a fixed 6.20% rate with no down payment — this step-by-step guide covers qualifying upgrades, the five-step application sequence, and the most common denial reasons to avoid.",
+    tags: ["HVAC", "Rebates", "Manitoba", "Energy Efficiency", "Furnace", "Heat Pump"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--pink))"
   }
 ];
