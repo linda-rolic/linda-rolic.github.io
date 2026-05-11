@@ -609,5 +609,18 @@ const BLOGS = [
     excerpt: "Winnipeg's ~50 freeze-thaw cycles a year make ice dams a serious structural threat — especially in pre-1940s River Heights and Wolseley homes with complex rooflines and minimal insulation. This guide explains the thermodynamics behind dam formation, the 'Big Three' prevention strategies (R-60 insulation, 1:300 ventilation ratio, air sealing), and emergency interventions like calcium chloride channels when the dam is already forming.",
     tags: ["HVAC", "Insulation", "Winnipeg", "Winter", "Manitoba", "Home Improvement", "Attic"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
+  },
+  {
+    id: 48,
+    title: "The Boston Allergy Forecast: How HEPA and UV-C Upgrades Protect Your Home in 2026",
+    publication: "ComfiTrust",
+    date: "March 24, 2026",
+    dateISO: "2026-03-24",
+    wordCount: 2100,
+    readTime: 11,
+    url: "https://comfitrust.com/the-boston-allergy-forecast-how-hepa-and-uv-c-upgrades-protect-your-home-in-2026/",
+    excerpt: "Boston's 2026 pollen season is hitting in a compressed 4–5 week burst after a prolonged winter — and historic triple-deckers and brownstones leak air in ways that defeat standard filters. This guide covers HEPA filtration (99.97% capture at 0.3 microns vs. 30% for standard), UV-C coil and air sterilization, neighborhood-level air quality disparities in Allston, Roxbury, and Back Bay, and current Mass Save rebates.",
+    tags: ["HVAC", "Air Quality", "Boston", "HEPA", "Mass Save", "Rebates", "Allergy", "Health"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   }
 ];
