@@ -440,5 +440,18 @@ const BLOGS = [
     excerpt: "Les fournaises québécoises tournent 2 000 à 3 000 heures par hiver — un entretien annuel en septembre-octobre protège la garantie, évite 15% de surconsommation énergétique et détecte les fuites de monoxyde de carbone avant le grand froid. Guide complet des tâches DIY, des inspections professionnelles et des signaux d'alarme à surveiller.",
     tags: ["HVAC", "Furnace", "Montreal", "French", "Home Improvement", "Safety"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
+  },
+  {
+    id: 35,
+    title: "How Often Should You Service Your Furnace? A Complete Guide to Heating Reliability",
+    publication: "AuraClimatpro",
+    date: "February 24, 2026",
+    dateISO: "2026-02-24",
+    wordCount: 1300,
+    readTime: 7,
+    url: "https://auraclimatpro.com/how-often-should-you-service-your-furnace-a-complete-guide-to-heating-reliability/",
+    excerpt: "Annual furnace servicing in late September or October protects your warranty, catches carbon monoxide risks early, and can cut energy bills — this guide draws the line between what Montreal homeowners can handle themselves (filter checks, vent clearing) and what needs a technician (combustion calibration, burner cleaning, electrical inspection).",
+    tags: ["HVAC", "Furnace", "Montreal", "Home Improvement", "Safety", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
   }
 ];
