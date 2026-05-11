@@ -453,5 +453,18 @@ const BLOGS = [
     excerpt: "Annual furnace servicing in late September or October protects your warranty, catches carbon monoxide risks early, and can cut energy bills — this guide draws the line between what Montreal homeowners can handle themselves (filter checks, vent clearing) and what needs a technician (combustion calibration, burner cleaning, electrical inspection).",
     tags: ["HVAC", "Furnace", "Montreal", "Home Improvement", "Safety", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
+  {
+    id: 36,
+    title: "Ductless Mini-Splits: Are They Really the Right Move for Your Home?",
+    publication: "AuraClimatpro",
+    date: "March 2, 2026",
+    dateISO: "2026-03-02",
+    wordCount: 1200,
+    readTime: 6,
+    url: "https://auraclimatpro.com/ductless-mini-splits-are-they-really-the-right-move-for-your-home/",
+    excerpt: "Ductless mini-split systems promise zoned comfort and significant energy savings — but are they the right fit for Canadian homes? This guide examines cold-climate performance, installation costs, Quebec and Ontario rebate eligibility, and how mini-splits stack up against traditional central systems for Ottawa and Gatineau homeowners.",
+    tags: ["HVAC", "Heat Pump", "Mini-Split", "Energy Efficiency", "Ottawa", "Rebates", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--mint))"
   }
 ];
