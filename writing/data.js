@@ -427,5 +427,18 @@ const BLOGS = [
     excerpt: "Sealed winter homes trap indoor air that's 2–5× more polluted than outside — accumulating dust, VOCs, airborne pathogens, and radon. This Montreal guide covers whole-home humidification (targeting 30–50%), the Lennox PureAir S system's three-layer purification, and HRV/ERV ventilation for fresh air without heat loss.",
     tags: ["HVAC", "Air Quality", "Montreal", "Health", "Winter", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
+    id: 34,
+    title: "À quelle fréquence devriez-vous faire l'entretien de votre fournaise? Le guide complet pour un hiver sans tracas",
+    publication: "AuraClimatpro",
+    date: "February 24, 2026",
+    dateISO: "2026-02-24",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://auraclimatpro.com/a-quelle-frequence-devriez-vous-faire-lentretien-de-votre-fournaise-le-guide-complet-pour-un-hiver-sans-tracas/",
+    excerpt: "Les fournaises québécoises tournent 2 000 à 3 000 heures par hiver — un entretien annuel en septembre-octobre protège la garantie, évite 15% de surconsommation énergétique et détecte les fuites de monoxyde de carbone avant le grand froid. Guide complet des tâches DIY, des inspections professionnelles et des signaux d'alarme à surveiller.",
+    tags: ["HVAC", "Furnace", "Montreal", "French", "Home Improvement", "Safety"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
   }
 ];
