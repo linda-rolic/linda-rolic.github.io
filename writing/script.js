@@ -219,6 +219,19 @@ const BLOGS = [
     excerpt: "That blinking light on your furnace isn't random — it's a diagnostic code pointing to a specific fault like a blocked exhaust vent, high limit switch trip, or ignition failure. This Winnipeg homeowner's guide decodes the most common blink patterns and tells you which ones need a tech immediately.",
     tags: ["HVAC", "Furnace", "Troubleshooting", "Winnipeg", "Safety", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
+    id: 18,
+    title: "Furnace vs. Heat Pump: Which Is Better for Canadian Winters?",
+    publication: "AuraClimatpro",
+    date: "January 28, 2026",
+    dateISO: "2026-01-28",
+    wordCount: 1063,
+    readTime: 5,
+    url: "https://auraclimatpro.com/furnace-vs-heat-pump-which-is-better-for-canadian-winters/",
+    excerpt: "Modern cold-climate heat pumps have made the furnace vs. heat pump debate more nuanced than ever. This guide explains why dual-energy systems — pairing an electric heat pump with a gas furnace backup — are the smart choice for Quebec homeowners looking to leverage low hydro rates without sacrificing winter comfort.",
+    tags: ["HVAC", "Heat Pump", "Furnace", "Montreal", "Energy Efficiency", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   }
 ];
 
