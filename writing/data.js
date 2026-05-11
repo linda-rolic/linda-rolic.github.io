@@ -401,5 +401,18 @@ const BLOGS = [
     excerpt: "Vancouver homeowners weighing furnace repair vs. replacement can use three simple rules — the $500 threshold for minor fixes, the 5000 HVAC Rule (age × repair cost), and the 50% Rule — to cut through the pressure of a mid-winter breakdown. Cracked heat exchangers are the one exception that almost always mandate full replacement regardless of cost.",
     tags: ["HVAC", "Furnace", "Troubleshooting", "British Columbia", "Home Improvement", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
+    id: 32,
+    title: "Votre maison étouffe-t-elle? Pourquoi la qualité de l'air est vitale cet hiver au Québec",
+    publication: "AuraClimatpro",
+    date: "February 18, 2026",
+    dateISO: "2026-02-18",
+    wordCount: 1200,
+    readTime: 6,
+    url: "https://auraclimatpro.com/votre-maison-etouffe-t-elle-pourquoi-la-qualite-de-lair-est-vitale-cet-hiver-au-quebec/",
+    excerpt: "Les maisons québécoises hermétiquement fermées en hiver piègent des polluants 2 à 5 fois plus concentrés qu'à l'extérieur — poussières, COV, particules virales et radon. Ce guide couvre la gestion de l'humidité (30–50%), la technologie Lennox PureAir S, et les ventilateurs à récupération de chaleur (VRC) pour respirer sainement sans gaspiller l'énergie.",
+    tags: ["HVAC", "Air Quality", "Montreal", "French", "Health", "Winter"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   }
 ];
