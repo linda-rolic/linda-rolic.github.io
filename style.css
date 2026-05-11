@@ -158,8 +158,6 @@ strong { font-weight: 600; }
 
 .hero-name-aka {
   color: var(--muted);
-  font-size: 0.75em;
-  font-style: italic;
 }
 
 .hero-title {
