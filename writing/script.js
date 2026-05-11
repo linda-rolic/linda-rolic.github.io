@@ -180,6 +180,19 @@ const BLOGS = [
     excerpt: "Dix stratégies pratiques pour réduire les factures de chauffage hivernal — calfeutrage des fuites, thermostats intelligents et optimisation de la ventilation — pour rester au chaud à Montréal sans sacrifier le budget.",
     tags: ["Energy Efficiency", "HVAC", "Home Improvement", "Montreal", "French", "Winter"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
+  },
+  {
+    id: 15,
+    title: "Boiler vs. Furnace: The Best Heating Options for Historic Beacon Hill Brownstones",
+    publication: "ComfiTrust",
+    date: "January 23, 2026",
+    dateISO: "2026-01-23",
+    wordCount: 1100,
+    readTime: 5,
+    url: "https://comfitrust.com/boiler-vs-furnace-the-best-heating-options-for-historic-beacon-hill-brownstones/",
+    excerpt: "Beacon Hill's solid masonry brownstones make ductwork nearly impossible — this breakdown explains why boilers outperform furnaces in historic homes, how hybrid heat pump systems fit the preservation constraints, and which Mass Save rebates apply in 2026.",
+    tags: ["HVAC", "Boston", "Heat Pump", "Rebates", "Mass Save", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   }
 ];
 
