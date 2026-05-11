@@ -297,5 +297,18 @@ const BLOGS = [
     excerpt: "Manitoba Hydro's 2026 energy efficiency loan offers up to $12,500 (or $20,000 for solar/geothermal) at a fixed 6.20% rate with no down payment — this step-by-step guide covers qualifying upgrades, the five-step application sequence, and the most common denial reasons to avoid.",
     tags: ["HVAC", "Rebates", "Manitoba", "Energy Efficiency", "Furnace", "Heat Pump"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--pink))"
+  },
+  {
+    id: 24,
+    title: "Battery Storage Systems: Backup Power and Energy Savings for BC Homes",
+    publication: "AireEnergy",
+    date: "February 2026",
+    dateISO: "2026-02-01",
+    wordCount: 1200,
+    readTime: 6,
+    url: "https://aireenergy.com/battery-storage-systems-backup-power-and-energy-savings-for-bc-homes/",
+    excerpt: "BC's aging grid and severe weather events are driving demand for home battery storage — this guide covers time-of-use rate optimization with BC Hydro's new pricing structure, LFP battery technology, stacking $10,000+ in solar and storage rebates before the April 2026 deadline, and how to integrate batteries with heat pumps and EV chargers.",
+    tags: ["Energy Efficiency", "Solar", "Battery Storage", "British Columbia", "Rebates", "Smart Home"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
   }
 ];
