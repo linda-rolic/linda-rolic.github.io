@@ -782,15 +782,15 @@
 
           <div class="project-metrics">
             <div class="proj-metric" style="--pm-color: var(--mint)">
-              <span class="proj-metric-val">2</span>
+              <span class="proj-metric-val" id="proj-stat-articles">—</span>
               <span class="proj-metric-label">Articles Indexed</span>
             </div>
             <div class="proj-metric" style="--pm-color: var(--lavender)">
-              <span class="proj-metric-val">2,112</span>
+              <span class="proj-metric-val" id="proj-stat-words">—</span>
               <span class="proj-metric-label">Words Tracked</span>
             </div>
             <div class="proj-metric" style="--pm-color: var(--peach)">
-              <span class="proj-metric-val">5 min</span>
+              <span class="proj-metric-val" id="proj-stat-read">—</span>
               <span class="proj-metric-label">Avg. Read Time</span>
             </div>
             <div class="proj-metric" style="--pm-color: var(--pink)">
@@ -944,6 +944,16 @@
     <p>© 2025 Yulin Chen · Built with love &amp; pastel vibes</p>
   </footer>
 
+  <script src="writing/data.js?v=20260511143433"></script>
   <script src="script.js?v=20260511143433"></script>
+  <script>
+    (function () {
+      const totalWords = BLOGS.reduce((s, b) => s + b.wordCount, 0);
+      const avgRead = Math.round(BLOGS.reduce((s, b) => s + b.readTime, 0) / BLOGS.length);
+      document.getElementById('proj-stat-articles').textContent = BLOGS.length;
+      document.getElementById('proj-stat-words').textContent = totalWords.toLocaleString();
+      document.getElementById('proj-stat-read').textContent = avgRead + ' min';
+    })();
+  </script>
 </body>
 </html>
