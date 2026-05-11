@@ -195,6 +195,29 @@ function buildChips() {
   });
 }
 
+// Build tag filter chips (top 8 by frequency)
+function buildTagChips() {
+  const freq = {};
+  BLOGS.forEach(b => b.tags.forEach(t => { freq[t] = (freq[t] || 0) + 1; }));
+  const topTags = Object.entries(freq)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 8)
+    .map(([tag]) => tag);
+  const chipsEl = document.getElementById('blog-tag-chips');
+  const all = document.createElement('button');
+  all.className = 'filter-chip tag-chip active';
+  all.dataset.tag = 'all';
+  all.textContent = 'All Topics';
+  chipsEl.appendChild(all);
+  topTags.forEach(tag => {
+    const btn = document.createElement('button');
+    btn.className = 'filter-chip tag-chip';
+    btn.dataset.tag = tag;
+    btn.textContent = tag;
+    chipsEl.appendChild(btn);
+  });
+}
+
 // Render a single blog card
 function renderCard(blog) {
   const tagsHTML = blog.tags.map(t => `<span class="tag">${t}</span>`).join('');
@@ -237,14 +260,17 @@ function renderBlogs() {
   const active  = document.querySelector('.filter-chip.active')?.dataset.company || 'all';
   const sort    = document.getElementById('blog-sort').value;
 
+  const activeTag = document.querySelector('#blog-tag-chips .tag-chip.active')?.dataset.tag || 'all';
+
   let filtered = BLOGS.filter(b => {
     const matchCompany = active === 'all' || b.publication === active;
+    const matchTag = activeTag === 'all' || b.tags.includes(activeTag);
     const matchText = !query ||
       b.title.toLowerCase().includes(query) ||
       b.excerpt.toLowerCase().includes(query) ||
       b.tags.some(t => t.toLowerCase().includes(query)) ||
       b.publication.toLowerCase().includes(query);
-    return matchCompany && matchText;
+    return matchCompany && matchTag && matchText;
   });
 
   filtered.sort((a, b) => {
@@ -267,11 +293,18 @@ function renderBlogs() {
 
 // Wire up controls
 buildChips();
+buildTagChips();
 document.getElementById('blog-search').addEventListener('input', renderBlogs);
 document.getElementById('blog-sort').addEventListener('change', renderBlogs);
 document.getElementById('blog-filter-chips').addEventListener('click', e => {
   if (!e.target.classList.contains('filter-chip')) return;
-  document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+  document.querySelectorAll('#blog-filter-chips .filter-chip').forEach(c => c.classList.remove('active'));
+  e.target.classList.add('active');
+  renderBlogs();
+});
+document.getElementById('blog-tag-chips').addEventListener('click', e => {
+  if (!e.target.classList.contains('tag-chip')) return;
+  document.querySelectorAll('#blog-tag-chips .tag-chip').forEach(c => c.classList.remove('active'));
   e.target.classList.add('active');
   renderBlogs();
 });
