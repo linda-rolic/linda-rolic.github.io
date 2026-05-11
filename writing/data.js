@@ -596,5 +596,18 @@ const BLOGS = [
     excerpt: "Combi boilers combine central heating and domestic hot water in one unit — but are they worth the $6,000–$18,000 install cost for BC homeowners? This guide covers coastal hard water scaling, freeze protection quirks, FortisBC rebates, CleanBC Energy Savings Program incentives, and multi-upgrade bonuses that can meaningfully offset upfront costs in Greater Vancouver.",
     tags: ["HVAC", "Boiler", "British Columbia", "Rebates", "CleanBC", "Energy Efficiency", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
+  },
+  {
+    id: 47,
+    title: "Winterpeg Survival Guide: How to Stop Ice Dams Before They Trash Your Home",
+    publication: "WiserAire",
+    date: "March 17, 2026",
+    dateISO: "2026-03-17",
+    wordCount: 1900,
+    readTime: 10,
+    url: "https://wiseraire.com/winterpeg-survival-guide-how-to-stop-ice-dams-before-they-trash-your-home/",
+    excerpt: "Winnipeg's ~50 freeze-thaw cycles a year make ice dams a serious structural threat — especially in pre-1940s River Heights and Wolseley homes with complex rooflines and minimal insulation. This guide explains the thermodynamics behind dam formation, the 'Big Three' prevention strategies (R-60 insulation, 1:300 ventilation ratio, air sealing), and emergency interventions like calcium chloride channels when the dam is already forming.",
+    tags: ["HVAC", "Insulation", "Winnipeg", "Winter", "Manitoba", "Home Improvement", "Attic"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   }
 ];
