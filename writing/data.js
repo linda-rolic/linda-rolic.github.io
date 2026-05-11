@@ -505,5 +505,18 @@ const BLOGS = [
     excerpt: "Comment optimiser les systèmes de thermopompes pendant l'hiver québécois — démystifiant les mythes courants sur les performances par temps froid et fournissant des directives pratiques d'entretien pour les filtres, le dégagement de neige, les cycles de dégivrage et l'optimisation du thermostat pour une efficacité maximale toute la saison.",
     tags: ["HVAC", "Thermopompe", "Hiver", "Montreal", "Entretien", "Efficacité Énergétique", "French"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--pink))"
+  },
+  {
+    id: 40,
+    title: "Preventing Ice Damming: Is Your Attic Ventilation Working?",
+    publication: "Auxaire",
+    date: "March 5, 2026",
+    dateISO: "2026-03-05",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://auxaire.com/2026/03/05/preventing-ice-damming-is-your-attic-ventilation-working/",
+    excerpt: "Ice dams aren't just a winter nuisance — they're a sign of thermal failure in your attic. This guide explains how freeze-thaw cycles in Maritime climates drive ice dam formation, what proper intake and exhaust ventilation should look like, and how Nova Scotia, New Brunswick, and PEI rebate programs can offset the cost of fixing it.",
+    tags: ["HVAC", "Insulation", "Attic", "Nova Scotia", "Winter", "Rebates", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   }
 ];
