@@ -492,5 +492,18 @@ const BLOGS = [
     excerpt: "A comprehensive guide to winter heat pump maintenance and operation for Quebec homeowners — debunking cold-weather performance myths and providing practical strategies for filter care, snow clearance, defrost cycle management, and thermostat optimization to keep systems running efficiently through the harshest months.",
     tags: ["HVAC", "Heat Pump", "Winter", "Montreal", "Maintenance", "Energy Efficiency", "Quebec"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
+    id: 39,
+    title: "Livre blanc sur le contenu stratégique : Optimisation des actifs CVC hivernaux pour Aura ClimatPro",
+    publication: "AuraClimatpro",
+    date: "March 4, 2026",
+    dateISO: "2026-03-04",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://auraclimatpro.com/livre-blanc-sur-le-contenu-strategique-optimisation-des-actifs-cvc-hivernaux-pour-aura-climatpro/",
+    excerpt: "Comment optimiser les systèmes de thermopompes pendant l'hiver québécois — démystifiant les mythes courants sur les performances par temps froid et fournissant des directives pratiques d'entretien pour les filtres, le dégagement de neige, les cycles de dégivrage et l'optimisation du thermostat pour une efficacité maximale toute la saison.",
+    tags: ["HVAC", "Thermopompe", "Hiver", "Montreal", "Entretien", "Efficacité Énergétique", "French"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--pink))"
   }
 ];
