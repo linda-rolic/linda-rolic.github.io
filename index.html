@@ -22,6 +22,7 @@
         <li><a href="#education">Education</a></li>
         <li><a href="#certifications">Certifications</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#writing">Writing</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
       <button class="hamburger" id="hamburger" aria-label="Menu">
@@ -839,6 +840,126 @@
         </div>
       </div>
 
+      <div class="project-card" style="margin-top: 24px;">
+        <div class="project-accent" style="background: linear-gradient(180deg, var(--mint), var(--lavender))"></div>
+        <div class="project-body">
+
+          <div class="project-header">
+            <div class="project-title-group">
+              <span class="project-type">Content Analytics &middot; Writing Dashboard</span>
+              <h3>ComfiTrust Blog — Interactive Analytics Dashboard</h3>
+              <p class="project-meta">Metadata Extraction &nbsp;&middot;&nbsp; January 2026 &ndash; Present &nbsp;&middot;&nbsp; 5 Months</p>
+            </div>
+            <a href="#writing" class="project-link-btn">
+              View Dashboard ↗
+            </a>
+          </div>
+
+          <p class="project-desc">
+            An interactive browser dashboard that indexes published articles from ComfiTrust, a Greater Boston
+            HVAC company. Each article's title, publication date, word count, and estimated reading time are
+            extracted and surfaced in a searchable, tag-filterable card interface — turning a content archive
+            into a live analytics tool.
+          </p>
+
+          <div class="project-metrics">
+            <div class="proj-metric" style="--pm-color: var(--mint)">
+              <span class="proj-metric-val">1</span>
+              <span class="proj-metric-label">Article Indexed</span>
+            </div>
+            <div class="proj-metric" style="--pm-color: var(--lavender)">
+              <span class="proj-metric-val">1,312</span>
+              <span class="proj-metric-label">Words Tracked</span>
+            </div>
+            <div class="proj-metric" style="--pm-color: var(--peach)">
+              <span class="proj-metric-val">6 min</span>
+              <span class="proj-metric-label">Avg. Read Time</span>
+            </div>
+            <div class="proj-metric" style="--pm-color: var(--pink)">
+              <span class="proj-metric-val">Jan 2026</span>
+              <span class="proj-metric-label">Live Since</span>
+            </div>
+          </div>
+
+          <div class="project-analyses">
+            <div class="analysis-item">
+              <span class="analysis-dot" style="background: var(--mint)"></span>
+              <span>Live search across titles, excerpts, and tags</span>
+            </div>
+            <div class="analysis-item">
+              <span class="analysis-dot" style="background: var(--lavender)"></span>
+              <span>Tag-based filtering with active chip UI</span>
+            </div>
+            <div class="analysis-item">
+              <span class="analysis-dot" style="background: var(--peach)"></span>
+              <span>Sort by date or word count</span>
+            </div>
+            <div class="analysis-item">
+              <span class="analysis-dot" style="background: var(--pink)"></span>
+              <span>Automated word count and reading time extraction per article</span>
+            </div>
+          </div>
+
+          <div class="project-footer">
+            <div class="tag-row">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML / CSS</span>
+              <span class="tag">Content Analytics</span>
+              <span class="tag">Dashboard Design</span>
+              <span class="tag">Metadata Extraction</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WRITING -->
+  <section id="writing">
+    <div class="container">
+      <div class="section-label">Writing</div>
+      <h2 class="section-title">Published Articles</h2>
+
+      <!-- Stats bar -->
+      <div class="blog-stats">
+        <div class="blog-stat" style="--bs-color: var(--lavender)">
+          <span class="blog-stat-val" id="stat-count">1</span>
+          <span class="blog-stat-label">Article Published</span>
+        </div>
+        <div class="blog-stat" style="--bs-color: var(--mint)">
+          <span class="blog-stat-val" id="stat-words">1,312</span>
+          <span class="blog-stat-label">Total Words Written</span>
+        </div>
+        <div class="blog-stat" style="--bs-color: var(--peach)">
+          <span class="blog-stat-val" id="stat-read">6 min</span>
+          <span class="blog-stat-label">Avg. Read Time</span>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <div class="blog-controls">
+        <div class="blog-search-wrap">
+          <span class="blog-search-icon">&#128269;</span>
+          <input type="text" id="blog-search" placeholder="Search articles, topics, tags&hellip;" class="blog-search" />
+        </div>
+        <div class="blog-filter-chips" id="blog-filter-chips">
+          <button class="filter-chip active" data-tag="all">All</button>
+        </div>
+        <select id="blog-sort" class="blog-sort">
+          <option value="newest">Newest First</option>
+          <option value="oldest">Oldest First</option>
+          <option value="longest">Longest First</option>
+          <option value="shortest">Shortest First</option>
+        </select>
+      </div>
+
+      <!-- Blog cards -->
+      <div id="blog-grid" class="blog-grid"></div>
+      <div id="blog-empty" class="blog-empty" style="display:none">
+        <p>No articles match your search. Try a different keyword or tag.</p>
+      </div>
     </div>
   </section>
 
