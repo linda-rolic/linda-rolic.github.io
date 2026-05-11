@@ -1031,6 +1031,19 @@ footer {
   font-weight: 600;
 }
 
+.tag-chip.active {
+  background: var(--mint);
+  border-color: var(--mint);
+  color: var(--text);
+  font-weight: 600;
+}
+
+.blog-tag-chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
 .blog-sort {
   padding: 9px 14px;
   border: 1px solid var(--border);
