@@ -24,6 +24,19 @@ const BLOGS = [
     excerpt: "When a Polar Vortex hits Greater Boston, it's a brutal test of your home's high-efficiency heating system. This step-by-step emergency playbook covers safety triage, PVC vent checks, error code decoding for Gree, Mitsubishi, and Bosch systems, and how to protect your pipes — so you're never left in the cold at 2 AM.",
     tags: ["HVAC", "Emergency", "Heat Pump", "Boston", "Winter", "Troubleshooting"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
+  },
+  {
+    id: 3,
+    title: "Is Your Heat Pump Ready for -30°C? A Maritime Survival Guide",
+    publication: "Auxaire",
+    date: "January 9, 2026",
+    dateISO: "2026-01-09",
+    wordCount: 1100,
+    readTime: 5,
+    url: "https://auxaire.com/2026/01/09/is-your-heat-pump-ready-for-30c-a-maritime-survival-guide/",
+    excerpt: "Modern cold-climate heat pumps can hold the line at -30°C — but only if they're properly sized, coated for coastal salt air, and backed by the right dual-fuel strategy. This Maritime survival guide covers Enhanced Vapor Injection technology, anti-corrosion coatings, frost management, and 2026 rebate programs offering up to $30,000 in Nova Scotia.",
+    tags: ["HVAC", "Heat Pump", "Nova Scotia", "Winter", "Rebates", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   }
 ];
 
