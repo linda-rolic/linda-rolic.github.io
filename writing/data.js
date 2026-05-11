@@ -804,5 +804,18 @@ const BLOGS = [
     excerpt: "Winnipeg's Red River Valley clay soil creates intense hydrostatic pressure during spring snowmelt, forcing moisture through foundations while standard AC short-cycles and fails to dehumidify properly. This guide covers the warning signs (window fog, efflorescence, damp furnace filters), HRV's \"20/40 Setting\" for shoulder season, GREE heat pump Dry Function, the 5-Foot Rule for exterior snow management, and Efficiency Manitoba rebates.",
     tags: ["HVAC", "Humidity", "Winnipeg", "Manitoba", "Spring", "HRV", "Basement", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
+    id: 63,
+    title: "The Gatineau-Montreal Pollen Calendar – HVAC as Your First Line of Defense",
+    publication: "AuraClimatpro",
+    date: "May 7, 2026",
+    dateISO: "2026-05-07",
+    wordCount: 2100,
+    readTime: 11,
+    url: "https://auraclimatpro.com/the-gatineau-montreal-pollen-calendar-hvac-as-your-first-line-of-defense/",
+    excerpt: "The Gatineau-Montreal corridor faces three distinct pollen waves — tree, grass, and ragweed — amplified by the Valley Effect and urban heat islands extending each season. This guide recommends MERV 13 as the allergy sweet spot, covers HRV/ERV integration, UV-C germicidal systems, bio-sludge remediation, and the 7-to-1 rule for peak pollen hours, positioning HVAC as the primary defense for corridor residents.",
+    tags: ["HVAC", "Air Quality", "Montreal", "Ottawa", "Allergy", "MERV", "HRV", "Health"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
   }
 ];
