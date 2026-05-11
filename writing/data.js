@@ -479,5 +479,18 @@ const BLOGS = [
     excerpt: "Les systèmes mini-split sans conduits promettent confort par zone et économies d'énergie — mais sont-ils le bon choix pour les maisons canadiennes? Ce guide examine les performances en climat froid, les coûts d'installation, l'admissibilité aux subventions du Québec et de l'Ontario, et la comparaison avec les systèmes centraux traditionnels pour les propriétaires d'Ottawa-Gatineau.",
     tags: ["HVAC", "Thermopompe", "Mini-Split", "Efficacité Énergétique", "Ottawa", "Subventions", "French"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
+    id: 38,
+    title: "Strategic Content Whitepaper: Optimizing Winter HVAC Assets for Aura ClimatPro",
+    publication: "AuraClimatpro",
+    date: "March 4, 2026",
+    dateISO: "2026-03-04",
+    wordCount: 1200,
+    readTime: 6,
+    url: "https://auraclimatpro.com/strategic-content-whitepaper-optimizing-winter-hvac-assets-for-aura-climatpro/",
+    excerpt: "A comprehensive guide to winter heat pump maintenance and operation for Quebec homeowners — debunking cold-weather performance myths and providing practical strategies for filter care, snow clearance, defrost cycle management, and thermostat optimization to keep systems running efficiently through the harshest months.",
+    tags: ["HVAC", "Heat Pump", "Winter", "Montreal", "Maintenance", "Energy Efficiency", "Quebec"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   }
 ];
