@@ -245,5 +245,18 @@ const BLOGS = [
     excerpt: "La technologie moderne des thermopompes pour climat froid a changé la donne — cet article compare fournaise et thermopompe pour les hivers québécois et explique pourquoi les systèmes biénergie, combinant les deux, permettent de profiter des bas tarifs d'Hydro-Québec sans compromettre le confort.",
     tags: ["HVAC", "Heat Pump", "Furnace", "Montreal", "French", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
+  },
+  {
+    id: 20,
+    title: "Quand devriez-vous remplacer votre fournaise? 5 signes qui ne trompent pas",
+    publication: "AuraClimatpro",
+    date: "January 30, 2026",
+    dateISO: "2026-01-30",
+    wordCount: 1150,
+    readTime: 6,
+    url: "https://auraclimatpro.com/quand-devriez-vous-remplacer-votre-fournaise-5-signes-qui-ne-trompent-pas/",
+    excerpt: "Votre fournaise envoie souvent des signaux d'alarme bien avant de lâcher — âge de 15 ans et plus, factures en hausse inexpliquée, bruits inhabituels, chaleur inégale, et réparations répétées sont les cinq signes qui indiquent qu'un remplacement est plus économique qu'une réparation. Guide montréalais avec conseils d'installation professionnelle.",
+    tags: ["HVAC", "Furnace", "Montreal", "French", "Troubleshooting", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--peach))"
   }
 ];
