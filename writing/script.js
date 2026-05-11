@@ -89,6 +89,19 @@ const BLOGS = [
     excerpt: "Massachusetts homeowners face a \"triple hit\" to heat pump budgets in 2026 as Mass Save slashes maximum rebates from $10,000 to $8,500, new tonnage-based calculations and refrigerant compliance rules tighten eligibility, and federal Section 25C tax credits expire — with a breakdown of what to do before the cuts take full effect.",
     tags: ["HVAC", "Heat Pump", "Massachusetts", "Rebates", "Energy Efficiency", "Mass Save"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
+  },
+  {
+    id: 8,
+    title: "Manitoba Hydro Bills Too High? 5 Ways to Optimize Your Furnace Today",
+    publication: "WiserAire",
+    date: "January 16, 2026",
+    dateISO: "2026-01-16",
+    wordCount: 1800,
+    readTime: 8,
+    url: "https://wiseraire.com/manitoba-hydro-bills-too-high-5-ways-to-optimize-your-furnace-today/",
+    excerpt: "Five practical strategies for cutting Manitoba Hydro bills through furnace optimization — from filter swaps and duct sealing to smart thermostats and intelligent monitoring — with cost estimates and expected savings for each upgrade.",
+    tags: ["HVAC", "Furnace", "Energy Efficiency", "Winnipeg", "Manitoba", "Smart Home"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--pink))"
   }
 ];
 
