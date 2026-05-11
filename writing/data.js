@@ -778,5 +778,18 @@ const BLOGS = [
     excerpt: "The $8,500 Mass Save heat pump rebate has a weatherization prerequisite most homeowners miss — attic insulation. Proper insulation reduces heating loads by 20–40%, enabling a smaller system that qualifies for an extra $500 sizing bonus, while the Stack Effect math shows exactly why skipping this step forces heat pumps to work inefficiently. Also covers the R-410A ban (January 2026), R-32/R-454B compliant units, and 0% financing for income-eligible Boston households.",
     tags: ["HVAC", "Heat Pump", "Boston", "Mass Save", "Rebates", "Insulation", "Attic", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--peach))"
+  },
+  {
+    id: 61,
+    title: "Earth Day and the Decarbonization Roadmap: What It Means for Your Home in Greater Vancouver",
+    publication: "AireEnergy",
+    date: "April 2026",
+    dateISO: "2026-04-22",
+    wordCount: 2400,
+    readTime: 12,
+    url: "https://aireenergy.com/earth-day-and-the-decarbonization-roadmap-what-it-means-for-your-home-in-greater-vancouver/",
+    excerpt: "BC's CleanBC plan targets 40% emission reductions by 2030 and net-zero by 2050 — and Greater Vancouver homeowners are central to that roadmap. This Earth Day guide covers replacing gas systems with electric alternatives on BC's hydroelectric grid, heat pump rebates up to $24,000, tankless water heaters, solar and battery storage integration, EV charging, and a practical Surrey home retrofit scenario showing how these upgrades stack.",
+    tags: ["HVAC", "Heat Pump", "British Columbia", "CleanBC", "Rebates", "Solar", "Energy Efficiency", "Decarbonization"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   }
 ];
