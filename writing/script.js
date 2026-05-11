@@ -193,6 +193,19 @@ const BLOGS = [
     excerpt: "Beacon Hill's solid masonry brownstones make ductwork nearly impossible — this breakdown explains why boilers outperform furnaces in historic homes, how hybrid heat pump systems fit the preservation constraints, and which Mass Save rebates apply in 2026.",
     tags: ["HVAC", "Boston", "Heat Pump", "Rebates", "Mass Save", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
+  },
+  {
+    id: 16,
+    title: "Why January is the Best Time for a New HVAC Quote (And Why Waiting Until Spring Could Cost You)",
+    publication: "Auxaire",
+    date: "January 23, 2026",
+    dateISO: "2026-01-23",
+    wordCount: 1331,
+    readTime: 7,
+    url: "https://auxaire.com/2026/01/23/why-january-is-the-best-time-for-a-new-hvac-quote-and-why-waiting-until-spring-could-cost-you/",
+    excerpt: "January is the quiet before the spring rush — and that window means better pricing, faster installs, and full access to OHPA rebates before funds run dry. This guide breaks down why the refrigerant transition to R-454B and pre-season manufacturer pricing make right now the best time to get an HVAC quote in the Maritimes.",
+    tags: ["HVAC", "Rebates", "Nova Scotia", "Heat Pump", "Energy Efficiency", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   }
 ];
 
