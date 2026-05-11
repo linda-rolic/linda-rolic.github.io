@@ -713,5 +713,18 @@ const BLOGS = [
     excerpt: "Winnipeg's \"Spring of Deception\" brings white birch, bur oak, maple, and box elder pollen plus Big Thaw dust — a brutal combo for allergy sufferers. This guide navigates MERV ratings (13 is the Goldilocks zone), Photocatalytic Oxidation with the Lennox PureAir S, HRV vs. ERV tradeoffs for Manitoba homes, and why DIY filter upgrades can backfire through airflow complications.",
     tags: ["HVAC", "Air Quality", "Winnipeg", "Manitoba", "Allergy", "MERV", "Spring", "Health"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--mint))"
+  },
+  {
+    id: 56,
+    title: "The April MWRA Deadline: What the New Water Infrastructure Votes Mean for Your Tap",
+    publication: "ComfiTrust",
+    date: "April 6, 2026",
+    dateISO: "2026-04-06",
+    wordCount: 2100,
+    readTime: 11,
+    url: "https://comfitrust.com/the-april-mwra-deadline-what-the-new-water-infrastructure-votes-mean-for-your-tap/",
+    excerpt: "Boston's $1.28 billion MWRA infrastructure plan — due for a vote April 30, 2026 — will trigger rate increases across municipalities (Boston at 1.50%, Somerville steeper) while aging combined sewers in Cambridge and Somerville create overflow and groundwater risks. This piece connects the dots between lead service lines, PFAS contamination, construction disruption through mid-2026, and the humidity and mold risks that groundwater infiltration poses to home HVAC systems.",
+    tags: ["HVAC", "Boston", "Air Quality", "Water", "Home Improvement", "Health", "Infrastructure"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   }
 ];
