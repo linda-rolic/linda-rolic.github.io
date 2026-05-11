@@ -830,5 +830,18 @@ const BLOGS = [
     excerpt: "Le corridor Gatineau-Montréal subit trois vagues polliniques de mars à octobre — arbres printaniers (érable, bouleau, chêne, frêne), graminées estivales et l'ambroisie responsable de 90% des rhinites saisonnières. Ce guide couvre les cotes MERV (13 recommandé, capturant 90% des allergènes), les VRC, les lampes UV-C germicides, la bio-boue sur les serpentins de refroidissement, et l'effet d'îlot de chaleur urbain qui prolonge les saisons de 2-3 semaines.",
     tags: ["HVAC", "Qualité de l'air", "Montreal", "Ottawa", "Allergie", "MERV", "VRC", "French"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
+  {
+    id: 65,
+    title: "Beyond the Filter: A Deep Dive into PFAS and Microplastic Removal for Massachusetts Homes",
+    publication: "ComfiTrust",
+    date: "May 11, 2026",
+    dateISO: "2026-05-11",
+    wordCount: 2100,
+    readTime: 11,
+    url: "https://comfitrust.com/beyond-the-filter-a-deep-dive-into-pfas-and-microplastic-removal-for-massachusetts-homes/",
+    excerpt: "This comprehensive guide examines the growing concerns of PFAS (\"forever chemicals\") and microplastics in Massachusetts water systems, exploring their health impacts and evaluating filtration technologies like reverse osmosis and activated carbon to protect residential water quality.",
+    tags: ["Water Quality", "PFAS", "Massachusetts", "Filtration", "Home Health", "Boston", "Water Treatment"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   }
 ];
