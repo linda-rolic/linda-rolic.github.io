@@ -206,6 +206,19 @@ const BLOGS = [
     excerpt: "January is the quiet before the spring rush — and that window means better pricing, faster installs, and full access to OHPA rebates before funds run dry. This guide breaks down why the refrigerant transition to R-454B and pre-season manufacturer pricing make right now the best time to get an HVAC quote in the Maritimes.",
     tags: ["HVAC", "Rebates", "Nova Scotia", "Heat Pump", "Energy Efficiency", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
+    id: 17,
+    title: "Understanding the \"Code Error\" Flashing on Your Furnace: A Homeowner's Guide to Decoding the Blink",
+    publication: "WiserAire",
+    date: "January 23, 2026",
+    dateISO: "2026-01-23",
+    wordCount: 1473,
+    readTime: 7,
+    url: "https://wiseraire.com/understanding-the-code-error-flashing-on-your-furnace-a-homeowners-guide-to-decoding-the-blink/",
+    excerpt: "That blinking light on your furnace isn't random — it's a diagnostic code pointing to a specific fault like a blocked exhaust vent, high limit switch trip, or ignition failure. This Winnipeg homeowner's guide decodes the most common blink patterns and tells you which ones need a tech immediately.",
+    tags: ["HVAC", "Furnace", "Troubleshooting", "Winnipeg", "Safety", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   }
 ];
 
