@@ -414,5 +414,18 @@ const BLOGS = [
     excerpt: "Les maisons québécoises hermétiquement fermées en hiver piègent des polluants 2 à 5 fois plus concentrés qu'à l'extérieur — poussières, COV, particules virales et radon. Ce guide couvre la gestion de l'humidité (30–50%), la technologie Lennox PureAir S, et les ventilateurs à récupération de chaleur (VRC) pour respirer sainement sans gaspiller l'énergie.",
     tags: ["HVAC", "Air Quality", "Montreal", "French", "Health", "Winter"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
+    id: 33,
+    title: "Your Home is Holding Its Breath: Why Winter Air Quality is a Health Priority",
+    publication: "AuraClimatpro",
+    date: "February 18, 2026",
+    dateISO: "2026-02-18",
+    wordCount: 1400,
+    readTime: 7,
+    url: "https://auraclimatpro.com/your-home-is-holding-its-breath-why-winter-air-quality-is-a-health-priority/",
+    excerpt: "Sealed winter homes trap indoor air that's 2–5× more polluted than outside — accumulating dust, VOCs, airborne pathogens, and radon. This Montreal guide covers whole-home humidification (targeting 30–50%), the Lennox PureAir S system's three-layer purification, and HRV/ERV ventilation for fresh air without heat loss.",
+    tags: ["HVAC", "Air Quality", "Montreal", "Health", "Winter", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   }
 ];
