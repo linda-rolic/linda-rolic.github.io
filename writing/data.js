@@ -726,5 +726,18 @@ const BLOGS = [
     excerpt: "Boston's $1.28 billion MWRA infrastructure plan — due for a vote April 30, 2026 — will trigger rate increases across municipalities (Boston at 1.50%, Somerville steeper) while aging combined sewers in Cambridge and Somerville create overflow and groundwater risks. This piece connects the dots between lead service lines, PFAS contamination, construction disruption through mid-2026, and the humidity and mold risks that groundwater infiltration poses to home HVAC systems.",
     tags: ["HVAC", "Boston", "Air Quality", "Water", "Home Improvement", "Health", "Infrastructure"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
+    id: 57,
+    title: "The Air Exchanger Ultimatum – Is Your Home Compliance-Ready?",
+    publication: "AuraClimatpro",
+    date: "April 6, 2026",
+    dateISO: "2026-04-06",
+    wordCount: 2100,
+    readTime: 11,
+    url: "https://auraclimatpro.com/the-air-exchanger-ultimatum-is-your-home-compliance-ready/",
+    excerpt: "Quebec's Construction Code and Ontario's 2024 Building Code updates now mandate mechanical ventilation — and non-compliance has real estate and insurance consequences. This guide compares HRV vs. ERV technologies for regional climates, covers new radon sub-floor depressurization requirements, LogisVert and Ontario Home Renovation Savings rebates, and AuraClimatPro's seven-step diagnostic for verifying air exchanger compliance.",
+    tags: ["HVAC", "Air Quality", "Quebec", "Ottawa", "HRV", "Compliance", "Rebates", "Health"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
   }
 ];
