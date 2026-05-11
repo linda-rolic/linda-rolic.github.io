@@ -375,5 +375,18 @@ const BLOGS = [
     excerpt: "Three rules help Winnipeg homeowners decide between furnace repair and replacement: the $500 Rule for minor fixes, the 5000 HVAC Rule (age × repair cost), and the 50% Rule when quotes approach half the cost of a new system — plus why a cracked heat exchanger almost always tips the math toward replacement.",
     tags: ["HVAC", "Furnace", "Troubleshooting", "Winnipeg", "Home Improvement", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
+  },
+  {
+    id: 30,
+    title: "Turning the Vancouver Rain into ROI: Your Guide to BC Solar in 2026",
+    publication: "AireEnergy",
+    date: "February 2026",
+    dateISO: "2026-02-01",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://aireenergy.com/turning-the-vancouver-rain-into-roi-your-guide-to-bc-solar-in-2026/",
+    excerpt: "Vancouver's cloudy reputation undersells its solar potential — modern PERC panels capture diffuse light effectively, and BC's 2026 rebates stack up to $10,000 before April 1st changes hit. This guide covers net metering credits, battery integration, optimal roof angles for rain self-cleaning, and financial projections showing break-even in 8–12 years.",
+    tags: ["Solar", "Energy Efficiency", "British Columbia", "Rebates", "Battery Storage", "Smart Home"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   }
 ];
