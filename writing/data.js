@@ -791,5 +791,18 @@ const BLOGS = [
     excerpt: "BC's CleanBC plan targets 40% emission reductions by 2030 and net-zero by 2050 — and Greater Vancouver homeowners are central to that roadmap. This Earth Day guide covers replacing gas systems with electric alternatives on BC's hydroelectric grid, heat pump rebates up to $24,000, tankless water heaters, solar and battery storage integration, EV charging, and a practical Surrey home retrofit scenario showing how these upgrades stack.",
     tags: ["HVAC", "Heat Pump", "British Columbia", "CleanBC", "Rebates", "Solar", "Energy Efficiency", "Decarbonization"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
+    id: 62,
+    title: "Spring Runoff & Basement Humidity: Is Your Winnipeg HVAC Doing Enough?",
+    publication: "WiserAire",
+    date: "May 6, 2026",
+    dateISO: "2026-05-06",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://wiseraire.com/spring-runoff-basement-humidity-is-your-winnipeg-hvac-doing-enough/",
+    excerpt: "Winnipeg's Red River Valley clay soil creates intense hydrostatic pressure during spring snowmelt, forcing moisture through foundations while standard AC short-cycles and fails to dehumidify properly. This guide covers the warning signs (window fog, efflorescence, damp furnace filters), HRV's \"20/40 Setting\" for shoulder season, GREE heat pump Dry Function, the 5-Foot Rule for exterior snow management, and Efficiency Manitoba rebates.",
+    tags: ["HVAC", "Humidity", "Winnipeg", "Manitoba", "Spring", "HRV", "Basement", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   }
 ];
