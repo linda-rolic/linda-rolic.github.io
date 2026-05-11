@@ -154,6 +154,19 @@ const BLOGS = [
     excerpt: "Une fournaise qui souffle de l'air froid n'est pas toujours en panne — sept causes courantes, du réglage du thermostat au filtre encrassé, peuvent être éliminées avant d'appeler un technicien. Guide de dépannage pour propriétaires montréalais.",
     tags: ["HVAC", "Furnace", "Troubleshooting", "Montreal", "French", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
+    id: 13,
+    title: "Stop Cringing at Your Energy Bill: 10 Ways to Stay Warm for Less",
+    publication: "AuraClimatpro",
+    date: "January 23, 2026",
+    dateISO: "2026-01-23",
+    wordCount: 1200,
+    readTime: 5,
+    url: "https://auraclimatpro.com/stop-cringing-at-your-energy-bill-10-ways-to-stay-warm-for-less/",
+    excerpt: "Ten budget-friendly strategies to cut winter heating costs without sacrificing comfort — from weatherstripping and programmable thermostats to HVAC maintenance and smart home upgrades, with practical thresholds for when a professional tune-up pays for itself.",
+    tags: ["Energy Efficiency", "HVAC", "Home Improvement", "Montreal", "Smart Home", "Winter"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
   }
 ];
 
