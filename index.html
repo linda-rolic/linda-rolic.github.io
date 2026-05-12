@@ -794,8 +794,8 @@
               <span class="proj-metric-label">Avg. Read Time</span>
             </div>
             <div class="proj-metric" style="--pm-color: var(--pink)">
-              <span class="proj-metric-val">Jan 2026</span>
-              <span class="proj-metric-label">Live Since</span>
+              <span class="proj-metric-val" id="proj-stat-companies">—</span>
+              <span class="proj-metric-label">Companies</span>
             </div>
           </div>
 
@@ -950,9 +950,11 @@
     (function () {
       const totalWords = BLOGS.reduce((s, b) => s + b.wordCount, 0);
       const avgRead = Math.round(BLOGS.reduce((s, b) => s + b.readTime, 0) / BLOGS.length);
+      const companies = new Set(BLOGS.map(b => b.publication)).size;
       document.getElementById('proj-stat-articles').textContent = BLOGS.length;
       document.getElementById('proj-stat-words').textContent = totalWords.toLocaleString();
       document.getElementById('proj-stat-read').textContent = avgRead + ' min';
+      document.getElementById('proj-stat-companies').textContent = companies;
     })();
   </script>
 </body>
