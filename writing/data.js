@@ -832,6 +832,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
   },
   {
+    id: 66,
+    title: "The 'No-Audit' Rebate: Why Path B is the Total Game-Changer for Ontario Homeowners in 2026",
+    publication: "ConstantHomeComfort",
+    date: "May 11, 2026",
+    dateISO: "2026-05-11",
+    wordCount: 1200,
+    readTime: 6,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=4&slug=the-no-audit-rebate-why-path-b-is-the-total-game-changer-for-ontario-homeowners-in-2026",
+    excerpt: "Ontario's Path B rebate program is a breakthrough for homeowners who want to upgrade to heat pumps without the barrier of a mandatory energy audit — this guide breaks down how Path B works, who qualifies, and why it's the most accessible route to stacking federal and provincial incentives for HVAC upgrades in 2026.",
+    tags: ["Rebates", "Ontario", "Heat Pump", "HVAC", "Energy Efficiency", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
+  },
+  {
     id: 65,
     title: "Beyond the Filter: A Deep Dive into PFAS and Microplastic Removal for Massachusetts Homes",
     publication: "ComfiTrust",
