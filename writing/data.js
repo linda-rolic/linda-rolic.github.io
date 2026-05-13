@@ -832,6 +832,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
   },
   {
+    id: 67,
+    title: "Heat Pumps for Summer Cooling: The $2,000 Rebate Winnipeg Homeowners Didn't Know About",
+    publication: "WiserAire",
+    date: "May 13, 2026",
+    dateISO: "2026-05-13",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://wiseraire.com/heat-pumps-for-summer-cooling-the-2000-rebate-winnipeg-homeowners-didnt-know-about/",
+    excerpt: "Winnipeg homeowners can access a $2,000 Efficiency Manitoba rebate by switching from standard air conditioners to high-efficiency heat pumps. The article details the operational advantages of variable-speed heat pumps — improved humidity control and lower energy costs — and addresses cold-climate performance concerns by recommending hybrid systems that pair heat pumps with gas furnaces for winter reliability.",
+    tags: ["HVAC", "Heat Pump", "Winnipeg", "Manitoba", "Rebates", "Air Conditioning", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
     id: 65,
     title: "Beyond the Filter: A Deep Dive into PFAS and Microplastic Removal for Massachusetts Homes",
     publication: "ComfiTrust",
