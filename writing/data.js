@@ -845,6 +845,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   },
   {
+    id: 68,
+    title: "Why Your BC Home is Your Best Defense This Allergy Season",
+    publication: "AireEnergy",
+    date: "May 2026",
+    dateISO: "2026-05-14",
+    wordCount: 2000,
+    readTime: 10,
+    url: "https://aireenergy.com/why-your-bc-home-is-your-best-defense-this-allergy-season/",
+    excerpt: "BC homeowners can transform their residences into sanctuaries from seasonal allergens and wildfire smoke by implementing proper indoor air quality systems — indoor air can be 5–10x more polluted than outside without proper filtration. The article outlines a three-pillar approach: high-efficiency filtration, UV-C technology, and humidity control, with substantial 2026 rebates available through government programs to offset upgrade costs.",
+    tags: ["HVAC", "Air Quality", "British Columbia", "Allergy", "HEPA", "Rebates", "Health", "Spring"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
+  },
+  {
     id: 65,
     title: "Beyond the Filter: A Deep Dive into PFAS and Microplastic Removal for Massachusetts Homes",
     publication: "ComfiTrust",
