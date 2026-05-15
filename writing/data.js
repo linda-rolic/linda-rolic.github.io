@@ -848,7 +848,7 @@ const BLOGS = [
     id: 69,
     title: "R-410A Sunset: Navigating the New A2L Refrigerants",
     publication: "ConstantHomeComfort",
-    date: "May 2026",
+    date: "May 15, 2026",
     dateISO: "2026-05-15",
     wordCount: 1200,
     readTime: 6,
