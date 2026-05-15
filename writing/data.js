@@ -845,6 +845,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   },
   {
+    id: 69,
+    title: "R-410A Sunset: Navigating the New A2L Refrigerants",
+    publication: "ConstantHomeComfort",
+    date: "May 2026",
+    dateISO: "2026-05-15",
+    wordCount: 1200,
+    readTime: 6,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=4&slug=r-410a-sunset-navigating-the-new-a2l-refrigerants",
+    excerpt: "R-410A is being phased out under new refrigerant regulations, and Ontario homeowners need to understand what the shift to A2L alternatives like R-32 and R-454B means for their HVAC systems. This guide navigates the key differences in flammability classification, equipment compatibility, and what to look for when replacing or servicing a system during the transition period.",
+    tags: ["HVAC", "Refrigerants", "Ontario", "R-410A", "Heat Pump", "Energy Efficiency", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
     id: 68,
     title: "Why Your BC Home is Your Best Defense This Allergy Season",
     publication: "AireEnergy",
