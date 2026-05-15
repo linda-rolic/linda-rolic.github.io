@@ -853,7 +853,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://www.constanthomecomfort.com/news-detail?pid=4&slug=r-410a-sunset-navigating-the-new-a2l-refrigerants",
-    excerpt: "R-410A is being phased out under new refrigerant regulations, and Ontario homeowners need to understand what the shift to A2L alternatives like R-32 and R-454B means for their HVAC systems. This guide navigates the key differences in flammability classification, equipment compatibility, and what to look for when replacing or servicing a system during the transition period.",
+    excerpt: "As of January 1, 2026, Canada banned new HVAC equipment using R-410A (GWP 2,088) under the Kigali Amendment — replacing it with A2L refrigerants like R-32 and R-454B, which meet the new 750 GWP ceiling. This guide breaks down the flammability realities of A2L fluids, the key differences between R-32 and R-454B, TSSA compliance updates, and why there are zero drop-in retrofit options for existing systems. Ontario homeowners can offset the 15–30% equipment cost premium through the 2026 Home Renovation Savings Program, with rebates up to $7,500 — but contractor registration closes May 31, 2026.",
     tags: ["HVAC", "Refrigerants", "Ontario", "R-410A", "Heat Pump", "Energy Efficiency", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   },
