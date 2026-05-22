@@ -845,6 +845,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   },
   {
+    id: 70,
+    title: "Pre-Summer AC Performance & Coil Cleaning: The Ultimate Guide to Staying Cool and Saving Money in Ontario",
+    publication: "ConstantHomeComfort",
+    date: "May 22, 2026",
+    dateISO: "2026-05-22",
+    wordCount: 2800,
+    readTime: 14,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=pre-summer-ac-performance-coil-cleaning-the-ultimate-guide-to-staying-cool-and-saving-money-in-ontario",
+    excerpt: "Dirty evaporator and condenser coils can reduce AC cooling capacity by up to 30% and spike energy consumption by 37% — and neglected systems risk compressor failure ($1,200–$2,500) long before the summer heat hits. This guide walks Ontario homeowners through the thermodynamics of coil contamination, the dangerous domino effect from dirty coils to frozen systems, indoor air quality risks (including \"dirty sock\" mold syndrome), and a full professional maintenance checklist. Rebate opportunities include up to $12,000 through the Home Renovation Savings Program and a $59 limited-time tune-up special for GTA homeowners.",
+    tags: ["HVAC", "Air Conditioning", "Ontario", "Maintenance", "Coil Cleaning", "Rebates", "Air Quality", "Spring"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--pink))"
+  },
+  {
     id: 69,
     title: "R-410A Sunset: Navigating the New A2L Refrigerants",
     publication: "ConstantHomeComfort",
