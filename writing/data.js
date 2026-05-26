@@ -884,6 +884,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
   {
+    id: 70,
+    title: "The Spring Runoff and Water Purification: A Comprehensive Analysis for British Columbia Homeowners",
+    publication: "AireEnergy",
+    date: "May 2026",
+    dateISO: "2026-05-26",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://aireenergy.com/the-spring-runoff-and-water-purification-a-comprehensive-analysis-for-british-columbia-homeowners/",
+    excerpt: "BC's spring freshet creates a convergence of water quality threats — turbidity from glacial silt, microbial hazards like Giardia and Cryptosporidium, nitrate runoff, and PFAS contamination — with risks varying significantly by watershed across Greater Vancouver. This guide covers region-specific contaminant profiles, reverse osmosis, UV disinfection, and seasonal maintenance steps to protect residential water systems during peak runoff season.",
+    tags: ["Water Quality", "British Columbia", "Spring", "PFAS", "Filtration", "Health", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
     id: 65,
     title: "Beyond the Filter: A Deep Dive into PFAS and Microplastic Removal for Massachusetts Homes",
     publication: "ComfiTrust",
