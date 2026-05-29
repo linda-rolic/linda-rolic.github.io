@@ -884,6 +884,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
   {
+    id: 72,
+    title: "Economic Implications of Utility Rate Hikes and High-Efficiency Cooling ROI",
+    publication: "WiserAire",
+    date: "May 28, 2026",
+    dateISO: "2026-05-28",
+    wordCount: 2100,
+    readTime: 11,
+    url: "https://wiseraire.com/economic-implications-of-utility-rate-hikes-and-high-efficiency-cooling-roi/",
+    excerpt: "Manitoba Hydro's 4.0% rate hike effective January 2026 has tipped the ROI math decisively toward high-efficiency AC upgrades — modern systems can cut annual cooling costs by roughly 50%, and stacking Efficiency Manitoba rebates with manufacturer incentives brings the payback window within reach for most Winnipeg homeowners.",
+    tags: ["HVAC", "Air Conditioning", "Energy Efficiency", "Manitoba", "Winnipeg", "Rebates", "Utility Rates"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
     id: 71,
     title: "The 2026 Pollen Surge: Turning Your Maritime Heat Pump into an Allergy Shield",
     publication: "Auxaire",
