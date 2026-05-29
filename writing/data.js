@@ -884,6 +884,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
   {
+    id: 73,
+    title: "Navigating the 2026 Mass Save Roadmap: How to Secure the New $500 Sizing Bonus",
+    publication: "ComfiTrust",
+    date: "May 29, 2026",
+    dateISO: "2026-05-29",
+    wordCount: 2100,
+    readTime: 11,
+    url: "https://comfitrust.com/navigating-the-2026-mass-save-roadmap-how-to-secure-the-new-500-sizing-bonus/",
+    excerpt: "Mass Save's 2026 update adds a $500 bonus for properly sized heat pump installations — but claiming it requires a Manual J load calculation and R-454B/R-32 compliant equipment. This guide walks Boston homeowners through the technical requirements, explains why oversized systems disqualify the bonus, and maps the full rebate stack available this year.",
+    tags: ["HVAC", "Heat Pump", "Boston", "Mass Save", "Rebates", "Massachusetts", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--lavender))"
+  },
+  {
     id: 72,
     title: "Economic Implications of Utility Rate Hikes and High-Efficiency Cooling ROI",
     publication: "WiserAire",
