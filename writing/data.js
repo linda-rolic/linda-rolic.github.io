@@ -884,6 +884,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
   {
+    id: 71,
+    title: "The 2026 Pollen Surge: Turning Your Maritime Heat Pump into an Allergy Shield",
+    publication: "Auxaire",
+    date: "May 27, 2026",
+    dateISO: "2026-05-27",
+    wordCount: 2100,
+    readTime: 11,
+    url: "https://auxaire.com/2026/05/27/the-2026-pollen-surge-turning-your-maritime-heat-pump-into-an-allergy-shield/",
+    excerpt: "Maritime Canada's 2026 pollen season is unusually severe — and homeowners can turn their heat pump into a frontline allergy defense. This guide covers MERV filter ratings, high-performance systems from Lennox and GREE, and how to stack government rebates across Nova Scotia, New Brunswick, and PEI to offset the cost of an upgrade.",
+    tags: ["HVAC", "Heat Pump", "Allergy", "Nova Scotia", "Rebates", "Air Quality", "Maritime", "Spring"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
+  },
+  {
     id: 70,
     title: "The Spring Runoff and Water Purification: A Comprehensive Analysis for British Columbia Homeowners",
     publication: "AireEnergy",
