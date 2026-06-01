@@ -884,6 +884,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
   {
+    id: 75,
+    title: "Hydro Arbitrage: ULO Rates & Smart Systems",
+    publication: "ConstantHomeComfort",
+    date: "June 2, 2026",
+    dateISO: "2026-06-02",
+    wordCount: 3500,
+    readTime: 18,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=4&slug=hydro-arbitrage-ulo-rates-smart-systems",
+    excerpt: "Ontario's Ultra-Low Overnight (ULO) electricity rate plan creates a genuine hydro arbitrage opportunity — smart thermostats, cold-climate heat pumps, and home automation can shift consumption from expensive peak hours to cheap overnight periods, saving homeowners over $1,500 annually without sacrificing comfort.",
+    tags: ["Energy Efficiency", "Ontario", "Smart Home", "Heat Pump", "Utility Rates", "HVAC", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
+  },
+  {
     id: 74,
     title: "Engineered Home Defense: Optimizing Indoor Air Quality Against Allergy Waves and Wildfire Smoke Across Ontario",
     publication: "ConstantHomeComfort",
