@@ -889,11 +889,11 @@ const BLOGS = [
     publication: "ConstantHomeComfort",
     date: "June 2, 2026",
     dateISO: "2026-06-02",
-    wordCount: 3500,
+    wordCount: 3600,
     readTime: 18,
     url: "https://www.constanthomecomfort.com/news-detail?pid=4&slug=hydro-arbitrage-ulo-rates-smart-systems",
-    excerpt: "Ontario's Ultra-Low Overnight (ULO) electricity rate plan creates a genuine hydro arbitrage opportunity — smart thermostats, cold-climate heat pumps, and home automation can shift consumption from expensive peak hours to cheap overnight periods, saving homeowners over $1,500 annually without sacrificing comfort.",
-    tags: ["Energy Efficiency", "Ontario", "Smart Home", "Heat Pump", "Utility Rates", "HVAC", "Home Improvement"],
+    excerpt: "Ontario's ULO plan creates a 35.2¢/kWh spread between overnight (3.9¢) and evening peak (39.1¢) rates — and smart thermostats like the Ecobee and Nest can exploit it through predictive thermal pre-conditioning, coasting homes through the expensive 4–9 p.m. window on stored heat or cool air. Paired with a dual-fuel heat pump and gas furnace setup, this hydro arbitrage strategy saves over $1,500 annually, with Ontario's Home Renovation Savings Program rebates (up to $7,500 for heat pumps) offsetting the upgrade cost.",
+    tags: ["Energy Efficiency", "Ontario", "Smart Home", "Heat Pump", "Utility Rates", "HVAC", "Rebates", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
   {
