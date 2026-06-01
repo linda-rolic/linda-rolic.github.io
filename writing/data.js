@@ -889,11 +889,11 @@ const BLOGS = [
     publication: "ConstantHomeComfort",
     date: "June 1, 2026",
     dateISO: "2026-06-01",
-    wordCount: 4500,
-    readTime: 23,
+    wordCount: 3700,
+    readTime: 19,
     url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=engineered-home-defense-optimizing-indoor-air-quality-against-allergy-waves-and-wildfire-smoke-across-ontario",
-    excerpt: "Ontario homeowners face a dual threat from intensifying seasonal allergens and wildfire smoke — and whole-home HVAC filtration is the engineered answer. This deep-dive covers the science behind indoor air pollutants, compares purification technologies and costs, and provides actionable steps for maintaining healthy indoor air during environmental crises.",
-    tags: ["HVAC", "Air Quality", "Ontario", "Allergy", "Wildfire Smoke", "HEPA", "Health", "Home Improvement"],
+    excerpt: "Ontario's 2026 pollen explosion — triggered by synchronized tree pollination colliding with early wildfire smoke pushing PM2.5 past 150 μg/m³ — is overwhelming standard home ventilation. This deep-dive covers region-specific risks across the GTA, compares air purification tiers from $80 portable units to $2,100 whole-home multi-stage systems, explains the MERV and HVAC strain math, and maps Ontario's Home Renovation Savings Program rebates (up to $7,500 for heat pumps) to build a science-backed indoor air defense.",
+    tags: ["HVAC", "Air Quality", "Ontario", "Allergy", "Wildfire Smoke", "MERV", "Health", "Rebates", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   },
   {
