@@ -884,6 +884,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
   {
+    id: 74,
+    title: "Engineered Home Defense: Optimizing Indoor Air Quality Against Allergy Waves and Wildfire Smoke Across Ontario",
+    publication: "ConstantHomeComfort",
+    date: "June 1, 2026",
+    dateISO: "2026-06-01",
+    wordCount: 4500,
+    readTime: 23,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=engineered-home-defense-optimizing-indoor-air-quality-against-allergy-waves-and-wildfire-smoke-across-ontario",
+    excerpt: "Ontario homeowners face a dual threat from intensifying seasonal allergens and wildfire smoke — and whole-home HVAC filtration is the engineered answer. This deep-dive covers the science behind indoor air pollutants, compares purification technologies and costs, and provides actionable steps for maintaining healthy indoor air during environmental crises.",
+    tags: ["HVAC", "Air Quality", "Ontario", "Allergy", "Wildfire Smoke", "HEPA", "Health", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
     id: 73,
     title: "Navigating the 2026 Mass Save Roadmap: How to Secure the New $500 Sizing Bonus",
     publication: "ComfiTrust",
