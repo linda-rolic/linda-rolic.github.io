@@ -884,6 +884,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
   {
+    id: 77,
+    title: "High-Efficiency Cooling for BC Condos and Townhomes: The 2026 Homeowner's Survival Guide",
+    publication: "AireEnergy",
+    date: "June 4, 2026",
+    dateISO: "2026-06-04",
+    wordCount: 3000,
+    readTime: 15,
+    url: "https://aireenergy.com/high-efficiency-cooling-for-bc-condos-and-townhomes-the-2026-homeowners-survival-guide/",
+    excerpt: "Since the 2021 heat dome, high-efficiency cooling has become a survival necessity for BC condo and townhome owners — but strata bylaws, Bill 22 Electrical Planning Reports, and 20 dB 'stealth ban' noise limits make the path complicated. This guide covers ductless mini-splits as the condo solution (19–23 dB, wildfire smoke filtration, 300% heating efficiency), region-specific advice for Langley heat traps, Delta salt air (Blue Fin coatings), and Squamish cold-climate needs, plus BC Hydro rebates up to $2,250, CleanBC income-qualified up to $24,000, and the $5,000 repair-vs-replace rule.",
+    tags: ["HVAC", "Heat Pump", "British Columbia", "Mini-Split", "Rebates", "CleanBC", "Condo", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--peach))"
+  },
+  {
     id: 76,
     title: "Tankless Water Heaters: Why Spring is the Best Time to Upgrade Your Winnipeg Home",
     publication: "WiserAire",
