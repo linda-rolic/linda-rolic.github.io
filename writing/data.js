@@ -889,10 +889,10 @@ const BLOGS = [
     publication: "ComfiTrust",
     date: "June 5, 2026",
     dateISO: "2026-06-05",
-    wordCount: 1500,
-    readTime: 8,
+    wordCount: 2800,
+    readTime: 14,
     url: "https://comfitrust.com/the-a2l-transition-everything-boston-homeowners-need-to-know-about-the-new-refrigerant-standards/",
-    excerpt: "Canada's January 2026 ban on new R-410A equipment is now in full effect — and Boston homeowners face the same transition as the industry shifts to A2L refrigerants like R-32 and R-454B. This guide explains what the new mildly flammable refrigerants mean in practice, why there are no drop-in retrofit options for existing systems, and how the switch intersects with 2026 Mass Save rebates for qualifying heat pump upgrades.",
+    excerpt: "R-410A is banned from new installs and the Mass Save rebate list as of January 2026 — and with the EPA slashing R-410A production by 40%, recharging a leaky old system is becoming a money trap. This guide demystifies A2L refrigerants (R-32 and R-454B, GWP under 700), explains the built-in 'sniffer' leak detection systems in modern units, addresses Boston triple-decker and brownstone retrofit challenges, and breaks down the $8,500 Mass Save rebate, 0% HEAT loan up to $25,000, and the R-32 vs. R-454B brand split.",
     tags: ["HVAC", "Refrigerants", "Boston", "Massachusetts", "R-410A", "Heat Pump", "Mass Save", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
   },
