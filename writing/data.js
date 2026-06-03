@@ -892,7 +892,7 @@ const BLOGS = [
     wordCount: 2400,
     readTime: 12,
     url: "https://wiseraire.com/tankless-water-heaters-why-spring-is-the-best-time-to-upgrade-your-winnipeg-home/",
-    excerpt: "Spring is the strategic window for Winnipeg homeowners to switch to tankless water heaters — before spring melt raises basement flooding risk for ground-level tanks, while contractor scheduling is still open, and with current Efficiency Manitoba rebates and financing on the table. This guide covers the efficiency and endless hot water advantages of tankless systems over traditional storage tanks.",
+    excerpt: "Winnipeg tanks hit spring already beaten up — months of heating 1–4°C Shoal Lake water causes mineral sediment buildup, the \"kettle effect,\" and thermal fatigue, right as spring melt raises basement flooding risk. Tankless units mount 4–5 feet up the wall to clear the flood zone, spring shoulder season means more precise installs, and the Manitoba Hydro HEEL loan (up to $7,500, no down payment) paired with 24–34% standby heat loss savings makes the switch financially compelling. WiserAire recommends Rinnai and Navien stainless steel models for Winnipeg's hard water.",
     tags: ["HVAC", "Tankless Water Heater", "Winnipeg", "Manitoba", "Spring", "Rebates", "Energy Efficiency", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   },
