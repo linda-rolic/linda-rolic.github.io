@@ -884,6 +884,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
   {
+    id: 78,
+    title: "The A2L Transition: Everything Boston Homeowners Need to Know About the New Refrigerant Standards",
+    publication: "ComfiTrust",
+    date: "June 5, 2026",
+    dateISO: "2026-06-05",
+    wordCount: 1500,
+    readTime: 8,
+    url: "https://comfitrust.com/the-a2l-transition-everything-boston-homeowners-need-to-know-about-the-new-refrigerant-standards/",
+    excerpt: "Canada's January 2026 ban on new R-410A equipment is now in full effect — and Boston homeowners face the same transition as the industry shifts to A2L refrigerants like R-32 and R-454B. This guide explains what the new mildly flammable refrigerants mean in practice, why there are no drop-in retrofit options for existing systems, and how the switch intersects with 2026 Mass Save rebates for qualifying heat pump upgrades.",
+    tags: ["HVAC", "Refrigerants", "Boston", "Massachusetts", "R-410A", "Heat Pump", "Mass Save", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
+  {
     id: 77,
     title: "High-Efficiency Cooling for BC Condos and Townhomes: The 2026 Homeowner's Survival Guide",
     publication: "AireEnergy",
