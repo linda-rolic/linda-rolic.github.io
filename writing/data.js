@@ -884,6 +884,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
   {
+    id: 76,
+    title: "Tankless Water Heaters: Why Spring is the Best Time to Upgrade Your Winnipeg Home",
+    publication: "WiserAire",
+    date: "June 3, 2026",
+    dateISO: "2026-06-03",
+    wordCount: 2400,
+    readTime: 12,
+    url: "https://wiseraire.com/tankless-water-heaters-why-spring-is-the-best-time-to-upgrade-your-winnipeg-home/",
+    excerpt: "Spring is the strategic window for Winnipeg homeowners to switch to tankless water heaters — before spring melt raises basement flooding risk for ground-level tanks, while contractor scheduling is still open, and with current Efficiency Manitoba rebates and financing on the table. This guide covers the efficiency and endless hot water advantages of tankless systems over traditional storage tanks.",
+    tags: ["HVAC", "Tankless Water Heater", "Winnipeg", "Manitoba", "Spring", "Rebates", "Energy Efficiency", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
+  },
+  {
     id: 75,
     title: "Hydro Arbitrage: ULO Rates & Smart Systems",
     publication: "ConstantHomeComfort",
