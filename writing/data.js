@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 84,
+    title: "The \"Boston Soup\": Why Your AC is Failing You and How Inverter Tech Fixes It",
+    publication: "ComfiTrust",
+    date: "June 15, 2026",
+    dateISO: "2026-06-15",
+    wordCount: 1500,
+    readTime: 8,
+    url: "https://comfitrust.com/the-boston-soup-why-your-ac-is-failing-you-and-how-inverter-tech-fixes-it/",
+    excerpt: "Boston's 82°F summer days feel miserable because the real enemy is 72% humidity — and traditional single-stage AC units are 'light switches' that short-cycle before they can pull moisture out of the air. Inverter systems from Mitsubishi and Gree act as dimmer switches, running at low continuous speeds to actually dehumidify 100-year-old triple-deckers and brick row houses. Covers Mitsubishi's 3D i-see Sensor and Dry Mode, Gree Airy's target humidity control and X-Fan mold prevention, Mass Save's $8,500 rebate and 0% HEAT Loan up to $25,000, and R-410A refrigerant ban effective 2026.",
+    tags: ["HVAC", "AC", "Inverter", "Boston", "Humidity", "Mitsubishi", "Gree", "Mass Save", "Rebates", "IAQ"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
+  {
     id: 83,
     title: "The Smart Home Evolution: Why Your BC Home is Finally Getting a Brain",
     publication: "AireEnergy",
