@@ -884,6 +884,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
   {
+    id: 82,
+    title: "The June 1st Efficiency Check: Navigating New HSPF2 Standards for Winnipeg Homeowners",
+    publication: "WiserAire",
+    date: "June 11, 2026",
+    dateISO: "2026-06-11",
+    wordCount: 3800,
+    readTime: 19,
+    url: "https://wiseraire.com/the-june-1st-efficiency-check-navigating-new-hspf2-standards-for-winnipeg-homeowners/",
+    excerpt: "June 1st kicks off Winnipeg's first high-load cooling season under HSPF2 and SEER2 — tougher real-world tests using actual ductwork resistance, not lab conditions (a HSPF2 8.9 on the new scale beats an old HSPF 10). The critical threshold for Efficiency Manitoba's $2,000 rebate is HSPF2 Region V 6.6, not the US Region IV rating contractors sometimes quote. Covers dual-fuel hybrid setups for -35°C polar vortex winters, CSA-F280-12 heat load calculations, snow stand installs over concrete pads, cottonwood fin-clogging prevention, R-410A phase-down to R-32/R-454B, and the full rebate stack: $2,000 ducted, $1,500 ductless, $12,500 HEEL loan, $100 F280 sizing bonus.",
+    tags: ["HVAC", "Heat Pump", "Winnipeg", "Manitoba", "HSPF2", "Rebates", "Energy Efficiency", "Dual-Fuel"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--mint))"
+  },
+  {
     id: 81,
     title: "The Energy Savings Program Deep Dive: How GVA Homeowners Are Scoring $19,000 for Home Upgrades",
     publication: "AireEnergy",
