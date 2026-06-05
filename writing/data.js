@@ -884,6 +884,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
   {
+    id: 79,
+    title: "Solar Readiness: Preparing Your Home Envelope for Efficiency Upgrades",
+    publication: "WiserAire",
+    date: "June 8, 2026",
+    dateISO: "2026-06-08",
+    wordCount: 1500,
+    readTime: 8,
+    url: "https://wiseraire.com/solar-readiness-preparing-your-home-envelope-for-efficiency-upgrades/",
+    excerpt: "Installing solar panels without first optimizing your home envelope is like filling a leaky bucket — this guide covers the insulation, air sealing, and HVAC upgrades Winnipeg homeowners should tackle first to maximize solar ROI, reduce panel requirements, and unlock Efficiency Manitoba rebates.",
+    tags: ["Solar", "Energy Efficiency", "Winnipeg", "Manitoba", "Insulation", "HVAC", "Rebates", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
     id: 78,
     title: "The A2L Transition: Everything Boston Homeowners Need to Know About the New Refrigerant Standards",
     publication: "ComfiTrust",
