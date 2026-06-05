@@ -889,10 +889,10 @@ const BLOGS = [
     publication: "WiserAire",
     date: "June 8, 2026",
     dateISO: "2026-06-08",
-    wordCount: 1500,
-    readTime: 8,
+    wordCount: 3000,
+    readTime: 15,
     url: "https://wiseraire.com/solar-readiness-preparing-your-home-envelope-for-efficiency-upgrades/",
-    excerpt: "Installing solar panels without first optimizing your home envelope is like filling a leaky bucket — this guide covers the insulation, air sealing, and HVAC upgrades Winnipeg homeowners should tackle first to maximize solar ROI, reduce panel requirements, and unlock Efficiency Manitoba rebates.",
+    excerpt: "WiserAire's 'Leaky Bucket Syndrome' principle: sealing Winnipeg's drafty pre-1999 homes to R-60 and eliminating stack-effect air leaks can shrink a required solar array by 30%, saving thousands in panels. This guide covers Climate Zone 7A insulation standards, the 1.9 kPa snow load structural certification, pre-installing a solar raceway conduit, 200-amp panel upgrades, cold-climate heat pump synergy, and Efficiency Manitoba's $0.50/watt solar rebate (up to $5,000) plus the HEEL loan up to $20,000 at 6.2%.",
     tags: ["Solar", "Energy Efficiency", "Winnipeg", "Manitoba", "Insulation", "HVAC", "Rebates", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   },
