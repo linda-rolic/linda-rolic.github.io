@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 83,
+    title: "The Smart Home Evolution: Why Your BC Home is Finally Getting a Brain",
+    publication: "AireEnergy",
+    date: "June 12, 2026",
+    dateISO: "2026-06-12",
+    wordCount: 2200,
+    readTime: 11,
+    url: "https://aireenergy.com/the-smart-home-evolution-why-your-bc-home-is-finally-getting-a-brain/",
+    excerpt: "The 'smart home' has evolved from a Jetsons fantasy to a BC reality — driven by the Matter interoperability protocol, AI-powered predictive maintenance, and cold-climate heat pumps hitting 300–400% efficiency. Covers GVA microclimates from Squamish moisture battles to Burnaby heat islands, CleanBC rebates up to $16,000, the Energy Savings Program covering up to 95% of costs for income-qualified families, and how smart zoning and IAQ sensors are reshaping comfort across Surrey, Langley, and Port Coquitlam.",
+    tags: ["HVAC", "Smart Home", "British Columbia", "Heat Pump", "CleanBC", "Rebates", "Energy Efficiency", "GVA", "AI"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
     id: 1,
     title: "Technoeconomic Analysis: The 2026 Shift to Smart HVAC Standards in Greater Boston",
     publication: "ComfiTrust",
