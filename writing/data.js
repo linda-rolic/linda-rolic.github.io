@@ -884,6 +884,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
   {
+    id: 81,
+    title: "The Energy Savings Program Deep Dive: How GVA Homeowners Are Scoring $19,000 for Home Upgrades",
+    publication: "AireEnergy",
+    date: "June 10, 2026",
+    dateISO: "2026-06-10",
+    wordCount: 2500,
+    readTime: 13,
+    url: "https://aireenergy.com/the-energy-savings-program-deep-dive-how-gva-homeowners-are-scoring-19000-for-home-upgrades/",
+    excerpt: "BC Hydro's 3.75% and FortisBC's 5%+ rate hikes are squeezing GVA budgets — but CleanBC's Energy Savings Program delivers instant rebates (deducted at invoice, not mailed later) up to $19,000. Income tiers cover families of four earning up to $185,620, with Level 1 households (under $87,350) often paying $0 out of pocket. Covers heat pump sizing for Squamish's -30°C cold snaps, GREE Charmo anti-corrosion coatings for Delta salt air, ductless retrofits for Burnaby's 1960s–70s homes (one 51-unit complex cut heating electricity by 70%), plus window ($9,500), panel upgrade ($5,000), and health hazard remediation rebates.",
+    tags: ["HVAC", "Heat Pump", "British Columbia", "CleanBC", "Rebates", "Energy Efficiency", "Mini-Split", "Buying Guide"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
     id: 80,
     title: "Whole-Home vs. Partial-Home Heat Pumps: Which 2026 Configuration Wins for Boston Multi-Families?",
     publication: "ComfiTrust",
