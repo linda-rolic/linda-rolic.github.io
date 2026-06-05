@@ -884,6 +884,19 @@ const BLOGS = [
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
   {
+    id: 80,
+    title: "Whole-Home vs. Partial-Home Heat Pumps: Which 2026 Configuration Wins for Boston Multi-Families?",
+    publication: "ComfiTrust",
+    date: "June 9, 2026",
+    dateISO: "2026-06-09",
+    wordCount: 1300,
+    readTime: 7,
+    url: "https://comfitrust.com/whole-home-vs-partial-home-heat-pumps-which-2026-configuration-wins-for-boston-multi-families/",
+    excerpt: "Boston's BERDO 2.0 fines ($234/metric ton, potentially six figures annually for mid-sized Back Bay buildings) are forcing multi-family owners to act. This guide breaks down the 2026 rebate math — whole-home at $2,650/ton up to $8,500 vs. hybrid at $1,125/ton — explains why R-32 systems (Gree Sapphire, Mitsubishi M-series) deliver 10% more heat during a polar vortex, covers the Heat Pump Rate that drops electricity from $0.34 to $0.18/kWh, and walks through the one-to-one metering rules that prevent costly cross-metering lawsuits.",
+    tags: ["HVAC", "Heat Pump", "Boston", "Massachusetts", "Mass Save", "Rebates", "BERDO", "Multi-Family"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
+  },
+  {
     id: 79,
     title: "Solar Readiness: Preparing Your Home Envelope for Efficiency Upgrades",
     publication: "WiserAire",
