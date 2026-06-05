@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 85,
+    title: "Heat Pump vs. AC: Why the $7,500 Rebate Wins",
+    publication: "Constant Home Comfort",
+    date: "June 16, 2026",
+    dateISO: "2026-06-16",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=2&slug=heat-pump-vs-ac-why-the-7500-rebate-wins",
+    excerpt: "Ontario's Home Renovation Savings Program has flipped the HVAC cost equation: cold-climate heat pumps now qualify for up to $7,500 in rebates, making them cheaper net than a standard AC — which comes with zero rebates and only solves cooling. Covers rebate tiers by fuel type (electric/$7,500, oil-propane/$7,500 stackable with federal OHPA, gas/$2,000), the 2026 no-audit path, carbon tax impact at $110/tonne rising to $170 by 2030, regional install differences from Ottawa's -30°C winters to Hamilton's lake-effect humidity, and variable-speed inverter efficiency from 200–400% COP.",
+    tags: ["HVAC", "Heat Pump", "Ontario", "Rebates", "HRSP", "Energy Efficiency", "Carbon Tax", "ClimateControl", "Inverter"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
     id: 84,
     title: "The \"Boston Soup\": Why Your AC is Failing You and How Inverter Tech Fixes It",
     publication: "ComfiTrust",
