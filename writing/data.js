@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 90,
+    title: "Spring Maintenance Masterclass: DIY vs. Professional HVAC Protocols for the 613 and 514",
+    publication: "Aura ClimatPro",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    wordCount: 1600,
+    readTime: 8,
+    url: "https://auraclimatpro.com/spring-maintenance-masterclass-diy-vs-professional-hvac-protocols-for-the-613-and-514/",
+    excerpt: "Ottawa and Montreal's spring 'thermal yo-yo' (-7°C nights to 19°C days) is the top cause of HVAC mechanical fatigue — and the pollen surge from Birch, Maple, and Oak is peaking earlier every year. Covers the full DIY protocol (MERV 13 filter audits, condenser fin rinse, vinegar drain flush) vs. professional protocols (temperature split measurement, capacitor microfarad testing, electronic refrigerant leak detection), TSSA Ontario and RBQ/CMMTQ Quebec licensing rules, and how neglected systems lose 5% efficiency annually adding up to $5,000–$15,000 in premature replacement costs.",
+    tags: ["HVAC", "Maintenance", "Ottawa", "Montreal", "Quebec", "Ontario", "IAQ", "DIY", "Spring", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--pink))"
+  },
+  {
     id: 89,
     title: "Grass Allergies vs. IAQ: Turning Your Winnipeg Home into a Sanctuary",
     publication: "WiserAire",
