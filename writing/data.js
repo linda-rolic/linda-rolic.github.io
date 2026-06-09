@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 86,
+    title: "The \"Repair-First\" Economy: Why a $500 Fix Might Be Better Than a $15,000 Replacement",
+    publication: "ComfiTrust",
+    date: "June 17, 2026",
+    dateISO: "2026-06-17",
+    wordCount: 1600,
+    readTime: 8,
+    url: "https://comfitrust.com/the-repair-first-economy-why-a-500-fix-might-be-better-than-a-15000-replacement/",
+    excerpt: "Over 67% of homeowners now prefer repair over replacement — and in Boston, where new installs mean mechanical permits, 19th-century staircases, and $12,000–$15,000 quotes driven by A2L refrigerant regulations, the 'Repair-First' economy makes pure financial sense. Covers the $5,000 Rule and 50% Rule for deciding when to fix vs. replace, the five '$500 heroes' (capacitor, contactor, flame sensor, condensate drain), Mass Save's 0% HEAT Loan up to $25,000, and when a cracked heat exchanger makes repair a genuine safety hazard.",
+    tags: ["HVAC", "Repair", "Boston", "Mass Save", "Cost Savings", "Maintenance", "Heat Pump", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--lavender))"
+  },
+  {
     id: 85,
     title: "Heat Pump vs. AC: Why the $7,500 Rebate Wins",
     publication: "Constant Home Comfort",
