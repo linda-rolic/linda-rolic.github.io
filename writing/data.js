@@ -951,7 +951,7 @@ const BLOGS = [
   {
     id: 66,
     title: "The 'No-Audit' Rebate: Why Path B is the Total Game-Changer for Ontario Homeowners in 2026",
-    publication: "ConstantHomeComfort",
+    publication: "Constant Home Comfort",
     date: "May 11, 2026",
     dateISO: "2026-05-11",
     wordCount: 1200,
@@ -977,7 +977,7 @@ const BLOGS = [
   {
     id: 70,
     title: "Pre-Summer AC Performance & Coil Cleaning: The Ultimate Guide to Staying Cool and Saving Money in Ontario",
-    publication: "ConstantHomeComfort",
+    publication: "Constant Home Comfort",
     date: "May 22, 2026",
     dateISO: "2026-05-22",
     wordCount: 2800,
@@ -990,7 +990,7 @@ const BLOGS = [
   {
     id: 69,
     title: "R-410A Sunset: Navigating the New A2L Refrigerants",
-    publication: "ConstantHomeComfort",
+    publication: "Constant Home Comfort",
     date: "May 15, 2026",
     dateISO: "2026-05-15",
     wordCount: 1200,
@@ -1107,7 +1107,7 @@ const BLOGS = [
   {
     id: 75,
     title: "Hydro Arbitrage: ULO Rates & Smart Systems",
-    publication: "ConstantHomeComfort",
+    publication: "Constant Home Comfort",
     date: "June 2, 2026",
     dateISO: "2026-06-02",
     wordCount: 3600,
@@ -1120,7 +1120,7 @@ const BLOGS = [
   {
     id: 74,
     title: "Engineered Home Defense: Optimizing Indoor Air Quality Against Allergy Waves and Wildfire Smoke Across Ontario",
-    publication: "ConstantHomeComfort",
+    publication: "Constant Home Comfort",
     date: "June 1, 2026",
     dateISO: "2026-06-01",
     wordCount: 3700,
