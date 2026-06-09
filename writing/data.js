@@ -262,7 +262,7 @@ const BLOGS = [
   {
     id: 11,
     title: "Why Is My Furnace Blowing Cold Air?",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "January 23, 2026",
     dateISO: "2026-01-23",
     wordCount: 1200,
@@ -275,7 +275,7 @@ const BLOGS = [
   {
     id: 12,
     title: "Pourquoi mon fournaise souffle-t-elle de l'air froid?",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "January 23, 2026",
     dateISO: "2026-01-23",
     wordCount: 1400,
@@ -288,7 +288,7 @@ const BLOGS = [
   {
     id: 13,
     title: "Stop Cringing at Your Energy Bill: 10 Ways to Stay Warm for Less",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "January 23, 2026",
     dateISO: "2026-01-23",
     wordCount: 1000,
@@ -301,7 +301,7 @@ const BLOGS = [
   {
     id: 14,
     title: "Arrêtez de grimacer devant votre facture d'énergie: 10 façons de rester au chaud à moindre coût",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "January 23, 2026",
     dateISO: "2026-01-23",
     wordCount: 1200,
@@ -353,7 +353,7 @@ const BLOGS = [
   {
     id: 18,
     title: "Furnace vs. Heat Pump: Which Is Better for Canadian Winters?",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "January 28, 2026",
     dateISO: "2026-01-28",
     wordCount: 1100,
@@ -366,7 +366,7 @@ const BLOGS = [
   {
     id: 19,
     title: "Fournaise vs Thermopompe: Quel est le meilleur choix pour l'hiver québécois?",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "January 28, 2026",
     dateISO: "2026-01-28",
     wordCount: 1200,
@@ -379,7 +379,7 @@ const BLOGS = [
   {
     id: 20,
     title: "When Should You Replace Your Furnace? 5 Clear Warning Signs",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "February 2, 2026",
     dateISO: "2026-02-02",
     wordCount: 1200,
@@ -392,7 +392,7 @@ const BLOGS = [
   {
     id: 21,
     title: "Quand devriez-vous remplacer votre fournaise? 5 signes qui ne trompent pas",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "January 30, 2026",
     dateISO: "2026-01-30",
     wordCount: 1200,
@@ -444,7 +444,7 @@ const BLOGS = [
   {
     id: 25,
     title: "Le frisson de 2h du matin: que faire lors d'une urgence de chauffage en plein hiver?",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "February 6, 2026",
     dateISO: "2026-02-06",
     wordCount: 1000,
@@ -457,7 +457,7 @@ const BLOGS = [
   {
     id: 26,
     title: "The 2 AM Chill: What to Do During a Mid-Winter Heating Emergency",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "February 9, 2026",
     dateISO: "2026-02-09",
     wordCount: 900,
@@ -522,7 +522,7 @@ const BLOGS = [
   {
     id: 32,
     title: "Votre maison étouffe-t-elle? Pourquoi la qualité de l'air est vitale cet hiver au Québec",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "February 18, 2026",
     dateISO: "2026-02-18",
     wordCount: 1200,
@@ -535,7 +535,7 @@ const BLOGS = [
   {
     id: 33,
     title: "Your Home is Holding Its Breath: Why Winter Air Quality is a Health Priority",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "February 18, 2026",
     dateISO: "2026-02-18",
     wordCount: 1400,
@@ -548,7 +548,7 @@ const BLOGS = [
   {
     id: 34,
     title: "À quelle fréquence devriez-vous faire l'entretien de votre fournaise? Le guide complet pour un hiver sans tracas",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "February 24, 2026",
     dateISO: "2026-02-24",
     wordCount: 1800,
@@ -561,7 +561,7 @@ const BLOGS = [
   {
     id: 35,
     title: "How Often Should You Service Your Furnace? A Complete Guide to Heating Reliability",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "February 24, 2026",
     dateISO: "2026-02-24",
     wordCount: 1300,
@@ -574,7 +574,7 @@ const BLOGS = [
   {
     id: 36,
     title: "Ductless Mini-Splits: Are They Really the Right Move for Your Home?",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "March 2, 2026",
     dateISO: "2026-03-02",
     wordCount: 1200,
@@ -587,7 +587,7 @@ const BLOGS = [
   {
     id: 37,
     title: "Mini-splits sans conduits: Est-ce vraiment la solution idéale pour votre foyer?",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "March 2, 2026",
     dateISO: "2026-03-02",
     wordCount: 1200,
@@ -600,7 +600,7 @@ const BLOGS = [
   {
     id: 38,
     title: "Strategic Content Whitepaper: Optimizing Winter HVAC Assets for Aura ClimatPro",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "March 4, 2026",
     dateISO: "2026-03-04",
     wordCount: 1200,
@@ -613,7 +613,7 @@ const BLOGS = [
   {
     id: 39,
     title: "Livre blanc sur le contenu stratégique : Optimisation des actifs CVC hivernaux pour Aura ClimatPro",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "March 4, 2026",
     dateISO: "2026-03-04",
     wordCount: 1800,
@@ -782,7 +782,7 @@ const BLOGS = [
   {
     id: 52,
     title: "Analyse approfondie LogisVert 2026 – Maximiser vos subventions ce printemps",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "March 27, 2026",
     dateISO: "2026-03-27",
     wordCount: 2200,
@@ -795,7 +795,7 @@ const BLOGS = [
   {
     id: 53,
     title: "The 2026 LogisVert Deep Dive – Maximizing Your Spring Rebates",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "March 27, 2026",
     dateISO: "2026-03-27",
     wordCount: 1900,
@@ -847,7 +847,7 @@ const BLOGS = [
   {
     id: 57,
     title: "The Air Exchanger Ultimatum – Is Your Home Compliance-Ready?",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "April 6, 2026",
     dateISO: "2026-04-06",
     wordCount: 2100,
@@ -860,7 +860,7 @@ const BLOGS = [
   {
     id: 58,
     title: "L'ultimatum des échangeurs d'air – Votre habitation est-elle conforme?",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "April 6, 2026",
     dateISO: "2026-04-06",
     wordCount: 2100,
@@ -925,7 +925,7 @@ const BLOGS = [
   {
     id: 63,
     title: "The Gatineau-Montreal Pollen Calendar – HVAC as Your First Line of Defense",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "May 7, 2026",
     dateISO: "2026-05-07",
     wordCount: 2100,
@@ -938,7 +938,7 @@ const BLOGS = [
   {
     id: 64,
     title: "Le calendrier du pollen Gatineau-Montréal – le CVC comme première ligne de défense",
-    publication: "AuraClimatpro",
+    publication: "Aura ClimatPro",
     date: "May 8, 2026",
     dateISO: "2026-05-08",
     wordCount: 2200,
