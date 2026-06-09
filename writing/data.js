@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 89,
+    title: "Grass Allergies vs. IAQ: Turning Your Winnipeg Home into a Sanctuary",
+    publication: "WiserAire",
+    date: "June 22, 2026",
+    dateISO: "2026-06-22",
+    wordCount: 1700,
+    readTime: 9,
+    url: "https://wiseraire.com/grass-allergies-vs-iaq-turning-your-winnipeg-home-into-a-sanctuary/",
+    excerpt: "Winnipeg's 'pollen collision' — trees in May, grasses in June, peak counts in July — makes indoor air up to 5× more polluted than outside as airtight homes trap allergens in ductwork. Covers the GeneralAire MAC 1400 media filter for 1–3 micron grass pollen, the 5-stage AMHP-250-UPD clinical purifier (HEPA + UVC + PCO), the 30–40% humidity sweet spot for dust mite suppression, ERV fresh-air solutions, and Manitoba Hydro's HEEL loan (up to $20,000) and Energy Finance Plan (up to $5,000) for IAQ equipment.",
+    tags: ["IAQ", "Allergies", "Winnipeg", "Manitoba", "Air Quality", "HVAC", "HEPA", "Rebates", "Humidity", "ERV"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
     id: 88,
     title: "The Hydronics Advantage: Why Ontario Homeowners are Choosing Boiler and Combi-System Upgrades in 2026",
     publication: "Constant Home Comfort",
