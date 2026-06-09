@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 94,
+    title: "Is Your AC Summer-Ready? The 5-Point Diagnostic to Avoid an Emergency in the Back Bay",
+    publication: "ComfiTrust",
+    date: "June 29, 2026",
+    dateISO: "2026-06-29",
+    wordCount: 1900,
+    readTime: 10,
+    url: "https://comfitrust.com/is-your-ac-summer-ready-the-5-point-diagnostic-to-avoid-an-emergency-in-the-back-bay/",
+    excerpt: "Back Bay brownstones face a perfect storm in summer 2026 — Cottonwood seed blankets choking outdoor condensers, 150-year-old plaster ceilings at risk from clogged condensate drains, R-410A phase-out making refrigerant repairs unaffordable, capacitor failures during 2PM grid brownouts, and NABB noise bylaws. The 5-point diagnostic covers airflow velocity, condensate float switches, superheat/subcooling refrigerant pressure testing, capacitor microfarad readings, and vibration isolation — with Mass Save rebates up to $8,500 for qualifying replacements.",
+    tags: ["HVAC", "AC", "Boston", "Back Bay", "Maintenance", "Diagnostic", "Mass Save", "Rebates", "Historic Homes", "IAQ"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
     id: 93,
     title: "The HPCN Requirement and Your Wallet: Why BC's Heat Pump Shift is More Than Just \"Buying a Unit\"",
     publication: "AireEnergy",
