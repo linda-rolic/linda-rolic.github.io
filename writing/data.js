@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 91,
+    title: "Masterclass de l'entretien printanier : protocoles CVAC à faire soi-même vs entretien professionnel dans les régions 613 et 514",
+    publication: "Aura ClimatPro",
+    date: "June 24, 2026",
+    dateISO: "2026-06-24",
+    wordCount: 1600,
+    readTime: 8,
+    url: "https://auraclimatpro.com/masterclass-de-lentretien-printanier-protocoles-cvac-a-faire-soi-meme-vs-entretien-professionnel-dans-les-regions-613-et-514/",
+    excerpt: "Version française de la Masterclass d'entretien printanier CVAC pour les régions 613 et 514 — couvrant le yo-yo thermique de Gatineau et Ottawa (-7 °C la nuit à 19 °C le jour), les protocoles DIY (filtre MERV 13, rinçage des ailettes, nettoyage du drain au vinaigre) vs professionnels (mesure du différentiel de température, diagnostic condensateur en microfarads, détection électronique des fuites de réfrigérant), ainsi que les exigences réglementaires TSSA Ontario et RBQ/CMMTQ Québec.",
+    tags: ["CVAC", "Entretien", "Ottawa", "Montréal", "Québec", "Ontario", "QAI", "Français", "Printemps", "Efficacité énergétique"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
     id: 90,
     title: "Spring Maintenance Masterclass: DIY vs. Professional HVAC Protocols for the 613 and 514",
     publication: "Aura ClimatPro",
