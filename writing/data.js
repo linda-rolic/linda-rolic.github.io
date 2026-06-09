@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 92,
+    title: "Attic Insulation – The Unsung Hero of the 2026 Energy Bill",
+    publication: "AuxAire",
+    date: "June 25, 2026",
+    dateISO: "2026-06-25",
+    wordCount: 1900,
+    readTime: 10,
+    url: "https://auxaire.com/2026/06/25/attic-insulation-the-unsung-hero-of-the-2026-energy-bill/",
+    excerpt: "Heat pumps fail without a sealed envelope — attic heat loss of up to 25% in winter and 65°C summer roof decks force compressors to run indefinitely, inflating bills and accelerating wear. Covers Maritime-specific ice damming mechanics, NS 2026 rebate realignment (MIR reduced to $5,000, R-50 target, up to $1,800 for attics), NB's 20% component rule and sliding-scale rebates ($0.40–$0.85/sqft), PEI's tiered efficiencyPEI rates (up to $5.50/SQ for low-income) and June 30 OHPA deadline, plus the mandatory 4-step EnerGuide audit and pre-approval process.",
+    tags: ["Insulation", "Attic", "Atlantic Canada", "Nova Scotia", "New Brunswick", "PEI", "Rebates", "Heat Pump", "Energy Efficiency", "Building Envelope"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
+  },
+  {
     id: 91,
     title: "Masterclass de l'entretien printanier : protocoles CVAC à faire soi-même vs entretien professionnel dans les régions 613 et 514",
     publication: "Aura ClimatPro",
