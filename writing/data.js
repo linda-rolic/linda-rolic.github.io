@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 93,
+    title: "The HPCN Requirement and Your Wallet: Why BC's Heat Pump Shift is More Than Just \"Buying a Unit\"",
+    publication: "AireEnergy",
+    date: "June 26, 2026",
+    dateISO: "2026-06-26",
+    wordCount: 2000,
+    readTime: 10,
+    url: "https://aireenergy.com/the-hpcn-requirement-and-your-wallet-why-bcs-heat-pump-shift-is-more-than-just-buying-a-unit/",
+    excerpt: "BC rebates reaching $16,000–$24,000 hinge entirely on hiring an active Home Performance Contractor Network (HPCN) member — a lapse in one Lower Mainland contractor's certification left 200 homeowners with $0 of their expected $10,000 rebates. Covers the HPCN vetting requirements, the 80% heat load rule at -5°C design temperature, SEER2 15.2 / HSPF2 8.5 efficiency thresholds, microclimate-specific installs (Squamish snow stands, Delta salt-air coatings, Burnaby noise bylaws), strata electrical permits, and the 2030 carbon tax trajectory to $170/tonne.",
+    tags: ["HVAC", "Heat Pump", "British Columbia", "HPCN", "CleanBC", "Rebates", "GVA", "Energy Efficiency", "Regulations", "AireEnergy"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
+  },
+  {
     id: 92,
     title: "Attic Insulation – The Unsung Hero of the 2026 Energy Bill",
     publication: "AuxAire",
