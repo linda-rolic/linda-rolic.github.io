@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 95,
+    title: "Solar-Powered Cooling: How to Pull Off a Net Zero Summer in Ontario",
+    publication: "Constant Home Comfort",
+    date: "June 30, 2026",
+    dateISO: "2026-06-30",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=4&slug=solar-powered-cooling-how-to-pull-off-a-net-zero-summer-in-ontario",
+    excerpt: "Ontario's 30% hydro rate hike and new 11AM–5PM peak pricing at 20.3¢/kWh mean traditional AC is increasingly unaffordable — but inverter heat pumps paired with LONGi solar and SPT battery storage can achieve a true Net Zero Summer. Covers the Ultra-Low Overnight rate arbitrage (3.9¢ vs. 39.1¢), municipal PACE loans (Ottawa $125K at 4.33%, London $40K at 2.5%, Toronto $125K), R-50–R-60 attic insulation requirements, EnerGuide pre-retrofit audit as the mandatory rebate gateway, and HRSP stacking up to $17,500 for heat pump + solar.",
+    tags: ["Solar", "Heat Pump", "Ontario", "Net Zero", "HRSP", "Rebates", "Energy Efficiency", "Battery Storage", "Cooling", "Hydro"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
+  {
     id: 94,
     title: "Is Your AC Summer-Ready? The 5-Point Diagnostic to Avoid an Emergency in the Back Bay",
     publication: "ComfiTrust",
