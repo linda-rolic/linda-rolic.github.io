@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 88,
+    title: "The Hydronics Advantage: Why Ontario Homeowners are Choosing Boiler and Combi-System Upgrades in 2026",
+    publication: "Constant Home Comfort",
+    date: "June 19, 2026",
+    dateISO: "2026-06-19",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=3&slug=the-hydronics-advantage-why-ontario-homeowners-are-choosing-boiler-and-combi-system-upgrades-in-2026",
+    excerpt: "Water carries heat 3,500× more efficiently than air — and in 2026, Ontario homeowners from Markham to Kanata are switching from forced-air furnaces to hydronic boilers and combi systems to eliminate duct losses (up to 30%), dry air, and hot/cold spots. Covers Navien NPE-2 vs. Rinnai SENSEI RX for Ontario's -30°C winters, combi vs. solo boiler decisions for high-demand households, HRSP rebates stacking to $10,000+, hybrid hydronic-heat pump setups with $7,500 incentives, and 2026 Ontario Fire Code CO alarm compliance requirements.",
+    tags: ["HVAC", "Boiler", "Hydronics", "Ontario", "Rebates", "HRSP", "Navien", "Rinnai", "Energy Efficiency", "Combi System"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
+  },
+  {
     id: 87,
     title: "Beating the 2026 Vancouver Heatwave: A Homeowner's Guide to the Pre-Summer Rush and Labor Shortages",
     publication: "AireEnergy",
