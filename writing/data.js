@@ -171,7 +171,7 @@ const BLOGS = [
   {
     id: 4,
     title: "Nova Scotia Rebate Update: The 2026 Guide",
-    publication: "Auxaire",
+    publication: "AuxAire",
     date: "January 13, 2026",
     dateISO: "2026-01-13",
     wordCount: 1600,
@@ -197,7 +197,7 @@ const BLOGS = [
   {
     id: 6,
     title: "Is Your Heat Pump Ready for -30°C? A Maritime Survival Guide",
-    publication: "Auxaire",
+    publication: "AuxAire",
     date: "January 9, 2026",
     dateISO: "2026-01-09",
     wordCount: 1300,
@@ -327,7 +327,7 @@ const BLOGS = [
   {
     id: 16,
     title: "Why January is the Best Time for a New HVAC Quote (And Why Waiting Until Spring Could Cost You)",
-    publication: "Auxaire",
+    publication: "AuxAire",
     date: "January 23, 2026",
     dateISO: "2026-01-23",
     wordCount: 1300,
@@ -626,7 +626,7 @@ const BLOGS = [
   {
     id: 40,
     title: "Preventing Ice Damming: Is Your Attic Ventilation Working?",
-    publication: "Auxaire",
+    publication: "AuxAire",
     date: "March 5, 2026",
     dateISO: "2026-03-05",
     wordCount: 1800,
@@ -756,7 +756,7 @@ const BLOGS = [
   {
     id: 50,
     title: "The Spring \"Awakening\" Checklist for Maritime HVAC Systems",
-    publication: "Auxaire",
+    publication: "AuxAire",
     date: "March 27, 2026",
     dateISO: "2026-03-27",
     wordCount: 2100,
@@ -873,7 +873,7 @@ const BLOGS = [
   {
     id: 59,
     title: "Navigating the Nova Scotia Rebate Standby List – What Now?",
-    publication: "Auxaire",
+    publication: "AuxAire",
     date: "May 1, 2026",
     dateISO: "2026-05-01",
     wordCount: 2500,
@@ -1159,7 +1159,7 @@ const BLOGS = [
   {
     id: 71,
     title: "The 2026 Pollen Surge: Turning Your Maritime Heat Pump into an Allergy Shield",
-    publication: "Auxaire",
+    publication: "AuxAire",
     date: "May 27, 2026",
     dateISO: "2026-05-27",
     wordCount: 2100,
