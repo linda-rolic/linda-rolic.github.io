@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 87,
+    title: "Beating the 2026 Vancouver Heatwave: A Homeowner's Guide to the Pre-Summer Rush and Labor Shortages",
+    publication: "AireEnergy",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    wordCount: 1700,
+    readTime: 9,
+    url: "https://aireenergy.com/beating-the-2026-vancouver-heatwave-a-homeowners-guide-to-the-pre-summer-rush-and-labor-shortages/",
+    excerpt: "2026 is on track to be one of Canada's hottest years on record — but the real crisis is 22% of HVAC technicians nearing retirement, pushing GVA heatwave wait times to 5–14 business days and emergency repair costs up 10–20%. Covers the R-410A to R-32/R-454B A2L refrigerant transition, CleanBC rebates up to $16,000, and neighborhood-specific guidance for Surrey, Langley, Burnaby, Coquitlam, Delta, and Squamish — from heritage home ductless retrofits in Fort Langley to salt-air corrosion coatings in Tsawwassen.",
+    tags: ["HVAC", "Heat Pump", "Vancouver", "British Columbia", "CleanBC", "Rebates", "Refrigerant", "Labor Shortage", "GVA", "Summer"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
+  },
+  {
     id: 86,
     title: "The \"Repair-First\" Economy: Why a $500 Fix Might Be Better Than a $15,000 Replacement",
     publication: "ComfiTrust",
