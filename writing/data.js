@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 96,
+    title: "5 Signs Your AC is Overheating in the Summer Heat Wave (And How to Fix It)",
+    publication: "AireEnergy",
+    date: "July 3, 2026",
+    dateISO: "2026-07-03",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://aireenergy.com/5-signs-your-ac-is-overheating-in-the-summer-heat-wave-and-how-to-fix-it/",
+    excerpt: "Overheating is one of the most common reasons ACs break down during heat waves across Greater Vancouver — but your system almost always signals trouble before it shuts off. Covers the 5 warning signs (non-stop running without cooling, repeated breaker trips, strange outdoor unit noises, weak or warm airflow, thermal shutoff), practical DIY checks for each, and when to call a licensed HVAC technician. Targets Langley, Surrey, Delta, Coquitlam, Burnaby, and Squamish homeowners.",
+    tags: ["HVAC", "AC", "Overheating", "Vancouver", "GVA", "Heat Wave", "AC Repair", "AireEnergy", "Compressor", "Summer Cooling"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
+  },
+  {
     id: 95,
     title: "Solar-Powered Cooling: How to Pull Off a Net Zero Summer in Ontario",
     publication: "Constant Home Comfort",
