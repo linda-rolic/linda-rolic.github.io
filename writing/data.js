@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 98,
+    title: "Is It Time to Go Tankless? How FortisBC Rebates Can Save You Up to $1,000 (And Why It's Still Worth Every Penny)",
+    publication: "AireEnergy",
+    date: "July 6, 2026",
+    dateISO: "2026-07-06",
+    wordCount: 1900,
+    readTime: 10,
+    url: "https://aireenergy.com/is-it-time-to-go-tankless-how-fortisbc-rebates-can-save-you-up-to-1000-and-why-its-still-worth-every-penny/",
+    excerpt: "Gas tankless water heaters cost $3,000–$8,000 installed in Greater Vancouver but FortisBC's 2026 rebate offers up to $1,000 for qualifying ENERGY STAR condensing models, plus a $300 two-upgrade bonus when bundled with a furnace. Covers how on-demand heating eliminates standby loss, cold-climate sizing for BC winters, the 20+ year lifespan vs. two tank replacements over the same window, the full FortisBC rebate eligibility and application process, and AireEnergy's HPCN membership enabling them to file paperwork on the homeowner's behalf across Surrey, Langley, Burnaby, Coquitlam, Delta, and Squamish.",
+    tags: ["HVAC", "Tankless Water Heater", "FortisBC", "Rebates", "Vancouver", "GVA", "Natural Gas", "Energy Efficiency", "AireEnergy", "Hot Water"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
     id: 97,
     title: "Humidity Control: Preventing Mold After a Wet Manitoba Spring",
     publication: "WiserAire",
