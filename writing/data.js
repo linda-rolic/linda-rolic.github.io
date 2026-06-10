@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 97,
+    title: "Humidity Control: Preventing Mold After a Wet Manitoba Spring",
+    publication: "WiserAire",
+    date: "July 2, 2026",
+    dateISO: "2026-07-02",
+    wordCount: 1900,
+    readTime: 10,
+    url: "https://wiseraire.com/humidity-control-preventing-mold-after-a-wet-manitoba-spring/",
+    excerpt: "Winnipeg's Lake Agassiz clay soil traps spring meltwater against foundations, creating hydrostatic pressure and a 48-hour window before mold takes hold. Covers the science of reactive clay and efflorescence, HRV vs. ERV in Manitoba's climate, why portable dehumidifiers fall short, whole-home dehumidifier sizing, exterior drainage best practices (downspouts 6–10 ft out, negative grade correction, sump pump testing), and Manitoba Hydro's HEEL Loan, up to $2,000 heat pump rebates, and Advanced HRV Control instant rebates through Efficiency Manitoba.",
+    tags: ["HVAC", "Humidity", "Mold Prevention", "Winnipeg", "Manitoba", "HRV", "ERV", "Dehumidifier", "Indoor Air Quality", "WiserAire"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
     id: 96,
     title: "5 Signs Your AC is Overheating in the Summer Heat Wave (And How to Fix It)",
     publication: "AireEnergy",
