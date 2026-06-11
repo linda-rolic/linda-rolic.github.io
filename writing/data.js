@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 100,
+    title: "Future-Proofing Your BC Home: Solar & Battery Storage Basics",
+    publication: "AireEnergy",
+    date: "July 10, 2026",
+    dateISO: "2026-07-10",
+    wordCount: 1900,
+    readTime: 10,
+    url: "https://aireenergy.com/future-proofing-your-bc-home-solar-battery-storage-basics/",
+    excerpt: "BC Hydro's Net Metering Program (Rate 1289) closes to new applicants on June 30, 2026, replaced by the Self-Generation Service Rate at a flat 10¢/kWh buyback vs. up to 14.08¢ retail — shifting the smartest strategy from grid export to local self-consumption with battery storage. Covers the new Rate 2289 mechanics, why repaying your solar rebate to stay on legacy net metering rarely pencils out, SPT/Growatt lithium-ion battery sizing for evening peak offset and storm backup, BC Hydro's 2026 rebates (up to $5,000 solar, $5,000 Peak Saver battery, $250 seasonal credit), the mandatory HPCN contractor rule effective June 1 2026, Tesla battery exclusion, and how stacking solar with a heat pump and EV charger can unlock up to $34,000 in combined CleanBC and BC Hydro rebates.",
+    tags: ["Solar", "Battery Storage", "BC Hydro", "Net Metering", "CleanBC", "Rebates", "Vancouver", "GVA", "AireEnergy", "Peak Saver", "Self-Generation"],
+    accentGradient: "linear-gradient(180deg, var(--yellow), var(--mint))"
+  },
+  {
     id: 99,
     title: "Why a Lennox Mini-Split is the Perfect Multi-Room Cooling Solution for Vancouver Homes",
     publication: "AireEnergy",
