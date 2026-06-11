@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 103,
+    title: "Are Heat Pumps Worth It in Winnipeg? How to Keep Your Home Cool Now and Warm Later",
+    publication: "WiserAire",
+    date: "July 9, 2026",
+    dateISO: "2026-07-09",
+    wordCount: 2000,
+    readTime: 10,
+    url: "https://wiseraire.com/are-heat-pumps-worth-it-in-winnipeg-how-to-keep-your-home-cool-now-and-warm-later/",
+    excerpt: "Modern cold-climate heat pumps maintain a COP of 1.8+ at -15°C — 180% efficiency — making them a viable year-round solution for Winnipeg's extreme temperature swings, especially for homes on electric baseboards, propane, or oil where bills can drop 33–70%. Covers the dual-fuel hybrid strategy for gas homes, Manitoba's near-zero-carbon hydro grid vs. fossil fuel emissions, Efficiency Manitoba's $2,000 ducted and $1,500 ductless rebates, the Manitoba Hydro HEEL Loan up to $10,000, the Oil to Heat Pump Affordability Program up to $20,000 (open until July 31 2026), raised-stand installation requirements for ice management, and WiserAire's Gree G10 Inverter Ultra Heat systems with 12-month interest-free financing.",
+    tags: ["HVAC", "Heat Pump", "Winnipeg", "Manitoba", "Cold Climate", "WiserAire", "Rebates", "Efficiency Manitoba", "Hybrid System", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
     id: 102,
     title: "Tankless Water Heaters vs. Traditional Tanks: Which Saves More Money for Winnipeg Homeowners?",
     publication: "WiserAire",
