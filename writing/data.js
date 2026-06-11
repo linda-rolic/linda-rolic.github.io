@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 102,
+    title: "Tankless Water Heaters vs. Traditional Tanks: Which Saves More Money for Winnipeg Homeowners?",
+    publication: "WiserAire",
+    date: "July 8, 2026",
+    dateISO: "2026-07-08",
+    wordCount: 2100,
+    readTime: 11,
+    url: "https://wiseraire.com/tankless-water-heaters-vs-traditional-tanks-which-saves-more-money-for-winnipeg-homeowners/",
+    excerpt: "Winnipeg's 1–4°C winter groundwater creates a massive Delta-T challenge that changes the economics of both tank and tankless water heaters compared to warmer climates. Covers why electric tankless is a financial trap in Manitoba (120+ amp draw, $2,000–$4,000 panel upgrade), condensing gas tankless efficiency at 92–98% vs. 58–60% for standard tanks, the hard water descaling requirement ($150–$300/year), why rental contracts cost $7,200+ over 15 years, and a full buy-vs-rent breakdown. Details the Manitoba Hydro HEEL Loan (up to $7,500 at 6.20%), Efficiency Manitoba rebates, and WiserAire's 12-month interest-free financing with full permit and rebate handling.",
+    tags: ["HVAC", "Tankless Water Heater", "Winnipeg", "Manitoba", "Manitoba Hydro", "WiserAire", "Rebates", "Natural Gas", "Hot Water", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
     id: 101,
     title: "5 Signs Your AC is Crashing Under the July Heat (And How to Fix It)",
     publication: "WiserAire",
