@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 99,
+    title: "Why a Lennox Mini-Split is the Perfect Multi-Room Cooling Solution for Vancouver Homes",
+    publication: "AireEnergy",
+    date: "July 27, 2026",
+    dateISO: "2026-07-27",
+    wordCount: 2200,
+    readTime: 11,
+    url: "https://aireenergy.com/why-a-lennox-mini-split-is-the-perfect-multi-room-cooling-solution-for-vancouver-homes/",
+    excerpt: "Older Vancouver-area homes without ductwork face few good cooling options as summer heatwaves intensify across Langley, Surrey, Delta, Coquitlam, Burnaby, and Squamish. Covers how Lennox ductless multi-zone mini-splits use variable-speed inverter technology to eliminate stop-start cycling and reduce space-heating electricity use by 70–75%, the three Lennox multi-zone lineups (MMPD up to 22.50 SEER2, MMLD up to 23.00 SEER2, ML-Series up to 25.50 SEER2), strict municipal noise bylaws across Burnaby, Port Coquitlam, North Vancouver, and Vancouver, coastal dehumidification and wildfire smoke filtration features, and CleanBC Better Homes rebates up to $16,000 for low-income households with an extra $5,000 panel upgrade top-up.",
+    tags: ["HVAC", "Mini-Split", "Lennox", "Ductless", "Vancouver", "GVA", "Multi-Zone", "CleanBC", "Rebates", "AireEnergy", "Cooling"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--mint))"
+  },
+  {
     id: 98,
     title: "Is It Time to Go Tankless? How FortisBC Rebates Can Save You Up to $1,000 (And Why It's Still Worth Every Penny)",
     publication: "AireEnergy",
