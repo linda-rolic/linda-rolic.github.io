@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 101,
+    title: "5 Signs Your AC is Crashing Under the July Heat (And How to Fix It)",
+    publication: "WiserAire",
+    date: "July 7, 2026",
+    dateISO: "2026-07-07",
+    wordCount: 1700,
+    readTime: 9,
+    url: "https://wiseraire.com/5-signs-your-ac-is-crashing-under-the-july-heat-and-how-to-fix-it/",
+    excerpt: "Winnipeg's July heat — 26–28°C with 60% humidity — pushes aging cooling systems to the breaking point as River Heights, Transcona, St. Vital, and St. Boniface households all crank their AC simultaneously. Covers the 5 warning signs (warm air from vents, weak airflow and frozen coils, short-cycling, screeching or clanking noises, pooling water or ice on refrigerant lines), DIY triage steps for each, and when to call a licensed technician. Also details Efficiency Manitoba's $2,000 ducted and $1,500 ductless heat pump rebates, Manitoba Hydro's HEEL Loan up to $12,500 at 6.20%, and WiserAire's 12-month interest-free financing with full rebate paperwork handling.",
+    tags: ["HVAC", "AC", "Cooling", "Winnipeg", "Manitoba", "Heat Wave", "AC Repair", "WiserAire", "Rebates", "Heat Pump"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
     id: 100,
     title: "Future-Proofing Your BC Home: Solar & Battery Storage Basics",
     publication: "AireEnergy",
