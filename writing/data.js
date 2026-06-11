@@ -10,7 +10,7 @@ const BLOGS = [
     url: "https://aireenergy.com/future-proofing-your-bc-home-solar-battery-storage-basics/",
     excerpt: "BC Hydro's Net Metering Program (Rate 1289) closes to new applicants on June 30, 2026, replaced by the Self-Generation Service Rate at a flat 10¢/kWh buyback vs. up to 14.08¢ retail — shifting the smartest strategy from grid export to local self-consumption with battery storage. Covers the new Rate 2289 mechanics, why repaying your solar rebate to stay on legacy net metering rarely pencils out, SPT/Growatt lithium-ion battery sizing for evening peak offset and storm backup, BC Hydro's 2026 rebates (up to $5,000 solar, $5,000 Peak Saver battery, $250 seasonal credit), the mandatory HPCN contractor rule effective June 1 2026, Tesla battery exclusion, and how stacking solar with a heat pump and EV charger can unlock up to $34,000 in combined CleanBC and BC Hydro rebates.",
     tags: ["Solar", "Battery Storage", "BC Hydro", "Net Metering", "CleanBC", "Rebates", "Vancouver", "GVA", "AireEnergy", "Peak Saver", "Self-Generation"],
-    accentGradient: "linear-gradient(180deg, var(--yellow), var(--mint))"
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
   },
   {
     id: 99,
@@ -23,7 +23,7 @@ const BLOGS = [
     url: "https://aireenergy.com/why-a-lennox-mini-split-is-the-perfect-multi-room-cooling-solution-for-vancouver-homes/",
     excerpt: "Older Vancouver-area homes without ductwork face few good cooling options as summer heatwaves intensify across Langley, Surrey, Delta, Coquitlam, Burnaby, and Squamish. Covers how Lennox ductless multi-zone mini-splits use variable-speed inverter technology to eliminate stop-start cycling and reduce space-heating electricity use by 70–75%, the three Lennox multi-zone lineups (MMPD up to 22.50 SEER2, MMLD up to 23.00 SEER2, ML-Series up to 25.50 SEER2), strict municipal noise bylaws across Burnaby, Port Coquitlam, North Vancouver, and Vancouver, coastal dehumidification and wildfire smoke filtration features, and CleanBC Better Homes rebates up to $16,000 for low-income households with an extra $5,000 panel upgrade top-up.",
     tags: ["HVAC", "Mini-Split", "Lennox", "Ductless", "Vancouver", "GVA", "Multi-Zone", "CleanBC", "Rebates", "AireEnergy", "Cooling"],
-    accentGradient: "linear-gradient(180deg, var(--sky), var(--mint))"
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   },
   {
     id: 98,
