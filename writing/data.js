@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 104,
+    title: "How to Get Maximum Efficiency Manitoba Rebates on Your Home HVAC Upgrades",
+    publication: "WiserAire",
+    date: "July 13, 2026",
+    dateISO: "2026-07-13",
+    wordCount: 2500,
+    readTime: 13,
+    url: "https://wiseraire.com/how-to-get-maximum-efficiency-manitoba-rebates-on-your-home-hvac-upgrades/",
+    excerpt: "A step-by-step rebate playbook for Winnipeg homeowners covering every active program in 2026: Efficiency Manitoba's $2,000 ducted and $1,500 ductless cold-climate heat pump rebates, the Oil to Heat Pump Affordability Program up to $20,000 (deadline July 31 2026), the Canada Greener Homes Affordability Program for low-to-median-income households, and the Manitoba Hydro HEEL Loan up to $20,000 for geothermal. Also details the performance-based Home Energy Retrofit Program ($75–$150/GJ saved), the Energy Efficiency Assistance Program income thresholds with free geothermal for qualifying families, CSA F280 load calculation requirements, smart thermostat $50 rebate rules, and the mandatory pre-approval-before-purchase sequencing that prevents disqualification.",
+    tags: ["HVAC", "Rebates", "Efficiency Manitoba", "Winnipeg", "Manitoba", "Heat Pump", "WiserAire", "Manitoba Hydro", "HEEL Loan", "Energy Efficiency", "OHPA"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
+  {
     id: 103,
     title: "Are Heat Pumps Worth It in Winnipeg? How to Keep Your Home Cool Now and Warm Later",
     publication: "WiserAire",
