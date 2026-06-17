@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 109,
+    title: "Why Your AC Feels Like It's Struggling on 90°F+ Boston Days (And When to Call a Pro)",
+    publication: "Comfitrust",
+    date: "July 20, 2026",
+    dateISO: "2026-07-20",
+    wordCount: 1400,
+    readTime: 7,
+    url: "https://comfitrust.com/why-your-ac-feels-like-its-struggling-on-90f-boston-days-and-when-to-call-a-pro/",
+    excerpt: "A healthy AC in Boston is only engineered to keep indoor air 20°F cooler than outside — so on a 95°F day, 75°F indoors is perfect performance, not failure. Covers why Boston's humid coastal air creates a double dehumidification load, how historic triple-deckers and brick rowhouses fight your AC through thermal mass and zero ductwork, a DIY checklist for distinguishing normal summer stress from actual breakdowns (dirty filters, clogged condensers, ice on refrigerant lines, drain backups), and when to call a licensed tech. Also covers 2025-vs-2026 Mass Save rebate changes: whole-home heat pump rebate dropping from $3,000/ton ($10,000 cap) to $2,650/ton ($8,500 cap), mandatory switch away from R410A refrigerants, and 0% HEAT Loan financing up to $25,000.",
+    tags: ["HVAC", "AC Repair", "Boston", "Massachusetts", "Mass Save", "Heat Pump", "Comfitrust", "Rebates", "Energy Efficiency", "Summer Cooling"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
+  },
+  {
     id: 108,
     title: "L'avantage des mesures multiples : pourquoi l'isolation et le chauffage, la ventilation et la climatisation forment le duo gagnant pour votre maison",
     publication: "Aura ClimatPro",
