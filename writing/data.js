@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 110,
+    title: "Optimizing a Mini-Split for Peak Maritime Summer Humidity: A Local Guide to Efficiency and Comfort",
+    publication: "AuxAire",
+    date: "July 21, 2026",
+    dateISO: "2026-07-21",
+    wordCount: 1700,
+    readTime: 9,
+    url: "https://auxaire.com/2026/07/21/optimizing-a-mini-split-for-peak-maritime-summer-humidity-a-local-guide-to-efficiency-and-comfort/",
+    excerpt: "Atlantic Canada's coastal humidity regularly exceeds 60% RH, placing a heavy latent heat load on mini-split systems that most owners don't know how to manage. Covers the sensible vs. latent heat distinction, why oversized units short-cycle and leave homes clammy, how Dry Mode uses slower fan speeds to maximize condensation, why Auto Fan must replace continuous fan to prevent re-evaporation off wet coils, and why Auto Mode wastes energy in the Maritimes' fog-to-heat daily swings. Also covers monthly filter cleaning, annual professional deep-clean pricing (Colgrove Air, Green Pump Care, Halifax Heat Pumps & Electrical), and the 2026 rebate landscape: OHPA up to $10,000 (deadline July 31, 2026), Efficiency Nova Scotia up to $22,000 for income-qualified households, Daikin summer promo up to $680, Save Energy NB, and the temporary efficiencyPEI rebate pause.",
+    tags: ["HVAC", "Mini-Split", "Heat Pump", "Maritime", "Nova Scotia", "New Brunswick", "PEI", "Humidity", "AuxAire", "Rebates", "OHPA", "Efficiency Nova Scotia", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
+  },
+  {
     id: 109,
     title: "Why Your AC Feels Like It's Struggling on 90°F+ Boston Days (And When to Call a Pro)",
     publication: "Comfitrust",
