@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 107,
+    title: "The Multi-Measure Bonus: Why Insulation and HVAC are the Ultimate Power Couple for Your Home",
+    publication: "Aura ClimatPro",
+    date: "July 16, 2026",
+    dateISO: "2026-07-16",
+    wordCount: 1900,
+    readTime: 10,
+    url: "https://auraclimatpro.com/the-multi-measure-bonus-why-insulation-and-hvac-are-the-ultimate-power-couple-for-your-home/",
+    excerpt: "Quebec's LogisVert 5% Multi-Measure Bonus and Ontario's 2026 Home Renovation Savings program both reward homeowners who bundle HVAC and insulation upgrades together — because a high-efficiency heat pump is only as effective as the building envelope it heats. Covers the Thermal Balance Point concept (why poor insulation raises the temperature at which a heat pump can't keep up), the caulking + heat pump path to maximize LogisVert grants, the Ottawa hybrid dual-fuel system rebate up to $7,500, real-world attic problems like ice dams and attic rain, regional quirks across Gatineau, Montreal, and Ottawa, and how bundling two eligible measures in one application triggered an extra $201 bonus for a Laval client.",
+    tags: ["HVAC", "Insulation", "Rebates", "LogisVert", "Multi-Measure Bonus", "Quebec", "Ontario", "Montreal", "Gatineau", "Ottawa", "Heat Pump", "Aura ClimatPro", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
     id: 106,
     title: "Énergie géothermique au Québec et en Outaouais : Comment obtenir votre remboursement de 250 $ à 750 $ par tranche de 1 000 BTU",
     publication: "Aura ClimatPro",
