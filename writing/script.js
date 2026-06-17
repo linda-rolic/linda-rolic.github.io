@@ -8,18 +8,22 @@ window.addEventListener('scroll', () => {
 
 
 
-// Auto-assign gradient from blog id so new entries always get a colour without manual config
+// Gradients form a chained sequence: each entry's end colour = the next entry's start colour.
+// Blogs are displayed newest-first (descending id), so index n flows into n-1 on screen.
+// With 12 unique directed pairs, no two adjacent cards repeat and the palette feels continuous.
 const GRADIENTS = [
-  'linear-gradient(180deg, var(--mint), var(--peach))',
+  'linear-gradient(180deg, var(--peach), var(--mint))',
+  'linear-gradient(180deg, var(--pink), var(--peach))',
+  'linear-gradient(180deg, var(--lavender), var(--pink))',
+  'linear-gradient(180deg, var(--mint), var(--lavender))',
+  'linear-gradient(180deg, var(--pink), var(--mint))',
+  'linear-gradient(180deg, var(--peach), var(--pink))',
+  'linear-gradient(180deg, var(--lavender), var(--peach))',
+  'linear-gradient(180deg, var(--pink), var(--lavender))',
+  'linear-gradient(180deg, var(--mint), var(--pink))',
   'linear-gradient(180deg, var(--lavender), var(--mint))',
   'linear-gradient(180deg, var(--peach), var(--lavender))',
-  'linear-gradient(180deg, var(--mint), var(--lavender))',
-  'linear-gradient(180deg, var(--lavender), var(--peach))',
-  'linear-gradient(180deg, var(--peach), var(--mint))',
-  'linear-gradient(180deg, var(--lavender), var(--pink))',
-  'linear-gradient(180deg, var(--mint), var(--pink))',
-  'linear-gradient(180deg, var(--pink), var(--lavender))',
-  'linear-gradient(180deg, var(--peach), var(--pink))',
+  'linear-gradient(180deg, var(--mint), var(--peach))',
 ];
 function getGradient(id) { return GRADIENTS[id % GRADIENTS.length]; }
 // Build company filter chips
