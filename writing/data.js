@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 111,
+    title: "The Summer Attic Tax: How Poor Insulation Stalls Boston AC Units and Spikes Eversource Bills",
+    publication: "Comfitrust",
+    date: "July 22, 2026",
+    dateISO: "2026-07-22",
+    wordCount: 1600,
+    readTime: 8,
+    url: "https://comfitrust.com/the-summer-attic-tax-how-poor-insulation-stalls-boston-ac-units-and-spikes-eversource-bills/",
+    excerpt: "Attic temperatures in Boston reach 130–150°F in summer, radiating heat through ceilings and forcing AC systems into endless cycles — the invisible 'Summer Attic Tax.' Covers the thermodynamics of heat conduction through hot ductwork in unconditioned attics, Massachusetts' 31.51¢/kWh average rate and the Eversource 5% rate hike effective Feb 2026, Time-of-Use peak pricing at $0.3284/kWh during the 12–8pm attic peak window, DOE R-49 to R-60 targets for Climate Zones 5 and 6, why air sealing must precede insulation, the 2025 expiry of the federal Section 25C tax credit, and the 2026 Mass Save landscape: 75% insulation coverage for all households, 100% for income-qualified (single earner under $51,777 or family of four under $99,573), and how attic weatherization unlocks the $8,500 whole-home heat pump rebate.",
+    tags: ["Insulation", "HVAC", "Boston", "Massachusetts", "Mass Save", "Eversource", "Comfitrust", "Rebates", "Energy Efficiency", "Weatherization", "Heat Pump"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
     id: 110,
     title: "Optimizing a Mini-Split for Peak Maritime Summer Humidity: A Local Guide to Efficiency and Comfort",
     publication: "AuxAire",
