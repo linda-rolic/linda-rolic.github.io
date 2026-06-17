@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 106,
+    title: "Énergie géothermique au Québec et en Outaouais : Comment obtenir votre remboursement de 250 $ à 750 $ par tranche de 1 000 BTU",
+    publication: "Aura ClimatPro",
+    date: "July 15, 2026",
+    dateISO: "2026-07-15",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://auraclimatpro.com/energie-geothermique-au-quebec-et-en-outaouais-comment-obtenir-votre-remboursement-de-250-a-750-par-tranche-de-1-000-btu/",
+    excerpt: "Le programme LogisVert 2026 d'Hydro-Québec offre 250 $ par 1 000 BTU/h pour le remplacement d'un système géothermique (jusqu'à 18 000 $) et 750 $ par 1 000 BTU/h pour une nouvelle installation (jusqu'à 54 000 $) — les incitatifs géothermiques les plus agressifs jamais vus au Québec. Couvre le fonctionnement des pompes à chaleur géothermiques avec un COP de 3,0 à 5,0, le choix entre boucles verticales et horizontales pour les propriétés urbaines de Montréal et rurales de l'Outaouais, la certification ENERGY STAR obligatoire depuis 2026, les avantages du désurchauffeur pour l'eau chaude gratuite, le dimensionnement selon la méthode Manual J, la dynamique transfrontalière Gatineau-Ottawa, et les exigences de documentation pour soumettre votre demande dans les neuf mois suivant l'installation.",
+    tags: ["Géothermie", "Québec", "Outaouais", "CVC", "Remboursements", "LogisVert", "Hydro-Québec", "Montréal", "Gatineau", "Pompe à chaleur", "Aura ClimatPro", "Efficacité énergétique"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
+  },
+  {
     id: 105,
     title: "Geothermal Energy in Quebec and the Outaouais: How to Claim Your $250 to $750 per 1,000 BTU Rebate",
     publication: "Aura ClimatPro",
