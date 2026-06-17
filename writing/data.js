@@ -10,7 +10,7 @@ const BLOGS = [
     url: "https://auraclimatpro.com/geothermal-energy-in-quebec-and-the-outaouais-how-to-claim-your-250-to-750-per-1000-btu-rebate/",
     excerpt: "Hydro-Quebec's 2026 LogisVert program offers $250 per 1,000 BTU/h for geothermal system replacements (up to $18,000) and $750 per 1,000 BTU/h for brand-new installs (up to $54,000) — the most aggressive geothermal incentives Quebec has ever seen. Covers how ground-source heat pumps achieve a COP of 3.0–5.0 versus electric baseboards, vertical vs. horizontal loop selection for urban Montreal and rural Outaouais properties, the 2026 mandatory ENERGY STAR certification requirement, the desuperheater free hot water benefit, Manual J load calculation sizing, the Gatineau-Ottawa cross-border rebate dynamic, and the nine-month LogisVert application window with RBQ-licensed contractor documentation requirements.",
     tags: ["Geothermal", "Quebec", "Outaouais", "HVAC", "Rebates", "LogisVert", "Hydro-Quebec", "Montreal", "Gatineau", "Heat Pump", "Aura ClimatPro", "Energy Efficiency"],
-    accentGradient: "linear-gradient(180deg, var(--sky), var(--mint))"
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   },  {
     id: 104,
     title: "How to Get Maximum Efficiency Manitoba Rebates on Your Home HVAC Upgrades",
