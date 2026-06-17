@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 108,
+    title: "L'avantage des mesures multiples : pourquoi l'isolation et le chauffage, la ventilation et la climatisation forment le duo gagnant pour votre maison",
+    publication: "Aura ClimatPro",
+    date: "July 17, 2026",
+    dateISO: "2026-07-17",
+    wordCount: 1900,
+    readTime: 10,
+    url: "https://auraclimatpro.com/lavantage-des-mesures-multiples-pourquoi-lisolation-et-le-chauffage-la-ventilation-et-la-climatisation-forment-le-duo-gagnant-pour-votre-maison/",
+    excerpt: "Le bonus de 5 % pour mesures multiples de LogisVert et le programme d'économies pour la rénovation domiciliaire 2026 de l'Ontario récompensent les propriétaires qui combinent les améliorations du système CVC et de l'isolation — parce qu'une thermopompe à haute efficacité n'est performante que si l'enveloppe du bâtiment qu'elle chauffe est adéquate. Couvre le concept de point d'équilibre thermique, le parcours calfeutrage + thermopompe pour maximiser les subventions LogisVert, le rabais hybride à double carburant d'Ottawa jusqu'à 7 500 $, les problèmes courants de combles comme les barrages de glace et la pluie de grenier, les particularités régionales de Gatineau, Montréal et Ottawa, et comment le regroupement de deux mesures admissibles a déclenché un bonus supplémentaire de 201 $ pour un client de Laval.",
+    tags: ["CVC", "Isolation", "Remboursements", "LogisVert", "Bonus Multi-Mesures", "Québec", "Ontario", "Montréal", "Gatineau", "Ottawa", "Pompe à chaleur", "Aura ClimatPro", "Efficacité énergétique"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
     id: 107,
     title: "The Multi-Measure Bonus: Why Insulation and HVAC are the Ultimate Power Couple for Your Home",
     publication: "Aura ClimatPro",
