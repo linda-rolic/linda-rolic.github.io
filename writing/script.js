@@ -25,7 +25,7 @@ const GRADIENTS = [
   'linear-gradient(180deg, var(--peach), var(--lavender))',
   'linear-gradient(180deg, var(--mint), var(--peach))',
 ];
-function getGradient(id) { return GRADIENTS[id % GRADIENTS.length]; }
+function getGradient(index) { return GRADIENTS[index % GRADIENTS.length]; }
 // Build company filter chips
 function buildChips() {
   const companies = [...new Set(BLOGS.map(b => b.publication))].sort();
@@ -63,11 +63,11 @@ function buildTagChips() {
 }
 
 // Render a single blog card
-function renderCard(blog) {
+function renderCard(blog, index) {
   const tagsHTML = blog.tags.map(t => `<span class="tag">${t}</span>`).join('');
   return `
     <div class="blog-card fade-in">
-      <div class="blog-card-accent" style="background: ${getGradient(blog.id)}"></div>
+      <div class="blog-card-accent" style="background: ${getGradient(index)}"></div>
       <div class="blog-card-body">
         <div class="blog-card-top">
           <span class="blog-card-pub">${blog.publication}</span>
@@ -128,7 +128,7 @@ function renderBlogs() {
   const grid  = document.getElementById('blog-grid');
   const empty = document.getElementById('blog-empty');
 
-  grid.innerHTML = filtered.map(renderCard).join('');
+  grid.innerHTML = filtered.map((blog, i) => renderCard(blog, i)).join('');
   empty.style.display = filtered.length ? 'none' : 'block';
   updateStats(filtered);
 
