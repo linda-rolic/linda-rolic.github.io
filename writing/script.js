@@ -7,6 +7,21 @@ window.addEventListener('scroll', () => {
 });
 
 
+
+// Auto-assign gradient from blog id so new entries always get a colour without manual config
+const GRADIENTS = [
+  'linear-gradient(180deg, var(--mint), var(--peach))',
+  'linear-gradient(180deg, var(--lavender), var(--mint))',
+  'linear-gradient(180deg, var(--peach), var(--lavender))',
+  'linear-gradient(180deg, var(--mint), var(--lavender))',
+  'linear-gradient(180deg, var(--lavender), var(--peach))',
+  'linear-gradient(180deg, var(--peach), var(--mint))',
+  'linear-gradient(180deg, var(--lavender), var(--pink))',
+  'linear-gradient(180deg, var(--mint), var(--pink))',
+  'linear-gradient(180deg, var(--pink), var(--lavender))',
+  'linear-gradient(180deg, var(--peach), var(--pink))',
+];
+function getGradient(id) { return GRADIENTS[id % GRADIENTS.length]; }
 // Build company filter chips
 function buildChips() {
   const companies = [...new Set(BLOGS.map(b => b.publication))].sort();
@@ -48,7 +63,7 @@ function renderCard(blog) {
   const tagsHTML = blog.tags.map(t => `<span class="tag">${t}</span>`).join('');
   return `
     <div class="blog-card fade-in">
-      <div class="blog-card-accent" style="background: ${blog.accentGradient}"></div>
+      <div class="blog-card-accent" style="background: ${getGradient(blog.id)}"></div>
       <div class="blog-card-body">
         <div class="blog-card-top">
           <span class="blog-card-pub">${blog.publication}</span>
