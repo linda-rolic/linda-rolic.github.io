@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 115,
+    title: "Au-dela du degel : Guide realiste pour vaincre l'humidite printaniere a Montreal",
+    publication: "Aura ClimatPro",
+    date: "July 29, 2026",
+    dateISO: "2026-07-29",
+    wordCount: 1200,
+    readTime: 6,
+    url: "https://auraclimatpro.com/au-dela-du-degel-guide-realiste-pour-vaincre-lhumidite-printaniere-a-montreal/",
+    excerpt: "La transition printaniere de Montreal sature les maisons en humidite : l'air chaud et humide descend vers les sous-sols, plus frais de 3 a 5 degres Celsius, et se condense sur les murs de fondation et les tuyaux d'eau froide -- un effet souvent confondu avec une fuite. L'humidite interieure ne doit pas depasser 50 a 55 % de maniere prolongee, sous peine de favoriser moisissures, mildiou et acariens. Les pompes a chaleur et climatiseurs split deshumidifient activement en condensant la vapeur d'eau sur les serpentins d'evaporation, mais un systeme surdimensionne effectuera des cycles courts sans deshumidifier correctement. Un entretien de printemps (nettoyage des serpentins, verification des tuyaux, remplacement des filtres) evite la diffusion de spores de moisissures. Les bonnes habitudes comptent : cuisiner a couvert, utiliser la ventilation de salle de bain, secher le linge a l'exterieur, aerer les plantes, eloigner les meubles des murs et ne jamais poser un matelas directement sur le beton. Le programme LogisVert d'Hydro-Quebec offre jusqu'a 6 700 $ pour une thermopompe qualifiee, 1 500 $ pour l'isolation et le calfeutrage, 250 $ pour un seche-linge a pompe a chaleur et 250 $ pour une cuisiniere a induction -- non cumulable avec Renoclimat ou le programme federal Maisons plus ecologiques pour le meme equipement, et exige un entrepreneur detenant un permis RBQ valide.",
+    tags: ["CVC", "Montreal", "Humidite", "Pompe a chaleur", "LogisVert", "Remboursements", "Quebec", "Efficacite energetique", "Aura ClimatPro"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
+  {
     id: 114,
     title: "Beyond the Thaw: A Realist's Guide to Beating Montreal's Spring Dampness",
     publication: "Aura ClimatPro",
