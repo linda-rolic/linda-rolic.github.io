@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 112,
+    title: "Hard Water vs. Microplastics: What's Actually in Greater Boston's Tap Water?",
+    publication: "Comfitrust",
+    date: "July 23, 2026",
+    dateISO: "2026-07-23",
+    wordCount: 1900,
+    readTime: 9,
+    url: "https://comfitrust.com/hard-water-vs-microplastics-whats-actually-in-greater-bostons-tap-water/",
+    excerpt: "Greater Boston's water starts pure at the Quabbin and Wachusett Reservoirs, but hardness and contamination vary dramatically by neighborhood. MWRA-supplied towns like Boston and Brookline have ultra-soft water at 16 ppm, while groundwater-dependent towns like Newburyport (104 ppm) and Woburn (89 ppm) deal with significant mineral scale that destroys appliances and clogs pipes. Meanwhile, a far less visible threat has emerged nationwide: microplastics and nanoplastics entering reservoirs through atmospheric settling, synthetic clothing fibers, sewer overflows, and the fertilizer loop from sewage sludge. Bottled water is the worst option -- a single liter averages 240,000 plastic fragments vs. 10 to 100 in tap water, with 90% of those being submicron nanoplastics shed by the bottle itself. Legacy infrastructure adds further risk: pre-1986 homes face lead leaching from service lines and solder, iron discoloration in cold months, and PFAS contamination in groundwater-fed communities. Standard pitcher filters and refrigerator filters cannot remove nanoplastics. Reverse osmosis is the gold standard, blocking over 99% of microplastics, nanoplastics, lead, and PFAS, though it requires professional installation and maintenance to prevent membrane rupture from re-introducing plastic particles.",
+    tags: ["Water Quality", "Boston", "Microplastics", "PFAS", "Water Filtration", "Reverse Osmosis", "Home Improvement", "Comfitrust", "Hard Water", "Lead"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
     id: 111,
     title: "The Summer Attic Tax: How Poor Insulation Stalls Boston AC Units and Spikes Eversource Bills",
     publication: "Comfitrust",
