@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 113,
+    title: "Beyond Central Air: How Ductless Mini-Splits Keep Historic Boston Homes Perfectly Cool",
+    publication: "Comfitrust",
+    date: "July 24, 2026",
+    dateISO: "2026-07-24",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://comfitrust.com/beyond-central-air-how-ductless-mini-splits-keep-historic-boston-homes-perfectly-cool/",
+    excerpt: "Boston's historic homes -- Charlestown row houses, Back Bay brownstones, Beacon Hill federals, Jamaica Plain triple-deckers -- present a fundamental HVAC problem: plaster-over-lath walls, original crown moldings, no existing ductwork, and steam/hot water radiator heating systems leave no practical path for central air. Ductless mini-splits solve this with a 3-inch wall penetration connecting an outdoor condenser to up to 8 independent indoor air handlers, preserving plaster and trim entirely. Inverter-driven compressors eliminate the 30% energy waste from duct leakage and enable precise zone control per floor. Navigating installation requires Back Bay and Beacon Hill Architectural Commission approvals (condensers must be rooftop or rear-screened, never on visible facades), 780 CMR Chapter 51 mechanical permits, and EPA Section 608 certified refrigerant handling. Mass Save 2026 rebates cover three tiers: Whole-Home up to ,500 at ,650/ton (existing fossil fuel system removed), Partial-Home up to ,500 at ,125/ton (boiler kept for backup), and Basic up to ,500 at /ton for single-zone additions. Bonus incentives include  Sizing Bonus,  Weatherization Bonus, and  for heat pump water heaters. All 2026 installs must use R-32 or R-454B refrigerant -- R-410A was removed from the Mass Save Qualified Product List January 1, 2026. 0% HEAT Loan financing up to ,000 available. Comfitrust installs Mitsubishi M-Series, Gree R32, Daikin DZ, Bosch Climate 5000, AUX ACHP 2025, and APower series.",
+    tags: ["HVAC", "Mini-Split", "Heat Pump", "Boston", "Mass Save", "Rebates", "Historic", "Energy Efficiency", "Comfitrust", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
+  },
+  {
     id: 112,
     title: "Hard Water vs. Microplastics: What's Actually in Greater Boston's Tap Water?",
     publication: "Comfitrust",
