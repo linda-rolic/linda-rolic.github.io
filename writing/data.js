@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 114,
+    title: "Beyond the Thaw: A Realist's Guide to Beating Montreal's Spring Dampness",
+    publication: "Aura ClimatPro",
+    date: "July 28, 2026",
+    dateISO: "2026-07-28",
+    wordCount: 1200,
+    readTime: 6,
+    url: "https://auraclimatpro.com/beyond-the-thaw-a-realists-guide-to-beating-montreals-spring-dampness/",
+    excerpt: "Montreal's spring transition saturates homes with moisture as warm humid air condenses on cool basement walls and cold-water pipes -- a condensation effect often mistaken for foundation leaks. Target indoor humidity 50% to 55% maximum; above that, mold, mildew, and dust mites take hold. Heat pumps and ductless mini-splits actively dehumidify by condensing water vapor on cold evaporator coils, but oversized systems short-cycle and fail to remove moisture, leaving homes cold and clammy. Spring maintenance (coil cleaning, drain line checks, filter swaps) prevents mold-blown air from spores growing on damp coils. Everyday habits matter: lid pots while cooking, run bathroom exhaust fans, dry laundry outside, move plants on high-humidity days, pull basement furniture from outer walls, and never put a mattress directly on concrete. Hydro-Quebec's LogisVert program covers up to ,700 for qualifying cold-climate heat pumps, ,500 for roof insulation and caulking,  for heat-pump dryers, and  for induction ranges -- but cannot be combined with Renoclimat or the federal Greener Homes program for the same equipment, and requires a valid RBQ-licensed contractor.",
+    tags: ["HVAC", "Montreal", "Humidity", "Heat Pump", "Mini-Split", "LogisVert", "Rebates", "Quebec", "Energy Efficiency", "Aura ClimatPro"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
     id: 113,
     title: "Beyond Central Air: How Ductless Mini-Splits Keep Historic Boston Homes Perfectly Cool",
     publication: "Comfitrust",
