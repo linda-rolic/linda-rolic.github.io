@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 118,
+    title: "Hard Water vs. Iron Stain: Why Maritime Homes Need a Water Purification System",
+    publication: "AuxAire",
+    date: "August 4, 2026",
+    dateISO: "2026-08-04",
+    wordCount: 2200,
+    readTime: 11,
+    url: "https://auxaire.com/2026/08/04/hard-water-vs-iron-stain-why-maritime-homes-need-a-water-purification-system/",
+    excerpt: "Atlantic Canada's groundwater chemistry is shaped by granite bedrock in Nova Scotia, iron-rich sandstone in PEI, and sedimentary aquifers in New Brunswick, producing highly variable water hardness and iron contamination. Halifax municipal water is naturally soft (0.3 to 1.8 GPG), but Kentville reaches 4.3 to 6.1 GPG and Inverness hits a punishing 11.7 to 17.5 GPG. Hard water scale (calcium carbonate) chokes pipes, forces 35% more detergent use, strips skin moisture, and -- inside tankless water heaters like the Rinnai condensing series and Navien NPE-240A -- causes a 29% efficiency loss and can cut a 20-year appliance lifespan to 2 years. Iron arrives in four forms: clear-water ferrous iron (invisible until oxidized by air, leaving rust stains), red-water ferric iron (cloudy at the tap), bacterial iron (gelatinous slime clogging pumps), and colloidal iron (persistent haze). PEI aesthetic guideline is 0.3 mg/L; New Brunswick enforces a stricter 0.1 mg/L. Halifax municipal water earns a B- rating due to disinfection byproducts (bromodichloromethane, chloroform, TTHMs, dichloroacetic acid) that cause liver and kidney damage via inhalation during showers -- basic fridge filters provide false security. Co-occurring contaminants include manganese (black stains), tannins (tea color that blinds UV sterilizers), and arsenic in specific Nova Scotia and PEI geological zones. Treatment hierarchy: NSF/ANSI 44-certified cation exchange softener for hardness and light iron; oxidizing iron filter (manganese greensand) for heavy or bacterial iron; reverse osmosis for drinking water (removes arsenic, lead, sodium); Big Blue sediment and carbon block pre-filters for municipal chlorine and tannins.",
+    tags: ["Water Quality", "Maritime", "Nova Scotia", "New Brunswick", "PEI", "Water Filtration", "Hard Water", "Iron", "Reverse Osmosis", "AuxAire", "HVAC", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
     id: 117,
     title: "Votre climatiseur souffle de l'air chaud ? 5 verifications simples a faire soi-meme avant d'appeler un technicien a Montreal",
     publication: "Aura ClimatPro",
