@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 117,
+    title: "Votre climatiseur souffle de l'air chaud ? 5 verifications simples a faire soi-meme avant d'appeler un technicien a Montreal",
+    publication: "Aura ClimatPro",
+    date: "July 31, 2026",
+    dateISO: "2026-07-31",
+    wordCount: 1100,
+    readTime: 6,
+    url: "https://auraclimatpro.com/votre-climatiseur-souffle-de-lair-chaud-5-verifications-simples-a-faire-soi-meme-avant-dappeler-un-technicien-a-montreal/",
+    excerpt: "Quand l'humidex depasse 35 degrees Celsius a Montreal, les duplex en briques deviennent des fournaises -- et beaucoup de pannes de climatisation ont des causes simples reglables en vingt minutes. Cinq verifications a faire soi-meme : (1) thermostat regle sur Refroidissement ou Auto, pas sur Ventilateur, qui fait circuler l'air ambiant non refroidi en continu ; (2) filtres en plastique encrassés sur le climatiseur mural -- les laver a l'eau savonneuse et laisser secher ; si du givre est visible, eteindre l'appareil et lancer la ventilation seule pour degeler ; (3) unite exterieure bloquee par les peupliers -- couper l'alimentation, debroussailler un metre autour, rincer les ailettes a 30 degres avec un tuyau ordinaire, jamais un nettoyeur haute pression qui aplatit les ailettes en aluminium ; (4) disjoncteur a moitie declenche sur le circuit du compresseur exterieur -- basculer completement sur ARRET, attendre cinq minutes, remettre sur MARCHE ; s'il se declenche a nouveau, ne pas insister ; (5) conduite de condensats obstruee qui active un interrupteur flotteur de securite coupant l'alimentation exterieure -- localiser la sortie du tuyau et aspirer les residus avec un aspirateur eau et poussiere. Ne pas tenter soi-meme les fuites de refrigerant (techniciens agrees uniquement), les condensateurs (choc electrique meme a l'arret) ou les bruits de claquement du compresseur. Aura ClimatPro intervient a Montreal, Gatineau et Ottawa, techniciens bilingues certifies, RBQ 5875-1231-01, urgences 7 jours sur 7 sans supplement.",
+    tags: ["CVC", "Montreal", "Reparation", "Mini-Split", "DIY", "Aura ClimatPro", "Quebec", "Depannage"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
+  },
+  {
     id: 116,
     title: "AC Blowing Warm Air? 5 Simple DIY Checks Before You Call a Montreal Tech",
     publication: "Aura ClimatPro",
