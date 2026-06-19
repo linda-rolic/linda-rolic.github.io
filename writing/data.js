@@ -8,7 +8,7 @@ const BLOGS = [
     wordCount: 2200,
     readTime: 11,
     url: "https://auxaire.com/2026/08/04/hard-water-vs-iron-stain-why-maritime-homes-need-a-water-purification-system/",
-    excerpt: "Atlantic Canada's groundwater chemistry is shaped by granite bedrock in Nova Scotia, iron-rich sandstone in PEI, and sedimentary aquifers in New Brunswick, producing highly variable water hardness and iron contamination. Halifax municipal water is naturally soft (0.3 to 1.8 GPG), but Kentville reaches 4.3 to 6.1 GPG and Inverness hits a punishing 11.7 to 17.5 GPG. Hard water scale (calcium carbonate) chokes pipes, forces 35% more detergent use, strips skin moisture, and -- inside tankless water heaters like the Rinnai condensing series and Navien NPE-240A -- causes a 29% efficiency loss and can cut a 20-year appliance lifespan to 2 years. Iron arrives in four forms: clear-water ferrous iron (invisible until oxidized by air, leaving rust stains), red-water ferric iron (cloudy at the tap), bacterial iron (gelatinous slime clogging pumps), and colloidal iron (persistent haze). PEI aesthetic guideline is 0.3 mg/L; New Brunswick enforces a stricter 0.1 mg/L. Halifax municipal water earns a B- rating due to disinfection byproducts (bromodichloromethane, chloroform, TTHMs, dichloroacetic acid) that cause liver and kidney damage via inhalation during showers -- basic fridge filters provide false security. Co-occurring contaminants include manganese (black stains), tannins (tea color that blinds UV sterilizers), and arsenic in specific Nova Scotia and PEI geological zones. Treatment hierarchy: NSF/ANSI 44-certified cation exchange softener for hardness and light iron; oxidizing iron filter (manganese greensand) for heavy or bacterial iron; reverse osmosis for drinking water (removes arsenic, lead, sodium); Big Blue sediment and carbon block pre-filters for municipal chlorine and tannins.",
+    excerpt: "Atlantic Canada groundwater hardness ranges from soft Halifax municipal water at 0.3 to 1.8 GPG to punishing Inverness well water at 11.7 to 17.5 GPG, while PEI's iron-rich red sandstone aquifer and New Brunswick's sedimentary formations generate significant iron contamination alongside hardness. Hard water scale costs Maritime families up to ,980 annually and cuts tankless water heater lifespans -- Rinnai condensing and Navien NPE series -- from 20 years to as few as 2 through a 29% efficiency loss. Iron arrives as ferrous (invisible until oxidized by air, leaving rust stains), ferric (cloudy red at the tap), bacterial (gelatinous slime clogging pumps), or colloidal (persistent haze). Halifax municipal water earns a B- rating due to disinfection byproducts including TTHMs and bromodichloromethane. Treatment: NSF/ANSI 44 water softener for hardness, oxidizing iron filter for iron, reverse osmosis for drinking water removing arsenic and lead, and sediment and carbon block pre-filters for municipal chlorine and tannins.",
     tags: ["Water Quality", "Maritime", "Nova Scotia", "New Brunswick", "PEI", "Water Filtration", "Hard Water", "Iron", "Reverse Osmosis", "AuxAire", "HVAC", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   },
@@ -21,7 +21,7 @@ const BLOGS = [
     wordCount: 1100,
     readTime: 6,
     url: "https://auraclimatpro.com/votre-climatiseur-souffle-de-lair-chaud-5-verifications-simples-a-faire-soi-meme-avant-dappeler-un-technicien-a-montreal/",
-    excerpt: "Quand l'humidex depasse 35 degrees Celsius a Montreal, les duplex en briques deviennent des fournaises -- et beaucoup de pannes de climatisation ont des causes simples reglables en vingt minutes. Cinq verifications a faire soi-meme : (1) thermostat regle sur Refroidissement ou Auto, pas sur Ventilateur, qui fait circuler l'air ambiant non refroidi en continu ; (2) filtres en plastique encrassés sur le climatiseur mural -- les laver a l'eau savonneuse et laisser secher ; si du givre est visible, eteindre l'appareil et lancer la ventilation seule pour degeler ; (3) unite exterieure bloquee par les peupliers -- couper l'alimentation, debroussailler un metre autour, rincer les ailettes a 30 degres avec un tuyau ordinaire, jamais un nettoyeur haute pression qui aplatit les ailettes en aluminium ; (4) disjoncteur a moitie declenche sur le circuit du compresseur exterieur -- basculer completement sur ARRET, attendre cinq minutes, remettre sur MARCHE ; s'il se declenche a nouveau, ne pas insister ; (5) conduite de condensats obstruee qui active un interrupteur flotteur de securite coupant l'alimentation exterieure -- localiser la sortie du tuyau et aspirer les residus avec un aspirateur eau et poussiere. Ne pas tenter soi-meme les fuites de refrigerant (techniciens agrees uniquement), les condensateurs (choc electrique meme a l'arret) ou les bruits de claquement du compresseur. Aura ClimatPro intervient a Montreal, Gatineau et Ottawa, techniciens bilingues certifies, RBQ 5875-1231-01, urgences 7 jours sur 7 sans supplement.",
+    excerpt: "Par humidex de 35 degres Celsius a Montreal, plusieurs pannes de climatisation se resolvent en vingt minutes sans technicien. Cinq verifications : (1) thermostat regle sur Refroidissement ou Auto, pas sur Ventilateur uniquement, qui fait circuler de l'air ambiant non refroidi ; (2) filtres encrastes sur le climatiseur mural -- si du givre est visible, eteindre la climatisation et faire tourner la ventilation seule jusqu'au degel ; (3) unite exterieure bloquee par les peupliers -- couper l'alimentation, debroussailler, rincer les ailettes a 30 degres avec un tuyau ordinaire, jamais un nettoyeur haute pression qui aplati les ailettes ; (4) disjoncteur a moitie declenche sur le circuit exterieur -- basculer sur ARRET, attendre cinq minutes, remettre sur MARCHE ; s'il se declenche a nouveau, ne pas insister ; (5) conduite de condensats obstruee -- aspirer les residus avec un aspirateur eau et poussiere. Ne pas tenter les fuites de refrigerant, les condensateurs ou les bruits de claquement du compresseur.",
     tags: ["CVC", "Montreal", "Reparation", "Mini-Split", "DIY", "Aura ClimatPro", "Quebec", "Depannage"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   },
@@ -34,7 +34,7 @@ const BLOGS = [
     wordCount: 1100,
     readTime: 6,
     url: "https://auraclimatpro.com/ac-blowing-warm-air-5-simple-diy-checks-before-you-call-a-montreal-tech/",
-    excerpt: "Montreal's July humidex routinely tops 35 degrees Celsius, turning brick duplexes into ovens -- and a surprising number of AC failures have simple DIY fixes. Five checks to run before calling a tech: (1) thermostat set to Cool or Auto, not Fan-only, which circulates uncooled air 24/7; (2) dirty mesh filters on wall-mounted mini-splits choke airflow, freeze refrigerant coils solid, and require washing and drying before restart; (3) blocked outdoor condenser units -- Montreal's spring cottonwood coats fins like a wool blanket, blocking heat release until the compressor overheats; rinse fins at 30 degrees with a garden hose, never a pressure washer; (4) half-tripped breaker on the outdoor compressor circuit -- flip fully off, wait five minutes, reset; if it trips again, stop; (5) clogged condensate drain line triggers a safety float switch that cuts outdoor power -- locate the drain exit and vacuum out the blockage with a wet-dry shop vac. Do not DIY refrigerant leaks (licensed techs only), capacitor issues (shock hazard even when unplugged), or clunking compressors. Aura ClimatPro serves Montreal, Gatineau, and Ottawa with bilingual certified technicians, RBQ 5875-1231-01 licensing, and emergency service 7 days a week with no overtime surcharges.",
+    excerpt: "Montreal's July humidex tops 35 degrees Celsius, and many AC failures have simple DIY fixes. Five checks before calling a technician: (1) thermostat set to Cool or Auto, not Fan-only, which circulates unconditioned air 24/7; (2) dirty mesh filters freeze refrigerant coils solid -- if frost is visible, shut off cooling and run fan-only to thaw before cleaning; (3) outdoor condenser blocked by cottonwood -- shut power, clear a meter radius, rinse fins at 30 degrees with a garden hose, never a pressure washer that permanently bends aluminum fins; (4) half-tripped breaker on the compressor circuit -- flip fully off, wait five minutes, reset; stop immediately if it trips again; (5) clogged condensate drain triggering the safety float switch -- vacuum out the blockage with a wet-dry shop vac. Do not attempt refrigerant leaks, capacitor repairs, or clunking compressors; these require licensed technicians only.",
     tags: ["HVAC", "Montreal", "AC Repair", "Mini-Split", "DIY", "Aura ClimatPro", "Quebec", "Troubleshooting"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   },
@@ -47,7 +47,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://auraclimatpro.com/au-dela-du-degel-guide-realiste-pour-vaincre-lhumidite-printaniere-a-montreal/",
-    excerpt: "La transition printaniere de Montreal sature les maisons en humidite : l'air chaud et humide descend vers les sous-sols, plus frais de 3 a 5 degres Celsius, et se condense sur les murs de fondation et les tuyaux d'eau froide -- un effet souvent confondu avec une fuite. L'humidite interieure ne doit pas depasser 50 a 55 % de maniere prolongee, sous peine de favoriser moisissures, mildiou et acariens. Les pompes a chaleur et climatiseurs split deshumidifient activement en condensant la vapeur d'eau sur les serpentins d'evaporation, mais un systeme surdimensionne effectuera des cycles courts sans deshumidifier correctement. Un entretien de printemps (nettoyage des serpentins, verification des tuyaux, remplacement des filtres) evite la diffusion de spores de moisissures. Les bonnes habitudes comptent : cuisiner a couvert, utiliser la ventilation de salle de bain, secher le linge a l'exterieur, aerer les plantes, eloigner les meubles des murs et ne jamais poser un matelas directement sur le beton. Le programme LogisVert d'Hydro-Quebec offre jusqu'a 6 700 $ pour une thermopompe qualifiee, 1 500 $ pour l'isolation et le calfeutrage, 250 $ pour un seche-linge a pompe a chaleur et 250 $ pour une cuisiniere a induction -- non cumulable avec Renoclimat ou le programme federal Maisons plus ecologiques pour le meme equipement, et exige un entrepreneur detenant un permis RBQ valide.",
+    excerpt: "La transition printaniere de Montreal sature les maisons en humidite : l'air chaud condense sur les murs de fondation froids et les tuyaux d'eau froide -- souvent confondu avec une fuite de fondation, mais il s'agit de condensation atmospherique. L'humidite interieure ne doit pas depasser 50 a 55%, sous peine de favoriser moisissures, mildiou et acariens. Les thermopompes deshumidifient activement, mais un systeme surdimensionne effectue des cycles trop courts sans eliminer l'humidite. Un entretien de printemps -- nettoyage des serpentins, verification des tuyaux, remplacement des filtres -- empeche la diffusion de spores. Les bonnes habitudes aident : cuisiner a couvert, utiliser la ventilation de salle de bain, secher le linge a l'exterieur, ne jamais poser un matelas sur le beton. LogisVert offre jusqu'a 6 700$ pour une thermopompe qualifiee, 1 500$ pour l'isolation et le calfeutrage -- exige un entrepreneur RBQ, non cumulable avec Renoclimat pour le meme equipement.",
     tags: ["CVC", "Montreal", "Humidite", "Pompe a chaleur", "LogisVert", "Remboursements", "Quebec", "Efficacite energetique", "Aura ClimatPro"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
   },
@@ -60,7 +60,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://auraclimatpro.com/beyond-the-thaw-a-realists-guide-to-beating-montreals-spring-dampness/",
-    excerpt: "Montreal's spring transition saturates homes with moisture as warm humid air condenses on cool basement walls and cold-water pipes -- a condensation effect often mistaken for foundation leaks. Target indoor humidity 50% to 55% maximum; above that, mold, mildew, and dust mites take hold. Heat pumps and ductless mini-splits actively dehumidify by condensing water vapor on cold evaporator coils, but oversized systems short-cycle and fail to remove moisture, leaving homes cold and clammy. Spring maintenance (coil cleaning, drain line checks, filter swaps) prevents mold-blown air from spores growing on damp coils. Everyday habits matter: lid pots while cooking, run bathroom exhaust fans, dry laundry outside, move plants on high-humidity days, pull basement furniture from outer walls, and never put a mattress directly on concrete. Hydro-Quebec's LogisVert program covers up to ,700 for qualifying cold-climate heat pumps, ,500 for roof insulation and caulking,  for heat-pump dryers, and  for induction ranges -- but cannot be combined with Renoclimat or the federal Greener Homes program for the same equipment, and requires a valid RBQ-licensed contractor.",
+    excerpt: "Montreal's spring transition saturates homes with moisture as warm humid air condenses on cool basement walls and cold-water pipes -- often mistaken for foundation leaks but actually atmospheric condensation. Indoor humidity should stay below 50 to 55%; above that, mold, mildew, and dust mites establish rapidly. Heat pumps actively dehumidify but oversized systems short-cycle and fail to remove moisture, leaving homes cold and clammy. Spring maintenance -- coil cleaning, drain line checks, filter swaps -- prevents mold spores from blowing into living spaces. Daily habits help: lid pots while cooking, run bathroom exhaust fans, dry laundry outside, and never place a mattress directly on concrete. LogisVert offers up to ,700 for qualifying heat pumps, ,500 for roof insulation and caulking,  for heat-pump dryers, and  for induction ranges -- requires an RBQ-licensed contractor and cannot be combined with Renoclimat for the same equipment.",
     tags: ["HVAC", "Montreal", "Humidity", "Heat Pump", "Mini-Split", "LogisVert", "Rebates", "Quebec", "Energy Efficiency", "Aura ClimatPro"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   },
@@ -73,7 +73,7 @@ const BLOGS = [
     wordCount: 1800,
     readTime: 9,
     url: "https://comfitrust.com/beyond-central-air-how-ductless-mini-splits-keep-historic-boston-homes-perfectly-cool/",
-    excerpt: "Boston's historic homes -- Charlestown row houses, Back Bay brownstones, Beacon Hill federals, Jamaica Plain triple-deckers -- present a fundamental HVAC problem: plaster-over-lath walls, original crown moldings, no existing ductwork, and steam/hot water radiator heating systems leave no practical path for central air. Ductless mini-splits solve this with a 3-inch wall penetration connecting an outdoor condenser to up to 8 independent indoor air handlers, preserving plaster and trim entirely. Inverter-driven compressors eliminate the 30% energy waste from duct leakage and enable precise zone control per floor. Navigating installation requires Back Bay and Beacon Hill Architectural Commission approvals (condensers must be rooftop or rear-screened, never on visible facades), 780 CMR Chapter 51 mechanical permits, and EPA Section 608 certified refrigerant handling. Mass Save 2026 rebates cover three tiers: Whole-Home up to ,500 at ,650/ton (existing fossil fuel system removed), Partial-Home up to ,500 at ,125/ton (boiler kept for backup), and Basic up to ,500 at /ton for single-zone additions. Bonus incentives include  Sizing Bonus,  Weatherization Bonus, and  for heat pump water heaters. All 2026 installs must use R-32 or R-454B refrigerant -- R-410A was removed from the Mass Save Qualified Product List January 1, 2026. 0% HEAT Loan financing up to ,000 available. Comfitrust installs Mitsubishi M-Series, Gree R32, Daikin DZ, Bosch Climate 5000, AUX ACHP 2025, and APower series.",
+    excerpt: "Boston's historic homes -- Back Bay brownstones, Beacon Hill federals, Jamaica Plain triple-deckers -- have no practical path for central air: plaster-over-lath walls, steam radiator heating, and no existing ductwork. Ductless mini-splits solve this with a 3-inch wall penetration connecting one outdoor condenser to up to 8 indoor air handlers, leaving plaster and trim intact and enabling per-floor zone control. Historic district installations require Architectural Commission approvals -- condensers must be rooftop or rear-screened, never on visible facades. Mass Save 2026 offers three tiers: Whole-Home up to ,500 at ,650 per ton (fossil fuel system removed), Partial-Home up to ,500 at ,125 per ton (boiler kept as backup), and Basic up to ,500 at  per ton. All 2026 installs must use R-32 or R-454B -- R-410A was removed from the Qualified Product List on January 1, 2026.",
     tags: ["HVAC", "Mini-Split", "Heat Pump", "Boston", "Mass Save", "Rebates", "Historic", "Energy Efficiency", "Comfitrust", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
@@ -86,7 +86,7 @@ const BLOGS = [
     wordCount: 1900,
     readTime: 9,
     url: "https://comfitrust.com/hard-water-vs-microplastics-whats-actually-in-greater-bostons-tap-water/",
-    excerpt: "Greater Boston's water starts pure at the Quabbin and Wachusett Reservoirs, but hardness and contamination vary dramatically by neighborhood. MWRA-supplied towns like Boston and Brookline have ultra-soft water at 16 ppm, while groundwater-dependent towns like Newburyport (104 ppm) and Woburn (89 ppm) deal with significant mineral scale that destroys appliances and clogs pipes. Meanwhile, a far less visible threat has emerged nationwide: microplastics and nanoplastics entering reservoirs through atmospheric settling, synthetic clothing fibers, sewer overflows, and the fertilizer loop from sewage sludge. Bottled water is the worst option -- a single liter averages 240,000 plastic fragments vs. 10 to 100 in tap water, with 90% of those being submicron nanoplastics shed by the bottle itself. Legacy infrastructure adds further risk: pre-1986 homes face lead leaching from service lines and solder, iron discoloration in cold months, and PFAS contamination in groundwater-fed communities. Standard pitcher filters and refrigerator filters cannot remove nanoplastics. Reverse osmosis is the gold standard, blocking over 99% of microplastics, nanoplastics, lead, and PFAS, though it requires professional installation and maintenance to prevent membrane rupture from re-introducing plastic particles.",
+    excerpt: "Greater Boston water hardness varies dramatically by neighborhood: MWRA towns like Boston and Brookline are ultra-soft at 16 ppm, while Newburyport reaches 104 ppm and Woburn 89 ppm, causing pipe scale that forces 35% more soap use and destroys appliance heating elements. Microplastics enter from four pathways: atmospheric settling, synthetic clothing fibers, sewer overflows, and sewage sludge recycled as agricultural fertilizer. Bottled water makes exposure worse -- a single liter averages 240,000 nanoplastic fragments versus 10 to 100 in tap water, with 90% shed by the bottle itself. Pre-1986 homes face lead leaching, groundwater-fed communities face PFAS, and old cast-iron mains cause winter iron discoloration. Standard pitcher filters cannot remove nanoplastics. Reverse osmosis blocks over 99% of all contaminants but requires professional installation and maintenance to prevent membrane failure.",
     tags: ["Water Quality", "Boston", "Microplastics", "PFAS", "Water Filtration", "Reverse Osmosis", "Home Improvement", "Comfitrust", "Hard Water", "Lead"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   },
@@ -475,7 +475,7 @@ const BLOGS = [
     wordCount: 1300,
     readTime: 7,
     url: "https://comfitrust.com/technoeconomic-analysis-the-2026-shift-to-smart-hvac-standards-in-greater-boston/",
-    excerpt: "As of 2026, Boston's HVAC sector has crossed the tipping point where system intelligence replaces mechanical reliability as the primary quality metric — driven by BERDO emissions mandates, R-410A refrigerant phase-outs, and AI-powered predictive comfort systems reshaping how Greater Boston homes manage climate and energy.",
+    excerpt: "As of 2026, three forces are reshaping Boston's HVAC sector: BERDO emissions mandates are accelerating building electrification timelines, the EPA's R-410A phase-out has moved the residential market to R-32 and R-454B refrigerants, and AI-powered predictive systems are redefining how homes manage climate load in real time. This analysis covers what these transitions mean for homeowners in brownstones and triple-deckers -- from updated Mass Save rebate qualification criteria to the smart thermostat integrations that maximize comfort, cut utility bills, and position homes for Boston's evolving building performance standards.",
     tags: ["HVAC", "Smart Home", "Energy Efficiency", "Boston", "AI", "Real Estate"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
   },
@@ -488,7 +488,7 @@ const BLOGS = [
     wordCount: 1000,
     readTime: 5,
     url: "https://comfitrust.com/the-emergency-no-heat-playbook-what-to-do-during-a-polar-vortex/",
-    excerpt: "When a Polar Vortex hits Greater Boston, it's a brutal test of your home's high-efficiency heating system. This step-by-step emergency playbook covers safety triage, PVC vent checks, error code decoding for Gree, Mitsubishi, and Bosch systems, and how to protect your pipes — so you're never left in the cold at 2 AM.",
+    excerpt: "When a Polar Vortex strikes Greater Boston, this emergency playbook covers the critical response sequence: safety triage to rule out CO hazards, checking exterior PVC vents for ice blockages -- the most common cold-weather lockout cause -- and decoding fault codes for Gree, Mitsubishi, Bosch, and Carrier systems. Also covers pipe-freeze prevention for homes with radiant heat, emergency heat protocols that avoid CO risk, and the exact threshold -- fault codes persisting after a full vent reset -- when emergency service is the only answer, so homeowners are never stranded at 2 AM during the worst week of the year.",
     tags: ["HVAC", "Emergency", "Heat Pump", "Boston", "Winter", "Troubleshooting"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
@@ -501,7 +501,7 @@ const BLOGS = [
     wordCount: 1000,
     readTime: 5,
     url: "https://comfitrust.com/massachusetts-heat-pump-reality-check-do-they-really-work-at-15f/",
-    excerpt: "A technical reality check on air-source heat pumps in New England winters — examining COP ratings across temperature ranges, EVI and Flash Injection technology, brand comparisons across Mitsubishi, Bosch, and Daikin, and Massachusetts-specific rebates and the No-Cost Heat Pump Program.",
+    excerpt: "Air-source heat pumps have advanced dramatically -- but New England's -15 degrees Fahrenheit winters demand careful technical scrutiny before committing. This reality check examines COP ratings across the full temperature range and explains why Enhanced Vapor Injection and Flash Injection compressor technology are non-negotiable for Massachusetts installations. Brand comparisons cover Mitsubishi H2i, Bosch IDS, and Daikin Aurora at subfreezing temperatures. The guide also details the 2026 Mass Save rebate structure -- up to ,500 for whole-home installs with mandatory R-32 or R-454B compliance -- and assesses where a dual-fuel hybrid strategy is the smarter investment for Greater Boston homeowners.",
     tags: ["HVAC", "Heat Pump", "Massachusetts", "Winter", "Rebates", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--peach))"
   },
@@ -514,7 +514,7 @@ const BLOGS = [
     wordCount: 1600,
     readTime: 8,
     url: "https://auxaire.com/2026/01/13/nova-scotia-rebate-update-the-2026-guide/",
-    excerpt: "Nova Scotia homeowners can stack up to $30,000 in 2026 rebates for switching from oil to heat pumps — but major programs are expected to deplete early. This guide covers OHPA grants, income-based top-ups, Efficiency NS home assessments, supplemental insulation rebates, and 0% PACE financing options.",
+    excerpt: "Nova Scotia homeowners switching from oil heat to heat pumps can stack up to ,000 in 2026 incentives -- but the most generous programs are expected to deplete before year-end, making early application critical. This guide maps the full landscape: OHPA grants, income-based top-ups that can double the base rebate, Efficiency NS home energy assessments, supplemental insulation rebates, and 0% PACE financing options. It also covers the mandatory contractor certification requirements and which heat pump models have been added to or removed from the qualifying product list following the R-410A phase-out now fully in effect for 2026.",
     tags: ["Rebates", "Nova Scotia", "Heat Pump", "Energy Efficiency", "HVAC", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   },
@@ -527,7 +527,7 @@ const BLOGS = [
     wordCount: 1600,
     readTime: 8,
     url: "https://wiseraire.com/the-burning-plastic-smell-is-your-furnace-safe/",
-    excerpt: "That burning plastic smell from your furnace could be dust — or a failing blower motor, electrical arcing, or a cracked heat exchanger leaking carbon monoxide. This Winnipeg-focused guide walks through the three main causes, emergency shutdown steps, and when to call for 24/7 repair.",
+    excerpt: "A burning plastic smell from your furnace is never normal -- and the gap between harmless dust burn-off and evacuate immediately hinges on identifying the source. Three primary causes account for most incidents: dust on heat exchanger surfaces burning off after a long idle period; a failing blower motor releasing a sharp chemical odor; and electrical arcing inside the control board. The most dangerous scenario -- a cracked heat exchanger allowing combustion gases including carbon monoxide to mix with household air -- is odorless but causes headaches within hours. This Winnipeg-focused guide covers the emergency shutdown procedure, when to evacuate, and why Manitoba's temperature extremes accelerate heat exchanger cracking that makes annual combustion analysis non-negotiable.",
     tags: ["HVAC", "Furnace", "Safety", "Winnipeg", "Carbon Monoxide", "Troubleshooting"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
   },
@@ -540,7 +540,7 @@ const BLOGS = [
     wordCount: 1300,
     readTime: 7,
     url: "https://auxaire.com/2026/01/09/is-your-heat-pump-ready-for-30c-a-maritime-survival-guide/",
-    excerpt: "Modern cold-climate heat pumps can hold the line at -30°C — but only if they're properly sized, coated for coastal salt air, and backed by the right dual-fuel strategy. This Maritime survival guide covers Enhanced Vapor Injection technology, anti-corrosion coatings, frost management, and 2026 rebate programs offering up to $30,000 in Nova Scotia.",
+    excerpt: "Modern cold-climate heat pumps can maintain heating capacity down to -30 degrees Celsius -- but only when properly sized, equipped with anti-corrosion coatings for salt-air environments, and backed by a dual-fuel strategy for the deepest Maritime cold snaps. This survival guide covers Enhanced Vapor Injection technology, why aluminum fins corrode up to three times faster in Halifax and Moncton coastal zones than inland, and frost management trade-offs between aggressive defrost cycles and indoor temperature stability. A dual-fuel setup pairing a cold-climate mini-split with an existing oil or propane backup provides winter security without disqualifying OHPA rebates of up to ,000 in Nova Scotia and comparable programs in New Brunswick and PEI.",
     tags: ["HVAC", "Heat Pump", "Nova Scotia", "Winter", "Rebates", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   },
@@ -553,7 +553,7 @@ const BLOGS = [
     wordCount: 1500,
     readTime: 8,
     url: "https://comfitrust.com/navigating-the-2026-mass-save-rebate-reductions-what-you-need-to-know-now/",
-    excerpt: "Massachusetts homeowners face a \"triple hit\" to heat pump budgets in 2026 as Mass Save slashes maximum rebates from $10,000 to $8,500, new tonnage-based calculations and refrigerant compliance rules tighten eligibility, and federal Section 25C tax credits expire — with a breakdown of what to do before the cuts take full effect.",
+    excerpt: "Massachusetts homeowners face a triple hit to heat pump budgets in 2026: Mass Save slashed maximum rebates from ,000 to ,500 while restructuring from a flat cap to ,650 per ton; new rules require all qualifying equipment to use R-32 or R-454B, eliminating most R-410A inventory from rebate eligibility; and the federal Section 25C tax credit providing 30% up to ,000 expired in December 2025 with no renewal. This guide breaks down the new Whole-Home, Partial-Home, and Basic rebate tiers, explains the  Sizing Bonus and  Weatherization Bonus that partially offset the reductions, and maps the strategic window before further tightening hits in 2027.",
     tags: ["HVAC", "Heat Pump", "Massachusetts", "Rebates", "Energy Efficiency", "Mass Save"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   },
@@ -566,7 +566,7 @@ const BLOGS = [
     wordCount: 1800,
     readTime: 9,
     url: "https://wiseraire.com/manitoba-hydro-bills-too-high-5-ways-to-optimize-your-furnace-today/",
-    excerpt: "Five practical strategies for cutting Manitoba Hydro bills through furnace optimization — from filter swaps and duct sealing to smart thermostats and intelligent monitoring — with cost estimates and expected savings for each upgrade.",
+    excerpt: "Manitoba Hydro's 4.0% rate hike effective January 2026 makes furnace efficiency a genuine financial priority for Winnipeg homeowners. Five practical strategies cut heating bills without a full system replacement: replacing clogged air filters that force the blower 15% harder; sealing duct leaks that waste up to 30% of energy in older homes; installing a smart thermostat with overnight and away setbacks; scheduling an annual combustion tune-up before the brutal January cold; and adding intelligent monitoring that flags efficiency drops before they become repair emergencies. Cost estimates and expected annual savings are provided for each strategy, with current Efficiency Manitoba rebate eligibility noted where applicable.",
     tags: ["HVAC", "Furnace", "Energy Efficiency", "Winnipeg", "Manitoba", "Smart Home"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--pink))"
   },
@@ -579,7 +579,7 @@ const BLOGS = [
     wordCount: 1400,
     readTime: 7,
     url: "https://comfitrust.com/why-your-boston-home-has-hot-and-cold-spots-and-how-to-fix-them/",
-    excerpt: "Boston homes battle temperature imbalances caused by the stack effect, aging ductwork, and urban heat islands — this guide covers professional air balancing, zoning systems, and ductless mini-splits as targeted fixes, with Mass Save rebates that can offset upgrade costs.",
+    excerpt: "Uneven temperatures in Boston homes -- hot upper floors, cold corners, drafty rooms despite a running furnace -- are structural problems, not thermostat issues. The stack effect drives warm air to the top of historic brownstones and triple-deckers where it escapes through leaky attic planes, while aging ductwork with crushed flex ducts and unbalanced registers amplifies imbalances floor by floor. Boston's urban heat island further creates localized cooling demands that a single central system cannot adequately address. This guide covers professional air balancing, zoning system retrofits that create independent temperature control per floor, and ductless mini-splits as the most surgical fix for problem rooms -- along with Mass Save rebates that offset significant upgrade costs.",
     tags: ["HVAC", "Boston", "Heat Pump", "Energy Efficiency", "Mass Save", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
   },
@@ -592,7 +592,7 @@ const BLOGS = [
     wordCount: 1000,
     readTime: 5,
     url: "https://wiseraire.com/where-should-you-actually-put-co-detectors-in-a-split-level-home/",
-    excerpt: "CO doesn't sink or rise — it follows airflow, which makes split-level homes especially tricky. This guide covers the exact placement rules for bedroom doors, garage entries, and mechanical spaces, plus the common installation mistakes that leave dangerous blind spots.",
+    excerpt: "Carbon monoxide disperses with airflow rather than rising or sinking, making split-level homes uniquely difficult to protect with a single detector. This guide covers the exact placement rules: one detector within 10 feet of every bedroom door, a dedicated unit near the garage-to-home entry where vehicle exhaust most commonly infiltrates, and at least one in the mechanical room within 5 feet of the furnace or water heater. Common installation mistakes include mounting detectors above the furnace where fresh air dilutes readings and trusting one central unit to cover multiple levels. The guide also covers electrochemical sensor lifespan -- most lose accuracy after 5 to 7 years regardless of battery status -- and CO thresholds that require evacuation versus professional inspection.",
     tags: ["Safety", "Carbon Monoxide", "HVAC", "Furnace", "Winnipeg", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   },
@@ -605,7 +605,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://auraclimatpro.com/why-is-my-furnace-blowing-cold-air/",
-    excerpt: "A furnace blowing cold air isn't always a crisis — seven common culprits from thermostat mode to dirty filters can be ruled out before calling a tech. This Montreal-focused guide walks through each cause and the DIY fix or escalation threshold for each.",
+    excerpt: "A furnace blowing cold air can range from a one-minute thermostat fix to a serious mechanical failure -- correctly identifying the cause saves both time and money. Seven culprits account for the vast majority of cold-air complaints: Fan Only thermostat mode circulating unconditioned air; a tripped high-limit switch caused by a clogged filter; a failed igniter; a faulty flame sensor shutting the burner down seconds after ignition; a seized inducer motor blocking combustion gas draft; a malfunctioning pilot light on older standing-pilot furnaces; and a cracked heat exchanger requiring immediate shutdown. This Montreal-focused guide covers DIY inspection steps for each cause and the clear escalation thresholds for calling emergency service.",
     tags: ["HVAC", "Furnace", "Troubleshooting", "Montreal", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--lavender))"
   },
@@ -618,7 +618,7 @@ const BLOGS = [
     wordCount: 1400,
     readTime: 7,
     url: "https://auraclimatpro.com/pourquoi-mon-fournaise-souffle-t-elle-de-lair-froid/",
-    excerpt: "Une fournaise qui souffle de l'air froid n'est pas toujours en panne — sept causes courantes, du réglage du thermostat au filtre encrassé, peuvent être éliminées avant d'appeler un technicien. Guide de dépannage pour propriétaires montréalais.",
+    excerpt: "Une fournaise qui souffle de l'air froid peut avoir une cause triviale ou une defaillance mecanique grave -- identifier correctement la source est essentiel. Sept causes frequentes : thermostat en mode ventilateur uniquement ; pressostat haute limite declenche par un filtre encrase ; allumeur defectueux empechant la combustion ; sonde de flamme defaillante coupant le bruleur quelques secondes apres l'allumage ; moteur d'inducteur bloque ; veilleuse eteinte sur les appareils a allumage permanent ; et echangeur de chaleur fissure exigeant l'arret immediat et une intervention professionnelle. Ce guide montrealais couvre les etapes d'inspection DIY pour chaque cause et les seuils clairs d'escalade vers un technicien certifie CCQ, incluant quand appeler pour une intervention d'urgence.",
     tags: ["HVAC", "Furnace", "Troubleshooting", "Montreal", "French", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   },
@@ -631,7 +631,7 @@ const BLOGS = [
     wordCount: 1000,
     readTime: 5,
     url: "https://auraclimatpro.com/stop-cringing-at-your-energy-bill-10-ways-to-stay-warm-for-less/",
-    excerpt: "Ten budget-friendly strategies to cut winter heating costs without sacrificing comfort — from weatherstripping and programmable thermostats to HVAC maintenance and smart home upgrades, with practical thresholds for when a professional tune-up pays for itself.",
+    excerpt: "Winter heating costs in Montreal and Quebec don't have to spike every January -- ten budget-friendly strategies trim bills without sacrificing comfort. The fastest wins: weatherstripping and caulking drafty windows reduces heating load by up to 15%. Programmable thermostats with overnight and away setbacks cut furnace runtime by 10 to 15% annually. Upgrading from a standard 80% AFUE furnace to a 96%+ modulating condensing unit delivers immediate efficiency gains, with LogisVert rebates partially offsetting the cost. Reversing ceiling fans to clockwise rotation at low speed in winter pushes warm air down in high-ceilinged rooms. Insulating hot water pipes, monthly filter changes, duct sealing, and window insulation film round out the list -- with practical cost-versus-savings estimates for each strategy.",
     tags: ["Energy Efficiency", "HVAC", "Home Improvement", "Montreal", "Smart Home", "Winter"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
   },
@@ -644,7 +644,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://auraclimatpro.com/arretez-de-grimacer-devant-votre-facture-denergie-10-facons-de-rester-au-chaud-a-moindre-cout/",
-    excerpt: "Dix stratégies pratiques pour réduire les factures de chauffage hivernal — calfeutrage des fuites, thermostats intelligents et optimisation de la ventilation — pour rester au chaud à Montréal sans sacrifier le budget.",
+    excerpt: "Les factures de chauffage hivernales a Montreal n'ont pas a grimper chaque janvier -- dix strategies abordables les reduisent sensiblement. Les gains les plus rapides : calfeutrage et coupe-froid sur les fenetres et portes reduisent la charge de chauffage de 15%. Les thermostats programmables avec reductions nocturnes diminuent la consommation de 10 a 15% annuellement. Passer d'une fournaise a 80% AFUE a un modele condensant a 96%+ apporte des economies immediates avec des remboursements LogisVert partiels. Inverser les ventilateurs de plafond en mode horaire redescend l'air chaud accumule. Isolation des tuyaux, entretien mensuel du filtre, etancheite des conduits et pellicule isolante sur les fenetres completent la liste -- avec des estimations cout-benefice pratiques et des seuils d'entretien professionnel pour chaque strategie.",
     tags: ["Energy Efficiency", "HVAC", "Home Improvement", "Montreal", "French", "Winter"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
   },
@@ -657,7 +657,7 @@ const BLOGS = [
     wordCount: 1000,
     readTime: 5,
     url: "https://comfitrust.com/boiler-vs-furnace-the-best-heating-options-for-historic-beacon-hill-brownstones/",
-    excerpt: "Beacon Hill's solid masonry brownstones make ductwork nearly impossible — this breakdown explains why boilers outperform furnaces in historic homes, how hybrid heat pump systems fit the preservation constraints, and which Mass Save rebates apply in 2026.",
+    excerpt: "Beacon Hill's solid masonry brownstones present a fundamental HVAC challenge: brick and plaster walls with no practical path for ductwork, original radiator heating, and historic district preservation rules restricting exterior modifications. This guide explains why boilers outperform furnaces in these conditions -- radiant heat from cast-iron radiators provides superior thermal comfort in high-ceiling historic rooms, and modern condensing boilers achieve 95%+ efficiency without any structural demolition. For cooling, hybrid heat pump systems can be integrated with existing radiator infrastructure using high-wall ductless heads requiring only a 3-inch wall penetration. The guide covers which Mass Save 2026 rebate categories apply to historic properties and the Beacon Hill Architectural Commission approval requirements for exterior mechanical equipment.",
     tags: ["HVAC", "Boston", "Heat Pump", "Rebates", "Mass Save", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
@@ -670,7 +670,7 @@ const BLOGS = [
     wordCount: 1300,
     readTime: 7,
     url: "https://auxaire.com/2026/01/23/why-january-is-the-best-time-for-a-new-hvac-quote-and-why-waiting-until-spring-could-cost-you/",
-    excerpt: "January is the quiet before the spring rush — and that window means better pricing, faster installs, and full access to OHPA rebates before funds run dry. This guide breaks down why the refrigerant transition to R-454B and pre-season manufacturer pricing make right now the best time to get an HVAC quote in the Maritimes.",
+    excerpt: "January is the quiet before the spring rush -- and that window means better pricing, faster installs, and full access to OHPA rebates before funds deplete. Maritime HVAC contractors at their least busy period translate directly into shorter lead times and more scheduling flexibility. This guide breaks down why the refrigerant transition to R-454B makes now the strategic window: R-410A equipment still in the supply chain is incompatible with 2026 rebate programs, and early adopters of R-32 and R-454B systems avoid the mid-season scramble when certified technicians are booked weeks out. It also covers what to ask for in a January quote -- proper Manual J sizing, multi-measure bonus eligibility, and the income-qualification thresholds that determine OHPA tier access.",
     tags: ["HVAC", "Rebates", "Nova Scotia", "Heat Pump", "Energy Efficiency", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   },
@@ -683,7 +683,7 @@ const BLOGS = [
     wordCount: 1500,
     readTime: 8,
     url: "https://wiseraire.com/understanding-the-code-error-flashing-on-your-furnace-a-homeowners-guide-to-decoding-the-blink/",
-    excerpt: "That blinking light on your furnace isn't random — it's a diagnostic code pointing to a specific fault like a blocked exhaust vent, high limit switch trip, or ignition failure. This Winnipeg homeowner's guide decodes the most common blink patterns and tells you which ones need a tech immediately.",
+    excerpt: "That blinking light on your furnace is a factory-programmed diagnostic code pointing to a specific fault, and decoding it correctly is the difference between a five-minute fix and an unnecessary service call. This Winnipeg homeowner's guide covers the most common blink patterns: two blinks for a pressure switch fault caused by a blocked condensate drain; three blinks for a draft inducer lockout; four blinks for an open high-limit switch almost always caused by a clogged air filter; five blinks for a flame sensor fault often clearable with light sandpaper; and continuous rapid flashing for a control board fault requiring professional evaluation. The guide identifies which codes are safe to troubleshoot yourself and which require immediate shutdown.",
     tags: ["HVAC", "Furnace", "Troubleshooting", "Winnipeg", "Safety", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   },
@@ -696,7 +696,7 @@ const BLOGS = [
     wordCount: 1100,
     readTime: 6,
     url: "https://auraclimatpro.com/furnace-vs-heat-pump-which-is-better-for-canadian-winters/",
-    excerpt: "Modern cold-climate heat pumps have made the furnace vs. heat pump debate more nuanced than ever. This guide explains why dual-energy systems — pairing an electric heat pump with a gas furnace backup — are the smart choice for Quebec homeowners looking to leverage low hydro rates without sacrificing winter comfort.",
+    excerpt: "Modern cold-climate heat pumps have made the furnace versus heat pump debate more nuanced -- and for Quebec homeowners, the answer is increasingly a dual-energy system combining both technologies. A heat pump handles the majority of heating and cooling loads efficiently using Hydro-Quebec's low electricity rates, while a gas furnace provides backup during deep cold snaps when heat pump efficiency drops. This guide explains the thermal balance point concept, how integrated controls manage the transition automatically, and why dual-energy systems qualify for LogisVert rebates up to ,700 while maintaining gas backup for -25 degree Celsius nights. It also addresses Hydro-Quebec rate structures and the heating cost math that makes dual-energy superior to either system alone.",
     tags: ["HVAC", "Heat Pump", "Furnace", "Montreal", "Energy Efficiency", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   },
@@ -709,7 +709,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://auraclimatpro.com/fournaise-vs-thermopompe-quel-est-le-meilleur-choix-pour-lhiver-quebecois/",
-    excerpt: "La technologie moderne des thermopompes pour climat froid a changé la donne — cet article compare fournaise et thermopompe pour les hivers québécois et explique pourquoi les systèmes biénergie, combinant les deux, permettent de profiter des bas tarifs d'Hydro-Québec sans compromettre le confort.",
+    excerpt: "La technologie moderne des thermopompes pour climat froid a rendu le debat fournaise contre thermopompe plus nuance -- et pour les proprietaires quebecois, la reponse est de plus en plus un systeme bienergie combinant les deux technologies. Une thermopompe gere efficacement la majorite des charges en profitant des bas tarifs d'Hydro-Quebec, tandis qu'une fournaise au gaz assure la releve lors des grands froids quand l'efficacite de la thermopompe diminue. Ce guide explique le concept de point d'equilibre thermique, comment les controles integres gerent la transition automatiquement, et pourquoi les systemes bienergie qualifient aux remises LogisVert jusqu'a 6 700$ tout en maintenant l'acces au chauffage au gaz pour les nuits a -25 degres.",
     tags: ["HVAC", "Heat Pump", "Furnace", "Montreal", "French", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
   },
@@ -722,7 +722,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://auraclimatpro.com/when-should-you-replace-your-furnace-5-clear-warning-signs/",
-    excerpt: "Five clear signs your furnace needs replacing — age over 15 years, rising utility bills, unusual noises, uneven heating, and frequent repairs — with Montreal-specific guidance on professional installation, heritage home considerations, and how 2026 rebates make upgrading more affordable than ever.",
+    excerpt: "Five clear warning signs tell Montreal homeowners when a furnace repair is no longer worth the investment: age over 15 years with escalating repair bills; utility costs rising 15% or more year-over-year with no explanation; unusual noises including banging on startup or high-pitched squealing from the blower motor; uneven heating with significant temperature disparities between floors despite thermostat adjustments; and the 50% Rule, where a single repair quote approaches half the cost of a new system. The guide also covers LogisVert rebates up to ,700 for 2026 replacements and the installation challenges specific to Montreal's historic duplexes and plexes with limited mechanical space.",
     tags: ["HVAC", "Furnace", "Troubleshooting", "Montreal", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   },
@@ -735,7 +735,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://auraclimatpro.com/quand-devriez-vous-remplacer-votre-fournaise-5-signes-qui-ne-trompent-pas/",
-    excerpt: "Votre fournaise envoie souvent des signaux d'alarme bien avant de lâcher — âge de 15 ans et plus, factures en hausse inexpliquée, bruits inhabituels, chaleur inégale, et réparations répétées sont les cinq signes qui indiquent qu'un remplacement est plus économique qu'une réparation. Guide montréalais avec conseils d'installation professionnelle.",
+    excerpt: "Votre fournaise envoie souvent des signaux d'alarme avant de lacher completement -- cinq indicateurs cles indiquent quand le remplacement devient plus economique qu'une reparation : age superieur a 15 ans avec factures de reparation croissantes ; factures d'energie en hausse de 15% ou plus sans explication ; bruits inhabituels comme des claquements au demarrage ou des grincements du moteur de soufflerie ; chaleur inegale persistante malgre les ajustements du thermostat ; et la regle des 50% ou une reparation depasse la moitie du cout d'un systeme neuf. Le guide couvre aussi les remboursements LogisVert 2026 jusqu'a 6 700$ et les defis d'installation specifiques aux duplex et plexes patrimoniaux de Montreal avec espace mecanique limite.",
     tags: ["HVAC", "Furnace", "Montreal", "French", "Troubleshooting", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--peach))"
   },
@@ -748,7 +748,7 @@ const BLOGS = [
     wordCount: 1100,
     readTime: 6,
     url: "https://comfitrust.com/the-hidden-threat-why-your-boston-home-needs-a-winter-furnace-check-up-right-now/",
-    excerpt: "Carbon monoxide is undetectable by human senses and mimics flu symptoms — making winter the most dangerous season for Boston homeowners with aging furnaces. This guide covers snow-blocked vents, heat exchanger cracks, Massachusetts Nicole's Law detector requirements, and why a professional combustion analysis beats relying on alarms alone.",
+    excerpt: "Carbon monoxide is undetectable by human senses and its early symptoms -- headache, nausea, dizziness -- mimic a flu, making winter the most dangerous season for Boston homeowners with aging furnaces. The two highest-risk scenarios are snow-blocked PVC exhaust vents that force combustion gases back into the home, and cracked heat exchangers that allow combustion products to mix with circulated air. This guide covers Massachusetts Nicole's Law detector placement requirements, why a professionally performed combustion analysis is more reliable than alarm-only protection, the warning signs of a failing heat exchanger visible during maintenance, and the emergency protocol -- close gas valve, open windows, evacuate and call 911 -- when CO is suspected.",
     tags: ["HVAC", "Furnace", "Safety", "Boston", "Carbon Monoxide", "Winter"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   },
@@ -761,7 +761,7 @@ const BLOGS = [
     wordCount: 1100,
     readTime: 6,
     url: "https://wiseraire.com/the-manitoba-hydro-home-energy-efficiency-loan-a-step-by-step-guide/",
-    excerpt: "Manitoba Hydro's 2026 energy efficiency loan offers up to $12,500 (or $20,000 for solar/geothermal) at a fixed 6.20% rate with no down payment — this step-by-step guide covers qualifying upgrades, the five-step application sequence, and the most common denial reasons to avoid.",
+    excerpt: "Manitoba Hydro's 2026 energy efficiency loan offers up to ,500 for standard upgrades -- or ,000 for solar and geothermal -- at a fixed 6.20% rate with no down payment required. Qualifying upgrades include high-efficiency furnaces, heat pumps, insulation, windows, and domestic hot water systems. This step-by-step guide covers the five-stage application sequence: completing a Manitoba Hydro-approved Home Energy Audit, receiving the prioritized recommendation report, selecting eligible upgrades, obtaining contractor quotes, and submitting the loan application. It also identifies the most common denial reasons -- applying before the audit is complete, using non-approved contractors, or selecting equipment below minimum efficiency thresholds -- and how to avoid each pitfall.",
     tags: ["HVAC", "Rebates", "Manitoba", "Energy Efficiency", "Furnace", "Heat Pump"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--pink))"
   },
@@ -774,7 +774,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://aireenergy.com/battery-storage-systems-backup-power-and-energy-savings-for-bc-homes/",
-    excerpt: "BC's aging grid and severe weather events are driving demand for home battery storage — this guide covers time-of-use rate optimization with BC Hydro's new pricing structure, LFP battery technology, stacking $10,000+ in solar and storage rebates before the April 2026 deadline, and how to integrate batteries with heat pumps and EV chargers.",
+    excerpt: "BC's aging grid infrastructure and severe weather events are driving demand for home battery storage, while BC Hydro's new time-of-use rate structure creates financial incentives to store cheap overnight power for expensive peak-hour use. This guide covers LFP lithium iron phosphate battery technology advantages, how battery storage integrates with heat pump systems and EV chargers for whole-home energy management, and the federal and provincial rebate stack before the April 2026 deadline that can offset ,000 or more of system cost. Financial projections show break-even at 8 to 12 years depending on system size, solar pairing, and annual rate escalation, with specific Greater Vancouver examples for detached homes and strata-eligible configurations.",
     tags: ["Energy Efficiency", "Solar", "Battery Storage", "British Columbia", "Rebates", "Smart Home"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
   },
@@ -787,7 +787,7 @@ const BLOGS = [
     wordCount: 1000,
     readTime: 5,
     url: "https://auraclimatpro.com/le-frisson-de-2h-du-matin-que-faire-lors-dune-urgence-de-chauffage-en-plein-hiver/",
-    excerpt: "Quand la fournaise lâche à -20°C à 2h du matin, chaque minute compte — ce guide d'urgence couvre la checklist de base, l'inspection des filtres et des conduits PVC, les mesures anti-gel pour les tuyaux, et les trois signaux (gaz, CO, fumée) qui exigent une évacuation immédiate.",
+    excerpt: "Quand la fournaise tombe en panne a -20 degres Celsius a 2h du matin, chaque minute compte avant que les tuyaux ne risquent de geler. Ce guide d'urgence couvre la sequence de reponse critique : verifier les detecteurs de CO et fermer le gaz en cas d'odeur avant de toucher quoi que ce soit ; inspecter les conduits PVC d'entree et d'extraction pour un blocage de glace, la cause la plus frequente de panne par temps froid ; et verifier le filtre a air et le disjoncteur avant d'appeler un technicien. Le guide couvre aussi les mesures anti-gel d'urgence pour les tuyaux exposes, les sources de chaleur d'appoint sans risque de monoxyde de carbone, et les trois signaux qui exigent une evacuation immediate : odeur de gaz, detecteur CO qui sonne, fumee visible.",
     tags: ["HVAC", "Furnace", "Emergency", "Montreal", "French", "Safety", "Winter"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   },
@@ -800,7 +800,7 @@ const BLOGS = [
     wordCount: 900,
     readTime: 5,
     url: "https://auraclimatpro.com/the-2-am-chill-what-to-do-during-a-mid-winter-heating-emergency/",
-    excerpt: "When your furnace dies at -20°C in the middle of the night, every minute counts — this emergency guide walks through the quick-check checklist, airflow fixes, pipe-freeze prevention, and the three warning signs (gas, CO, burning smell) that mean you need to evacuate immediately.",
+    excerpt: "When your furnace dies at -20 degrees Celsius in the middle of the night, every minute counts before pipes risk freezing. This emergency guide covers the critical response sequence: check CO detectors and shut off the gas valve if there is any smell before touching equipment; inspect exterior PVC intake and exhaust vents for ice blockages, the most common cold-weather lockout cause; and check the air filter and breaker panel before calling a technician to avoid an unnecessary service call. It also covers emergency pipe-freeze prevention for exposed runs, backup heat sources that do not create carbon monoxide risk, and the three warning signs that require immediate evacuation -- gas smell, CO alarm, visible smoke -- giving homeowners a clear decision framework for the most stressful night of the heating season.",
     tags: ["HVAC", "Furnace", "Emergency", "Montreal", "Safety", "Winter"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--mint))"
   },
@@ -813,7 +813,7 @@ const BLOGS = [
     wordCount: 1800,
     readTime: 9,
     url: "https://comfitrust.com/the-winter-trap-why-your-indoor-air-quality-drops-when-the-temperature-plummets/",
-    excerpt: "Indoor air can be up to five times more polluted than outdoor air in winter — sealed homes, furnace dust, low humidity, and cooking particulates all compound the problem. This Boston-focused guide covers True HEPA filtration, UV-C light purification, and the 30-50% humidity \"Goldilocks Zone\" for healthier winter air.",
+    excerpt: "Indoor air can be up to five times more polluted than outdoor air during winter when homes are sealed tight -- and Boston's historic housing stock, with its plaster walls and aging mechanical systems, compounds the problem. Cooking particulates, furnace dust, airborne pathogens, volatile organic compounds, and radon infiltrating through foundation walls all accumulate in sealed winter air. This guide covers the 30 to 50 percent relative humidity Goldilocks Zone that balances respiratory comfort against mold risk, True HEPA filtration at 99.97% capture efficiency at 0.3 microns, UV-C light purification targeting airborne bacteria and viruses on HVAC coils, and HRV heat recovery ventilators that bring fresh air in without sacrificing heat.",
     tags: ["HVAC", "Air Quality", "Boston", "Health", "Furnace", "Smart Home"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
   },
@@ -826,7 +826,7 @@ const BLOGS = [
     wordCount: 1100,
     readTime: 6,
     url: "https://wiseraire.com/furnace-end-of-life-repair-or-replace-the-500-rule/",
-    excerpt: "Three rules help Winnipeg homeowners decide between furnace repair and replacement: the $500 Rule for minor fixes, the 5000 HVAC Rule (age × repair cost), and the 50% Rule when quotes approach half the cost of a new system — plus why a cracked heat exchanger almost always tips the math toward replacement.",
+    excerpt: "Winnipeg homeowners facing a furnace breakdown have three decision rules that cut through the pressure of a mid-winter quote. The  Rule: repairs under  on a furnace under 10 years old are almost always worth doing. The 5000 HVAC Rule: multiply the furnace's age by the repair cost -- if the result exceeds ,000, replacement is the stronger investment. The 50% Rule: if a repair quote approaches half the cost of a new system, replace rather than repair. Cracked heat exchangers always mandate immediate full replacement regardless of cost, as they allow combustion gases to circulate through the home. The guide also covers Efficiency Manitoba rebates for high-efficiency furnace upgrades and the 96%+ AFUE thresholds that maximize energy savings and rebate eligibility.",
     tags: ["HVAC", "Furnace", "Troubleshooting", "Winnipeg", "Home Improvement", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   },
@@ -839,7 +839,7 @@ const BLOGS = [
     wordCount: 1800,
     readTime: 9,
     url: "https://aireenergy.com/turning-the-vancouver-rain-into-roi-your-guide-to-bc-solar-in-2026/",
-    excerpt: "Vancouver's cloudy reputation undersells its solar potential — modern PERC panels capture diffuse light effectively, and BC's 2026 rebates stack up to $10,000 before April 1st changes hit. This guide covers net metering credits, battery integration, optimal roof angles for rain self-cleaning, and financial projections showing break-even in 8–12 years.",
+    excerpt: "Vancouver's cloudy reputation consistently undersells its solar potential -- modern PERC panels capture diffuse light effectively, and BC's net metering program credits excess generation at retail rates, creating a real financial return. The 2026 rebate landscape stacks solar and battery storage incentives to ,000 or more before the April 1st program changes take effect. Financial projections show break-even in 8 to 12 years depending on system size, with rain self-cleaning reducing maintenance costs for properly angled panels. The guide covers optimal roof angles for Lower Mainland latitudes, battery storage integration for grid-outage resilience, and the interaction between solar generation and BC Hydro's 2026 time-of-use pricing structure, giving Greater Vancouver homeowners a complete picture of the solar investment case.",
     tags: ["Solar", "Energy Efficiency", "British Columbia", "Rebates", "Battery Storage", "Smart Home"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
@@ -852,7 +852,7 @@ const BLOGS = [
     wordCount: 1100,
     readTime: 6,
     url: "https://aireenergy.com/furnace-end-of-life-repair-or-replace-the-500-rule/",
-    excerpt: "Vancouver homeowners weighing furnace repair vs. replacement can use three simple rules — the $500 threshold for minor fixes, the 5000 HVAC Rule (age × repair cost), and the 50% Rule — to cut through the pressure of a mid-winter breakdown. Cracked heat exchangers are the one exception that almost always mandate full replacement regardless of cost.",
+    excerpt: "Vancouver homeowners facing a furnace breakdown mid-winter have three decision frameworks that cut through the pressure of an urgent repair quote. The  Rule: repairs under  on a furnace under 10 years old are almost always worth doing. The 5000 HVAC Rule: multiply the furnace's age by the repair cost -- if the result exceeds ,000, replacement is the stronger financial choice. The 50% Rule: if a repair quote approaches half the cost of a new system, replace rather than repair. Cracked heat exchangers are the exception that overrides all three rules and always mandate immediate full replacement. The guide also covers FortisBC rebates for high-efficiency natural gas furnaces, CleanBC heat pump incentives, and the contractor certification requirements for rebate eligibility.",
     tags: ["HVAC", "Furnace", "Troubleshooting", "British Columbia", "Home Improvement", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   },
@@ -865,7 +865,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://auraclimatpro.com/votre-maison-etouffe-t-elle-pourquoi-la-qualite-de-lair-est-vitale-cet-hiver-au-quebec/",
-    excerpt: "Les maisons québécoises hermétiquement fermées en hiver piègent des polluants 2 à 5 fois plus concentrés qu'à l'extérieur — poussières, COV, particules virales et radon. Ce guide couvre la gestion de l'humidité (30–50%), la technologie Lennox PureAir S, et les ventilateurs à récupération de chaleur (VRC) pour respirer sainement sans gaspiller l'énergie.",
+    excerpt: "Les maisons quebecoises hermétiquement fermees en hiver piegent des polluants 2 a 5 fois plus concentres qu'a l'exterieur -- poussières, COV, agents pathogenes et radon s'accumulent dans l'air hivernal confine. Ce guide couvre la zone cible de 30 a 50% d'humidite relative, la technologie Lennox PureAir S combinant filtration HEPA, UV-C et oxydation photocatalytique en une seule unite, et les ventilateurs a recuperation de chaleur (VRC) qui apportent de l'air frais sans gaspiller l'energie de chauffage. Les remboursements LogisVert sont disponibles pour les equipements de ventilation admissibles, donnant aux proprietaires quebecois une strategie complete et financierement soutenue pour une meilleure qualite d'air interieur pendant les mois ou les fenetres restent fermees.",
     tags: ["HVAC", "Air Quality", "Montreal", "French", "Health", "Winter"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   },
@@ -878,7 +878,7 @@ const BLOGS = [
     wordCount: 1400,
     readTime: 7,
     url: "https://auraclimatpro.com/your-home-is-holding-its-breath-why-winter-air-quality-is-a-health-priority/",
-    excerpt: "Sealed winter homes trap indoor air that's 2–5× more polluted than outside — accumulating dust, VOCs, airborne pathogens, and radon. This Montreal guide covers whole-home humidification (targeting 30–50%), the Lennox PureAir S system's three-layer purification, and HRV/ERV ventilation for fresh air without heat loss.",
+    excerpt: "Sealed winter homes trap indoor air that is 2 to 5 times more polluted than outside -- and Montreal's aging housing stock, with its plaster walls, original windows, and cast-iron plumbing, compounds accumulation of dust, volatile organic compounds, airborne pathogens, and radon. This guide covers the critical 30 to 50 percent relative humidity zone that balances respiratory comfort against mold and dust mite risk, the three-layer purification approach of the Lennox PureAir S system combining HEPA filtration with UV-C irradiation and photocatalytic oxidation, and HRV heat recovery ventilators that bring fresh outdoor air into sealed homes without sacrificing heating efficiency. LogisVert rebates are available for qualifying ventilation equipment.",
     tags: ["HVAC", "Air Quality", "Montreal", "Health", "Winter", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   },
@@ -891,7 +891,7 @@ const BLOGS = [
     wordCount: 1800,
     readTime: 9,
     url: "https://auraclimatpro.com/a-quelle-frequence-devriez-vous-faire-lentretien-de-votre-fournaise-le-guide-complet-pour-un-hiver-sans-tracas/",
-    excerpt: "Les fournaises québécoises tournent 2 000 à 3 000 heures par hiver — un entretien annuel en septembre-octobre protège la garantie, évite 15% de surconsommation énergétique et détecte les fuites de monoxyde de carbone avant le grand froid. Guide complet des tâches DIY, des inspections professionnelles et des signaux d'alarme à surveiller.",
+    excerpt: "Les fournaises quebecoises tournent 2 000 a 3 000 heures par hiver -- un entretien annuel en septembre-octobre protege la garantie, evite jusqu'a 15% de surconsommation energetique et detecte les fuites de monoxyde de carbone avant le grand froid. Les taches DIY incluent le remplacement mensuel du filtre, le degagement des bouches d'aeration et l'inspection visuelle des conduits PVC. Les inspections professionnelles couvrent le nettoyage des bruleurs, la calibration de la combustion, l'analyse de l'echangeur de chaleur et le test du pressostat -- des interventions qui maintiennent l'efficacite et detectent les defaillances precoces. Le guide definit aussi les signaux d'alarme urgents : flamme jaune ou orange, odeur de soufre, humidite excessive autour de l'appareil, et codes d'erreur repetitifs.",
     tags: ["HVAC", "Furnace", "Montreal", "French", "Home Improvement", "Safety"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
   },
@@ -904,7 +904,7 @@ const BLOGS = [
     wordCount: 1300,
     readTime: 7,
     url: "https://auraclimatpro.com/how-often-should-you-service-your-furnace-a-complete-guide-to-heating-reliability/",
-    excerpt: "Annual furnace servicing in late September or October protects your warranty, catches carbon monoxide risks early, and can cut energy bills — this guide draws the line between what Montreal homeowners can handle themselves (filter checks, vent clearing) and what needs a technician (combustion calibration, burner cleaning, electrical inspection).",
+    excerpt: "Furnaces serving Quebec and Montreal winters run 2,000 to 3,000 hours annually -- making a September or October service appointment one of the highest-ROI maintenance decisions a homeowner can make. Annual professional servicing protects manufacturer warranties, catches developing carbon monoxide risks before the heating season, and prevents the 15% efficiency decline that accompanies uncleaned burners and restricted airflow. DIY tasks include monthly filter replacements and visual vent inspections; professional services cover burner cleaning, combustion calibration, heat exchanger analysis, pressure switch testing, and full electrical verification. The guide also identifies urgent warning signals -- a yellow or orange burner flame, sulfur odors, persistent error codes, or unexplained humidity around the unit -- that indicate an immediate call is needed rather than waiting for the next scheduled tune-up.",
     tags: ["HVAC", "Furnace", "Montreal", "Home Improvement", "Safety", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
   },
@@ -917,7 +917,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://auraclimatpro.com/ductless-mini-splits-are-they-really-the-right-move-for-your-home/",
-    excerpt: "Ductless mini-split systems promise zoned comfort and significant energy savings — but are they the right fit for Canadian homes? This guide examines cold-climate performance, installation costs, Quebec and Ontario rebate eligibility, and how mini-splits stack up against traditional central systems for Ottawa and Gatineau homeowners.",
+    excerpt: "Ductless mini-split systems promise zoned comfort and significant energy savings -- but whether they're the right fit depends heavily on the home, existing heating infrastructure, and local rebate landscape. This guide examines cold-climate performance: modern variable-speed inverter systems maintain rated heating capacity down to -15 degrees Celsius and partial capacity to -25, making them viable for Quebec and Ontario winters in most cases. Installation costs typically run ,500 to ,000 per zone, but LogisVert rebates up to ,700 and Ontario Home Renovation Savings incentives significantly change the net cost equation. The guide compares mini-splits against gas furnaces and traditional central systems on a lifecycle cost basis for Ottawa and Gatineau homeowners.",
     tags: ["HVAC", "Heat Pump", "Mini-Split", "Energy Efficiency", "Ottawa", "Rebates", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--mint))"
   },
@@ -930,7 +930,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://auraclimatpro.com/mini-splits-sans-conduits-est-ce-vraiment-la-solution-ideale-pour-votre-foyer/",
-    excerpt: "Les systèmes mini-split sans conduits promettent confort par zone et économies d'énergie — mais sont-ils le bon choix pour les maisons canadiennes? Ce guide examine les performances en climat froid, les coûts d'installation, l'admissibilité aux subventions du Québec et de l'Ontario, et la comparaison avec les systèmes centraux traditionnels pour les propriétaires d'Ottawa-Gatineau.",
+    excerpt: "Les systemes mini-split sans conduits promettent confort par zone et economies d'energie -- mais leur pertinence depend fortement du type de maison, de l'infrastructure existante et des remises disponibles. Ce guide examine les performances en climat froid : les systemes modernes maintiennent leur capacite nominale jusqu'a -15 degres Celsius et une capacite partielle jusqu'a -25, les rendant viables pour les hivers quebecois et ontariens dans la plupart des cas. Les couts d'installation varient de 2 500 a 5 000 dollars par zone, mais les remises LogisVert jusqu'a 6 700$ et les incitatifs du programme Renovation domiciliaire de l'Ontario modifient considerablement l'equation du cout net. Le guide compare aussi les mini-splits aux fournaises au gaz et aux systemes centraux pour les proprietaires d'Ottawa et de Gatineau.",
     tags: ["HVAC", "Thermopompe", "Mini-Split", "Efficacité Énergétique", "Ottawa", "Subventions", "French"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   },
@@ -943,7 +943,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://auraclimatpro.com/strategic-content-whitepaper-optimizing-winter-hvac-assets-for-aura-climatpro/",
-    excerpt: "A comprehensive guide to winter heat pump maintenance and operation for Quebec homeowners — debunking cold-weather performance myths and providing practical strategies for filter care, snow clearance, defrost cycle management, and thermostat optimization to keep systems running efficiently through the harshest months.",
+    excerpt: "A comprehensive guide to winter heat pump maintenance and operation for Quebec homeowners, debunking persistent cold-weather performance myths and providing practical strategies for keeping systems running efficiently through the harshest months. Covers the most common misconceptions -- that heat pumps can't function below -15 degrees Celsius, that defrost cycles indicate a malfunction, and that mini-splits can't serve as primary heat sources in Quebec winters -- and replaces them with performance data from real installed systems. Practical guidance covers monthly filter care, snow clearance protocols for outdoor units, defrost cycle management, and thermostat setpoint optimization for both comfort and efficiency, with notes on LogisVert rebate eligibility and dual-fuel setup considerations.",
     tags: ["HVAC", "Heat Pump", "Winter", "Montreal", "Maintenance", "Energy Efficiency", "Quebec"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   },
@@ -956,7 +956,7 @@ const BLOGS = [
     wordCount: 1800,
     readTime: 9,
     url: "https://auraclimatpro.com/livre-blanc-sur-le-contenu-strategique-optimisation-des-actifs-cvc-hivernaux-pour-aura-climatpro/",
-    excerpt: "Comment optimiser les systèmes de thermopompes pendant l'hiver québécois — démystifiant les mythes courants sur les performances par temps froid et fournissant des directives pratiques d'entretien pour les filtres, le dégagement de neige, les cycles de dégivrage et l'optimisation du thermostat pour une efficacité maximale toute la saison.",
+    excerpt: "Guide complet sur l'entretien et l'utilisation des thermopompes en hiver pour les proprietaires quebecois, demystifiant les idees recues sur les performances par temps froid et fournissant des strategies pratiques pour maintenir les systemes efficacement toute la saison. Couvre les mythes les plus frequents -- que les thermopompes ne fonctionnent pas en dessous de -15 degres Celsius, que les cycles de degivrage indiquent une panne, et que les mini-splits ne peuvent pas servir de source principale de chaleur au Quebec -- et les remplace par des donnees de performance reelles. Les conseils pratiques couvrent l'entretien mensuel des filtres, les protocoles de degagement de neige, la gestion des cycles de degivrage et l'optimisation de la consigne de thermostat, avec des notes sur l'admissibilite aux remises LogisVert.",
     tags: ["HVAC", "Thermopompe", "Hiver", "Montreal", "Entretien", "Efficacité Énergétique", "French"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--pink))"
   },
@@ -969,7 +969,7 @@ const BLOGS = [
     wordCount: 1800,
     readTime: 9,
     url: "https://auxaire.com/2026/03/05/preventing-ice-damming-is-your-attic-ventilation-working/",
-    excerpt: "Ice dams aren't just a winter nuisance — they're a sign of thermal failure in your attic. This guide explains how freeze-thaw cycles in Maritime climates drive ice dam formation, what proper intake and exhaust ventilation should look like, and how Nova Scotia, New Brunswick, and PEI rebate programs can offset the cost of fixing it.",
+    excerpt: "Ice dams aren't just a winter nuisance -- they're a visible sign of thermal failure in the attic, where heat escaping through the ceiling melts roof deck snow that refreezes at the cold eave and backs up as liquid water under shingles. In Maritime climates with approximately 50 freeze-thaw cycles annually, ice dam damage accumulates fast. This guide explains the thermodynamics of dam formation, what proper attic ventilation looks like -- adequate soffit intake, ridge exhaust, and a 1-to-300 net free area ratio -- and why R-60 insulation combined with meticulous air sealing outperforms ventilation alone. It also covers Nova Scotia, New Brunswick, and PEI rebate programs for attic insulation upgrades, and emergency interventions like calcium chloride melt channels when a dam is already forming.",
     tags: ["HVAC", "Insulation", "Attic", "Nova Scotia", "Winter", "Rebates", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   },
@@ -982,7 +982,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://comfitrust.com/the-early-bird-special-why-march-is-the-smartest-month-for-a-boston-ac-tune-up/",
-    excerpt: "Scheduling AC maintenance in March — before the summer rush hits — means shorter waits, better rebate availability, and catching winter dormancy damage before it compounds. This piece covers 2026 Mass Save changes, the R-410A phase-out, and why Boston's triple-deckers and brownstones need region-specific cooling strategies.",
+    excerpt: "Scheduling AC maintenance in March -- before the summer service rush -- translates into shorter wait times, better technician availability, and full access to Mass Save rebates before early-season demand depletes funding. Winter dormancy creates specific maintenance needs: refrigerant connections can develop micro-leaks during thermal cycling, capacitors degrade over cold months, and outdoor condenser coils accumulate winter debris that reduces airflow efficiency before the first hot day. This guide covers the 2026 Mass Save changes homeowners should know before their spring appointment -- mandatory R-454B and R-32 refrigerant compliance for new equipment, the  Sizing Bonus for documented load calculations, and why Boston's historic triple-deckers and brownstones require region-specific cooling strategies.",
     tags: ["HVAC", "Air Conditioning", "Boston", "Rebates", "Mass Save", "Heat Pump", "Spring"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--lavender))"
   },
@@ -995,7 +995,7 @@ const BLOGS = [
     wordCount: 1800,
     readTime: 9,
     url: "https://comfitrust.com/5-mistakes-to-avoid-when-choosing-a-new-ac-unit-in-boston-sizing-seer2-and-rebate-traps/",
-    excerpt: "Oversizing, ignoring SEER2 minimums, skipping ductwork assessment, missing the R-410A phase-out, and falling into Mass Save rebate traps — five costly mistakes Boston homeowners make when buying a new AC unit. This guide walks through each one with the Manual J and Manual D math that actually matters.",
+    excerpt: "Oversizing, ignoring SEER2 minimums, skipping ductwork assessment, missing the R-410A phase-out, and falling into Mass Save rebate traps -- five costly mistakes Boston homeowners make when buying a new AC unit. Oversizing is the most common: a system too large short-cycles, fails to dehumidify properly, and disqualifies the  Sizing Bonus that requires a documented Manual J load calculation. Ignoring the SEER2 13.4 minimum means buying equipment that won't qualify for rebates. Skipping duct leakage testing misses the 30% energy waste that defeats a high-efficiency unit. Installing R-410A equipment in 2026 violates the Mass Save Qualified Product List requirements. Choosing rebate amounts without understanding Whole-Home versus Basic tier structure leaves ,000 to ,000 on the table.",
     tags: ["HVAC", "Air Conditioning", "Boston", "Mass Save", "Rebates", "Energy Efficiency", "Buying Guide"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
   },
@@ -1008,7 +1008,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://comfitrust.com/supporting-local-why-choosing-a-boston-based-hvac-firm-matters/",
-    excerpt: "Local Boston HVAC contractors bring more than just proximity — they bring knowledge of historic district compliance, coastal corrosion challenges, and 2026 Mass Save rebate navigation that national chains simply don't have. Every $100 spent locally recirculates $50 back into Greater Boston, versus $15 with a national chain.",
+    excerpt: "Local Boston HVAC contractors bring advantages that national chains structurally cannot match: deep familiarity with historic district compliance requirements across Beacon Hill, Back Bay, and Charlestown; hands-on experience with the coastal corrosion challenges unique to Boston's marine environment; and fluency with 2026 Mass Save rebate navigation that requires knowing which inspectors, which documentation, and which equipment selections clear the program reliably. The economic case for local is measurable: research shows each  spent with a locally-owned service business recirculates approximately  back into the Greater Boston economy through wages and local suppliers, compared to roughly  with a national chain.",
     tags: ["HVAC", "Boston", "Mass Save", "Heat Pump", "Local Business", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   },
@@ -1021,7 +1021,7 @@ const BLOGS = [
     wordCount: 1500,
     readTime: 8,
     url: "https://aireenergy.com/how-to-choose-the-right-hvac-system-for-your-home-a-2026-guide-for-bc-homeowners/",
-    excerpt: "Choosing the right HVAC system in BC isn't a one-size-fits-all decision — coastal properties near Squamish and Delta need corrosion-resistant equipment, humid Surrey and Langley homes require strong dehumidification, and Vancouver's urban heat islands demand efficient nighttime operation. This 2026 guide covers Manual J sizing, variable-speed heat pumps, cold-climate options rated to -25°C, wildfire smoke filtration, and CleanBC rebates up to $24,000 for qualified homeowners.",
+    excerpt: "Choosing the right HVAC system in BC isn't a one-size-fits-all decision -- coastal properties near Squamish and Delta need corrosion-resistant equipment with anti-salt-air fin coatings, humid Surrey and Langley homes require variable-speed systems with strong latent heat removal, and Vancouver's urban heat islands demand high-efficiency nighttime operation. This 2026 guide covers Manual J load calculations and why rule-of-thumb sizing fails in BC's varied microclimates, variable-speed heat pump advantages over single-stage equipment, cold-climate options rated to -25 degrees Celsius with Enhanced Vapor Injection technology, wildfire smoke filtration through MERV 13 upgrades and UV-C coil purification, and CleanBC rebates up to ,000 for qualified homeowners under the new income-tiered structure effective April 1, 2026.",
     tags: ["HVAC", "Heat Pump", "British Columbia", "Rebates", "Energy Efficiency", "CleanBC", "Buying Guide"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--peach))"
   },
@@ -1034,7 +1034,7 @@ const BLOGS = [
     wordCount: 1400,
     readTime: 7,
     url: "https://wiseraire.com/the-winnipeg-hvac-landscape-climate-extremes-smoke-records-and-the-duct-cleaning-debate/",
-    excerpt: "Winnipeg logged 352 smoke hours in summer 2025 — roughly 25x the historical average — driving wildfire particulates deep into home HVAC systems. This piece unpacks when duct cleaning is genuinely necessary versus when it's a scam (spoofed local numbers, bait-and-switch pricing), how restricted airflow accelerates blower motor wear in Manitoba's extreme climate, and what WiserAire's rebate and financing options offer local homeowners.",
+    excerpt: "Winnipeg logged 352 smoke hours in summer 2025 -- roughly 25 times the historical average -- driving wildfire particulates deep into home HVAC systems and sparking a flood of duct cleaning inquiries. This guide separates genuinely necessary duct cleaning from the industry's most predatory scam: spoofed local phone numbers disguising out-of-province operations, bait-and-switch pricing that starts at  and escalates to , and contamination claims backed by stock photos. It also explains how fine wildfire particulates can bypass standard filters and settle inside blower motor housings, accelerating wear in Manitoba's demanding thermal cycling environment, and covers the MERV rating that actually captures PM2.5-class smoke particles, WiserAire's rebate options, and the diagnostic steps that determine whether duct cleaning, filter upgrades, or UV purification is the right intervention.",
     tags: ["HVAC", "Duct Cleaning", "Winnipeg", "Air Quality", "Wildfire Smoke", "Manitoba", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   },
@@ -1047,7 +1047,7 @@ const BLOGS = [
     wordCount: 1300,
     readTime: 7,
     url: "https://aireenergy.com/combi-boilers-in-bc-the-real-truth-about-benefits-costs-and-rebates/",
-    excerpt: "Combi boilers combine central heating and domestic hot water in one unit — but are they worth the $6,000–$18,000 install cost for BC homeowners? This guide covers coastal hard water scaling, freeze protection quirks, FortisBC rebates, CleanBC Energy Savings Program incentives, and multi-upgrade bonuses that can meaningfully offset upfront costs in Greater Vancouver.",
+    excerpt: "Combi boilers combine central space heating and domestic hot water in a single compact unit, eliminating the storage tank and providing endless on-demand hot water -- but at ,000 to ,000 installed, are they worth it for BC homeowners? Combi boilers struggle with simultaneous demand from multiple showers or radiant zones, and Greater Vancouver's hard coastal water causes scale buildup in the compact heat exchanger requiring annual descaling service to maintain efficiency and warranty compliance. Freeze protection in unheated garage installations also requires specific antifreeze loop configurations. On the incentive side, FortisBC rebates and CleanBC Energy Savings Program incentives can meaningfully offset upfront costs, and multi-upgrade bonuses apply when paired with other eligible improvements. The guide provides a break-even analysis and lists the home profiles where combi boilers outperform separate furnace and tank systems.",
     tags: ["HVAC", "Boiler", "British Columbia", "Rebates", "CleanBC", "Energy Efficiency", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
   },
@@ -1060,7 +1060,7 @@ const BLOGS = [
     wordCount: 1900,
     readTime: 10,
     url: "https://wiseraire.com/winterpeg-survival-guide-how-to-stop-ice-dams-before-they-trash-your-home/",
-    excerpt: "Winnipeg's ~50 freeze-thaw cycles a year make ice dams a serious structural threat — especially in pre-1940s River Heights and Wolseley homes with complex rooflines and minimal insulation. This guide explains the thermodynamics behind dam formation, the 'Big Three' prevention strategies (R-60 insulation, 1:300 ventilation ratio, air sealing), and emergency interventions like calcium chloride channels when the dam is already forming.",
+    excerpt: "Winnipeg's approximately 50 freeze-thaw cycles per year make ice dams a serious structural threat -- especially for pre-1940s homes in River Heights, Wolseley, and Armstrong Point with complex rooflines, minimal attic insulation, and decades of settling that create thermal bypass points invisible from below. This guide explains the thermodynamics: heat escaping through the ceiling warms the roof deck, melting snow that refreezes at the cold eave overhang and backs up under shingles as liquid water. The Big Three prevention strategies are R-60 attic insulation, a 1-to-300 net free area ventilation ratio, and meticulous air sealing at all ceiling penetrations. Emergency interventions for an active dam -- calcium chloride melt channels and roof raking before melt cycles -- are covered alongside Manitoba rebate programs for insulation upgrades that address the root thermal cause.",
     tags: ["HVAC", "Insulation", "Winnipeg", "Winter", "Manitoba", "Home Improvement", "Attic"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
@@ -1073,7 +1073,7 @@ const BLOGS = [
     wordCount: 2100,
     readTime: 11,
     url: "https://comfitrust.com/the-boston-allergy-forecast-how-hepa-and-uv-c-upgrades-protect-your-home-in-2026/",
-    excerpt: "Boston's 2026 pollen season is hitting in a compressed 4–5 week burst after a prolonged winter — and historic triple-deckers and brownstones leak air in ways that defeat standard filters. This guide covers HEPA filtration (99.97% capture at 0.3 microns vs. 30% for standard), UV-C coil and air sterilization, neighborhood-level air quality disparities in Allston, Roxbury, and Back Bay, and current Mass Save rebates.",
+    excerpt: "Boston's 2026 pollen season is arriving in a compressed 4 to 5 week burst following a prolonged cold winter -- and the city's historic triple-deckers and brownstones, with their original windows and plaster walls, leak outdoor air in ways that defeat standard filtration. This guide covers True HEPA filtration rated at 99.97% capture efficiency at 0.3 microns versus the roughly 30% capture rate of standard one-inch filters, UV-C germicidal irradiation on HVAC coils that inactivates airborne bacteria and mold spores, and neighborhood-level air quality disparities where Allston, Roxbury, and East Boston consistently record higher particulate loads than Back Bay. The guide also maps current Mass Save rebates applicable to air quality upgrades and the installation considerations unique to Boston's aging housing stock.",
     tags: ["HVAC", "Air Quality", "Boston", "HEPA", "Mass Save", "Rebates", "Allergy", "Health"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   },
@@ -1086,7 +1086,7 @@ const BLOGS = [
     wordCount: 1300,
     readTime: 7,
     url: "https://wiseraire.com/the-april-ac-switchover-5-checks-before-you-power-up/",
-    excerpt: "Winnipeg homeowners switching from heat to AC face a real risk of compressor damage if they power up too early — the 60-Degree Rule exists for a reason. This checklist covers clearing road salt and debris from outdoor units without pressure-washing the fins, filter upgrades before spring dust season, thermostat testing, and Efficiency Manitoba rebates available for heat pump upgrades.",
+    excerpt: "Winnipeg homeowners switching from heating to cooling mode face a real risk of compressor damage if they power up too early -- the 60-Degree Rule states that outdoor units should not run in cooling mode below 16 degrees Celsius, as low ambient temperatures prevent proper refrigerant condensation and can flood the compressor on startup. This pre-season checklist covers clearing road salt deposits, cottonwood fluff, and winter debris from outdoor unit fins without a pressure washer that permanently bends aluminum fins; upgrading to a MERV 13 filter before spring dust and pollen season peaks; testing thermostat programming and cooling mode switchover; and inspecting condensate drain lines blocked by winter debris. The guide also covers Efficiency Manitoba rebate eligibility for homeowners considering a heat pump upgrade that delivers both cooling efficiency and winter heating capacity.",
     tags: ["HVAC", "Air Conditioning", "Winnipeg", "Manitoba", "Spring", "Maintenance", "Rebates"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--lavender))"
   },
@@ -1099,7 +1099,7 @@ const BLOGS = [
     wordCount: 2100,
     readTime: 11,
     url: "https://auxaire.com/2026/03/27/the-spring-awakening-checklist-for-maritime-hvac-systems/",
-    excerpt: "Salt creep corrodes aluminum fins and copper coils in Halifax, Moncton, and Charlottetown faster than anywhere inland — Maritime HVAC spring prep is a different beast. This checklist separates DIY tasks (filter checks, drain flushing with vinegar, debris clearing) from pro-only work (chemical coil neutralization, anti-corrosive shielding, refrigerant leak detection), plus 2026 rebates up to $30,000 in Nova Scotia and $16,500 in New Brunswick.",
+    excerpt: "Salt creep corrodes aluminum fins and copper coils in Halifax, Moncton, and Charlottetown faster than anywhere inland -- meaning Maritime HVAC spring prep is a fundamentally different task from continental Canada. This checklist separates what homeowners can safely handle from what requires professional intervention. DIY tasks include washing outdoor unit fins with low-pressure fresh water to remove salt deposits, clearing debris from the condensate drain with vinegar, and replacing filters with MERV 13 units for pollen season. Professional-only work includes chemical coil neutralization to reverse acid corrosion, anti-corrosive fin coating for units within two kilometers of salt water, and refrigerant leak detection on joints stressed by winter thermal cycling. The guide also covers 2026 rebates -- up to ,000 in Nova Scotia and ,500 in New Brunswick -- for homeowners who use the spring assessment as a trigger for a qualifying system upgrade.",
     tags: ["HVAC", "Nova Scotia", "Maintenance", "Spring", "Rebates", "Heat Pump", "Maritime"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   },
@@ -1112,7 +1112,7 @@ const BLOGS = [
     wordCount: 2200,
     readTime: 11,
     url: "https://aireenergy.com/the-post-april-1-rebate-reality-check/",
-    excerpt: "April 1, 2026 marked a fundamental shift in BC's energy incentive landscape — CleanBC moved from universal rebates to income-qualified tiers, added property value caps ($1.23M for detached homes, $772K for condos), and BC Hydro raised rates 3.75%. This guide breaks down the four eligibility tiers, which Greater Vancouver homeowners now qualify, and how SEER2/HSPF2 standards affect what equipment counts for rebates.",
+    excerpt: "April 1, 2026 marked a fundamental restructuring of BC's energy incentive landscape: CleanBC transitioned from universal rebates to income-qualified tiers, added property value caps excluding detached homes over .23 million and condos over ,000, and BC Hydro simultaneously raised rates 3.75%. This guide breaks down the four new eligibility tiers, the income thresholds that determine which tier a homeowner falls into, and the SEER2 and HSPF2 minimum efficiency standards that equipment must meet to qualify for rebates under the new structure. It covers the equipment categories most affected -- central air conditioners, ductless mini-splits, and heat pump water heaters -- and provides a practical checklist for Greater Vancouver homeowners to determine their current tier, estimate their rebate eligibility, and understand what documentation is required at the time of equipment purchase and installation.",
     tags: ["HVAC", "Rebates", "CleanBC", "British Columbia", "Heat Pump", "Energy Efficiency", "Buying Guide"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--pink))"
   },
@@ -1125,7 +1125,7 @@ const BLOGS = [
     wordCount: 2200,
     readTime: 11,
     url: "https://auraclimatpro.com/analyse-approfondie-logisvert-2026-maximiser-vos-subventions-ce-printemps/",
-    excerpt: "LogisVert a transformé ses exigences en 2026 avec la certification ENERGY STAR obligatoire (en vigueur depuis novembre 2025) et un bonus de 5% pour les mesures multiples expirant le 30 avril. Ce guide couvre les subventions québécoises pour thermopompes (jusqu'à 6 700$), systèmes géothermiques et enveloppe du bâtiment, le programme ERR en Ontario, et les normes de performance à -15°C pour le couloir Gatineau-Montréal-Ottawa.",
+    excerpt: "LogisVert a transforme ses exigences en 2026 avec la certification ENERGY STAR obligatoire depuis novembre 2025 et un bonus de 5% pour les mesures multiples. Ce guide couvre les subventions quebecoises disponibles : thermopompes air-air jusqu'a 6 700$, systemes geothermiques jusqu'a 750$ par tranche de 1 000 BTU/h pour le remplacement et jusqu'a 54 000$ pour les nouvelles installations, et enveloppe du batiment jusqu'a 1 500$. En Ontario, le programme ERR offre jusqu'a 14 000$ sans audit obligatoire pour la voie B. Le guide couvre aussi les normes de performance obligatoires a -15 degres Celsius pour le couloir Gatineau-Montreal-Ottawa, les exigences de documentation pour les demandes LogisVert, et la strategie pour combiner LogisVert avec Renoclimat et les programmes federaux sans conflit d'admissibilite pour un meme equipement.",
     tags: ["HVAC", "Thermopompe", "Subventions", "Quebec", "French", "LogisVert", "Ottawa", "Spring"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
   },
@@ -1138,7 +1138,7 @@ const BLOGS = [
     wordCount: 1900,
     readTime: 10,
     url: "https://auraclimatpro.com/the-2026-logisvert-deep-dive-maximizing-your-spring-rebates/",
-    excerpt: "The English companion to AuraClimatPro's LogisVert guide — covering Hydro-Québec's mandatory ENERGY STAR shift (November 2025), Quebec rebates for heat pumps ($6,700), geothermal ($750/1,000 BTU/h), and ETS ($15,000–$22,000), plus Ottawa ccASHP rebates up to $7,500. The April 30, 2026 deadline for the 5% multi-measure bonus and smaller upgrades makes spring the critical window for the Gatineau-Montreal-Ottawa corridor.",
+    excerpt: "Hydro-Quebec's mandatory ENERGY STAR shift effective November 2025 redrew the LogisVert qualification map entirely. This deep dive covers current Quebec rebates for air-source heat pumps up to ,700, geothermal systems at  per 1,000 BTU/h for replacements and up to ,000 for new installations, and building envelope improvements up to ,500. In Ontario, the Home Renovation Savings program offers up to ,000 without a mandatory audit via the Path B route. The guide covers the mandatory cold-climate performance standards at -15 degrees Celsius for the Gatineau-Montreal-Ottawa corridor, documentation requirements for successful LogisVert applications, and the strategy for combining LogisVert with Renoclimat and federal programs without triggering the no-stacking rules that apply to the same piece of equipment.",
     tags: ["HVAC", "Heat Pump", "Rebates", "Quebec", "Ottawa", "LogisVert", "Energy Efficiency", "Spring"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
   },
@@ -1151,7 +1151,7 @@ const BLOGS = [
     wordCount: 1700,
     readTime: 9,
     url: "https://aireenergy.com/the-spring-maintenance-pivot-why-your-lower-mainland-home-needs-a-strategic-hvac-tune-up-for-2026/",
-    excerpt: "Vancouver's \"False Spring\" weather pattern and upcoming wildfire season make spring HVAC servicing a strategic move, not just routine upkeep. This guide covers coil cleaning, condensate line flushing, capacitor testing, pollen-season filter upgrades, and smoke readiness — with location-specific advice from coastal salt-air zones to urban heat islands, plus CleanBC rebates up to $19,000 for qualifying systems.",
+    excerpt: "Vancouver's False Spring weather pattern and the approaching wildfire smoke season make spring HVAC servicing a strategic decision rather than routine upkeep for Lower Mainland homeowners. This guide covers the full scope of a spring tune-up: evaporator and condenser coil cleaning to restore heat transfer efficiency lost to winter biofilm; condensate line flushing to prevent summer drain clogs that trigger safety shutoffs; capacitor and contactor testing for components degraded by winter thermal stress; and filter upgrades to MERV 13 for pollen and PM2.5 smoke particle capture. Location-specific advice addresses accelerated salt-air fin corrosion in West Vancouver and Richmond versus urban heat island challenges in Surrey and Burnaby. CleanBC rebates up to ,000 are available for qualifying system upgrades identified during the spring assessment.",
     tags: ["HVAC", "Maintenance", "British Columbia", "CleanBC", "Rebates", "Air Quality", "Spring"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   },
@@ -1164,7 +1164,7 @@ const BLOGS = [
     wordCount: 1800,
     readTime: 9,
     url: "https://wiseraire.com/tree-pollen-survival-how-to-actually-breathe-in-winnipeg-this-spring/",
-    excerpt: "Winnipeg's \"Spring of Deception\" brings white birch, bur oak, maple, and box elder pollen plus Big Thaw dust — a brutal combo for allergy sufferers. This guide navigates MERV ratings (13 is the Goldilocks zone), Photocatalytic Oxidation with the Lennox PureAir S, HRV vs. ERV tradeoffs for Manitoba homes, and why DIY filter upgrades can backfire through airflow complications.",
+    excerpt: "Winnipeg's Spring of Deception brings white birch, bur oak, Manitoba maple, and box elder releasing pollen simultaneously -- compounded by Big Thaw dust as snowmelt exposes months of accumulated road debris, cottonwood fluff, and agricultural particulates. MERV 13 is the allergy sweet spot: it captures 90% of particles in the 1 to 3 micron range that trigger most hay fever responses, while MERV 16 or higher restricts airflow enough to strain blower motors in systems designed for lower-resistance filters. Photocatalytic Oxidation in units like the Lennox PureAir S destroys airborne VOCs and bio-aerosols that physical filters cannot capture. The guide also covers HRV versus ERV trade-offs specific to Manitoba homes and why DIY filter upgrades beyond MERV 13 can backfire through reduced airflow and accelerated blower wear.",
     tags: ["HVAC", "Air Quality", "Winnipeg", "Manitoba", "Allergy", "MERV", "Spring", "Health"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--mint))"
   },
@@ -1177,7 +1177,7 @@ const BLOGS = [
     wordCount: 2100,
     readTime: 11,
     url: "https://comfitrust.com/the-april-mwra-deadline-what-the-new-water-infrastructure-votes-mean-for-your-tap/",
-    excerpt: "Boston's $1.28 billion MWRA infrastructure plan — due for a vote April 30, 2026 — will trigger rate increases across municipalities (Boston at 1.50%, Somerville steeper) while aging combined sewers in Cambridge and Somerville create overflow and groundwater risks. This piece connects the dots between lead service lines, PFAS contamination, construction disruption through mid-2026, and the humidity and mold risks that groundwater infiltration poses to home HVAC systems.",
+    excerpt: "Boston's .28 billion MWRA infrastructure plan will trigger rate increases across municipalities -- Boston at 1.50%, Somerville steeper -- while aging combined sewers in Cambridge and Somerville create overflow risks during heavy rain events. This piece connects the dots between the infrastructure timeline and household health: aging lead service lines in pre-1986 homes leach lead during construction pressure drops; PFAS contamination in local groundwater requires whole-house filtration, not just point-of-use treatment; and mid-2026 construction disruption creates elevated turbidity and microbial risks during pipe replacement. The guide also covers the humidity and mold risks that groundwater infiltration through foundation cracks poses to home HVAC systems and how Boston homeowners can protect both their water quality and their mechanical systems during the infrastructure transition.",
     tags: ["HVAC", "Boston", "Air Quality", "Water", "Home Improvement", "Health", "Infrastructure"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   },
@@ -1190,7 +1190,7 @@ const BLOGS = [
     wordCount: 2100,
     readTime: 11,
     url: "https://auraclimatpro.com/the-air-exchanger-ultimatum-is-your-home-compliance-ready/",
-    excerpt: "Quebec's Construction Code and Ontario's 2024 Building Code updates now mandate mechanical ventilation — and non-compliance has real estate and insurance consequences. This guide compares HRV vs. ERV technologies for regional climates, covers new radon sub-floor depressurization requirements, LogisVert and Ontario Home Renovation Savings rebates, and AuraClimatPro's seven-step diagnostic for verifying air exchanger compliance.",
+    excerpt: "Quebec's updated Construction Code and Ontario's 2024 Building Code revisions now mandate mechanical ventilation in residential buildings -- a change with real estate transaction and home insurance implications for non-compliant properties. This guide compares HRV heat recovery ventilators and ERV energy recovery ventilators: HRVs are optimal for cold, dry Quebec winters, while ERVs better serve Ontario's more variable humidity profile by transferring moisture as well as heat. The guide also covers new radon sub-floor depressurization requirements, LogisVert rebates for qualifying HRV installations, and Ontario Home Renovation Savings incentives up to ,000. AuraClimatPro's seven-step diagnostic sequence for verifying air exchanger compliance -- from airflow measurement to pressure balancing -- is provided as a practical pre-inspection checklist.",
     tags: ["HVAC", "Air Quality", "Quebec", "Ottawa", "HRV", "Compliance", "Rebates", "Health"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
   },
@@ -1203,7 +1203,7 @@ const BLOGS = [
     wordCount: 2100,
     readTime: 11,
     url: "https://auraclimatpro.com/lultimatum-des-echangeurs-dair-votre-habitation-est-elle-conforme/",
-    excerpt: "Les nouveaux codes du bâtiment du Québec et de l'Ontario 2024 rendent la ventilation mécanique obligatoire — et la non-conformité entraîne des conséquences immobilières et d'assurance. Ce guide compare VRC et VRE selon les climats régionaux, couvre les nouvelles exigences de dépressurisation pour le radon, les subventions LogisVert et le programme Rénovation domiciliaire de l'Ontario (jusqu'à 14 000$), et le diagnostic en sept étapes d'AuraClimatPro.",
+    excerpt: "Les nouveaux codes du batiment du Quebec et de l'Ontario 2024 rendent la ventilation mecanique obligatoire dans les batiments residentiels -- une modification qui a des consequences pour les transactions immobilieres et les assurances des proprietes non conformes. Ce guide compare les VRC (ventilateurs a recuperation de chaleur, optimaux pour les hivers froids et secs du Quebec) et les VRE (ventilateurs a recuperation d'energie, mieux adaptes au profil d'humidite variable de l'Ontario). Il couvre aussi les nouvelles exigences de depressurisation sous-plancher pour le radon, les subventions LogisVert pour les VRC admissibles, et les incitatifs du programme Renovation domiciliaire de l'Ontario jusqu'a 14 000$. Le diagnostic en sept etapes d'AuraClimatPro -- du mesurage du debit a l'equilibrage de la pression -- est fourni comme liste de verification pratique avant une transaction immobiliere ou un renouvellement d'assurance.",
     tags: ["HVAC", "Qualité de l'air", "Quebec", "Ottawa", "VRC", "Conformité", "Subventions", "French"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   },
@@ -1216,7 +1216,7 @@ const BLOGS = [
     wordCount: 2500,
     readTime: 13,
     url: "https://auxaire.com/2026/05/01/navigating-the-nova-scotia-rebate-standby-list-what-now/",
-    excerpt: "The federal OHPA program hit capacity on February 11, 2026, leaving Nova Scotia homeowners in a queue rather than rejected outright. This guide maps alternative paths: the Moderate Income Rebate (up to $15,000 with income thresholds $37,260–$126,500+), thermal envelope upgrades with rebates up to $5,000, PACE financing at 4.75% in Halifax and Bridgewater, and cold-climate heat pump specs (HSPF2 6.6+, SEER2 15.2+) needed to qualify when funding opens.",
+    excerpt: "The federal OHPA program hit capacity on February 11, 2026, leaving many Nova Scotia homeowners on a standby list rather than rejected outright -- and the path forward depends on understanding what alternative options remain open. This guide maps the viable routes: the Moderate Income Rebate provides up to ,000 for households with incomes between ,260 and ,500 and does not have the same capacity constraints as OHPA. Thermal envelope upgrades -- attic insulation, window replacement, and air sealing -- carry rebates up to ,000 and can proceed immediately without waiting for OHPA. PACE financing at 4.75% is available in Halifax and Bridgewater for homeowners who need bridge funding. The guide also covers the minimum cold-climate heat pump specifications -- HSPF2 6.6+ and SEER2 15.2+ -- required to qualify when OHPA funding reopens, so homeowners on the waitlist can select compliant equipment and be ready to proceed without delay.",
     tags: ["HVAC", "Heat Pump", "Nova Scotia", "Rebates", "Energy Efficiency", "Maritime", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
@@ -1229,7 +1229,7 @@ const BLOGS = [
     wordCount: 2100,
     readTime: 11,
     url: "https://comfitrust.com/why-attic-insulation-is-the-secret-to-unlocking-the-8500-mass-save-heat-pump-rebate/",
-    excerpt: "The $8,500 Mass Save heat pump rebate has a weatherization prerequisite most homeowners miss — attic insulation. Proper insulation reduces heating loads by 20–40%, enabling a smaller system that qualifies for an extra $500 sizing bonus, while the Stack Effect math shows exactly why skipping this step forces heat pumps to work inefficiently. Also covers the R-410A ban (January 2026), R-32/R-454B compliant units, and 0% financing for income-eligible Boston households.",
+    excerpt: "The ,500 Mass Save heat pump rebate has a weatherization prerequisite most homeowners miss: without adequate attic insulation, the heat pump will be oversized for the post-insulation load and will fail to qualify for the  Sizing Bonus. Proper attic insulation to the DOE-recommended R-49 to R-60 range for Massachusetts Climate Zones 5 and 6 reduces heating and cooling loads by 20 to 40%, enabling a smaller, quieter, more efficient system. The Stack Effect math shows exactly why skipping this step forces heat pumps into inefficient long cycles: without a thermal break at the attic floor, warm air rises and escapes continuously. The guide also covers the R-410A ban effective January 2026, R-32 and R-454B compliant unit models currently on the Mass Save Qualified Product List, and 0% HEAT Loan financing up to ,000 for income-eligible Boston households.",
     tags: ["HVAC", "Heat Pump", "Boston", "Mass Save", "Rebates", "Insulation", "Attic", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--peach))"
   },
@@ -1242,7 +1242,7 @@ const BLOGS = [
     wordCount: 2400,
     readTime: 12,
     url: "https://aireenergy.com/earth-day-and-the-decarbonization-roadmap-what-it-means-for-your-home-in-greater-vancouver/",
-    excerpt: "BC's CleanBC plan targets 40% emission reductions by 2030 and net-zero by 2050 — and Greater Vancouver homeowners are central to that roadmap. This Earth Day guide covers replacing gas systems with electric alternatives on BC's hydroelectric grid, heat pump rebates up to $24,000, tankless water heaters, solar and battery storage integration, EV charging, and a practical Surrey home retrofit scenario showing how these upgrades stack.",
+    excerpt: "BC's CleanBC plan targets 40% emission reductions by 2030 and net-zero by 2050 -- and Greater Vancouver homeowners are central to hitting those targets, given that residential heating and hot water account for a significant share of regional emissions. This Earth Day guide covers the practical electrification roadmap: replacing natural gas heating with cold-climate heat pumps running on BC's predominantly hydroelectric grid, heat pump rebates up to ,000 depending on income tier and property value, tankless heat pump water heaters with a separate ,000 rebate, solar and battery storage integration with the net metering credit program, and EV charging installation. A practical Surrey retrofit scenario shows how stacking these upgrades on a 2,500 square foot detached home reduces monthly energy costs by 35 to 45% while qualifying for over ,000 in combined federal and provincial incentives.",
     tags: ["HVAC", "Heat Pump", "British Columbia", "CleanBC", "Rebates", "Solar", "Energy Efficiency", "Decarbonization"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   },
@@ -1255,7 +1255,7 @@ const BLOGS = [
     wordCount: 1800,
     readTime: 9,
     url: "https://wiseraire.com/spring-runoff-basement-humidity-is-your-winnipeg-hvac-doing-enough/",
-    excerpt: "Winnipeg's Red River Valley clay soil creates intense hydrostatic pressure during spring snowmelt, forcing moisture through foundations while standard AC short-cycles and fails to dehumidify properly. This guide covers the warning signs (window fog, efflorescence, damp furnace filters), HRV's \"20/40 Setting\" for shoulder season, GREE heat pump Dry Function, the 5-Foot Rule for exterior snow management, and Efficiency Manitoba rebates.",
+    excerpt: "Winnipeg's Red River Valley clay soil creates intense hydrostatic pressure during spring snowmelt, forcing moisture through foundation walls even where no visible cracks exist. Simultaneously, standard air conditioners often short-cycle in shoulder-season temperatures, running too briefly to remove moisture and leaving homes cold and clammy rather than cool and dry. This guide covers the warning signs of inadequate spring dehumidification -- window condensation at ground level, white efflorescence on foundation walls, musty odors in the furnace filter after running -- and the mechanical solutions: HRV systems set to the 20/40 rule for shoulder season, the Dry Function on GREE heat pump systems that maximizes latent heat removal at low sensible loads, and the 5-Foot Rule for exterior snow management to reduce hydrostatic pressure driving moisture inward. Efficiency Manitoba rebates for qualifying dehumidification upgrades are covered.",
     tags: ["HVAC", "Humidity", "Winnipeg", "Manitoba", "Spring", "HRV", "Basement", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   },
@@ -1268,7 +1268,7 @@ const BLOGS = [
     wordCount: 2100,
     readTime: 11,
     url: "https://auraclimatpro.com/the-gatineau-montreal-pollen-calendar-hvac-as-your-first-line-of-defense/",
-    excerpt: "The Gatineau-Montreal corridor faces three distinct pollen waves — tree, grass, and ragweed — amplified by the Valley Effect and urban heat islands extending each season. This guide recommends MERV 13 as the allergy sweet spot, covers HRV/ERV integration, UV-C germicidal systems, bio-sludge remediation, and the 7-to-1 rule for peak pollen hours, positioning HVAC as the primary defense for corridor residents.",
+    excerpt: "The Gatineau-Montreal corridor faces three distinct pollen waves annually: spring tree pollens including maple, birch, oak, and ash from March through May; summer grass pollens from June through August; and ragweed from mid-August through October, accounting for 90% of fall allergic rhinitis cases in the region. The Valley Effect and urban heat islands extend each wave by 2 to 3 weeks compared to rural areas, creating an almost continuous allergy season. This guide recommends MERV 13 as the filtration sweet spot, covers HRV and ERV integration for fresh air delivery without pollen infiltration, UV-C germicidal systems for mold spore control on wet coils, bio-sludge remediation for units with biofilm buildup, and the 7-to-1 rule -- pollen concentrations peak between 5 AM and 10 AM -- for scheduling ventilation system operation.",
     tags: ["HVAC", "Air Quality", "Montreal", "Ottawa", "Allergy", "MERV", "HRV", "Health"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
   },
@@ -1281,7 +1281,7 @@ const BLOGS = [
     wordCount: 2200,
     readTime: 11,
     url: "https://auraclimatpro.com/le-calendrier-du-pollen-gatineau-montreal-le-cvc-comme-premiere-ligne-de-defense/",
-    excerpt: "Le corridor Gatineau-Montréal subit trois vagues polliniques de mars à octobre — arbres printaniers (érable, bouleau, chêne, frêne), graminées estivales et l'ambroisie responsable de 90% des rhinites saisonnières. Ce guide couvre les cotes MERV (13 recommandé, capturant 90% des allergènes), les VRC, les lampes UV-C germicides, la bio-boue sur les serpentins de refroidissement, et l'effet d'îlot de chaleur urbain qui prolonge les saisons de 2-3 semaines.",
+    excerpt: "Le corridor Gatineau-Montreal fait face a trois vagues polliniques annuelles -- pollens d'arbres printaniers (erable, bouleau, chene, frene) de mars a mai ; graminées estivales de juin a aout ; et ambroisie d'aout a octobre, responsable de 90% des rhinites allergiques automnales de la region. L'effet de vallee et les ilots de chaleur urbains prolongent chaque vague de 2 a 3 semaines par rapport aux zones rurales. Ce guide recommande la cote MERV 13 comme point optimal pour les proprietaires du corridor, couvre l'integration des VRC et VRE pour l'apport d'air frais sans infiltration de pollen, les systemes UV-C germicides pour le controle des spores de moisissures sur les serpentins humides, la remediation de la bio-boue pour les appareils avec biofilm, et la regle des 7 pour 1 -- les concentrations de pollen culminent entre 5h et 10h -- pour planifier les activites et la ventilation.",
     tags: ["HVAC", "Qualité de l'air", "Montreal", "Ottawa", "Allergie", "MERV", "VRC", "French"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
   },
@@ -1294,7 +1294,7 @@ const BLOGS = [
     wordCount: 1200,
     readTime: 6,
     url: "https://www.constanthomecomfort.com/news-detail?pid=4&slug=the-no-audit-rebate-why-path-b-is-the-total-game-changer-for-ontario-homeowners-in-2026",
-    excerpt: "Ontario's Path B rebate program is a breakthrough for homeowners who want to upgrade to heat pumps without the barrier of a mandatory energy audit — this guide breaks down how Path B works, who qualifies, and why it's the most accessible route to stacking federal and provincial incentives for HVAC upgrades in 2026.",
+    excerpt: "Ontario's Path B rebate program removes the mandatory energy audit barrier that historically prevented many homeowners from accessing heat pump incentives -- no audit is required to qualify, making it the fastest and most accessible route to provincial HVAC incentives in 2026. Path B provides up to ,000 for qualifying cold-climate heat pump installations, compared to Path A which also requires a pre- and post-retrofit home energy assessment. Eligible systems must meet minimum HSPF2 efficiency ratings and use refrigerants approved under current federal phase-down schedules. This guide explains who qualifies for Path B, how to select a contractor registered with the Home Renovation Savings portal, what equipment specifications must be met, and how to stack Path B provincial incentives with federal Canada Greener Homes programs to achieve maximum combined funding for a heat pump installation in Ontario.",
     tags: ["Rebates", "Ontario", "Heat Pump", "HVAC", "Energy Efficiency", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
   },
@@ -1307,7 +1307,7 @@ const BLOGS = [
     wordCount: 1800,
     readTime: 9,
     url: "https://wiseraire.com/heat-pumps-for-summer-cooling-the-2000-rebate-winnipeg-homeowners-didnt-know-about/",
-    excerpt: "Winnipeg homeowners can access a $2,000 Efficiency Manitoba rebate by switching from standard air conditioners to high-efficiency heat pumps. The article details the operational advantages of variable-speed heat pumps — improved humidity control and lower energy costs — and addresses cold-climate performance concerns by recommending hybrid systems that pair heat pumps with gas furnaces for winter reliability.",
+    excerpt: "Winnipeg homeowners upgrading from a standard central air conditioner to a high-efficiency heat pump can access a ,000 Efficiency Manitoba rebate that most don't realize applies to cooling-season replacements -- not just heating upgrades. Modern variable-speed inverter heat pumps deliver tangible advantages over single-stage AC units: superior humidity control because longer low-speed cycles remove more moisture per hour of runtime, quieter operation, and annual energy cost reductions of 30 to 50% in cooling mode alone. Cold-climate performance concerns are addressed directly: this guide recommends hybrid systems pairing a heat pump with an existing gas furnace for homeowners who want to capture the summer cooling rebate without committing to all-electric heating, preserving furnace backup capacity for -30 degree Celsius nights while maximizing summer efficiency and rebate eligibility.",
     tags: ["HVAC", "Heat Pump", "Winnipeg", "Manitoba", "Rebates", "Air Conditioning", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   },
@@ -1320,7 +1320,7 @@ const BLOGS = [
     wordCount: 2800,
     readTime: 14,
     url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=pre-summer-ac-performance-coil-cleaning-the-ultimate-guide-to-staying-cool-and-saving-money-in-ontario",
-    excerpt: "Dirty evaporator and condenser coils can reduce AC cooling capacity by up to 30% and spike energy consumption by 37% — and neglected systems risk compressor failure ($1,200–$2,500) long before the summer heat hits. This guide walks Ontario homeowners through the thermodynamics of coil contamination, the dangerous domino effect from dirty coils to frozen systems, indoor air quality risks (including \"dirty sock\" mold syndrome), and a full professional maintenance checklist. Rebate opportunities include up to $12,000 through the Home Renovation Savings Program and a $59 limited-time tune-up special for GTA homeowners.",
+    excerpt: "BC's spring freshet creates a convergence of residential water quality threats that peak between March and June. Turbidity spikes as glacial silt from snowmelt overwhelms municipal treatment capacity. Microbial risks increase as Giardia and Cryptosporidium oocysts -- resistant to standard chlorine disinfection -- enter surface water intakes from agricultural runoff and wildlife populations. Nitrate concentrations in rural well water climb as spring rain leaches fertilizer into shallow aquifers. PFAS from industrial sites and aqueous film-forming foam migrate through the same pathways. This guide covers region-specific contaminant profiles for Metro Vancouver, the Fraser Valley, and the Okanagan; explains when UV disinfection, reverse osmosis, or whole-house sediment filtration is the right tool; and provides a seasonal maintenance schedule for residential water systems during the highest-risk runoff period.",
     tags: ["HVAC", "Air Conditioning", "Ontario", "Maintenance", "Coil Cleaning", "Rebates", "Air Quality", "Spring"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--pink))"
   },
@@ -1346,7 +1346,7 @@ const BLOGS = [
     wordCount: 2000,
     readTime: 10,
     url: "https://aireenergy.com/why-your-bc-home-is-your-best-defense-this-allergy-season/",
-    excerpt: "BC homeowners can transform their residences into sanctuaries from seasonal allergens and wildfire smoke by implementing proper indoor air quality systems — indoor air can be 5–10x more polluted than outside without proper filtration. The article outlines a three-pillar approach: high-efficiency filtration, UV-C technology, and humidity control, with substantial 2026 rebates available through government programs to offset upgrade costs.",
+    excerpt: "BC homeowners can transform their residences into sanctuaries from seasonal allergens and wildfire smoke -- indoor air without proper filtration can be 5 to 10 times more polluted than outdoor air during peak pollen and smoke events. This guide outlines a three-pillar approach to residential air quality: high-efficiency mechanical filtration at MERV 13 or higher to capture pollen, PM2.5, and wildfire particulates; UV-C germicidal technology that inactivates airborne bacteria, mold spores, and viruses on HVAC coils; and humidity control at 40 to 50 percent relative humidity, which deactivates airborne pathogens and reduces dust mite populations. Substantial 2026 CleanBC rebates are available for qualifying air quality equipment upgrades, covering the specific rebate amounts, eligible product categories, and income tier requirements.",
     tags: ["HVAC", "Air Quality", "British Columbia", "Allergy", "HEPA", "Rebates", "Health", "Spring"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
   },
@@ -1437,7 +1437,7 @@ const BLOGS = [
     wordCount: 2400,
     readTime: 12,
     url: "https://wiseraire.com/tankless-water-heaters-why-spring-is-the-best-time-to-upgrade-your-winnipeg-home/",
-    excerpt: "Winnipeg tanks hit spring already beaten up — months of heating 1–4°C Shoal Lake water causes mineral sediment buildup, the \"kettle effect,\" and thermal fatigue, right as spring melt raises basement flooding risk. Tankless units mount 4–5 feet up the wall to clear the flood zone, spring shoulder season means more precise installs, and the Manitoba Hydro HEEL loan (up to $7,500, no down payment) paired with 24–34% standby heat loss savings makes the switch financially compelling. WiserAire recommends Rinnai and Navien stainless steel models for Winnipeg's hard water.",
+    excerpt: "Winnipeg tanks hit spring already beaten up -- months of heating 1 to 4 degrees Celsius Shoal Lake water causes mineral sediment buildup, the kettle effect, and thermal fatigue, right as spring melt raises basement flooding risk. Tankless units mount 4 to 5 feet up the wall to clear the flood zone, spring shoulder season means more precise installs, and the Manitoba Hydro HEEL loan (up to ,500, no down payment) paired with 24 to 34% standby heat loss savings makes the switch financially compelling. WiserAire recommends Rinnai and Navien stainless steel models for Winnipeg's hard water.",
     tags: ["HVAC", "Tankless Water Heater", "Winnipeg", "Manitoba", "Spring", "Rebates", "Energy Efficiency", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
   },
@@ -1476,7 +1476,7 @@ const BLOGS = [
     wordCount: 2100,
     readTime: 11,
     url: "https://comfitrust.com/navigating-the-2026-mass-save-roadmap-how-to-secure-the-new-500-sizing-bonus/",
-    excerpt: "Mass Save's 2026 update adds a $500 bonus for properly sized heat pump installations — but claiming it requires a Manual J load calculation and R-454B/R-32 compliant equipment. This guide walks Boston homeowners through the technical requirements, explains why oversized systems disqualify the bonus, and maps the full rebate stack available this year.",
+    excerpt: "Mass Save's 2026 update adds a  Sizing Bonus for heat pump installations sized using a documented Manual J load calculation -- a requirement that eliminates the industry's habit of defaulting to oversized equipment. The bonus is only available when a qualified contractor performs and submits the Manual J calculation showing the heat pump's capacity is matched to the actual design load, not to a rule-of-thumb square footage estimate. This guide walks Boston homeowners through what Manual J entails, why oversized systems short-cycle and fail to dehumidify in addition to disqualifying the bonus, and how R-454B and R-32 refrigerant compliance interacts with sizing to determine which equipment is eligible. The full 2026 Mass Save rebate stack is mapped -- Whole-Home up to ,500,  Sizing Bonus,  Weatherization Bonus, and  for a heat pump water heater.",
     tags: ["HVAC", "Heat Pump", "Boston", "Mass Save", "Rebates", "Massachusetts", "Energy Efficiency"],
     accentGradient: "linear-gradient(180deg, var(--pink), var(--lavender))"
   },
@@ -1489,7 +1489,7 @@ const BLOGS = [
     wordCount: 2100,
     readTime: 11,
     url: "https://wiseraire.com/economic-implications-of-utility-rate-hikes-and-high-efficiency-cooling-roi/",
-    excerpt: "Manitoba Hydro's 4.0% rate hike effective January 2026 has tipped the ROI math decisively toward high-efficiency AC upgrades — modern systems can cut annual cooling costs by roughly 50%, and stacking Efficiency Manitoba rebates with manufacturer incentives brings the payback window within reach for most Winnipeg homeowners.",
+    excerpt: "Manitoba Hydro's 4.0% rate hike effective January 2026 has materially shifted the ROI calculation for high-efficiency cooling upgrades in Winnipeg. A standard single-stage central air conditioner at SEER 13 now costs meaningfully more to operate each cooling season than a modern variable-speed system rated SEER2 18 or higher. The efficiency gap translates to annual cooling cost reductions of 30 to 50%, and Efficiency Manitoba rebates of up to ,000 for qualifying heat pump systems reduce the net capital cost further. This guide walks through the payback period math under Manitoba's current and projected rate structures, identifies the system specifications that qualify for the maximum rebate tier, and explains why manufacturers' summer promotional pricing, typically available April through June, can be stacked with Efficiency Manitoba incentives to significantly narrow the payback window.",
     tags: ["HVAC", "Air Conditioning", "Energy Efficiency", "Manitoba", "Winnipeg", "Rebates", "Utility Rates"],
     accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
   },
@@ -1502,7 +1502,7 @@ const BLOGS = [
     wordCount: 2100,
     readTime: 11,
     url: "https://auxaire.com/2026/05/27/the-2026-pollen-surge-turning-your-maritime-heat-pump-into-an-allergy-shield/",
-    excerpt: "Maritime Canada's 2026 pollen season is unusually severe — and homeowners can turn their heat pump into a frontline allergy defense. This guide covers MERV filter ratings, high-performance systems from Lennox and GREE, and how to stack government rebates across Nova Scotia, New Brunswick, and PEI to offset the cost of an upgrade.",
+    excerpt: "Maritime Canada's 2026 pollen season is tracking as unusually severe, with birch, alder, and grass pollens arriving earlier and in higher concentrations than typical years. Homeowners across Nova Scotia, New Brunswick, and PEI can turn their existing heat pump into a frontline allergy defense by upgrading filtration and operating the system strategically during peak pollen windows. This guide covers MERV filter ratings and the critical trade-off between filtration efficiency and airflow restriction for Maritime heat pump systems, high-performance models from Lennox and GREE with superior air handling characteristics, and the specific operating settings -- continuous low-speed fan mode and controlled fresh air intake -- that maximize indoor pollen filtration. The guide also covers how to stack government rebates across all three provinces to offset the cost of filtration and indoor air quality upgrades.",
     tags: ["HVAC", "Heat Pump", "Allergy", "Nova Scotia", "Rebates", "Air Quality", "Maritime", "Spring"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--pink))"
   },
@@ -1515,7 +1515,7 @@ const BLOGS = [
     wordCount: 1800,
     readTime: 9,
     url: "https://aireenergy.com/the-spring-runoff-and-water-purification-a-comprehensive-analysis-for-british-columbia-homeowners/",
-    excerpt: "BC's spring freshet creates a convergence of water quality threats — turbidity from glacial silt, microbial hazards like Giardia and Cryptosporidium, nitrate runoff, and PFAS contamination — with risks varying significantly by watershed across Greater Vancouver. This guide covers region-specific contaminant profiles, reverse osmosis, UV disinfection, and seasonal maintenance steps to protect residential water systems during peak runoff season.",
+    excerpt: "BC's spring freshet creates a convergence of residential water quality threats that peak between March and June. Turbidity spikes as glacial silt from snowmelt overwhelms municipal treatment capacity. Microbial risks increase as Giardia and Cryptosporidium oocysts -- resistant to standard chlorine disinfection -- enter surface water intakes from agricultural runoff and wildlife populations. Nitrate concentrations in rural well water climb as spring rain leaches fertilizer into shallow aquifers. PFAS from industrial sites and aqueous film-forming foam migrate through the same pathways. This guide covers region-specific contaminant profiles for Metro Vancouver, the Fraser Valley, and the Okanagan; explains when UV disinfection, reverse osmosis, or whole-house sediment filtration is the right tool; and provides a seasonal maintenance schedule for residential water systems during the highest-risk runoff period.",
     tags: ["Water Quality", "British Columbia", "Spring", "PFAS", "Filtration", "Health", "Home Improvement"],
     accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
   },
@@ -1528,7 +1528,7 @@ const BLOGS = [
     wordCount: 2100,
     readTime: 11,
     url: "https://comfitrust.com/beyond-the-filter-a-deep-dive-into-pfas-and-microplastic-removal-for-massachusetts-homes/",
-    excerpt: "This comprehensive guide examines the growing concerns of PFAS (\"forever chemicals\") and microplastics in Massachusetts water systems, exploring their health impacts and evaluating filtration technologies like reverse osmosis and activated carbon to protect residential water quality.",
+    excerpt: "Massachusetts water systems face a dual contamination challenge that standard pitcher filters cannot address: PFAS forever chemicals in groundwater across dozens of communities, and microplastics infiltrating both municipal and private well supplies. PFAS are linked to thyroid disruption, immune suppression, and increased cancer risk; Massachusetts has set the nation's strictest PFAS6 limit at 20 parts per trillion. Microplastics enter water supplies through atmospheric settling, synthetic fabric washing, and aging plastic distribution pipes. This guide evaluates filtration technologies that actually work: reverse osmosis membranes remove over 99% of PFAS and microplastics at the point of use; activated carbon block filters reduce PFAS by 70 to 90% depending on chain length; and whole-house granular activated carbon provides building-wide protection. NSF/ANSI Standards 53 and 58 certification requirements are explained so homeowners can verify system performance claims before purchasing.",
     tags: ["Water Quality", "PFAS", "Massachusetts", "Filtration", "Home Health", "Boston", "Water Treatment"],
     accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
   }
