@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 116,
+    title: "AC Blowing Warm Air? 5 Simple DIY Checks Before You Call a Montreal Tech",
+    publication: "Aura ClimatPro",
+    date: "July 30, 2026",
+    dateISO: "2026-07-30",
+    wordCount: 1100,
+    readTime: 6,
+    url: "https://auraclimatpro.com/ac-blowing-warm-air-5-simple-diy-checks-before-you-call-a-montreal-tech/",
+    excerpt: "Montreal's July humidex routinely tops 35 degrees Celsius, turning brick duplexes into ovens -- and a surprising number of AC failures have simple DIY fixes. Five checks to run before calling a tech: (1) thermostat set to Cool or Auto, not Fan-only, which circulates uncooled air 24/7; (2) dirty mesh filters on wall-mounted mini-splits choke airflow, freeze refrigerant coils solid, and require washing and drying before restart; (3) blocked outdoor condenser units -- Montreal's spring cottonwood coats fins like a wool blanket, blocking heat release until the compressor overheats; rinse fins at 30 degrees with a garden hose, never a pressure washer; (4) half-tripped breaker on the outdoor compressor circuit -- flip fully off, wait five minutes, reset; if it trips again, stop; (5) clogged condensate drain line triggers a safety float switch that cuts outdoor power -- locate the drain exit and vacuum out the blockage with a wet-dry shop vac. Do not DIY refrigerant leaks (licensed techs only), capacitor issues (shock hazard even when unplugged), or clunking compressors. Aura ClimatPro serves Montreal, Gatineau, and Ottawa with bilingual certified technicians, RBQ 5875-1231-01 licensing, and emergency service 7 days a week with no overtime surcharges.",
+    tags: ["HVAC", "Montreal", "AC Repair", "Mini-Split", "DIY", "Aura ClimatPro", "Quebec", "Troubleshooting"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
     id: 115,
     title: "Au-dela du degel : Guide realiste pour vaincre l'humidite printaniere a Montreal",
     publication: "Aura ClimatPro",
