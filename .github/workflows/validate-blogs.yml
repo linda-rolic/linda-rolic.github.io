@@ -1,22 +1,36 @@
-name: Validate Blog Entries
+name: Validate & Auto-fix Blog Entries
 
 on:
   push:
     paths:
       - 'writing/data.js'
-  pull_request:
-    paths:
-      - 'writing/data.js'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  validate:
+  validate-and-fix:
     name: "8 tags · 700-900 char excerpts"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Run blog validator
-        run: node tests/validate-blogs.js
+
+      - name: Validate & auto-fix via Claude
+        id: fix
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node tests/validate-and-fix.js
+
+      - name: Commit fixes back to repo
+        if: steps.fix.outputs.fixed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add writing/data.js
+          git commit -m "auto-fix: normalize blog excerpts and tags [skip ci]"
+          git push
