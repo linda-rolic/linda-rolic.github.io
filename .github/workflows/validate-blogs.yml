@@ -1,0 +1,22 @@
+name: Validate Blog Entries
+
+on:
+  push:
+    paths:
+      - 'writing/data.js'
+  pull_request:
+    paths:
+      - 'writing/data.js'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: "8 tags · 700-900 char excerpts"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Run blog validator
+        run: node tests/validate-blogs.js
