@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 119,
+    title: "The Best Ductless Mini-Split Systems for Older Montreal Homes: Gree vs. Lennox",
+    publication: "Aura ClimatPro",
+    date: "August 5, 2026",
+    dateISO: "2026-08-05",
+    wordCount: 1900,
+    readTime: 10,
+    url: "https://auraclimatpro.com/the-best-ductless-mini-split-systems-for-older-montreal-homes-gree-vs-lennox/",
+    excerpt: "Montreal's heritage homes in the Plateau, Mile End, and Westmount lack modern ductwork, relying on electric baseboards and cast-iron radiators. Ductless mini-splits fix this with minimal invasion — a three-inch wall opening connects indoor and outdoor units, leaving historic plaster intact. This guide compares Gree and Lennox: Gree leads at up to 38 SEER and heats down to -30 degrees Celsius via its G10 inverter compressor, while Lennox offers whisper-quiet 20-decibel indoor operation with Apple HomeKit and Amazon Alexa integration. Montreal bylaws cap outdoor noise at 50 decibels, require 1 to 1.5 metre setbacks, and mandate raised galvanized frames with anti-vibration pads. Quebec's 2026 LogisVert program offers up to 6,700 dollars in rebates for certified cold-climate installs. Aura ClimatPro handles sizing, permits, and rebate applications across Montreal, Gatineau, and Ottawa.",
+    tags: ["HVAC", "Montreal", "Mini-Split", "Heat Pump", "LogisVert", "Quebec", "Gree", "Lennox"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--mint))"
+  },
+  {
     id: 118,
     title: "Hard Water vs. Iron Stain: Why Maritime Homes Need a Water Purification System",
     publication: "AuxAire",
