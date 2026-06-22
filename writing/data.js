@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 120,
+    title: "Les meilleurs systèmes mini-split sans conduits pour les maisons anciennes de Montréal : Gree contre Lennox",
+    publication: "Aura ClimatPro",
+    date: "August 6, 2026",
+    dateISO: "2026-08-06",
+    wordCount: 1900,
+    readTime: 10,
+    url: "https://auraclimatpro.com/les-meilleurs-systemes-mini-split-sans-conduits-pour-les-maisons-anciennes-de-montreal-gree-contre-lennox/",
+    excerpt: "Les maisons patrimoniales du Plateau, du Mile End et de Westmount manquent de conduits modernes, dépendant des plinthes électriques et des radiateurs en fonte. Les mini-splits s'installent via un simple trou de 7,5 cm dans un mur extérieur, sans toucher aux plâtres. Ce guide compare Gree et Lennox : Gree atteint jusqu'à 38 SEER et chauffe jusqu'à -30 degrés Celsius via son compresseur inverter G10, tandis que Lennox offre 20 décibels en intérieur avec Apple HomeKit et Amazon Alexa. La réglementation montréalaise limite le bruit à 50 décibels, impose 1 à 1,5 mètre de recul et exige des supports surélevés avec patins anti-vibrations. Le programme LogisVert 2026 d'Hydro-Québec offre jusqu'à 6 700 dollars de remboursements pour les installations certifiées en climat froid. Aura ClimatPro gère le dimensionnement, les permis et les demandes de subvention à Montréal, Gatineau et Ottawa.",
+    tags: ["CVAC", "Montréal", "Mini-Split", "Pompe à chaleur", "LogisVert", "Québec", "Gree", "Lennox"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
     id: 119,
     title: "The Best Ductless Mini-Split Systems for Older Montreal Homes: Gree vs. Lennox",
     publication: "Aura ClimatPro",
