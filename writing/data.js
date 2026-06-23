@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 121,
+    title: "Is Your Air Conditioner Making It to September? 5 Signs It's Time for a Replacement",
+    publication: "Comfitrust",
+    date: "August 7, 2026",
+    dateISO: "2026-08-07",
+    wordCount: 1500,
+    readTime: 8,
+    url: "https://comfitrust.com/is-your-air-conditioner-making-it-to-september-5-signs-its-time-for-a-replacement/",
+    excerpt: "By late August, Boston's 65% humidity forces older ACs to spend nearly 40% of their energy pulling moisture from the air. This guide covers five signs your system is done: weak airflow from a failing blower or compressor, spiking electric bills, repair costs past the 5,000 dollar rule, grinding or squealing noises, and persistent indoor dampness from a refrigerant or coil problem. Systems on phased-out R-22 Freon face replacement as the only option. The smarter upgrade is a cold-climate heat pump — units like the GREE Envo R32 reach 26.0 SEER2, cutting summer bills immediately. Mass Save 2026 offers up to 8,500 dollars back for whole-home installs; income-eligible households can qualify for up to 16,000 dollars or a full Turnkey install at no cost. New systems must use A2L refrigerants like R-32 or R-454B. ComfiTrust handles sizing, installation, and all rebate paperwork across Boston.",
+    tags: ["HVAC", "AC", "Boston", "Massachusetts", "Mass Save", "Heat Pump", "Rebates", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
+  {
     id: 120,
     title: "Les meilleurs systèmes mini-split sans conduits pour les maisons anciennes de Montréal : Gree contre Lennox",
     publication: "Aura ClimatPro",
