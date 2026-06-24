@@ -1,16 +1,16 @@
 const BLOGS = [
   {
-    id: 121,
-    title: "Is Your Air Conditioner Making It to September? 5 Signs It's Time for a Replacement",
-    publication: "Comfitrust",
-    date: "August 7, 2026",
-    dateISO: "2026-08-07",
-    wordCount: 1500,
+    id: 122,
+    title: "Protecting Greater Vancouver Homes from Wildfire Smoke: The Role of IAQ Filters and HRV Systems",
+    publication: "AireEnergy",
+    date: "August 10, 2026",
+    dateISO: "2026-08-10",
+    wordCount: 1600,
     readTime: 8,
-    url: "https://comfitrust.com/is-your-air-conditioner-making-it-to-september-5-signs-its-time-for-a-replacement/",
-    excerpt: "By late August, Boston's 65% humidity forces older ACs to spend nearly 40% of their energy pulling moisture from the air. This guide covers five signs your system is done: weak airflow from a failing blower or compressor, spiking electric bills, repair costs past the 5,000 dollar rule, grinding or squealing noises, and persistent indoor dampness from a refrigerant or coil problem. Systems on phased-out R-22 Freon face replacement as the only option. The smarter upgrade is a cold-climate heat pump — units like the GREE Envo R32 reach 26.0 SEER2, cutting summer bills immediately. Mass Save 2026 offers up to 8,500 dollars back for whole-home installs; income-eligible households can qualify for up to 16,000 dollars or a full Turnkey install at no cost. New systems must use A2L refrigerants like R-32 or R-454B. ComfiTrust handles sizing, installation, and all rebate paperwork across Boston.",
-    tags: ["HVAC", "AC", "Boston", "Massachusetts", "Mass Save", "Heat Pump", "Rebates", "Energy Efficiency"],
-    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+    url: "https://aireenergy.com/protecting-greater-vancouver-homes-from-wildfire-smoke-the-role-of-iaq-filters-and-hrv-systems/",
+    excerpt: "Greater Vancouver's wildfire smoke season now arrives annually, with PM2.5 particles small enough to bypass the body's defenses and reach the bloodstream. Interface fires add heavy metals, PAHs, benzene, and PFAS — chemicals standard monitors miss. The Fraser Valley traps soot under warm-air inversions in Langley, Surrey, and Delta, while cold air pushes smoke against valley floors overnight in Burnaby and Coquitlam. HRV and ERV systems must switch to recirculation mode or shut off during smoke events — leaving them on draws toxic air inside. MERV 13 filters catch about 90% of PM2.5 but need a system check to avoid overloading blower motors. Activated carbon handles gases and VOCs that particulate filters miss. AireEnergy serves the Lower Mainland from Richmond, offering air quality testing, HRV inspections, and CleanBC-eligible heat pump upgrades that keep homes cool and rebate-ready.",
+    tags: ["HVAC", "Air Quality", "Vancouver", "GVA", "HRV", "Wildfire Smoke", "MERV", "CleanBC"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--peach))"
   },
   {
     id: 120,
