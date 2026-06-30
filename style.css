@@ -826,6 +826,68 @@ section {
   .project-link-btn { width: 100%; text-align: center; }
 }
 
+/* ── Recommendations ── */
+#recommendations { background: var(--bg); }
+
+.rec-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.rec-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.rec-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+
+.rec-icon {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: var(--lavender);
+  color: var(--text);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rec-info { flex: 1; min-width: 0; }
+
+.rec-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.rec-meta {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.rec-card .project-link-btn {
+  padding: 8px 18px;
+  font-size: 0.8rem;
+}
+
+.rec-empty {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 /* ── Contact ── */
 #contact { text-align: center; }
 
