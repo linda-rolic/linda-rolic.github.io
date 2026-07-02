@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 123,
+    title: "Beat the Ontario Heat: Why Attic Insulation is the Secret to Keeping Your Home Cool This Summer",
+    publication: "Constant Home Comfort",
+    date: "August 11, 2026",
+    dateISO: "2026-08-11",
+    wordCount: 1500,
+    readTime: 8,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=beat-the-ontario-heat-why-attic-insulation-is-the-secret-to-keeping-your-home-cool-this-summer",
+    excerpt: "Ontario attic spaces reach 60 degrees Celsius on hot summer days, turning ceilings into radiant heaters and triggering a reverse stack effect that pulls cool air out through basement gaps while sucking hot air down through pot lights and wiring. Most pre-2010 homes sit at R-10 to R-32 — well below the R-60 target recommended by Natural Resources Canada. A professional upgrade involves air-sealing all penetrations first, then adding 16 to 20 inches of blown-in insulation with soffit baffles to preserve roof ventilation. Costs across Ontario range from 1,400 to 5,500 dollars. The 2026 Enbridge Home Renovation Savings program offers up to 1,250 dollars in standalone attic rebates with no upfront energy assessment required. Constant Home Comfort is a pre-approved Enbridge contractor serving Markham, Mississauga, Scarborough, Ottawa, and Hamilton, handling all rebate paperwork on your behalf.",
+    tags: ["Insulation", "Attic", "Ontario", "Rebates", "Energy Efficiency", "HVAC", "Home Improvement", "Enbridge"],
+    accentGradient: "linear-gradient(180deg, var(--pink), var(--lavender))"
+  },
+  {
     id: 122,
     title: "Protecting Greater Vancouver Homes from Wildfire Smoke: The Role of IAQ Filters and HRV Systems",
     publication: "AireEnergy",
