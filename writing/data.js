@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 128,
+    title: "Back-to-School Air Quality: Reducing Dust, Mold, and Allergens Before September",
+    publication: "Constant Home Comfort",
+    date: "August 18, 2026",
+    dateISO: "2026-08-18",
+    wordCount: 1600,
+    readTime: 8,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=back-to-school-air-quality-reducing-dust-mold-and-allergens-before-september",
+    excerpt: "Late August is prime time for dust mites, mold spores, and ragweed pollen — and when kids head back to school, they bring home viruses that hit already-irritated airways hard. Canadian pediatricians track a predictable September asthma spike every year, roughly two weeks after Labour Day, driven by schoolyard rhinovirus landing on lungs inflamed by summer allergen buildup. Tight Ontario homes compound the problem by trapping CO2, VOCs from school supplies, and mold from humid basements. Constant Home Comfort addresses all of it through whole-home media air cleaners, HRV and ERV ventilation that exchange stale indoor air without losing conditioned temperature, and humidity control to keep dust mites in check. Ontario's Home Renovation Savings program offers up to 7,500 dollars on cold-climate heat pumps. Constant Home Comfort serves the GTA, Ottawa, Barrie, and Southwestern Ontario.",
+    tags: ["HVAC", "Indoor Air Quality", "Ontario", "GTA", "Humidity", "Energy Efficiency", "Rebates", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--mint))"
+  },
+  {
     id: 127,
     title: "Late Summer Home Comfort Checklist: Preparing Your HVAC Before Fall Hits",
     publication: "Constant Home Comfort",
