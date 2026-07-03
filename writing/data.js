@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 127,
+    title: "Late Summer Home Comfort Checklist: Preparing Your HVAC Before Fall Hits",
+    publication: "Constant Home Comfort",
+    date: "August 17, 2026",
+    dateISO: "2026-08-17",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=late-summer-home-comfort-checklist-preparing-your-hvac-before-fall-hits",
+    excerpt: "Ontario's weather shifts fast — one week it's a humid August heatwave, the next you're reaching for a sweater. Late summer is the window to run a home comfort checklist before heating season. DIY tasks cover swapping a clogged filter, clearing the outdoor condenser, doing a trial furnace run, flushing the condensate drain, checking vents, flipping ceiling fans to clockwise winter mode, and testing smoke and CO detectors. For safety-critical work — heat exchanger crack inspection, flame sensor cleaning, burner calibration, and electrical diagnostics — a 17-point furnace tune-up is the right call. If your system is aging, Ontario's 2026 Home Renovation Savings program offers up to 7,500 dollars on cold-climate heat pumps and 40,000 in interest-free federal financing. Constant Home Comfort covers the GTA, Ottawa, Barrie, and Southwestern Ontario with same-day service and rebate help.",
+    tags: ["HVAC", "Furnace", "Ontario", "GTA", "Energy Efficiency", "Rebates", "Heat Pump", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
+  {
     id: 126,
     title: "High Humidity in Your Home This Summer? Your AC Might Be the Problem",
     publication: "Constant Home Comfort",
