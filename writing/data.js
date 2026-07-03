@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 130,
+    title: "Heat Pump vs. Furnace and AC: The Side-by-Side Cost Breakdown for GTA Homes",
+    publication: "Constant Home Comfort",
+    date: "August 20, 2026",
+    dateISO: "2026-08-20",
+    wordCount: 2800,
+    readTime: 14,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=heat-pump-vs-furnace-and-ac-the-side-by-side-cost-breakdown-for-gta-homes",
+    excerpt: "Replacing a furnace or AC is one of the biggest home decisions GTA homeowners face, and the math has changed. A high-efficiency gas furnace burns fuel at up to 98 percent efficiency — but a cold-climate heat pump moves heat rather than creating it, reaching 300 to 400 percent efficiency in mild weather and still 200 percent in a minus-15 freeze. For a three-ton gas-heated home, Ontario's Home Renovation Savings Program delivers a 1,500 dollar rebate; electrically heated homes qualify for up to 7,500 dollars, and oil-heated homes can stack programs for over 15,000 combined. A hybrid dual-fuel setup — heat pump for mild days, gas furnace for deep cold — requires no home energy audit to claim rebates. Annual operating costs for an all-electric heat pump run 1,100 to 1,600 dollars versus 1,550 to 2,300 for a gas furnace and AC combo. Constant Home Comfort serves the GTA and broader Ontario.",
+    tags: ["HVAC", "Heat Pump", "Furnace", "AC", "Ontario", "GTA", "Energy Efficiency", "Rebates"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--peach))"
+  },
+  {
     id: 129,
     title: "Don't Let Your AC Escape: Why Summer Is the Best Time to Upgrade Attic Insulation",
     publication: "AireEnergy",
