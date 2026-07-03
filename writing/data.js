@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 126,
+    title: "High Humidity in Your Home This Summer? Your AC Might Be the Problem",
+    publication: "Constant Home Comfort",
+    date: "August 14, 2026",
+    dateISO: "2026-08-14",
+    wordCount: 1200,
+    readTime: 6,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=high-humidity-in-your-home-this-summer-your-ac-might-be-the-problem",
+    excerpt: "Ontario summers are humid, but a sticky interior with the AC running isn't normal — it signals the system is failing to dehumidify. A healthy AC condenses moisture on cold evaporator coils and drains it outside, keeping indoor humidity between 30 and 50 percent. Six culprits: an oversized unit short-cycling before moisture drains, a thermostat fan set to On blowing condensed water back into rooms, clogged filters freezing the coils, low refrigerant, leaky ducts pulling in attic humidity, and a blocked condensate drain re-evaporating pooled water. Excess moisture breeds mold, triggers respiratory issues, warps hardwood floors, and drives up bills as you chase a lower thermostat that never fixes the root cause. Constant Home Comfort serves Southern and Eastern Ontario with coil cleaning, duct inspections, system upgrades, and rebate paperwork for up to 7,500 dollars on heat pump installs.",
+    tags: ["HVAC", "AC", "Ontario", "Humidity", "Indoor Air Quality", "Energy Efficiency", "GTA", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--pink))"
+  },
+  {
     id: 125,
     title: "End-of-Summer AC Tune-Up Checklist Every GTA Homeowner Should Follow",
     publication: "Constant Home Comfort",
