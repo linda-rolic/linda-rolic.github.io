@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 133,
+    title: "Is Your Boiler Ready for the Cold? Essential Summer Maintenance Tips",
+    publication: "WiserAire",
+    date: "August 25, 2026",
+    dateISO: "2026-08-25",
+    wordCount: 1400,
+    readTime: 7,
+    url: "https://wiseraire.com/is-your-boiler-ready-for-the-cold-essential-summer-maintenance-tips/",
+    excerpt: "Summer is the smartest time to service a boiler — no waitlists and enough lead time to fix anything before Winnipeg's minus-forty winters arrive. DIY prep: run the system briefly to prevent pumps and valves from seizing, check pressure stays between one and two bars, and test the carbon monoxide detector. Professional service goes deeper — bleeding trapped air from radiators, flushing mineral sludge, balancing water pH to stop corrosion, and inspecting flues for a clean blue flame. High-efficiency boilers have condensate drain lines that freeze solid in a deep cold snap, shutting the system down — insulation or heat tape applied in summer prevents this. Manitoba Hydro finances boiler upgrades up to 7,500 dollars, and Efficiency Manitoba offers rebates on heat pump conversions. WiserAire handles rebate paperwork and offers 24/7 emergency service across Winnipeg and rural Manitoba.",
+    tags: ["HVAC", "Boiler", "Manitoba", "Winnipeg", "Maintenance", "Energy Efficiency", "Rebates", "Heat Pump"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--sky))"
+  },
+  {
     id: 132,
     title: "Why Your AC is Blowing Warm Air: Simple DIY Checks Before You Call a Pro",
     publication: "WiserAire",
