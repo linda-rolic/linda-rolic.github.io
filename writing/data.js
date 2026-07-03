@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 131,
+    title: "Water Purification in Ontario: Is Your Tap Water Safe for Drinking and Bathing?",
+    publication: "Constant Home Comfort",
+    date: "August 21, 2026",
+    dateISO: "2026-08-21",
+    wordCount: 2600,
+    readTime: 13,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=water-purification-in-ontario-is-your-tap-water-safe-for-drinking-and-bathing",
+    excerpt: "Ontario tap water meets provincial safety standards, but legal compliance and actual health safety are different things. Municipal treatment eliminates biological threats but creates byproducts: chlorine reacting with organic matter produces trihalomethanes and haloacetic acids at concentrations hundreds of times above health advocacy guidelines. Aging lead pipes, forever chemicals, and microplastics bypass treatment entirely. The shower adds another exposure route — hot water vaporizes chlorine into gas that enters the bloodstream through the lungs faster than drinking it. Hard water compounds the problem: calcium and magnesium strip skin oils, disrupt pH, and trigger eczema. The fix is layered — a whole-house carbon filter at the main line, a water softener for mineral removal, and a reverse osmosis system under the sink. Constant Home Comfort installs complete systems across Ontario.",
+    tags: ["Water Quality", "Hard Water", "Ontario", "GTA", "Indoor Air Quality", "Home Improvement", "Health", "Filtration"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--lavender))"
+  },
+  {
     id: 130,
     title: "Heat Pump vs. Furnace and AC: The Side-by-Side Cost Breakdown for GTA Homes",
     publication: "Constant Home Comfort",
