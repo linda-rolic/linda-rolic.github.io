@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 125,
+    title: "End-of-Summer AC Tune-Up Checklist Every GTA Homeowner Should Follow",
+    publication: "Constant Home Comfort",
+    date: "August 13, 2026",
+    dateISO: "2026-08-13",
+    wordCount: 1400,
+    readTime: 7,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=end-of-summer-ac-tune-up-checklist-every-gta-homeowner-should-follow",
+    excerpt: "After a non-stop July and August, GTA air conditioners need attention before winter. Neglecting your AC means a clogged blower motor straining through heating season — your furnace shares the same filter, motor, and ductwork. Five DIY tasks protect the system: swap the air filter monthly, clear a two-foot zone around the condenser, check thermostat accuracy, flush the condensate drain to prevent flooding, and inspect duct seams for leaks. Professional service goes deeper — testing refrigerant pressures, capacitors, coil cleanliness, and a CO check on the furnace heat exchanger. Constant Home Comfort offers a 59-dollar AC diagnostic for new GTA clients, maintenance plans from 8.99 dollars per month, and up to 7,500 dollars in heat pump rebates for homeowners whose old AC is ready for retirement. Same-day installation across Markham, Mississauga, Hamilton, and communities province-wide.",
+    tags: ["HVAC", "AC", "GTA", "Ontario", "Maintenance", "Energy Efficiency", "Rebates", "Heat Pump"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
+  },
+  {
     id: 124,
     title: "HRV vs. ERV Systems: Which Ventilation Unit Suits Ontario's Climate?",
     publication: "Constant Home Comfort",
