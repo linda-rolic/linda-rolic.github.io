@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 124,
+    title: "HRV vs. ERV Systems: Which Ventilation Unit Suits Ontario's Climate?",
+    publication: "Constant Home Comfort",
+    date: "August 12, 2026",
+    dateISO: "2026-08-12",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=hrv-vs-erv-systems-which-ventilation-unit-suits-ontarios-climate",
+    excerpt: "Ontario's airtight modern homes trap CO2, VOCs, and moisture with nowhere to escape. In winter, excess humidity condenses on windows and breeds mold; in summer, outdoor humidity overloads AC. Heat Recovery Ventilators transfer heat only, exhausting indoor moisture — ideal for Ottawa, Kanata, and Barrie where condensation is the main concern. Energy Recovery Ventilators transfer both heat and moisture, cutting summer AC load by 20 to 30 percent — better for humid lakeside zones like Hamilton, Mississauga, and the GTA. Ontario's 2024 Building Code (in force April 2025) mandates mechanical ventilation with heat or energy recovery for all new builds, requiring a certified Mechanical Ventilation Design Summary before permits. Constant Home Comfort installs Lennox Healthy Climate HRV and ERV systems province-wide and handles all rebate paperwork for programs offering up to 7,500 dollars.",
+    tags: ["HVAC", "HRV", "ERV", "Ontario", "Indoor Air Quality", "Energy Efficiency", "Rebates", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
     id: 123,
     title: "Beat the Ontario Heat: Why Attic Insulation is the Secret to Keeping Your Home Cool This Summer",
     publication: "Constant Home Comfort",
