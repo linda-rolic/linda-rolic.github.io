@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 132,
+    title: "Why Your AC is Blowing Warm Air: Simple DIY Checks Before You Call a Pro",
+    publication: "WiserAire",
+    date: "August 24, 2026",
+    dateISO: "2026-08-24",
+    wordCount: 1700,
+    readTime: 8,
+    url: "https://wiseraire.com/why-your-ac-is-blowing-warm-air-simple-diy-checks-before-you-call-a-pro/",
+    excerpt: "When your AC blows warm air in a Winnipeg heatwave, many causes take five minutes to fix yourself. Start with the thermostat: fan set to ON instead of AUTO circulates unconditioned air during off-cycles. A clogged filter starves the evaporator coil, freezing it solid — replace it and run the fan on AUTO for a few hours to thaw. The outdoor unit runs on a separate breaker, so a tripped breaker can kill cooling while air keeps blowing; reset it before calling anyone. Clear a two-foot buffer around the condenser and rinse its fins with a hose, never a pressure washer. Check the condensate drain pan — a clogged line triggers a float switch that cuts the compressor. If all five checks fail, likely culprits are a refrigerant leak, failed start capacitor, or compressor failure — each requiring certified technicians. WiserAire offers 24/7 emergency service across Winnipeg and rural Manitoba.",
+    tags: ["HVAC", "AC", "Manitoba", "Winnipeg", "Maintenance", "Energy Efficiency", "Rebates", "Heat Pump"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--sky))"
+  },
+  {
     id: 131,
     title: "Water Purification in Ontario: Is Your Tap Water Safe for Drinking and Bathing?",
     publication: "Constant Home Comfort",
