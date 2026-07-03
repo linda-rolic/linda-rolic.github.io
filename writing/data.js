@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 129,
+    title: "Don't Let Your AC Escape: Why Summer Is the Best Time to Upgrade Attic Insulation",
+    publication: "AireEnergy",
+    date: "August 19, 2026",
+    dateISO: "2026-08-19",
+    wordCount: 1500,
+    readTime: 7,
+    url: "https://aireenergy.com/dont-let-your-ac-escape-why-summer-is-the-best-time-to-upgrade-attic-insulation/",
+    excerpt: "A poorly insulated attic turns your roof into a radiator — while outdoor temperatures sit at 30°C, unventilated attic air can spike to 65°C and push that heat straight into living spaces, forcing your AC to run continuously and wear out years ahead of schedule. Summer is the best time to upgrade: dry weather makes installation cleaner, you beat the fall rush, and cooling bills drop immediately — often 15 to 30 percent. BC Building Code requires R-40 minimum in Metro Vancouver's climate zone, but local experts recommend R-50 to R-60. Many older Lower Mainland homes sit at R-20 or less. The CleanBC program offers up to 900 dollars in standard attic rebates, with income-qualified households eligible for up to 2,000 dollars. AireEnergy serves Richmond, Vancouver, Langley, Surrey, Delta, Coquitlam, Burnaby, and Squamish with certified installations and full rebate coordination.",
+    tags: ["HVAC", "AC", "Insulation", "BC", "Energy Efficiency", "Rebates", "Home Improvement", "Greater Vancouver"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
     id: 128,
     title: "Back-to-School Air Quality: Reducing Dust, Mold, and Allergens Before September",
     publication: "Constant Home Comfort",
