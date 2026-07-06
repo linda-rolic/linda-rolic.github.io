@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 134,
+    title: "Beat the September Rush: Why August is the Best Time for a Winnipeg Furnace Tune-Up",
+    publication: "WiserAire",
+    date: "August 26, 2026",
+    dateISO: "2026-08-26",
+    wordCount: 1300,
+    readTime: 6,
+    url: "https://wiseraire.com/beat-the-september-rush-why-august-is-the-best-time-for-a-winnipeg-furnace-tune-up/",
+    excerpt: "Winnipeg's weather shifts fast — August highs sit around 25°C, but September nights drop to 6°C and winter brings double-digit negatives. When the first cold snap hits, every contractor in town gets slammed: booked schedules, long wait times, emergency surcharges. Booking a furnace tune-up in August sidesteps all of it. Your AC and furnace share the same blower motor, and after a full summer of cooling duty it needs attention — cleaning the blower assembly, swapping filters, and checking the heat exchanger for cracks that leak carbon monoxide. A tune-up typically boosts efficiency by up to 15 percent and keeps warranties valid. Manitoba Hydro's HEEL program finances high-efficiency furnace upgrades up to 7,500 dollars, and Efficiency Manitoba offers up to 2,000 dollars on cold-climate heat pumps. WiserAire serves Winnipeg with same-day service and 24/7 emergency availability.",
+    tags: ["HVAC", "Furnace", "Manitoba", "Winnipeg", "Maintenance", "Energy Efficiency", "Rebates", "Heat Pump"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
+  {
     id: 133,
     title: "Is Your Boiler Ready for the Cold? Essential Summer Maintenance Tips",
     publication: "WiserAire",
