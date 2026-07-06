@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 138,
+    title: "The Complete Guide to Securing the $8,500 Mass Save Heat Pump Rebate This Year",
+    publication: "ComfiTrust",
+    date: "September 1, 2026",
+    dateISO: "2026-09-01",
+    wordCount: 1700,
+    readTime: 8,
+    url: "https://comfitrust.com/the-complete-guide-to-securing-the-8500-mass-save-heat-pump-rebate-this-year/",
+    excerpt: "Mass Save's heat pump rebate offers up to 8,500 dollars for Massachusetts homeowners, but a small misstep costs you the entire amount. Three pathways exist: 2,650 dollars per ton for whole-home conversions that decommission the old fossil fuel system, 1,125 dollars per ton for partial retrofits keeping a gas or oil backup with integrated controls, and 250 dollars per ton for basic replacements. A critical trap: systems using R-410A refrigerant are banned — only R-32 and R-454B qualify, making equipment selection non-negotiable. Whole-home conversions require proof the home is insulated to code or cleared by a Mass Save energy assessment. A Manual J sizing calculation earns an extra 500 dollar bonus if the system lands within 90 to 120 percent of the heating load. The 0% HEAT Loan covers up to 25,000 dollars. ComfiTrust handles the full process for Greater Boston homeowners.",
+    tags: ["HVAC", "Heat Pump", "Massachusetts", "Boston", "Energy Efficiency", "Rebates", "Indoor Air Quality", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
+  },
+  {
     id: 137,
     title: "Summer Hydration Safety: Why Massachusetts Well Water and Municipal Supplies Require Enhanced Filtration in August",
     publication: "ComfiTrust",
