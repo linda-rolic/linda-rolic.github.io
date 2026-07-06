@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 136,
+    title: "The Ultimate HVAC Checklist: How to Safely Switch Your Home from AC to Furnace Mode",
+    publication: "WiserAire",
+    date: "August 28, 2026",
+    dateISO: "2026-08-28",
+    wordCount: 1900,
+    readTime: 9,
+    url: "https://wiseraire.com/the-ultimate-hvac-checklist-how-to-safely-switch-your-home-from-ac-to-furnace-mode/",
+    excerpt: "Flipping from AC to heat without prep is a gamble — dirty filters cause unexpected shutdowns, blocked condensate drains trigger lockouts, and iced exhaust pipes push carbon monoxide back indoors. Before firing up the furnace: skip the vinyl AC cover (it traps moisture and invites rodents), flip the electrical disconnect to Off, open the humidifier damper and swap in a fresh evaporative pad, replace the furnace filter, and clear every vent. Set the thermostat fan to Auto — not On — to avoid cold drafts between heating cycles. When the system starts, watch for a steady blue flame; yellow or orange means carbon monoxide risk. A dusty smell is normal; rotten eggs or metallic burning means shut it off immediately. Efficiency Manitoba offers up to 2,000 dollars on ducted heat pumps and Manitoba Hydro's HEEL program finances upgrades up to 10,000 dollars. WiserAire serves Winnipeg 24/7.",
+    tags: ["HVAC", "Furnace", "AC", "Manitoba", "Winnipeg", "Maintenance", "Energy Efficiency", "Rebates"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
     id: 135,
     title: "Repair vs. Replace: How to Tell If Your Furnace Will Survive Another Winnipeg Winter",
     publication: "WiserAire",
