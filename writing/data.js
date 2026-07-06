@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 135,
+    title: "Repair vs. Replace: How to Tell If Your Furnace Will Survive Another Winnipeg Winter",
+    publication: "WiserAire",
+    date: "August 27, 2026",
+    dateISO: "2026-08-27",
+    wordCount: 2000,
+    readTime: 10,
+    url: "https://wiseraire.com/repair-vs-replace-how-to-tell-if-your-furnace-will-survive-another-winnipeg-winter/",
+    excerpt: "In Winnipeg, a failing furnace isn't an inconvenience — it's a safety risk when temperatures hit minus thirty. Six warning signs point toward replacement: a system past its 17-to-20-year lifespan, frequent ignition failures, weak airflow, wild temperature swings between floors, repeated overheating from clogged filters, and iced exterior vents. Older furnaces run at 60 to 70 percent efficiency, meaning up to 40 cents of every heating dollar goes up the chimney. A modern 96-percent AFUE unit costs 2,800 to 6,000 dollars installed. One hidden hazard: disconnecting an old furnace from a shared chimney leaves the water heater without enough draft, risking carbon monoxide backflow. Efficiency Manitoba offers 2,000 dollars on ducted heat pumps and Manitoba Hydro's HEEL program finances up to 10,000 dollars at low interest. WiserAire provides 24/7 emergency service across Winnipeg.",
+    tags: ["HVAC", "Furnace", "Manitoba", "Winnipeg", "Maintenance", "Energy Efficiency", "Rebates", "Heat Pump"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--mint))"
+  },
+  {
     id: 134,
     title: "Beat the September Rush: Why August is the Best Time for a Winnipeg Furnace Tune-Up",
     publication: "WiserAire",
