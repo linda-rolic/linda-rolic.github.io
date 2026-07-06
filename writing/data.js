@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 137,
+    title: "Summer Hydration Safety: Why Massachusetts Well Water and Municipal Supplies Require Enhanced Filtration in August",
+    publication: "ComfiTrust",
+    date: "August 31, 2026",
+    dateISO: "2026-08-31",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://comfitrust.com/summer-hydration-safety-why-massachusetts-well-water-and-municipal-supplies-require-enhanced-filtration-in-august/",
+    excerpt: "August strains Massachusetts water supplies from both ends. Private well users face dropping water tables that force pumps into oxygen-starved aquifers, dissolving iron, manganese, and arsenic; only 21 percent tested their water in the past year. Municipal customers on the MWRA system face a different threat: warm reservoir water fuels cyanobacteria blooms, forcing plants to increase chlorine, which reacts with organic matter to produce trihalomethanes and haloacetic acids. MWRA also uses chloramines for secondary disinfection — unlike chlorine they won't evaporate or boil off, and standard filters can't remove them. The fix is layered: reverse osmosis for heavy metals and PFAS, catalytic carbon for chloramines and VOCs, UV purification for bacteria and parasites on well systems. ComfiTrust serves Greater Boston with on-site water testing, custom system design, and lifetime maintenance.",
+    tags: ["Water Quality", "Filtration", "Massachusetts", "Boston", "Indoor Air Quality", "Health", "Hard Water", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--mint))"
+  },
+  {
     id: 136,
     title: "The Ultimate HVAC Checklist: How to Safely Switch Your Home from AC to Furnace Mode",
     publication: "WiserAire",
