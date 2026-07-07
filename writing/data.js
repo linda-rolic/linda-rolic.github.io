@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 143,
+    title: "The Autumn HVAC Checklist: How to Safely Transition Your System From AC to Heat",
+    publication: "ComfiTrust",
+    date: "September 9, 2026",
+    dateISO: "2026-09-09",
+    wordCount: 2200,
+    readTime: 11,
+    url: "https://comfitrust.com/the-autumn-hvac-checklist-how-to-safely-transition-your-system-from-ac-to-heat/",
+    excerpt: "Transitioning a New England home from AC to heat demands more than a thermostat flip. Shut down central AC by cutting power at the outdoor disconnect and covering with breathable canvas, never plastic; heat pumps must stay uncovered year-round. Swap the air filter and confirm vents are clear — restricted airflow overheats the heat exchanger and causes cracking. A professional inspection must cover the heat exchanger for hairline cracks, flame sensor cleaning, and blower capacitor testing. Massachusetts law under Nicole's Law requires CO detectors on every floor, within ten feet of bedroom doors, and interconnected in homes built after 2008. Mass Save now offers the primary HVAC incentives after federal tax credits expired: up to 8,500 dollars for whole-home or partial-home heat pumps, plus zero-percent HEAT Loan financing up to 25,000 dollars. ComfiTrust serves Greater Boston.",
+    tags: ["HVAC", "Furnace", "AC", "Massachusetts", "Boston", "Maintenance", "Energy Efficiency", "Rebates"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
+  },
+  {
     id: 142,
     title: "The Late-August Heating Audit: Why Waiting for October to Test Your Boston Furnace is a Costly Mistake",
     publication: "ComfiTrust",
