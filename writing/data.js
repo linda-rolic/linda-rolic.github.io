@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 144,
+    title: "Is Your Furnace Ready for Winter? Signs It Needs Service Before the First Cold Snap",
+    publication: "Constant Home Comfort",
+    date: "September 10, 2026",
+    dateISO: "2026-09-10",
+    wordCount: 1400,
+    readTime: 7,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=is-your-furnace-ready-for-winter-signs-it-needs-service-before-the-first-cold-snap",
+    excerpt: "Ontario winters don't ease in — when a deep freeze hits Ottawa, Barrie, or the GTA, HVAC schedules fill up within hours. Six signs your furnace needs service before that happens: climbing utility bills without changed habits (older furnaces waste 40 cents of every heating dollar); squealing, grinding, or loud bangs on startup; short cycling from a clogged filter trapping heat until the safety limit trips; a yellow flame indicating carbon monoxide risk; uneven temperatures from a failing blower motor or leaky ducts; and pooling water or chemical smells near the cabinet. A professional inspection covers flame sensor cleaning, condensate drain flushing, heat exchanger crack testing, and CO level verification. Ontario's Home Renovation Savings Program offers up to 7,500 dollars on qualifying heat pump upgrades. Constant Home Comfort serves Ontario with 24/7 service.",
+    tags: ["HVAC", "Furnace", "Ontario", "GTA", "Maintenance", "Energy Efficiency", "Rebates", "Heat Pump"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--sky))"
+  },
+  {
     id: 143,
     title: "The Autumn HVAC Checklist: How to Safely Transition Your System From AC to Heat",
     publication: "ComfiTrust",
