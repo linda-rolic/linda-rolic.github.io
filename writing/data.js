@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 141,
+    title: "The Autumn Transition: How to Properly Shut Down Your AC and Safe-Start Your Furnace",
+    publication: "AireEnergy",
+    date: "September 4, 2026",
+    dateISO: "2026-09-04",
+    wordCount: 2400,
+    readTime: 12,
+    url: "https://aireenergy.com/the-autumn-transition-how-to-properly-shut-down-your-ac-and-safe-start-your-furnace/",
+    excerpt: "Metro Vancouver's autumn arrives fast and wet — coastal damp makes careless seasonal handoffs expensive. Shutting down the AC means cutting power at the disconnect box, rinsing fins at low pressure, checking refrigerant line insulation for cracks, and covering only the top grate — never the full unit with plastic, which traps moisture and invites rodents. Starting the furnace means swapping the filter, clearing flammable items from the cabinet, confirming vents are open, and watching the first run for bangs or a yellow flame signalling carbon monoxide risk. Professional service covers heat exchanger inspection with camera scopes, flame sensor cleaning, gas pressure calibration, and blower motor testing. FortisBC offers 50 dollars back for a furnace service call and up to 5,000 dollars for a dual-fuel hybrid upgrade. AireEnergy serves Greater Vancouver with 24/7 emergency support.",
+    tags: ["HVAC", "Furnace", "AC", "BC", "Greater Vancouver", "Maintenance", "Energy Efficiency", "Rebates"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
+  {
     id: 140,
     title: "Beat the September Rush: Why an August Furnace Tune-Up Saves Greater Vancouver Homeowners Money and Stress",
     publication: "AireEnergy",
