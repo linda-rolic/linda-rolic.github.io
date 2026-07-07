@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 140,
+    title: "Beat the September Rush: Why an August Furnace Tune-Up Saves Greater Vancouver Homeowners Money and Stress",
+    publication: "AireEnergy",
+    date: "September 3, 2026",
+    dateISO: "2026-09-03",
+    wordCount: 1700,
+    readTime: 8,
+    url: "https://aireenergy.com/beat-the-september-rush-why-an-august-furnace-tune-up-saves-greater-vancouver-homeowners-money-and-stress/",
+    excerpt: "Metro Vancouver's coastal cold arrives fast — August averages 23°C, but September humidity hits 75 percent and overnight lows fall to 10°C. Furnaces idle all summer accumulate dust and grime that clogs components the moment heat is called for — the primary reason systems fail on the first cold day. Booking a tune-up in August sidesteps the autumn rush when technicians are racing between emergency calls. Professional service covers heat exchanger crack inspection, flame sensor calibration, blower motor electrical testing, gas pressure adjustment, and condensate line flushing. Skipping maintenance costs roughly 5 percent in efficiency per year; five years of neglect can spike gas bills by 25 percent and end in a major repair. BC's CleanBC program offers up to 16,000 dollars on heat pump upgrades. AireEnergy serves Vancouver, Langley, Surrey, Delta, Coquitlam, Burnaby, and Squamish.",
+    tags: ["HVAC", "Furnace", "BC", "Greater Vancouver", "Maintenance", "Energy Efficiency", "Rebates", "Heat Pump"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
     id: 139,
     title: "The Best of Both Worlds: How Dual-Fuel Hybrid Systems Handle Vancouver's Unpredictable Weather",
     publication: "AireEnergy",
