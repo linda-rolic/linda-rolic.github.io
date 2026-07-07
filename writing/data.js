@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 145,
+    title: "Ontario Home Renovation Savings Program: Everything You Can Still Claim in 2026",
+    publication: "Constant Home Comfort",
+    date: "September 11, 2026",
+    dateISO: "2026-09-11",
+    wordCount: 1600,
+    readTime: 8,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=ontario-home-renovation-savings-program-everything-you-can-still-claim-in-2026",
+    excerpt: "Ontario's Home Renovation Savings Program runs through November 30, 2026. The Single Upgrade Path requires no energy audit: install a qualifying heat pump, smart thermostat, or attic insulation and claim the rebate. The Bundled Path pairs an assessment with higher totals for multi-upgrade projects. Cold-climate heat pumps pay 1,250 dollars per ton (up to 7,500 dollars) for electric, oil, or propane-heated homes and 500 per ton (up to 2,000 dollars) for gas-heated homes; attic insulation pays up to 1,250 dollars with no audit required; heat pump water heaters earn 500 dollars. Oil-heated homes can stack the provincial rebate with the federal OHPA program for up to 17,500 dollars combined. The critical rule: written pre-approval must be in hand before installation begins — a single day's gap disqualifies the claim. Constant Home Comfort handles the full application process across Ontario.",
+    tags: ["HVAC", "Heat Pump", "Ontario", "GTA", "Energy Efficiency", "Rebates", "Insulation", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--sky))"
+  },
+  {
     id: 144,
     title: "Is Your Furnace Ready for Winter? Signs It Needs Service Before the First Cold Snap",
     publication: "Constant Home Comfort",
