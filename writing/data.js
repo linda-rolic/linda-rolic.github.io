@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 139,
+    title: "The Best of Both Worlds: How Dual-Fuel Hybrid Systems Handle Vancouver's Unpredictable Weather",
+    publication: "AireEnergy",
+    date: "September 2, 2026",
+    dateISO: "2026-09-02",
+    wordCount: 1600,
+    readTime: 8,
+    url: "https://aireenergy.com/the-best-of-both-worlds-how-dual-fuel-hybrid-systems-handle-vancouvers-unpredictable-weather/",
+    excerpt: "Metro Vancouver's microclimate swings — coastal damp in Burnaby, valley freezes in Langley, wind in Squamish — make single-source heating a constant compromise. A dual-fuel hybrid pairs an electric heat pump with a gas furnace on a smart thermostat that swaps automatically. During mild weather the heat pump runs at three to five times the efficiency of resistance heating; when temperatures drop below the balance point — typically 2 to 8 degrees Celsius — the gas furnace takes over. Summer runs in reverse, providing central AC through existing vents. Oversizing causes short-cycling and early compressor failure; undersizing forces the furnace to carry the full load. Active 2026 BC rebates offer up to 8,000 dollars for standard-income households and up to 16,000 dollars for lower-income tiers. AireEnergy serves Vancouver, Langley, Surrey, Delta, Coquitlam, Burnaby, and Squamish.",
+    tags: ["HVAC", "Heat Pump", "Furnace", "BC", "Energy Efficiency", "Rebates", "Greater Vancouver", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--sky))"
+  },
+  {
     id: 138,
     title: "The Complete Guide to Securing the $8,500 Mass Save Heat Pump Rebate This Year",
     publication: "ComfiTrust",
