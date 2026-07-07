@@ -1,5 +1,18 @@
 const BLOGS = [
   {
+    id: 142,
+    title: "The Late-August Heating Audit: Why Waiting for October to Test Your Boston Furnace is a Costly Mistake",
+    publication: "ComfiTrust",
+    date: "September 8, 2026",
+    dateISO: "2026-09-08",
+    wordCount: 1100,
+    readTime: 5,
+    url: "https://comfitrust.com/the-late-august-heating-audit-why-waiting-for-october-to-test-your-boston-furnace-is-a-costly-mistake/",
+    excerpt: "Boston's summer doesn't fade — it drops off a cliff. By October, daily highs average 62°F and overnight lows hit 46°F, and every HVAC company in the state gets slammed the day temperatures dip below 50. Waiting means days-long waits, emergency surcharges, and backordered parts leaving families on space heaters. Booking a furnace audit in August sidesteps all of it: schedules are open, parts are easy to source, and there's time to fix what's found. Six months of inactivity lets dust settle on burners causing yellow flames, corrodes flame sensors into lockout failures, and can crack heat exchangers enough to leak carbon monoxide into living spaces. Mass Save offers up to 8,500 dollars in rebates for partial-home heat pump retrofits and up to 25,000 dollars in zero-interest HEAT Loan financing. ComfiTrust serves Greater Boston with licensed, transparent-priced service.",
+    tags: ["HVAC", "Furnace", "Massachusetts", "Boston", "Maintenance", "Energy Efficiency", "Rebates", "Heat Pump"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--peach))"
+  },
+  {
     id: 141,
     title: "The Autumn Transition: How to Properly Shut Down Your AC and Safe-Start Your Furnace",
     publication: "AireEnergy",
