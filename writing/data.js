@@ -1,4 +1,17 @@
-const BLOGS = [
+﻿const BLOGS = [
+  {
+    id: 146,
+    title: "How to Lower Your Hydro-Quebec Bill This Summer Without Turning Off Your AC",
+    publication: "Aura ClimatPro",
+    date: "September 14, 2026",
+    dateISO: "2026-09-14",
+    wordCount: 1900,
+    readTime: 10,
+    url: "https://auraclimatpro.com/how-to-lower-your-hydro-quebec-bill-this-summer-without-turning-off-your-ac/",
+    excerpt: "Running your air conditioner through a Montreal heatwave doesn't have to mean dreading your next Hydro-Quebec bill. Most homes are billed under Rate D: the first 40 kWh per day costs 7.065 cents, and anything above that threshold jumps to 11.142 cents. Simple adjustments can keep you in the cheaper tier. Keep your thermostat between 22 and 25 degrees C - AC systems run at one speed, so setting it lower just extends run time without cooling faster. Run ceiling fans counter-clockwise to create a wind-chill effect, letting you raise the thermostat a degree or two without losing comfort. Swap clogged filters monthly to cut energy usage by up to 15%. Block heat before it enters: close blinds on sunny windows and skip the oven on hot days. If your unit is aging, Hydro-Quebec's LogisVert program offers up to $6,700 toward a cold-climate heat pump.",
+    tags: ["HVAC", "Air Conditioning", "Quebec", "Energy Efficiency", "Heat Pump", "Rebates", "Smart Thermostat", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--lavender))"
+  },
   {
     id: 145,
     title: "Ontario Home Renovation Savings Program: Everything You Can Still Claim in 2026",
