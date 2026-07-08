@@ -1,4 +1,17 @@
-﻿﻿const BLOGS = [
+﻿﻿﻿const BLOGS = [
+  {
+    id: 148,
+    title: "Navigating the Oil to Heat Pump Affordability Program in Nova Scotia: A Complete Guide to Securing Up to $30,000 in Energy Rebates",
+    publication: "AuxAire",
+    date: "September 16, 2026",
+    dateISO: "2026-09-16",
+    wordCount: 2100,
+    readTime: 11,
+    url: "https://auxaire.com/2026/09/16/navigating-the-oil-to-heat-pump-affordability-program-in-nova-scotia-a-complete-guide-to-securing-up-to-30000-in-energy-rebates/",
+    excerpt: "Nova Scotia homeowners transitioning from oil heating can access up to $30,000 in combined federal and provincial rebates - but the landscape shifted in early 2026. The federal Oil to Heat Pump Affordability Program reached full capacity on February 11, 2026, placing new applicants on a standby list. No installation can begin until a formal pre-approval letter arrives, and all work must finish by December 31, 2026. Moderate-income households can skip the wait by pivoting to the provincial Moderate Income Rebate - up to $5,000 stacked with a $5,000 Home Energy Assessment rebate, totaling $10,000 in active funding. Lower-income homeowners may qualify for HomeWarming, which covers up to $30,000 in full retrofits at no cost. All systems must meet cold-climate standards including an HSPF2 of at least 6.6 and minimum 70% capacity at -15 degrees C.",
+    tags: ["HVAC", "Heat Pump", "Nova Scotia", "Atlantic Canada", "Rebates", "Energy Efficiency", "Oil Heating", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--mint))"
+  },
   {
     id: 147,
     title: "Comment reduire votre facture d'Hydro-Quebec cet ete sans couper votre climatiseur",
