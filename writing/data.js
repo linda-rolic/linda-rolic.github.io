@@ -1,4 +1,17 @@
-﻿const BLOGS = [
+﻿﻿const BLOGS = [
+  {
+    id: 147,
+    title: "Comment reduire votre facture d'Hydro-Quebec cet ete sans couper votre climatiseur",
+    publication: "Aura ClimatPro",
+    date: "September 15, 2026",
+    dateISO: "2026-09-15",
+    wordCount: 1900,
+    readTime: 10,
+    url: "https://auraclimatpro.com/comment-reduire-votre-facture-dhydro-quebec-cet-ete-sans-couper-votre-climatiseur/",
+    excerpt: "A Montreal, Gatineau et Ottawa, les vagues de chaleur transforment la climatisation en necessite absolue - mais votre facture d'Hydro-Quebec n'a pas a en souffrir. La facturation Hydro-Quebec suit le Taux D : les premiers 40 kWh par jour coutent 7,065 cents, et tout depassement passe a 11,142 cents. Quelques gestes simples permettent de rester dans la tranche moins chere. Reglez votre thermostat entre 22 et 25 degres C - les climatiseurs fonctionnent a vitesse unique, un reglage plus bas ne fait que prolonger le temps de fonctionnement. Faites tourner les ventilateurs de plafond a l'envers pour creer un effet de refroidissement. Changez vos filtres mensuellement pour reduire la consommation jusqu'a 15 %. Fermez les stores cote soleil en journee. Si votre appareil vieillit, le programme LogisVert d'Hydro-Quebec offre jusqu'a 6 700 $ pour une pompe a chaleur.",
+    tags: ["HVAC", "Air Conditioning", "Quebec", "Energy Efficiency", "Heat Pump", "Rebates", "Smart Thermostat", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
+  },
   {
     id: 146,
     title: "How to Lower Your Hydro-Quebec Bill This Summer Without Turning Off Your AC",
