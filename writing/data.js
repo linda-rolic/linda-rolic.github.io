@@ -1,4 +1,4 @@
-﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿const BLOGS = [
   {
     id: 148,
     title: "Navigating the Oil to Heat Pump Affordability Program in Nova Scotia: A Complete Guide to Securing Up to $30,000 in Energy Rebates",
@@ -444,7 +444,7 @@
   {
     id: 113,
     title: "Beyond Central Air: How Ductless Mini-Splits Keep Historic Boston Homes Perfectly Cool",
-    publication: "Comfitrust",
+    publication: "ComfiTrust",
     date: "July 24, 2026",
     dateISO: "2026-07-24",
     wordCount: 1800,
@@ -457,7 +457,7 @@
   {
     id: 112,
     title: "Hard Water vs. Microplastics: What's Actually in Greater Boston's Tap Water?",
-    publication: "Comfitrust",
+    publication: "ComfiTrust",
     date: "July 23, 2026",
     dateISO: "2026-07-23",
     wordCount: 1900,
@@ -470,7 +470,7 @@
   {
     id: 111,
     title: "The Summer Attic Tax: How Poor Insulation Stalls Boston AC Units and Spikes Eversource Bills",
-    publication: "Comfitrust",
+    publication: "ComfiTrust",
     date: "July 22, 2026",
     dateISO: "2026-07-22",
     wordCount: 1600,
@@ -496,7 +496,7 @@
   {
     id: 109,
     title: "Why Your AC Feels Like It's Struggling on 90°F+ Boston Days (And When to Call a Pro)",
-    publication: "Comfitrust",
+    publication: "ComfiTrust",
     date: "July 20, 2026",
     dateISO: "2026-07-20",
     wordCount: 1400,
