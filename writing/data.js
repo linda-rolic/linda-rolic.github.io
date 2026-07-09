@@ -1,4 +1,17 @@
-﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 149,
+    title: "Six Ways to Lower Winter Heating Bills Before the Cold Hits",
+    publication: "WiserAire",
+    date: "September 17, 2026",
+    dateISO: "2026-09-17",
+    wordCount: 1600,
+    readTime: 8,
+    url: "https://wiseraire.com/six-ways-to-lower-winter-heating-bills-before-the-cold-hits/",
+    excerpt: "Winnipeg winters are brutal — when January wind chills drop past -30 degrees C, your furnace runs around the clock just to keep your home livable. A few fall upgrades can lock in lower Manitoba Hydro bills before the freeze sets in. Installing an ENERGY STAR smart thermostat (eligible for a $50 Efficiency Manitoba rebate) can cut your heating bill by up to 10% annually. Annual furnace maintenance prevents efficiency losses of up to 15%. Sealing drafts around windows, doors, and outlets can reduce heating costs by 15% to 20%. Topping up attic insulation to R-38 is one of the highest-impact changes — and if your home was built before 1999, Efficiency Manitoba may cover up to 100% of material costs. For long-term savings, a cold-climate heat pump hybrid qualifies for a $2,000 rebate and handles temperatures down to -25 degrees C.",
+    tags: ["HVAC", "Heat Pump", "Manitoba", "Winnipeg", "Energy Efficiency", "Rebates", "Smart Thermostat", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
+  },
   {
     id: 148,
     title: "Navigating the Oil to Heat Pump Affordability Program in Nova Scotia: A Complete Guide to Securing Up to $30,000 in Energy Rebates",
