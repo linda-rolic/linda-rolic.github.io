@@ -1,4 +1,17 @@
-﻿﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 150,
+    title: "What's That Smell? What to Expect When You Turn On Your Boston Furnace This Fall",
+    publication: "ComfiTrust",
+    date: "September 18, 2026",
+    dateISO: "2026-09-18",
+    wordCount: 1500,
+    readTime: 8,
+    url: "https://comfitrust.com/whats-that-smell-what-to-expect-when-you-turn-on-your-boston-furnace-this-fall/",
+    excerpt: "That dusty smell when you first switch your Boston furnace on each fall is usually harmless — months of settled dust burning off the heat exchanger, clearing in 15 to 30 minutes. A clogged filter turns a brief odor into a persistent scorched smell by restricting airflow. Musty, damp odors mean mold colonized your ductwork during Boston's humid summer. Before flipping the thermostat, replace your filter, clear three feet around the furnace, test your CO detectors, and book a professional inspection. Some smells demand immediate action: burning plastic indicates a seizing blower motor; rotten egg odor means a gas leak — evacuate and call 911. Odorless carbon monoxide from a cracked heat exchanger is the biggest hidden danger, making CO detectors non-negotiable. If your system is aging, Mass Save offers up to $8,500 in heat pump rebates and $25,000 in 0% financing.",
+    tags: ["HVAC", "Furnace", "Massachusetts", "Boston", "Home Safety", "Home Comfort", "Heat Pump", "Rebates"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
   {
     id: 149,
     title: "Six Ways to Lower Winter Heating Bills Before the Cold Hits",
