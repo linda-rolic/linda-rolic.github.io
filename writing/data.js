@@ -1,4 +1,17 @@
-﻿﻿﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 151,
+    title: "How to Actually Get Up to $24,000 in CleanBC Rebates (Without the Headache)",
+    publication: "AireEnergy",
+    date: "September 21, 2026",
+    dateISO: "2026-09-21",
+    wordCount: 1400,
+    readTime: 7,
+    url: "https://aireenergy.com/how-to-actually-get-up-to-24000-in-cleanbc-rebates-without-the-headache/",
+    excerpt: "BC's CleanBC Better Homes Energy Savings Program is paying homeowners up to $24,000 to replace gas, oil, or propane furnaces with high-efficiency electric heat pumps — and for some lower-income households, the grant covers the entire installation. The total stacks three grants: up to $16,000 for the heat pump itself, $5,000 for an electrical panel upgrade, and a $3,000 regional bonus for northern BC. For a family of four earning under $87,350, the full $16,000 heat pump grant is available; households earning up to $185,620 can still receive up to $10,500. The key is doing things in the right order: pre-register on the CleanBC portal before any work begins, complete a home energy assessment, verify income using Line 15000 of your tax return, and use a registered contractor who applies the rebate directly to your invoice.",
+    tags: ["HVAC", "Heat Pump", "British Columbia", "Vancouver", "Energy Efficiency", "Rebates", "CleanBC", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
   {
     id: 150,
     title: "What's That Smell? What to Expect When You Turn On Your Boston Furnace This Fall",
