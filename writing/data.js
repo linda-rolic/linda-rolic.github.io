@@ -1,4 +1,17 @@
-﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 153,
+    title: "Why Does My Furnace Smell Like It's Burning? What's Normal and What's Dangerous",
+    publication: "WiserAire",
+    date: "September 23, 2026",
+    dateISO: "2026-09-23",
+    wordCount: 2000,
+    readTime: 10,
+    url: "https://wiseraire.com/why-does-my-furnace-smell-like-its-burning-whats-normal-and-whats-dangerous/",
+    excerpt: "That dusty, scorched smell when you first fire up your Winnipeg furnace each October is almost always harmless — just settled dust burning off the heat exchanger, clearing in 10 to 30 minutes. A chemical scent from a newly installed unit is normal too, as factory coatings cure during the first few hours of operation. Musty odors signal mold that colonized your ductwork over summer. But three smells demand immediate action: burning plastic points to electrical failure and fire risk; a sweet, formaldehyde-like odor indicates a cracked heat exchanger leaking carbon monoxide; and rotten eggs mean a natural gas leak — evacuate and call 911 without touching any switches. A clogged filter is behind most worst-case scenarios: restricted airflow causes heat buildup that cracks metal and burns out blower motors.",
+    tags: ["HVAC", "Furnace", "Manitoba", "Winnipeg", "Home Safety", "Home Comfort", "Energy Efficiency", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--sky))"
+  },
   {
     id: 152,
     title: "Stop Throwing Money Out the Window: Air Sealing Tips Ahead of the First New England Frost",
