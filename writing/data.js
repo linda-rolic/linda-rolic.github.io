@@ -1,4 +1,17 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 154,
+    title: "Repair vs. Replace: When is It Time to Retire Your Old Vancouver Furnace?",
+    publication: "AireEnergy",
+    date: "September 24, 2026",
+    dateISO: "2026-09-24",
+    wordCount: 2000,
+    readTime: 10,
+    url: "https://aireenergy.com/repair-vs-replace-when-is-it-time-to-retire-your-old-vancouver-furnace/",
+    excerpt: "Vancouver's damp coastal climate forces furnaces to cycle constantly, causing wear that cuts a typical lifespan to 10-12 years. Warning signs it's time to replace: FortisBC bills climbing without changed habits, multiple service calls per year, uneven room temperatures, unusual grinding noises, or — most critically — a yellow burner flame or soot around the cabinet, which can indicate carbon monoxide from a cracked heat exchanger. Two rules help decide: the 50% Rule (replace if repair costs exceed half of a new install) and the Age x Repair Rule (unit age multiplied by the repair quote; replace if that exceeds half the cost of new). For the upgrade, BC's Income-Qualified CleanBC stream offers up to $16,000 for switching from gas to a heat pump, plus up to $5,000 for an electrical panel upgrade. FortisBC also offers up to $5,000 for a dual-fuel heat pump.",
+    tags: ["HVAC", "Furnace", "British Columbia", "Vancouver", "Energy Efficiency", "Rebates", "CleanBC", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--peach))"
+  },
   {
     id: 153,
     title: "Why Does My Furnace Smell Like It's Burning? What's Normal and What's Dangerous",
