@@ -1,4 +1,17 @@
-﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 152,
+    title: "Stop Throwing Money Out the Window: Air Sealing Tips Ahead of the First New England Frost",
+    publication: "ComfiTrust",
+    date: "September 22, 2026",
+    dateISO: "2026-09-22",
+    wordCount: 2000,
+    readTime: 10,
+    url: "https://comfitrust.com/stop-throwing-money-out-the-window-air-sealing-tips-ahead-of-the-first-new-england-frost/",
+    excerpt: "The 'stack effect' silently drains up to 40% of your home's heating energy: warm air rises through attic gaps, pulling freezing air in through basement cracks, under doors, and around utility entries. Finding leaks is low-tech: slide a dollar bill through a closed exterior door to test weatherstripping, or watch candle smoke near outlets while exhaust fans depressurize the house. Sealing them with caulk, spray foam, and dense-pack cellulose is now heavily subsidized. The federal 25C insulation tax credit expired December 31, 2025 — but Mass Save is fully active for 2026, covering 75% of insulation costs with no cap, and 100% free for households earning up to $132,000 (family of four). No-cost air sealing is included with every insulation project, and the 0% HEAT Loan covers remaining costs up to $25,000.",
+    tags: ["HVAC", "Insulation", "Massachusetts", "Boston", "Energy Efficiency", "Mass Save", "Rebates", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
   {
     id: 151,
     title: "How to Actually Get Up to $24,000 in CleanBC Rebates (Without the Headache)",
