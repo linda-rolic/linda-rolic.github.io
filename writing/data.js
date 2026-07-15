@@ -1,4 +1,17 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 156,
+    title: "Why Fall Is the Absolute Worst Time for Dry Indoor Air (And How to Fix It)",
+    publication: "Constant Home Comfort",
+    date: "September 28, 2026",
+    dateISO: "2026-09-28",
+    wordCount: 1700,
+    readTime: 9,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=why-fall-is-the-absolute-worst-time-for-dry-indoor-air-and-how-to-fix-it",
+    excerpt: "Every fall, sealed Ontario homes and running furnaces drive indoor humidity down to 10-20% — not because furnaces burn moisture, but because warming cold air multiplies its capacity to hold vapor without adding new moisture. The result pulls water from your sinuses, skin, and hardwood floors. Low humidity compromises mucous membranes that trap airborne germs and lets viruses travel farther before settling. Portable humidifiers demand daily refilling and disinfecting to avoid becoming mold sprayers. A whole-home bypass or fan-powered humidifier connects directly to your furnace ductwork and water supply, balancing every room automatically. Humid air holds heat better — lowering your thermostat a degree or two without losing comfort helps offset the installation cost. Steam models work independently of the furnace, making them ideal for heat pump homes.",
+    tags: ["HVAC", "Humidifier", "Ontario", "GTA", "Air Quality", "Home Comfort", "Energy Efficiency", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
   {
     id: 155,
     title: "The Great Ontario Climate Flip: How to Safely Switch Your GTA Home From AC to Furnace",
