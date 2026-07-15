@@ -1,4 +1,17 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 158,
+    title: "Solar Panels in Ontario: Does the Fall Install Window Make Financial Sense?",
+    publication: "Constant Home Comfort",
+    date: "September 30, 2026",
+    dateISO: "2026-09-30",
+    wordCount: 2500,
+    readTime: 13,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=solar-panels-in-ontario-does-the-fall-install-window-make-financial-sense",
+    excerpt: "Ontario's fall shoulder season is the optimal time to install solar panels — cold temperatures boost panel efficiency by about 0.5% per degree below 25°C, making a clear -10°C day up to 15% more productive than a sweltering summer afternoon. Fall installs jump the queue ahead of spring permit and utility connection backlogs, and commissioning before December 31 lets you claim the 30% federal Clean Technology Investment Tax Credit on your next return. Ontario's May 2026 OEB change raised the simplified micro-generation cap from 10 kW to 12 kW AC, eliminating costly Connection Impact Assessments. The HRSP offers up to $10,000 in stacked rebates for solar paired with a smart battery, while a battery and ULO rate arbitrage — charging overnight at 3.9 cents and discharging during the 39.1-cent evening peak — compresses the payback period to 6.5 to 8 years.",
+    tags: ["Solar Panels", "Ontario", "GTA", "Energy Efficiency", "Rebates", "Net Metering", "Home Improvement", "Clean Energy"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
   {
     id: 157,
     title: "High-Efficiency Furnace Buying Guide: What GTA Homeowners Need to Know in 2026",
