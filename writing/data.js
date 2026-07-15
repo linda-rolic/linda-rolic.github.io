@@ -1,4 +1,17 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 157,
+    title: "High-Efficiency Furnace Buying Guide: What GTA Homeowners Need to Know in 2026",
+    publication: "Constant Home Comfort",
+    date: "September 29, 2026",
+    dateISO: "2026-09-29",
+    wordCount: 3000,
+    readTime: 15,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=high-efficiency-furnace-buying-guide-what-gta-homeowners-need-to-know-in-2026",
+    excerpt: "GTA furnace shopping in 2026 means navigating significant new rules: federal regulations require a minimum 95% AFUE on all new gas furnaces, Ontario's updated Fire Code mandates CO alarms on every floor, and R-410A refrigerant has been phased out in favor of lower-impact alternatives like R-454B and R-32. On the rebate side, the Canada Greener Homes Grant and Enbridge HER+ program are both closed — the active program is the Home Renovation Savings Program (HRSP), funded through November 2026. A standalone heat pump installation qualifies for up to $7,500 with no energy audit required; pairing a new high-efficiency gas furnace with a heat pump earns Enbridge Gas customers up to $2,000. Proper sizing via Manual J heat loss calculation is critical — an oversized furnace short-cycles, stressing the heat exchanger and risking carbon monoxide leaks.",
+    tags: ["HVAC", "Furnace", "Ontario", "GTA", "Energy Efficiency", "Rebates", "Heat Pump", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--lavender))"
+  },
   {
     id: 156,
     title: "Why Fall Is the Absolute Worst Time for Dry Indoor Air (And How to Fix It)",
