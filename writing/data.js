@@ -1,4 +1,17 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 155,
+    title: "The Great Ontario Climate Flip: How to Safely Switch Your GTA Home From AC to Furnace",
+    publication: "Constant Home Comfort",
+    date: "September 25, 2026",
+    dateISO: "2026-09-25",
+    wordCount: 1700,
+    readTime: 9,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=the-great-ontario-climate-flip-how-to-safely-switch-your-gta-home-from-ac-to-furnace",
+    excerpt: "Southern Ontario's unpredictable fall weather means many GTA homeowners flip between heating and cooling in the same day. A twenty-minute prep before the freeze sets in protects your equipment and prevents costly mid-winter emergencies. Raise your thermostat gradually — two to three degrees at a time — to avoid thermal stress on the heat exchanger. Replace your furnace filter now; a clogged filter causes short-cycling that can eventually crack the heat exchanger. Flip your whole-home humidifier damper to 'Winter,' open the water valve, and set the humidistat between 30% and 40%. Outside, clear the PVC exhaust vents of leaves and nests, and cover your AC with plywood on top only — never a plastic tarp. Through Ontario's HRSP, eligible homeowners can claim up to $7,500 for a cold-climate heat pump, $1,250 for attic insulation, and $100 for a smart thermostat — no pre-audit needed.",
+    tags: ["HVAC", "Furnace", "Ontario", "GTA", "Home Improvement", "Energy Efficiency", "Rebates", "Smart Thermostat"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--mint))"
+  },
   {
     id: 154,
     title: "Repair vs. Replace: When is It Time to Retire Your Old Vancouver Furnace?",
