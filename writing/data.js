@@ -1,4 +1,17 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 161,
+    title: "Is Your Boiler Ready for Winter? Serving Viessmann and Navien Systems in the Lower Mainland",
+    publication: "AireEnergy",
+    date: "October 5, 2026",
+    dateISO: "2026-10-05",
+    wordCount: 3000,
+    readTime: 15,
+    url: "https://aireenergy.com/is-your-boiler-ready-for-winter-serving-viessmann-and-navien-systems-in-the-lower-mainland/",
+    excerpt: "Modern condensing boilers like the Viessmann Vitodens and Navien combi extract latent heat from exhaust gases, producing up to two litres of acidic condensate per hour. When that drain line passes through an unheated space, a cold snap can freeze it and trigger a safety lockout. Viessmann lockouts commonly trace to pressure drops below 0.8 bar or a carbon-fouled ionization electrode (fault code F4); Navien shutdowns typically stem from a scale-blocked diverter valve, low pressure (E110/E119), or ignition failure (E003). Pre-winter service — clearing intake vents, insulating the condensate line, bleeding radiator air, and cleaning electrodes — prevents most emergencies. For upgrades, BC's Income-Qualified CleanBC stream offers up to $16,000-$19,000 toward a cold-climate heat pump, and FortisBC offers up to $3,000 for a condensing tankless water heater.",
+    tags: ["HVAC", "Boiler", "British Columbia", "Vancouver", "Energy Efficiency", "Rebates", "Home Improvement", "Home Safety"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--mint))"
+  },
   {
     id: 160,
     title: "Got Cold Rooms? How Mini-Split Systems Fix Uneven Heating in Older Winnipeg Homes",
