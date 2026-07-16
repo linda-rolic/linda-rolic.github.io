@@ -1,4 +1,17 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 162,
+    title: "Preparing for Hurricane Season: How Solar & Battery Solutions Keep Maritime Homes Running",
+    publication: "AuxAire",
+    date: "October 6, 2026",
+    dateISO: "2026-10-06",
+    wordCount: 2200,
+    readTime: 11,
+    url: "https://auxaire.com/2026/10/06/preparing-for-hurricane-season-how-solar-battery-solutions-keep-maritime-homes-running/",
+    excerpt: "Hurricane Fiona knocked out power to 80% of Nova Scotia Power customers and 95% of PEI — and standard grid-tied solar offers zero backup during such events. Anti-islanding laws require all grid-compliant inverters to shut down the moment grid power fails. The fix is a hybrid inverter paired with a battery storage system: it physically disconnects from the utility, creates a local microgrid, and allows solar panels to resume generating within seconds. For 5-7 day outages, a 4,000-6,000 Wh battery paired with 1.4 kW of solar continuously powers a fridge, well pump, and a heat pump on low. Nova Scotia's SolarHomes grant is closed, but the Home Battery Storage Rebate still offers up to $2,500 plus $500 for Eco Shift enrollment, and Nova Scotia Power's net metering credits exports at the full retail rate of 19.128 cents per kWh.",
+    tags: ["Solar Panels", "Battery Storage", "Atlantic Canada", "Nova Scotia", "Energy Efficiency", "Rebates", "Clean Energy", "Home Safety"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--sky))"
+  },
   {
     id: 161,
     title: "Is Your Boiler Ready for Winter? Serving Viessmann and Navien Systems in the Lower Mainland",
