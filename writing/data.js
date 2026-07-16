@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 164,
+    title: "La pompe à chaleur Bosch IDS Premium vaut-elle vraiment le coup pour l'hiver montréalais ?",
+    publication: "Aura ClimatPro",
+    date: "October 8, 2026",
+    dateISO: "2026-10-08",
+    wordCount: 2200,
+    readTime: 11,
+    url: "https://auraclimatpro.com/la-pompe-a-chaleur-bosch-ids-premium-vaut-elle-vraiment-le-coup-pour-lhiver-montrealais/",
+    excerpt: "La pompe a chaleur Bosch IDS Premium module en continu plutot que de s'allumer et s'eteindre — offrant des temperatures stables, un bruit de 56 dB et des factures reduites. En configuration bi-combustible avec une fournaise au gaz, elle permet le tarif DT d'Hydro-Quebec : au-dessus de -12C, la thermopompe fonctionne a 5,131 cents par kWh (27% moins cher que le tarif D); en dessous, la fournaise prend le relais automatiquement. Pour une maison moyenne a Montreal, cette configuration economise environ 502 dollars par an. Le modele Premium est cote a -20C mais perd environ 70% de capacite a -15C — les maisons entierement electriques dans les zones plus froides devraient envisager l'IDS Ultra, qui fonctionne jusqu'a -25C. La Premium qualifie au taux LogisVert haute efficacite de 120 dollars par 1 000 BTU/h a -8C, soit environ 2 328 dollars pour une installation standard de deux tonnes.",
+    tags: ["HVAC", "Heat Pump", "Quebec", "Montreal", "Energy Efficiency", "Rebates", "Dual-Fuel", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--lavender))"
+  },
+  {
     id: 163,
     title: "Is a Bosch IDS Premium Heat Pump Actually Worth It for Montreal's Winter?",
     publication: "Aura ClimatPro",
