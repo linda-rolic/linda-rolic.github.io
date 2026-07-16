@@ -1,4 +1,17 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 163,
+    title: "Is a Bosch IDS Premium Heat Pump Actually Worth It for Montreal's Winter?",
+    publication: "Aura ClimatPro",
+    date: "October 7, 2026",
+    dateISO: "2026-10-07",
+    wordCount: 2200,
+    readTime: 11,
+    url: "https://auraclimatpro.com/is-a-bosch-ids-premium-heat-pump-actually-worth-it-for-montreals-winter/",
+    excerpt: "The Bosch IDS Premium uses an inverter-driven compressor that modulates continuously rather than cycling on and off — delivering steady temperatures, 56 dB outdoor noise, and lower energy bills. In a dual-fuel setup with a gas furnace, it enables Hydro-Quebec's Rate DT: above -12°C the heat pump runs at just 5.131 cents per kWh, roughly 27% below standard Rate D; below that threshold, the furnace takes over automatically. For an average Montreal home, dual-fuel saves about $502 per year versus straight gas. The Premium is rated to -20°C but drops to roughly 70% capacity at -15°C — fully electric homes in colder exposures should consider the IDS Ultra, which holds full capacity to -15°C and operates to -25°C. The Premium qualifies for LogisVert's high-efficiency tier at $120 per 1,000 BTU/h at -8°C, yielding roughly $2,328 on a standard two-ton install.",
+    tags: ["HVAC", "Heat Pump", "Quebec", "Montreal", "Energy Efficiency", "Rebates", "Dual-Fuel", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--peach))"
+  },
   {
     id: 162,
     title: "Preparing for Hurricane Season: How Solar & Battery Solutions Keep Maritime Homes Running",
