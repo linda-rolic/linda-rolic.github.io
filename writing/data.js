@@ -1,4 +1,17 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 159,
+    title: "Can a Heat Pump Handle a Boston Winter? Debunking Cold-Climate Heating Myths for Massachusetts Homeowners",
+    publication: "ComfiTrust",
+    date: "October 1, 2026",
+    dateISO: "2026-10-01",
+    wordCount: 3000,
+    readTime: 15,
+    url: "https://comfitrust.com/can-a-heat-pump-handle-a-boston-winter-debunking-cold-climate-heating-myths-for-massachusetts-homeowners/",
+    excerpt: "Modern cold-climate heat pumps are designed to handle Boston winters, including polar vortex events. Using inverter-driven compressors and Enhanced Vapor Injection, certified systems maintain 70-100% of rated capacity at 5°F and achieve a Coefficient of Performance of 1.75-2.5 — versus 1.0-1.3 for standard models. A MassCEC study of 100+ Massachusetts homes confirmed zero cold-weather failures and seasonal COPs averaging 2.5-3.2. Eversource and National Grid now offer a Seasonal Heat Pump Rate that cuts winter electric delivery charges by 65-70%, saving most households $640-$1,030 per heating season. The federal 25C tax credit expired in 2025, and R-410A equipment no longer qualifies for Mass Save rebates — but R-32 and R-454B systems earn up to $8,500 back (or up to $16,000 for income-qualified households), and the 0% HEAT Loan extends up to $25,000 to cover remaining costs.",
+    tags: ["HVAC", "Heat Pump", "Massachusetts", "Boston", "Energy Efficiency", "Mass Save", "Rebates", "Cold Climate"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--sky))"
+  },
   {
     id: 158,
     title: "Solar Panels in Ontario: Does the Fall Install Window Make Financial Sense?",
