@@ -1,4 +1,17 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 160,
+    title: "Got Cold Rooms? How Mini-Split Systems Fix Uneven Heating in Older Winnipeg Homes",
+    publication: "WiserAire",
+    date: "October 2, 2026",
+    dateISO: "2026-10-02",
+    wordCount: 2000,
+    readTime: 10,
+    url: "https://wiseraire.com/got-cold-rooms-how-mini-split-systems-fix-uneven-heating-in-older-winnipeg-homes/",
+    excerpt: "Older Winnipeg homes — especially the 1.5-storey classics of Wolseley, River Heights, and West Broadway — suffer chronic cold rooms because ductwork was retrofitted into structures never designed for forced air, creating restricted runs to upper floors. Modern cold-climate ductless mini-splits solve this with zone-specific air handlers connected to an outdoor unit via a three-inch wall penetration — no duct work required. Inverter compressors deliver steady, draft-free heat down to -25°C, making them far cheaper to run than electric baseboards. As a dual-fuel hybrid, the mini-split handles mild winter days while a backup gas furnace covers extreme cold snaps. Efficiency Manitoba offers $1,500-$2,000 for qualifying air-source heat pumps, and the Manitoba Hydro HEEL program provides up to $10,000 in low-interest financing to help offset installation costs.",
+    tags: ["HVAC", "Heat Pump", "Manitoba", "Winnipeg", "Mini-Split", "Energy Efficiency", "Rebates", "Home Improvement"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--mint))"
+  },
   {
     id: 159,
     title: "Can a Heat Pump Handle a Boston Winter? Debunking Cold-Climate Heating Myths for Massachusetts Homeowners",
