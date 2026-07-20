@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 166,
+    title: "What to Do If Your Furnace Blows Cold Air: 24/7 Emergency Heating Services in Greater Vancouver",
+    publication: "AireEnergy",
+    date: "October 13, 2026",
+    dateISO: "2026-10-13",
+    wordCount: 2200,
+    readTime: 11,
+    url: "https://aireenergy.com/what-to-do-if-your-furnace-blows-cold-air-24-7-emergency-heating-services-in-greater-vancouver/",
+    excerpt: "A furnace blowing cold air at 3 a.m. in Vancouver's damp coastal climate can turn a cozy home into an icebox within hours. Start with the quick checks: thermostat fan switch set to AUTO (not ON), mode set to HEAT, and air filter clean — a clogged filter trips the high-limit switch, killing the burners while the blower keeps circulating cold air. If those checks don't restore heat, the usual suspects are a carbon-fouled flame sensor, a failed electronic igniter, or frozen high-efficiency condensate lines. Cracked heat exchangers are a separate emergency: they can leak odorless carbon monoxide directly into your living spaces — evacuate immediately if your CO alarm sounds. For homeowners ready to upgrade, B.C.'s CleanBC program offers up to $16,000 for a heat pump replacement, FortisBC adds a $5,000 dual-fuel incentive, and AireEnergy credits the full diagnostic fee toward a new system.",
+    tags: ["HVAC", "Furnace", "Emergency", "British Columbia", "Vancouver", "Rebates", "Heat Pump", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--mint))"
+  },
+  {
     id: 165,
     title: "Avoid the Autumn Freeze: A Local Guide to Saving Your Heating System Before It Quits",
     publication: "ComfiTrust",
