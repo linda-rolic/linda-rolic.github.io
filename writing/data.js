@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 167,
+    title: "Don't Get Left in the Cold: 4 Things to Check Before Winnipeg's First Frost",
+    publication: "WiserAire",
+    date: "October 14, 2026",
+    dateISO: "2026-10-14",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://wiseraire.com/got-cold-rooms-how-mini-split-systems-fix-uneven-heating-in-older-winnipeg-homes/",
+    excerpt: "Winnipeg's first fall frost typically arrives between September 12 and September 27 depending on neighborhood — river flats see it earliest, the urban core latest. That gives homeowners a narrow window to prep their heating systems before the real prairie cold sets in. The four essentials: test the thermostat (switch to HEAT, raise the target 5-10 degrees above room temperature, and listen for the furnace to kick on); swap the air filter and clear all supply and return registers; inspect the exterior PVC intake and exhaust pipes for bird nests, debris, or ice; and listen for rattling, banging, whining, or grinding. A professional fall tune-up in Winnipeg runs $100-$200 — far cheaper than emergency repairs ($300-$1,200+). For upgrades, Efficiency Manitoba offers $1,500-$3,000 in heat pump rebates, and Manitoba Hydro's HEEL program finances installations on-bill at 6.20% fixed with no down payment required.",
+    tags: ["HVAC", "Furnace", "Heat Pump", "Manitoba", "Winnipeg", "Rebates", "Energy Efficiency", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--sky))"
+  },
+  {
     id: 166,
     title: "What to Do If Your Furnace Blows Cold Air: 24/7 Emergency Heating Services in Greater Vancouver",
     publication: "AireEnergy",
