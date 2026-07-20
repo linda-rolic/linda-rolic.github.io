@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 165,
+    title: "Avoid the Autumn Freeze: A Local Guide to Saving Your Heating System Before It Quits",
+    publication: "ComfiTrust",
+    date: "October 9, 2026",
+    dateISO: "2026-10-09",
+    wordCount: 2800,
+    readTime: 14,
+    url: "https://comfitrust.com/avoid-the-autumn-freeze-a-local-guide-to-saving-your-heating-system-before-it-quits/",
+    excerpt: "Boston's autumn is gorgeous but deceptive — one afternoon you're in a light sweater, the next morning hunting for your heaviest coat. Forcing your furnace or heat pump back to life after months of summer inactivity is a real gamble: loose electrical connections, degraded capacitors, clogged condensate drains, and dirty flame sensors are the most common causes of first-night failures. Historic triple-deckers and pre-war rowhouses compound the problem — older Boston construction can require up to 40,000 BTU per 1,000 sq ft versus 4,000-5,000 in a modern home, meaning those systems work three times harder. Mass Save's 2026 rebates reach up to $9,500 for a cold-climate heat pump (whole-home: $2,650/ton; partial-home: $1,125/ton), with 0% HEAT Loan financing up to $25,000. R-410A systems are now off the Qualified Product List — only R-32 and R-454B refrigerants qualify for the rebate.",
+    tags: ["HVAC", "Furnace", "Heat Pump", "Massachusetts", "Boston", "Mass Save", "Rebates", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--sky))"
+  },
+  {
     id: 164,
     title: "La pompe à chaleur Bosch IDS Premium vaut-elle vraiment le coup pour l’hiver montréalais ?",
     publication: "Aura ClimatPro",
