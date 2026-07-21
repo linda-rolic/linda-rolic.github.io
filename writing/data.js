@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 169,
+    title: "When Should Boston Homeowners Switch From AC to Heat?",
+    publication: "ComfiTrust",
+    date: "October 16, 2026",
+    dateISO: "2026-10-16",
+    wordCount: 1600,
+    readTime: 8,
+    url: "https://comfitrust.com/when-should-boston-homeowners-switch-from-ac-to-heat/",
+    excerpt: "Boston's informal 'no heat until November' tradition can backfire: letting the interior drop below 60F creates a thermal deficit — the furnace then runs non-stop for 24-48 hours to reheat plaster, framing, and drywall, straining heat exchangers and triggering emergency failures. The practical trigger is indoor air consistently below 64F or outdoor overnight lows below 50F for several days running. Massachusetts Sanitary Code (105 CMR 410.180) mandates 68F daytime and 64F overnight from September 15 through May 31. Heat pump owners can skip the hard switchover — set the thermostat to Auto. Gas furnace owners should replace the air filter before first firing; boiler owners should bleed radiators and check expansion tank pressure. Mass Save offers up to $8,500 in standard heat pump rebates ($16,000 income-enhanced) plus 0% APR HEAT Loan financing.",
+    tags: ["HVAC", "Furnace", "Heat Pump", "Massachusetts", "Boston", "Mass Save", "Rebates", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--peach))"
+  },
+  {
     id: 168,
     title: "When Should Winnipeg Homeowners Turn Off Their Air Conditioner for the Season?",
     publication: "WiserAire",
