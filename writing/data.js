@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 168,
+    title: "When Should Winnipeg Homeowners Turn Off Their Air Conditioner for the Season?",
+    publication: "WiserAire",
+    date: "October 15, 2026",
+    dateISO: "2026-10-15",
+    wordCount: 2000,
+    readTime: 10,
+    url: "https://wiseraire.com/when-should-winnipeg-homeowners-turn-off-their-air-conditioner-for-the-season/",
+    excerpt: "Once daytime highs in Winnipeg stay consistently below 15-18C (mid-to-late September), your home no longer needs mechanical cooling. Running AC below 12C risks frozen evaporator coils, thickened compressor lubricant, and refrigerant migration that can wreck the system on first startup. For shutdown: flip the outdoor disconnect (not just the thermostat), rinse coils gently with a garden hose, inspect pipe insulation, and place a plywood sheet on top only — full plastic wraps trap moisture and attract rodents. Heat pump owners must never cover the unit; it runs year-round and needs open airflow in winter. On the heating side, swap the furnace filter, unblock all vents, prep the bypass humidifier, and test every CO detector. Manitoba's Efficiency Manitoba rebates reach $2,000 for ducted heat pumps ($1,500 for mini-splits), with Manitoba Hydro HEEL financing up to $10,000 on-bill.",
+    tags: ["HVAC", "Air Conditioning", "Heat Pump", "Manitoba", "Winnipeg", "Energy Efficiency", "Rebates", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--peach))"
+  },
+  {
     id: 167,
     title: "Don't Get Left in the Cold: 4 Things to Check Before Winnipeg's First Frost",
     publication: "WiserAire",
