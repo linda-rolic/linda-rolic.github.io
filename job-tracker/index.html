@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Application Tracker — Yulin Chen</title>
+
+  <link rel="stylesheet" href="../style.css?v=20260722" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet" />
+  <style>
+    /* ── Job Tracker page overrides ── */
+    body { padding-top: 80px; }
+
+    .writing-nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      padding: 0 24px;
+      transition: background var(--transition), box-shadow var(--transition);
+    }
+
+    .writing-nav.scrolled {
+      background: rgba(253,251,255,0.88);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 1px 0 var(--border);
+    }
+
+    .writing-nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .writing-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--muted);
+      transition: color var(--transition), gap var(--transition);
+    }
+
+    .writing-back:hover { color: var(--text); gap: 10px; }
+
+    .writing-hero {
+      padding: 56px 0 40px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 48px;
+    }
+
+    .writing-hero-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .writing-hero h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.2;
+      margin: 8px 0 12px;
+    }
+
+    .writing-hero p {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .writing-main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+    }
+
+    footer.writing-footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 0.82rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+
+    footer.writing-footer a {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    footer.writing-footer a:hover { text-decoration: underline; }
+
+    /* ── Job tracker specific ── */
+    .jt-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-bottom: -8px;
+    }
+
+    .jt-add-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 20px;
+      border-radius: 100px;
+      background: var(--text);
+      color: var(--bg);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: transform var(--transition), box-shadow var(--transition);
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    .jt-add-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+
+    .jt-grid { grid-template-columns: 1fr; }
+
+    .jt-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      display: flex;
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+
+    .jt-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+
+    .jt-card-accent { width: 5px; flex-shrink: 0; }
+
+    .jt-card-body {
+      padding: 22px 26px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .jt-card-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .jt-card-titles h3 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.15rem;
+      line-height: 1.4;
+      color: var(--text);
+    }
+
+    .jt-card-titles p {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .jt-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 13px;
+      border-radius: 100px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      white-space: nowrap;
+      border: 1px solid transparent;
+    }
+
+    .jt-status.applied { background: rgba(221,208,245,0.35); color: #5b4a8a; border-color: var(--lavender); }
+    .jt-status.interview { background: rgba(253,228,200,0.5); color: #9a6a1f; border-color: var(--peach); }
+    .jt-status.offer { background: rgba(200,237,216,0.5); color: #2c7a52; border-color: var(--mint); }
+    .jt-status.rejected { background: rgba(245,208,224,0.4); color: #9a4a68; border-color: var(--pink); }
+
+    .jt-meta-row {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .jt-meta-row span { display: inline-flex; align-items: center; gap: 5px; }
+
+    .jt-notes {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .jt-card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 4px;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .jt-link-btn {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: gap var(--transition);
+    }
+
+    .jt-link-btn:hover { gap: 9px; }
+
+    .jt-card-actions { display: flex; gap: 8px; }
+
+    .jt-icon-btn {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 6px 12px;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--muted);
+      cursor: pointer;
+      font-family: 'DM Sans', sans-serif;
+      transition: all var(--transition);
+    }
+
+    .jt-icon-btn:hover { border-color: var(--lavender); color: var(--text); }
+    .jt-icon-btn.danger:hover { border-color: var(--pink); color: #9a4a68; }
+
+    /* Modal */
+    .jt-modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(45,45,53,0.35);
+      backdrop-filter: blur(3px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+      padding: 24px;
+    }
+
+    .jt-modal-overlay.open { display: flex; }
+
+    .jt-modal {
+      background: var(--surface);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-md);
+      width: 100%;
+      max-width: 520px;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 32px;
+    }
+
+    .jt-modal h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+
+    .jt-field { margin-bottom: 16px; }
+
+    .jt-field label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 6px;
+    }
+
+    .jt-field input,
+    .jt-field select,
+    .jt-field textarea {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--bg);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.9rem;
+      color: var(--text);
+      outline: none;
+      transition: border-color var(--transition);
+    }
+
+    .jt-field input:focus,
+    .jt-field select:focus,
+    .jt-field textarea:focus { border-color: #b8a0e0; }
+
+    .jt-field textarea { resize: vertical; min-height: 70px; }
+
+    .jt-field-row { display: flex; gap: 12px; }
+    .jt-field-row .jt-field { flex: 1; }
+
+    .jt-modal-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 24px;
+      gap: 10px;
+    }
+
+    .jt-btn {
+      padding: 10px 22px;
+      border-radius: 100px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      font-family: 'DM Sans', sans-serif;
+      transition: all var(--transition);
+    }
+
+    .jt-btn-primary { background: var(--text); color: var(--bg); }
+    .jt-btn-primary:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+
+    .jt-btn-secondary { background: none; border: 1px solid var(--border); color: var(--muted); }
+    .jt-btn-secondary:hover { color: var(--text); border-color: var(--lavender); }
+
+    .jt-btn-delete { background: none; color: #9a4a68; text-decoration: underline; font-weight: 500; padding: 10px 4px; }
+
+    @media (max-width: 700px) {
+      .jt-field-row { flex-direction: column; gap: 0; }
+      .jt-card-top { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="writing-nav" id="jt-nav">
+    <div class="writing-nav-inner">
+      <a href="../" class="writing-back">&larr; Back to Portfolio</a>
+      <a href="../" class="nav-logo">YC</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="writing-hero">
+    <div class="writing-hero-inner">
+      <div class="section-label">Projects</div>
+      <h1>Job Application Tracker</h1>
+      <p>A lightweight, fully client-side tool for tracking job applications from first submission to offer — no backend, no sign-up, data stays in your browser.</p>
+    </div>
+  </div>
+
+  <!-- DASHBOARD -->
+  <main class="writing-main">
+
+    <!-- Stats bar -->
+    <div class="blog-stats" style="grid-template-columns: repeat(4, 1fr);">
+      <div class="blog-stat" style="--bs-color: var(--lavender)">
+        <span class="blog-stat-val" id="jt-stat-total">—</span>
+        <span class="blog-stat-label">Total Applications</span>
+      </div>
+      <div class="blog-stat" style="--bs-color: var(--peach)">
+        <span class="blog-stat-val" id="jt-stat-active">—</span>
+        <span class="blog-stat-label">Active</span>
+      </div>
+      <div class="blog-stat" style="--bs-color: var(--mint)">
+        <span class="blog-stat-val" id="jt-stat-interviews">—</span>
+        <span class="blog-stat-label">Interviews</span>
+      </div>
+      <div class="blog-stat" style="--bs-color: var(--pink)">
+        <span class="blog-stat-val" id="jt-stat-offers">—</span>
+        <span class="blog-stat-label">Offers</span>
+      </div>
+    </div>
+
+    <!-- Toolbar -->
+    <div class="jt-toolbar">
+      <button class="jt-add-btn" id="jt-add-btn">+ Add Application</button>
+    </div>
+
+    <!-- Controls -->
+    <div class="blog-controls">
+      <div class="blog-controls-row">
+        <div class="blog-search-wrap">
+          <span class="blog-search-icon">&#128269;</span>
+          <input type="text" id="jt-search" placeholder="Search by company or role&hellip;" class="blog-search" />
+        </div>
+        <select id="jt-sort" class="blog-sort">
+          <option value="newest">Newest First</option>
+          <option value="oldest">Oldest First</option>
+          <option value="company">Company A–Z</option>
+        </select>
+      </div>
+      <div class="blog-filter-chips" id="jt-filter-chips">
+        <button class="filter-chip active" data-status="all">All</button>
+        <button class="filter-chip" data-status="applied">Applied</button>
+        <button class="filter-chip" data-status="interview">Interview</button>
+        <button class="filter-chip" data-status="offer">Offer</button>
+        <button class="filter-chip" data-status="rejected">Rejected</button>
+      </div>
+    </div>
+
+    <!-- Application cards -->
+    <div id="jt-grid" class="blog-grid jt-grid"></div>
+    <div id="jt-empty" class="blog-empty" style="display:none">
+      <p>No applications match your search. Try a different keyword or filter.</p>
+    </div>
+
+  </main>
+
+  <!-- ADD / EDIT MODAL -->
+  <div class="jt-modal-overlay" id="jt-modal-overlay">
+    <div class="jt-modal">
+      <h2 id="jt-modal-title">Add Application</h2>
+      <form id="jt-form">
+        <input type="hidden" id="jt-form-id" />
+        <div class="jt-field">
+          <label for="jt-company">Company</label>
+          <input type="text" id="jt-company" required placeholder="e.g. Acme Corp" />
+        </div>
+        <div class="jt-field">
+          <label for="jt-role">Role</label>
+          <input type="text" id="jt-role" required placeholder="e.g. Data Analyst" />
+        </div>
+        <div class="jt-field-row">
+          <div class="jt-field">
+            <label for="jt-date">Date Applied</label>
+            <input type="date" id="jt-date" required />
+          </div>
+          <div class="jt-field">
+            <label for="jt-status">Status</label>
+            <select id="jt-status">
+              <option value="applied">Applied</option>
+              <option value="interview">Interview</option>
+              <option value="offer">Offer</option>
+              <option value="rejected">Rejected</option>
+            </select>
+          </div>
+        </div>
+        <div class="jt-field">
+          <label for="jt-link">Job Posting Link (optional)</label>
+          <input type="url" id="jt-link" placeholder="https://..." />
+        </div>
+        <div class="jt-field">
+          <label for="jt-notes">Notes (optional)</label>
+          <textarea id="jt-notes" placeholder="Referral contact, interview stage, follow-up dates&hellip;"></textarea>
+        </div>
+        <div class="jt-modal-actions">
+          <button type="button" class="jt-btn jt-btn-delete" id="jt-delete-btn" style="display:none">Delete</button>
+          <div style="display:flex; gap:10px; margin-left:auto;">
+            <button type="button" class="jt-btn jt-btn-secondary" id="jt-cancel-btn">Cancel</button>
+            <button type="submit" class="jt-btn jt-btn-primary">Save</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="writing-footer">
+    <p>&copy; 2026 Yulin Chen &middot; <a href="../">Back to Portfolio</a></p>
+  </footer>
+
+  <script src="script.js?v=20260722"></script>
+
+</body>
+</html>
