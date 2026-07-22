@@ -863,9 +863,9 @@
           </div>
 
           <p class="project-desc">
-            A lightweight web app for tracking job applications end-to-end — from first submission through
-            interviews, offers, and rejections. Runs entirely client-side with data persisted in the browser,
-            so it works instantly with zero setup, no account, and no server.
+            A dashboard for tracking job applications end-to-end — from first submission through interviews,
+            offers, and rejections. The page itself is read-only for visitors; entries are maintained directly
+            in code, the same pattern used for the Writing dashboard above.
           </p>
 
           <div class="project-metrics">
@@ -882,31 +882,27 @@
               <span class="proj-metric-label">Search &amp; Status Filtering</span>
             </div>
             <div class="proj-metric" style="--pm-color: var(--pink)">
-              <span class="proj-metric-val">0</span>
-              <span class="proj-metric-label">Setup Required</span>
+              <span class="proj-metric-val">Read-Only</span>
+              <span class="proj-metric-label">Public View — Edits Are Code-Only</span>
             </div>
           </div>
 
           <div class="project-analyses">
             <div class="analysis-item">
               <span class="analysis-dot" style="background: var(--peach)"></span>
-              <span>Add, edit, and delete applications with a modal form</span>
-            </div>
-            <div class="analysis-item">
-              <span class="analysis-dot" style="background: var(--mint)"></span>
               <span>Status pipeline: Applied → Interview → Offer / Rejected</span>
             </div>
             <div class="analysis-item">
-              <span class="analysis-dot" style="background: var(--lavender)"></span>
+              <span class="analysis-dot" style="background: var(--mint)"></span>
               <span>Live search by company or role, plus status filter chips</span>
             </div>
             <div class="analysis-item">
-              <span class="analysis-dot" style="background: var(--pink)"></span>
+              <span class="analysis-dot" style="background: var(--lavender)"></span>
               <span>Auto-computed stats: total, active, interviews, and offers</span>
             </div>
             <div class="analysis-item">
-              <span class="analysis-dot" style="background: var(--peach)"></span>
-              <span>Data persisted in localStorage — no login, no database</span>
+              <span class="analysis-dot" style="background: var(--pink)"></span>
+              <span>Data lives in a version-controlled file — no public write access</span>
             </div>
           </div>
 
@@ -914,8 +910,7 @@
             <div class="tag-row">
               <span class="tag">JavaScript</span>
               <span class="tag">HTML / CSS</span>
-              <span class="tag">LocalStorage</span>
-              <span class="tag">CRUD</span>
+              <span class="tag">Data Dashboard</span>
               <span class="tag">Career Tools</span>
             </div>
           </div>

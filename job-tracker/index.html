@@ -94,31 +94,6 @@
     footer.writing-footer a:hover { text-decoration: underline; }
 
     /* ── Job tracker specific ── */
-    .jt-toolbar {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      margin-bottom: -8px;
-    }
-
-    .jt-add-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 10px 20px;
-      border-radius: 100px;
-      background: var(--text);
-      color: var(--bg);
-      font-size: 0.85rem;
-      font-weight: 600;
-      cursor: pointer;
-      border: none;
-      transition: transform var(--transition), box-shadow var(--transition);
-      font-family: 'DM Sans', sans-serif;
-    }
-
-    .jt-add-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
-
     .jt-grid { grid-template-columns: 1fr; }
 
     .jt-card {
@@ -200,10 +175,8 @@
     .jt-card-footer {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-end;
       margin-top: 4px;
-      gap: 10px;
-      flex-wrap: wrap;
     }
 
     .jt-link-btn {
@@ -218,121 +191,7 @@
 
     .jt-link-btn:hover { gap: 9px; }
 
-    .jt-card-actions { display: flex; gap: 8px; }
-
-    .jt-icon-btn {
-      background: none;
-      border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
-      padding: 6px 12px;
-      font-size: 0.78rem;
-      font-weight: 500;
-      color: var(--muted);
-      cursor: pointer;
-      font-family: 'DM Sans', sans-serif;
-      transition: all var(--transition);
-    }
-
-    .jt-icon-btn:hover { border-color: var(--lavender); color: var(--text); }
-    .jt-icon-btn.danger:hover { border-color: var(--pink); color: #9a4a68; }
-
-    /* Modal */
-    .jt-modal-overlay {
-      position: fixed;
-      inset: 0;
-      background: rgba(45,45,53,0.35);
-      backdrop-filter: blur(3px);
-      display: none;
-      align-items: center;
-      justify-content: center;
-      z-index: 200;
-      padding: 24px;
-    }
-
-    .jt-modal-overlay.open { display: flex; }
-
-    .jt-modal {
-      background: var(--surface);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow-md);
-      width: 100%;
-      max-width: 520px;
-      max-height: 90vh;
-      overflow-y: auto;
-      padding: 32px;
-    }
-
-    .jt-modal h2 {
-      font-family: 'DM Serif Display', serif;
-      font-size: 1.5rem;
-      margin-bottom: 20px;
-    }
-
-    .jt-field { margin-bottom: 16px; }
-
-    .jt-field label {
-      display: block;
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 6px;
-    }
-
-    .jt-field input,
-    .jt-field select,
-    .jt-field textarea {
-      width: 100%;
-      padding: 10px 14px;
-      border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
-      background: var(--bg);
-      font-family: 'DM Sans', sans-serif;
-      font-size: 0.9rem;
-      color: var(--text);
-      outline: none;
-      transition: border-color var(--transition);
-    }
-
-    .jt-field input:focus,
-    .jt-field select:focus,
-    .jt-field textarea:focus { border-color: #b8a0e0; }
-
-    .jt-field textarea { resize: vertical; min-height: 70px; }
-
-    .jt-field-row { display: flex; gap: 12px; }
-    .jt-field-row .jt-field { flex: 1; }
-
-    .jt-modal-actions {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: 24px;
-      gap: 10px;
-    }
-
-    .jt-btn {
-      padding: 10px 22px;
-      border-radius: 100px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      cursor: pointer;
-      border: none;
-      font-family: 'DM Sans', sans-serif;
-      transition: all var(--transition);
-    }
-
-    .jt-btn-primary { background: var(--text); color: var(--bg); }
-    .jt-btn-primary:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
-
-    .jt-btn-secondary { background: none; border: 1px solid var(--border); color: var(--muted); }
-    .jt-btn-secondary:hover { color: var(--text); border-color: var(--lavender); }
-
-    .jt-btn-delete { background: none; color: #9a4a68; text-decoration: underline; font-weight: 500; padding: 10px 4px; }
-
     @media (max-width: 700px) {
-      .jt-field-row { flex-direction: column; gap: 0; }
       .jt-card-top { flex-direction: column; }
     }
   </style>
@@ -352,7 +211,7 @@
     <div class="writing-hero-inner">
       <div class="section-label">Projects</div>
       <h1>Job Application Tracker</h1>
-      <p>A lightweight, fully client-side tool for tracking job applications from first submission to offer — no backend, no sign-up, data stays in your browser.</p>
+      <p>A dashboard for tracking job applications from first submission to offer. Sample entries shown below for demonstration.</p>
     </div>
   </div>
 
@@ -377,11 +236,6 @@
         <span class="blog-stat-val" id="jt-stat-offers">—</span>
         <span class="blog-stat-label">Offers</span>
       </div>
-    </div>
-
-    <!-- Toolbar -->
-    <div class="jt-toolbar">
-      <button class="jt-add-btn" id="jt-add-btn">+ Add Application</button>
     </div>
 
     <!-- Controls -->
@@ -414,58 +268,11 @@
 
   </main>
 
-  <!-- ADD / EDIT MODAL -->
-  <div class="jt-modal-overlay" id="jt-modal-overlay">
-    <div class="jt-modal">
-      <h2 id="jt-modal-title">Add Application</h2>
-      <form id="jt-form">
-        <input type="hidden" id="jt-form-id" />
-        <div class="jt-field">
-          <label for="jt-company">Company</label>
-          <input type="text" id="jt-company" required placeholder="e.g. Acme Corp" />
-        </div>
-        <div class="jt-field">
-          <label for="jt-role">Role</label>
-          <input type="text" id="jt-role" required placeholder="e.g. Data Analyst" />
-        </div>
-        <div class="jt-field-row">
-          <div class="jt-field">
-            <label for="jt-date">Date Applied</label>
-            <input type="date" id="jt-date" required />
-          </div>
-          <div class="jt-field">
-            <label for="jt-status">Status</label>
-            <select id="jt-status">
-              <option value="applied">Applied</option>
-              <option value="interview">Interview</option>
-              <option value="offer">Offer</option>
-              <option value="rejected">Rejected</option>
-            </select>
-          </div>
-        </div>
-        <div class="jt-field">
-          <label for="jt-link">Job Posting Link (optional)</label>
-          <input type="url" id="jt-link" placeholder="https://..." />
-        </div>
-        <div class="jt-field">
-          <label for="jt-notes">Notes (optional)</label>
-          <textarea id="jt-notes" placeholder="Referral contact, interview stage, follow-up dates&hellip;"></textarea>
-        </div>
-        <div class="jt-modal-actions">
-          <button type="button" class="jt-btn jt-btn-delete" id="jt-delete-btn" style="display:none">Delete</button>
-          <div style="display:flex; gap:10px; margin-left:auto;">
-            <button type="button" class="jt-btn jt-btn-secondary" id="jt-cancel-btn">Cancel</button>
-            <button type="submit" class="jt-btn jt-btn-primary">Save</button>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
-
   <footer class="writing-footer">
     <p>&copy; 2026 Yulin Chen &middot; <a href="../">Back to Portfolio</a></p>
   </footer>
 
+  <script src="data.js?v=20260722"></script>
   <script src="script.js?v=20260722"></script>
 
 </body>
