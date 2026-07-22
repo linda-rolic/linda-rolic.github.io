@@ -6,11 +6,15 @@ window.addEventListener('scroll', () => {
   jtNav.classList.toggle('scrolled', window.scrollY > 20);
 });
 
+// An "applied" entry with no update for this many days is presumed ghosted.
+const GHOST_AFTER_DAYS = 21;
+
 const STATUS_LABELS = {
   applied: 'Applied',
   interview: 'Interview',
   offer: 'Offer',
   rejected: 'Rejected',
+  ghosted: 'Ghosted',
 };
 
 const STATUS_ACCENTS = {
@@ -18,6 +22,7 @@ const STATUS_ACCENTS = {
   interview: 'var(--peach)',
   offer: 'var(--mint)',
   rejected: 'var(--pink)',
+  ghosted: 'var(--muted)',
 };
 
 function formatDate(dateStr) {
@@ -26,11 +31,30 @@ function formatDate(dateStr) {
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 }
 
+function daysSince(dateStr) {
+  const applied = new Date(dateStr + 'T00:00:00');
+  const now = new Date();
+  return Math.floor((now - applied) / 86400000);
+}
+
+// Ghosted status is derived at render time from today's date, not stored —
+// an entry silently becomes "Ghosted" once GHOST_AFTER_DAYS pass with no update.
+function getEffectiveStatus(app) {
+  if (app.status === 'applied' && daysSince(app.dateApplied) >= GHOST_AFTER_DAYS) {
+    return 'ghosted';
+  }
+  return app.status;
+}
+
 function renderCard(app) {
-  const statusLabel = STATUS_LABELS[app.status] || app.status;
-  const accent = STATUS_ACCENTS[app.status] || 'var(--lavender)';
+  const effectiveStatus = getEffectiveStatus(app);
+  const statusLabel = STATUS_LABELS[effectiveStatus] || effectiveStatus;
+  const accent = STATUS_ACCENTS[effectiveStatus] || 'var(--lavender)';
   const linkHtml = app.link
     ? `<a href="${app.link}" target="_blank" rel="noopener" class="jt-link-btn">View Posting &rarr;</a>`
+    : '';
+  const ghostNote = effectiveStatus === 'ghosted'
+    ? `<span>&#128123; ${daysSince(app.dateApplied)} days, no response</span>`
     : '';
 
   return `
@@ -42,10 +66,11 @@ function renderCard(app) {
             <h3>${app.role}</h3>
             <p>${app.company}</p>
           </div>
-          <span class="jt-status ${app.status}">${statusLabel}</span>
+          <span class="jt-status ${effectiveStatus}">${statusLabel}</span>
         </div>
         <div class="jt-meta-row">
           <span>&#128197; Applied ${formatDate(app.dateApplied)}</span>
+          ${ghostNote}
         </div>
         ${app.notes ? `<p class="jt-notes">${app.notes}</p>` : ''}
         ${linkHtml ? `<div class="jt-card-footer">${linkHtml}</div>` : ''}
@@ -54,14 +79,17 @@ function renderCard(app) {
 }
 
 function updateStats(visible) {
+  const statuses = visible.map(getEffectiveStatus);
   const total = visible.length;
-  const active = visible.filter((a) => a.status === 'applied' || a.status === 'interview').length;
-  const interviews = visible.filter((a) => a.status === 'interview').length;
-  const offers = visible.filter((a) => a.status === 'offer').length;
+  const active = statuses.filter((s) => s === 'applied' || s === 'interview').length;
+  const interviews = statuses.filter((s) => s === 'interview').length;
+  const offers = statuses.filter((s) => s === 'offer').length;
+  const ghosted = statuses.filter((s) => s === 'ghosted').length;
   document.getElementById('jt-stat-total').textContent = total;
   document.getElementById('jt-stat-active').textContent = active;
   document.getElementById('jt-stat-interviews').textContent = interviews;
   document.getElementById('jt-stat-offers').textContent = offers;
+  document.getElementById('jt-stat-ghosted').textContent = ghosted;
 }
 
 function renderApplications() {
@@ -70,7 +98,7 @@ function renderApplications() {
   const sort = document.getElementById('jt-sort').value;
 
   let filtered = APPLICATIONS.filter((a) => {
-    const matchStatus = activeStatus === 'all' || a.status === activeStatus;
+    const matchStatus = activeStatus === 'all' || getEffectiveStatus(a) === activeStatus;
     const matchText = !query ||
       a.company.toLowerCase().includes(query) ||
       a.role.toLowerCase().includes(query);
