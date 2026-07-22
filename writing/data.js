@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 170,
+    title: "7 Warning Signs Your Furnace Needs a Tune-Up Before a Boston Winter Hits",
+    publication: "ComfiTrust",
+    date: "October 19, 2026",
+    dateISO: "2026-10-19",
+    wordCount: 1900,
+    readTime: 10,
+    url: "https://comfitrust.com/7-warning-signs-your-furnace-needs-a-tune-up-before-a-boston-winter-hits/",
+    excerpt: "Seven warning signs your Boston furnace needs pre-winter service: loud pops or booms on startup (delayed ignition), weak airflow and cold spots in certain rooms, unexplained spikes in gas or oil bills, short-cycling that keeps shutting the burners off before the house warms, heavy dust accumulation from dirty internal blower components, a yellow or orange burner flame indicating incomplete combustion and elevated carbon monoxide output, and a thermostat that takes several minutes before heat actually arrives. A cracked heat exchanger — caused by repeated short-cycling or restricted airflow — can leak invisible CO directly into your air supply. On the upgrade side, Mass Save's partial-home hybrid rebate offers $1,125 per ton (up to $8,500) for adding a cold-climate heat pump to an existing furnace, while whole-home conversions qualify for $2,650 per ton with income-enhanced rebates up to $16,000.",
+    tags: ["HVAC", "Furnace", "Heat Pump", "Massachusetts", "Boston", "Mass Save", "Rebates", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--lavender))"
+  },
+  {
     id: 169,
     title: "When Should Boston Homeowners Switch From AC to Heat?",
     publication: "ComfiTrust",
