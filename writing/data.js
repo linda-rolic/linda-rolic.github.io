@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 171,
+    title: "Is It Time to Turn Off Your Air Conditioner for the Season in Vancouver?",
+    publication: "AireEnergy",
+    date: "October 20, 2026",
+    dateISO: "2026-10-20",
+    wordCount: 1600,
+    readTime: 8,
+    url: "https://aireenergy.com/is-it-time-to-turn-off-your-air-conditioner-for-the-season-in-vancouver/",
+    excerpt: "For Lower Mainland homeowners, mid-to-late September is the sweet spot to shut down AC — once temperatures consistently stay below 15C, running the AC stresses the compressor rather than cooling. Shutdown checklist: flip the outdoor disconnect (not just the thermostat), clear debris within 60 cm, rinse coils with a garden hose on low pressure, use a breathable top-only cover rather than full plastic wrap (which traps moisture and invites rodents), pour vinegar down the condensate drain, and swap the filter. Heat pump owners: never cover or power off the outdoor unit — heat pumps run year-round and need airflow in winter. BC rebates for upgrades reach up to $4,000 (standard BC Hydro stream), $13,000-$16,000 (income-qualified), or $10,000-$12,000 (dual-fuel ducted), plus a Canada Greener Homes interest-free loan up to $40,000.",
+    tags: ["HVAC", "Air Conditioning", "Heat Pump", "British Columbia", "Vancouver", "Rebates", "Energy Efficiency", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--peach), var(--lavender))"
+  },
+  {
     id: 170,
     title: "7 Warning Signs Your Furnace Needs a Tune-Up Before a Boston Winter Hits",
     publication: "ComfiTrust",
