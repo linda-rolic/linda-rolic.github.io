@@ -869,21 +869,21 @@
           </p>
 
           <div class="project-metrics">
+            <div class="proj-metric" style="--pm-color: var(--lavender)">
+              <span class="proj-metric-val" id="proj-stat-jt-total">—</span>
+              <span class="proj-metric-label">Total Applications</span>
+            </div>
             <div class="proj-metric" style="--pm-color: var(--peach)">
-              <span class="proj-metric-val">4</span>
-              <span class="proj-metric-label">Status Stages Tracked</span>
+              <span class="proj-metric-val" id="proj-stat-jt-active">—</span>
+              <span class="proj-metric-label">Active</span>
             </div>
             <div class="proj-metric" style="--pm-color: var(--mint)">
-              <span class="proj-metric-val">100%</span>
-              <span class="proj-metric-label">Client-Side — No Backend</span>
-            </div>
-            <div class="proj-metric" style="--pm-color: var(--lavender)">
-              <span class="proj-metric-val">Live</span>
-              <span class="proj-metric-label">Search &amp; Status Filtering</span>
+              <span class="proj-metric-val" id="proj-stat-jt-interviews">—</span>
+              <span class="proj-metric-label">Interviews</span>
             </div>
             <div class="proj-metric" style="--pm-color: var(--pink)">
-              <span class="proj-metric-val">Read-Only</span>
-              <span class="proj-metric-label">Public View — Edits Are Code-Only</span>
+              <span class="proj-metric-val" id="proj-stat-jt-ghosted">—</span>
+              <span class="proj-metric-label">Ghosted (21+ Days, No Reply)</span>
             </div>
           </div>
 
@@ -1081,6 +1081,7 @@
   </footer>
 
   <script src="writing/data.js?v=20260723142354"></script>
+  <script src="job-tracker/data.js?v=20260723142354"></script>
   <script src="script.js?v=20260723142354"></script>
   <script>
     (function () {
@@ -1091,6 +1092,24 @@
       document.getElementById('proj-stat-words').textContent = totalWords.toLocaleString();
       document.getElementById('proj-stat-read').textContent = avgRead + ' min';
       document.getElementById('proj-stat-companies').textContent = companies;
+    })();
+  </script>
+  <script>
+    (function () {
+      // A job "ghosts" after 21 days of no reply — kept in sync with job-tracker/script.js
+      const GHOST_AFTER_DAYS = 21;
+      function daysSince(dateStr) {
+        return Math.floor((new Date() - new Date(dateStr + 'T00:00:00')) / 86400000);
+      }
+      function effectiveStatus(app) {
+        if (app.status === 'applied' && daysSince(app.dateApplied) >= GHOST_AFTER_DAYS) return 'ghosted';
+        return app.status;
+      }
+      const statuses = APPLICATIONS.map(effectiveStatus);
+      document.getElementById('proj-stat-jt-total').textContent = APPLICATIONS.length;
+      document.getElementById('proj-stat-jt-active').textContent = statuses.filter(s => s === 'applied' || s === 'interview').length;
+      document.getElementById('proj-stat-jt-interviews').textContent = statuses.filter(s => s === 'interview').length;
+      document.getElementById('proj-stat-jt-ghosted').textContent = statuses.filter(s => s === 'ghosted').length;
     })();
   </script>
 </body>
