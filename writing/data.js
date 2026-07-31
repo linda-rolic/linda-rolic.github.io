@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 172,
+    title: "7 Signs Your Furnace Needs Maintenance Before BC's Cold Weather Arrives",
+    publication: "AireEnergy",
+    date: "October 21, 2026",
+    dateISO: "2026-10-21",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://aireenergy.com/7-signs-your-furnace-needs-maintenance-before-bcs-cold-weather-arrives/",
+    excerpt: "BC's autumn hits fast — by October, Vancouver daytime highs slide to 13C, November overnight lows drop to 3.9C with 85%+ humidity and 177 mm of rain. Seven warning signs your furnace needs pre-winter service: squealing, banging, or rattling (loose parts, delayed ignition, or cracked heat exchanger); cold spots or uneven heat between rooms; unexplained bill spikes from dirty burners running overtime; weak airflow from a clogged filter or failing blower capacitor; short-cycling caused by the high-limit safety switch tripping on overheated air; burning plastic, musty, or soot odors indicating wiring failure, duct mold, or incomplete combustion; and a system over 15 years old with frequent repair calls. FortisBC offers a $50 bill credit for licensed gas contractor tune-ups, and CleanBC covers up to $16,000 for qualifying heat pump upgrades.",
+    tags: ["HVAC", "Furnace", "Heat Pump", "British Columbia", "Vancouver", "Rebates", "Energy Efficiency", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--lavender))"
+  },
+  {
     id: 171,
     title: "Is It Time to Turn Off Your Air Conditioner for the Season in Vancouver?",
     publication: "AireEnergy",
