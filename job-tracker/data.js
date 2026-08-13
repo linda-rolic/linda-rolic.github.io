@@ -24,4 +24,15 @@ const APPLICATIONS = [
       '<strong>Key tasks:</strong> data collection, cleaning, and validation; analyze datasets for trends/patterns/insights; build dashboards/reports in Excel, Google Sheets, Power BI, or Tableau; document as-is processes and design to-be workflows; automate tasks with Python scripts; build data pipelines via web scraping; process Big Data; gather and document business requirements, user stories, and process maps.<br><br>' +
       '<strong>Key skills to highlight:</strong> advanced Excel, SQL, and BI tools; process modeling (BPMN/flowcharts); working knowledge of Python and libraries; understanding of object-oriented software design; Agile/Scrum familiarity (a plus); strong analytical/problem-solving skills; high attention to detail; collaborative across teams; curiosity and willingness to learn.',
   },
+  {
+    id: 'app-3',
+    company: 'TP Canada (Teleperformance)',
+    role: 'Sales Development Representative',
+    dateApplied: '2026-08-13',
+    status: 'applied',
+    link: 'https://ca.indeed.com/viewjob?jk=76014bdcd4708181',
+    notes: 'Applied via Indeed. Toronto, ON (Yonge-Eglinton), Hybrid, Full-Time. Advertised as "Sales Development Representative" but actual role title is B2B Sales Customer Expert II — Pinterest advertising partnership account. Base salary $51K CAD + performance bonus. Schedule Mon–Fri, 9AM–6PM EST.<br><br>' +
+      '<strong>Key tasks:</strong> contact Pinterest customers by phone/email to book meetings with advertising consultants/Partner Managers; manage pipeline and log opportunities in Salesforce; run outbound sales motions for net-new revenue; identify and prospect the right business contacts at advertiser organizations; outreach via email, phone, and social platform messaging; hit agreed KPIs; support and mentor new joiners.<br><br>' +
+      '<strong>Key skills to highlight:</strong> ~2 years in a target-driven, customer-facing role; analytical approach to solving business problems; ability to train/educate customers on a platform and overcome objections; proficiency with Microsoft Office and Google Workspace; Salesforce or other CRM experience; track record working toward quarterly/KPI-driven goals.',
+  },
 ];
