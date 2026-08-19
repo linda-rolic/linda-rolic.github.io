@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 173,
+    title: "Save Up to $3,800 When You Switch to Natural Gas With FortisBC's Connect to Gas Rebate",
+    publication: "AireEnergy",
+    date: "August 19, 2026",
+    dateISO: "2026-08-19",
+    wordCount: 550,
+    readTime: 3,
+    url: "https://aireenergy.com/save-up-to-3800-when-you-switch-to-natural-gas-with-fortisbcs-connect-to-gas-rebate/",
+    excerpt: "FortisBC's Connect to Gas rebate program lets existing homeowners who switch from oil or propane claim up to $3,800 toward a new natural gas heating system. Key amounts: ENERGY STAR furnace or boiler earns a $2,000 base + $1,000 limited-time bonus ($3,000 total); an ENERGY STAR combination boiler or P9 certified combo heating-and-hot-water system earns $2,800 + $1,000 bonus ($3,800 total); adding a gas water heater brings up to $800 more. New construction does not qualify. To unlock the bonus, get a FortisBC prequalification code before December 31, 2026 (codes are limited). A Technical Safety BC-licensed gas contractor must do the install, and the application must be filed within 90 days of the paid invoice or by June 30, 2027, whichever is earlier. Installations need a paid invoice dated before March 31, 2027.",
+    tags: ["HVAC", "Furnace", "Natural Gas", "British Columbia", "Vancouver", "Rebates", "FortisBC", "Energy Efficiency"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--sky))"
+  },
+  {
     id: 172,
     title: "7 Signs Your Furnace Needs Maintenance Before BC's Cold Weather Arrives",
     publication: "AireEnergy",
