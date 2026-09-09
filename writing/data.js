@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 174,
+    title: "Rent-to-Own vs. Buy Your Furnace Outright: Which Option Saves More Over 5 Years?",
+    publication: "Constant Home Comfort",
+    date: "October 22, 2026",
+    dateISO: "2026-10-22",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=4&slug=rent-to-own-vs-buy-your-furnace-outright-which-option-saves-more-over-5-years",
+    excerpt: "Buying a high-efficiency furnace (up to 99% AFUE) outright in Ontario costs $4,000–$9,500 installed depending on brand. After a $500 Enbridge Gas rebate and five years of $150/yr tune-ups, total outright cost is roughly $5,250. Renting at $79.99/month with a 3.5% annual escalator costs $5,147 over five years—nearly the same on paper—but the trap is the home-sale buyout: the Year 5 early-exit fee on a $5,000 furnace is typically $4,500, pushing total rental spend to $9,647—an 83.7% premium over owning. Ontario’s Homeowner Protection Act (June 2024) bans new NOSI registrations and voids existing ones, but rental contracts stay enforceable. Financing through Financeit or Abode Financial is the smarter middle ground: open-term loans, 0% promotional periods, and payments as low as $41.70/month—roughly half a typical rental—with full ownership at the end.",
+    tags: ["HVAC", "Furnace", "Ontario", "Financing", "Rent-to-Own", "Energy Efficiency", "Home Comfort", "Rebates"],
+    accentGradient: "linear-gradient(180deg, var(--amber), var(--rust))"
+  },
+  {
     id: 173,
     title: "Save Up to $3,800 When You Switch to Natural Gas With FortisBC's Connect to Gas Rebate",
     publication: "AireEnergy",
