@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 176,
+    title: "Year-End Rebate Deadline Guide: Don't Miss Out on $12,000 in Ontario HVAC Incentives",
+    publication: "Constant Home Comfort",
+    date: "October 26, 2026",
+    dateISO: "2026-10-26",
+    wordCount: 1550,
+    readTime: 8,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=4&slug=year-end-rebate-deadline-guide-dont-miss-out-on-12000-in-ontario-hvac-incentives",
+    excerpt: "Ontario's Home Renovation Savings Program offers up to $12,000 in HVAC rebates through November 30, 2026. Two pathways: Pathway A (bundled, audit-required) covers insulation up to $7,700, ENERGY STAR windows, heat pump water heaters ($500), and a $500 bonus for three-or-more upgrades; Pathway B (standalone, no audit) pays up to $12,000 for geothermal, $7,500 for cold-climate air-source units, and $100 for smart thermostats. Air-source rebates depend on fuel type: electric/oil/propane homes get $1,250/ton (max $7,500); gas homes get $500/ton (max $2,000). The federal carbon tax hit $110/tonne in April 2026, rising to $170 by 2030—making heat pumps operating at 200–400% efficiency a compelling swap for 96–98% gas furnaces. Contractor registration closed May 31; all installations must finish by November 30, 2026.",
+    tags: ["HVAC", "Heat Pump", "Ontario", "Rebates", "Energy Efficiency", "GTA", "Geothermal", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--amber))"
+  },
+  {
     id: 175,
     title: "Upgrading Your Water Heater Before Winter: Tankless vs. Tank — A GTA Comparison",
     publication: "Constant Home Comfort",
