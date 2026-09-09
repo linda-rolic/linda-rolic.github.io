@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 175,
+    title: "Upgrading Your Water Heater Before Winter: Tankless vs. Tank — A GTA Comparison",
+    publication: "Constant Home Comfort",
+    date: "October 23, 2026",
+    dateISO: "2026-10-23",
+    wordCount: 1350,
+    readTime: 7,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=3&slug=upgrading-your-water-heater-before-winter-tankless-vs-tank-a-gta-comparison",
+    excerpt: "Ontario ground water drops to 3–4°C in winter, forcing water heaters to do nearly 50% more thermal work than in summer. Traditional 40–50 gallon storage tanks lose heat in cold basements and take 45–75 minutes to recover after a busy morning; gas tanks run only 60–65% efficient. Condensing tankless units heat on demand at 95–98% efficiency, cutting water-heating bills by up to 30%—roughly $400/year for a typical GTA home. Upfront tank cost: $1,000–$2,500 (8–12 year lifespan); tankless: $3,000–$5,000 (20–25 years). Hard water in Vaughan (180–220 mg/L) and Markham/Richmond Hill (150–200 mg/L) accelerates scale buildup. Ontario's Home Renovation Savings Program (to November 30, 2026) offers a $500 rebate on ENERGY STAR heat pump water heaters; Constant Home Comfort's promotional all-in price for a premium Rinnai or Navien system is $2,470.",
+    tags: ["HVAC", "Water Heater", "Ontario", "GTA", "Tankless", "Energy Efficiency", "Rebates", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--rust))"
+  },
+  {
     id: 174,
     title: "Rent-to-Own vs. Buy Your Furnace Outright: Which Option Saves More Over 5 Years?",
     publication: "Constant Home Comfort",
