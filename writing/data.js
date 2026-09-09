@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 177,
+    title: "Cold Climate Heat Pumps in Ontario: Do They Really Work When It Drops Below -15°C?",
+    publication: "Constant Home Comfort",
+    date: "October 27, 2026",
+    dateISO: "2026-10-27",
+    wordCount: 2300,
+    readTime: 12,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=2&slug=cold-climate-heat-pumps-in-ontario-do-they-really-work-when-it-drops-below-15c",
+    excerpt: "Modern cold-climate heat pumps use variable-speed compressors, enhanced vapor injection, and smart defrost cycles to heat Ontario homes reliably to –25°C. At –5°C they run at 250–300% efficiency (COP 2.5–3.0); at –15°C they hold 180–220% efficiency and 90–100% heating capacity. A hybrid dual-fuel setup pairs the pump with a gas furnace—the pump handles everything above –15°C, the furnace kicks in only during extreme cold. Annual heating costs for a 2,000 sq ft Ontario home: heating oil $2,600–$4,000; propane $2,000–$3,200; electric baseboards $1,680–$1,920; high-efficiency gas $1,200–$1,500; hybrid heat pump $900–$1,300; fully electric heat pump $700–$1,100. Ontario's Home Renovation Savings Program pays $1,250/ton (max $7,500) for electric/oil/propane homes and $500/ton (max $2,000) for gas homes; geothermal non-gas homes can claim up to $12,000.",
+    tags: ["HVAC", "Heat Pump", "Ontario", "Cold Climate", "Energy Efficiency", "Rebates", "GTA", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--slate), var(--mint))"
+  },
+  {
     id: 176,
     title: "Year-End Rebate Deadline Guide: Don't Miss Out on $12,000 in Ontario HVAC Incentives",
     publication: "Constant Home Comfort",
