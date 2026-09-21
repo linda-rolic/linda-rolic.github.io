@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 179,
+    title: "Quand les propriétaires montréalais devraient-ils passer de la climatisation au chauffage ?",
+    publication: "Aura ClimatPro",
+    date: "October 29, 2026",
+    dateISO: "2026-10-29",
+    wordCount: 1720,
+    readTime: 9,
+    url: "https://auraclimatpro.com/quand-les-proprietaires-montrealais-devraient-ils-passer-de-la-climatisation-au-chauffage/",
+    excerpt: "À Montréal, la transition climatisation-chauffage se produit généralement de fin septembre à mi-octobre. Ne jamais utiliser un climatiseur central en dessous de 15 °C : les basses températures empêchent le réfrigérant de se vaporiser, épaississent l'huile du compresseur et gèlent le serpentin intérieur. Les pompes à chaleur suivent des règles différentes—les modèles Inverter comme la gamme Gree R32 assurent un chauffage fiable jusqu'à –30 °C. Hydro-Québec recommande 20–21 °C à la maison et 17–19 °C la nuit ; les abonnés Flex D ou Hilo doivent préchauffer à 22,5 °C avant les heures de pointe. Le Tribunal administratif du logement annule toute clause fixant une date limite pour le déclenchement du chauffage. Avant la transition : remplacez le filtre, débranchez le disjoncteur, rincez les débris et effectuez un cycle test de 15 minutes.",
+    tags: ["HVAC", "Heat Pump", "Montreal", "Quebec", "Seasonal Maintenance", "Energy Efficiency", "Hydro-Québec", "French"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--slate))"
+  },
+  {
     id: 178,
     title: "When Should Montreal Homeowners Switch From Air Conditioning to Heating?",
     publication: "Aura ClimatPro",
