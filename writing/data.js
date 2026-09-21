@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 180,
+    title: "When Should You Turn Off Your AC in Ontario?",
+    publication: "Constant Home Comfort",
+    date: "October 30, 2026",
+    dateISO: "2026-10-30",
+    wordCount: 1150,
+    readTime: 6,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=4&slug=when-should-you-turn-off-your-ac-in-ontario",
+    excerpt: "In Ontario, shut down your central AC when nighttime temperatures consistently stay below 10°C—typically early to mid-October. Running a standard AC below 15°C thickens compressor oil, causes friction damage, and risks freezing the indoor coil. Avoid leaving thermostats on Auto in autumn: wild temperature swings trigger short-cycling, draining hydro and wearing electrical components. To winterize: cut power at the exterior disconnect and the breaker, rinse summer grime off the unit with a low-pressure hose, and lay a plywood sheet over the top grate (never wrap it in plastic—moisture and rodents). Exception: heat pumps run all winter and must never be covered or de-powered. Inside, prep your furnace by replacing the filter, setting the humidistat to 30–40%, opening the humidifier damper, and checking PVC exhaust vents for blockages before the freeze.",
+    tags: ["HVAC", "Air Conditioning", "Ontario", "Seasonal Maintenance", "Furnace", "Heat Pump", "Energy Efficiency", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--amber), var(--sky))"
+  },
+  {
     id: 179,
     title: "Quand les propriétaires montréalais devraient-ils passer de la climatisation au chauffage ?",
     publication: "Aura ClimatPro",
