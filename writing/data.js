@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 178,
+    title: "When Should Montreal Homeowners Switch From Air Conditioning to Heating?",
+    publication: "Aura ClimatPro",
+    date: "October 28, 2026",
+    dateISO: "2026-10-28",
+    wordCount: 1720,
+    readTime: 9,
+    url: "https://auraclimatpro.com/when-should-montreal-homeowners-switch-from-air-conditioning-to-heating/",
+    excerpt: "In Montreal, the AC-to-heat transition typically runs late September to mid-October. Never run a central air conditioner below 15°C: cold temperatures prevent refrigerant from fully vaporizing, thicken compressor oil, and freeze the indoor coil. Heat pumps follow different rules—inverter models like the Gree R32 series deliver reliable heat down to –30°C and should never be covered in winter. Hydro-Québec recommends 20–21°C when home and 17–19°C when sleeping or away; Rate Flex D or Hilo users should preheat to 22.5°C before peak windows. Quebec's Tribunal administratif du logement voids any lease clause setting a rigid calendar date for heat. Before switching to heat: replace the air filter, disconnect the AC breaker, rinse debris from the outdoor unit, and run a 15-minute test cycle on a mild afternoon to burn off dust.",
+    tags: ["HVAC", "Heat Pump", "Montreal", "Quebec", "Seasonal Maintenance", "Energy Efficiency", "Hydro-Québec", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--slate))"
+  },
+  {
     id: 177,
     title: "Cold Climate Heat Pumps in Ontario: Do They Really Work When It Drops Below -15°C?",
     publication: "Constant Home Comfort",
