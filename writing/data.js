@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 181,
+    title: "The Ultimate Pre-Winter Furnace Checklist: Keep Warm, Save Cash, and Avoid the Mid-Winter Freeze",
+    publication: "Constant Home Comfort",
+    date: "November 2, 2026",
+    dateISO: "2026-11-02",
+    wordCount: 1370,
+    readTime: 7,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=the-ultimate-pre-winter-furnace-checklist-keep-warm-save-cash-and-avoid-the-mid-winter-freeze",
+    excerpt: "Before Canadian cold snaps hit, run through this Ontario furnace checklist. DIY tasks: replace the air filter every 1–3 months; keep vents unblocked; clear debris from outdoor PVC vent pipes (blockage triggers immediate safety lockout); test the thermostat in heat mode; and open the humidifier bypass damper, replacing the pad if mineral-crusted. Leave to a TSSA-certified technician: heat exchanger inspection for cracks (carbon monoxide risk), flame sensor cleaning (carbon deposits cause false shutoffs), condensate drain flushing, and electrical checks. Red flags: squealing or grinding from the blower, burning plastic smell, rotten-egg gas odour, or water pooling at the furnace base. Ontario's Home Renovation Savings Program (to November 30, 2026) offers up to $7,500 for cold-climate heat pumps and up to $10,600 in bundled upgrade rebates.",
+    tags: ["HVAC", "Furnace", "Ontario", "Seasonal Maintenance", "Energy Efficiency", "Rebates", "GTA", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--rust), var(--amber))"
+  },
+  {
     id: 180,
     title: "When Should You Turn Off Your AC in Ontario?",
     publication: "Constant Home Comfort",
