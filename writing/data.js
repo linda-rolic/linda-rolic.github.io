@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 185,
+    title: "Why You Need to Test Your Winnipeg Furnace Before the First Real Freeze Hits",
+    publication: "WiserAire",
+    date: "October 13, 2026",
+    dateISO: "2026-10-13",
+    wordCount: 810,
+    readTime: 5,
+    url: "https://wiseraire.com/why-you-need-to-test-your-winnipeg-furnace-before-the-first-real-freeze-hits/",
+    excerpt: "Winnipeg's first autumn frost historically lands September 15–26. A furnace idle all summer faces three failure points: blocked outdoor PVC vent pipes (birds, leaves, or frost); a dust-coated flame sensor that makes the system start and immediately shut off; and a clogged filter that overheats and can crack the heat exchanger. Neglected furnaces also carry safety risks—cracked heat exchangers leak carbon monoxide into living air, and aging gas valves develop minor leaks. Efficiency Manitoba rebates offer up to $2,000 for a ducted cold-climate heat pump or $1,500 for a ductless mini-split; Manitoba Hydro's HEEL Program finances up to $10,000 for a heat pump over 15 years. WiserAire's annual maintenance package runs $119, with 12-month interest-free financing and $300 off select furnace upgrades; they handle all Efficiency Manitoba rebate applications.",
+    tags: ["HVAC", "Furnace", "Winnipeg", "Manitoba", "Seasonal Maintenance", "Rebates", "Energy Efficiency", "Safety"],
+    accentGradient: "linear-gradient(180deg, var(--slate), var(--sky))"
+  },
+  {
     id: 184,
     title: "Heat Pump vs Furnace: Which Should Heat Your Home This Fall?",
     publication: "Constant Home Comfort",
