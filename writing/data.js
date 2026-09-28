@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 182,
+    title: "Why October Is the Best Time to Schedule a Furnace Tune-Up in Boston",
+    publication: "ComfiTrust",
+    date: "October 19, 2026",
+    dateISO: "2026-10-19",
+    wordCount: 1310,
+    readTime: 7,
+    url: "https://comfitrust.com/why-october-is-the-best-time-to-schedule-a-furnace-tune-up-in-boston/",
+    excerpt: "Boston's October temperatures fall fast—lows hit 43°F by Halloween and average daily highs drop another 10°F in November, with 92.5 freeze days per year. Massachusetts law (105 CMR 410) requires habitable rooms to stay at 68°F (7am–11pm) and 64°F overnight from September 15 through May 31. October is the optimal tune-up window: local utilities like Eversource and National Grid shift to peak winter pricing on November 1, winter gas bills can jump 13–17%, and severe storms have pushed mid-season rate hikes of 29–44%. Booking now avoids the post-November scheduling crunch when emergency no-heat calls dominate technician schedules. Mass Save offers up to $10,000 for whole-home heat pump installations, $1,250/ton for hybrid partial-home setups, a $500 weatherization bonus, and a 0% HEAT Loan for up to $25,000 over seven years.",
+    tags: ["HVAC", "Furnace", "Boston", "Massachusetts", "Seasonal Maintenance", "Rebates", "Energy Efficiency", "Mass Save"],
+    accentGradient: "linear-gradient(180deg, var(--rust), var(--slate))"
+  },
+  {
     id: 181,
     title: "The Ultimate Pre-Winter Furnace Checklist: Keep Warm, Save Cash, and Avoid the Mid-Winter Freeze",
     publication: "Constant Home Comfort",
