@@ -855,77 +855,6 @@
       </div>
 
       <div class="project-card" style="margin-top: 24px;">
-        <div class="project-accent" style="background: linear-gradient(180deg, var(--peach), var(--mint))"></div>
-        <div class="project-body">
-
-          <div class="project-header">
-            <div class="project-title-group">
-              <span class="project-type">Career Tools &middot; Web App</span>
-              <h3>Job Application Tracker</h3>
-              <p class="project-meta">Client-Side App &nbsp;&middot;&nbsp; July 2026</p>
-            </div>
-            <a href="job-tracker/" class="project-link-btn">
-              View Tracker ↗
-            </a>
-          </div>
-
-          <p class="project-desc">
-            A dashboard for tracking job applications end-to-end — from first submission through interviews,
-            offers, and rejections. The page itself is read-only for visitors; entries are maintained directly
-            in code, the same pattern used for the Writing dashboard above.
-          </p>
-
-          <div class="project-metrics">
-            <div class="proj-metric" style="--pm-color: var(--lavender)">
-              <span class="proj-metric-val" id="proj-stat-jt-total">—</span>
-              <span class="proj-metric-label">Total Applications</span>
-            </div>
-            <div class="proj-metric" style="--pm-color: var(--peach)">
-              <span class="proj-metric-val" id="proj-stat-jt-active">—</span>
-              <span class="proj-metric-label">Active</span>
-            </div>
-            <div class="proj-metric" style="--pm-color: var(--mint)">
-              <span class="proj-metric-val" id="proj-stat-jt-interviews">—</span>
-              <span class="proj-metric-label">Interviews</span>
-            </div>
-            <div class="proj-metric" style="--pm-color: var(--pink)">
-              <span class="proj-metric-val" id="proj-stat-jt-ghosted">—</span>
-              <span class="proj-metric-label">Ghosted (21+ Days, No Reply)</span>
-            </div>
-          </div>
-
-          <div class="project-analyses">
-            <div class="analysis-item">
-              <span class="analysis-dot" style="background: var(--peach)"></span>
-              <span>Status pipeline: Applied → Interview → Offer / Rejected</span>
-            </div>
-            <div class="analysis-item">
-              <span class="analysis-dot" style="background: var(--mint)"></span>
-              <span>Live search by company or role, plus status filter chips</span>
-            </div>
-            <div class="analysis-item">
-              <span class="analysis-dot" style="background: var(--lavender)"></span>
-              <span>Auto-computed stats: total, active, interviews, and offers</span>
-            </div>
-            <div class="analysis-item">
-              <span class="analysis-dot" style="background: var(--pink)"></span>
-              <span>Data lives in a version-controlled file — no public write access</span>
-            </div>
-          </div>
-
-          <div class="project-footer">
-            <div class="tag-row">
-              <span class="tag">JavaScript</span>
-              <span class="tag">HTML / CSS</span>
-              <span class="tag">Data Dashboard</span>
-              <span class="tag">Career Tools</span>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="project-card" style="margin-top: 24px;">
         <div class="project-accent" style="background: linear-gradient(180deg, var(--lavender), var(--pink))"></div>
         <div class="project-body">
 
@@ -1088,7 +1017,6 @@
   </footer>
 
   <script src="writing/data.js?v=20260928153446"></script>
-  <script src="job-tracker/data.js?v=20260928153446"></script>
   <script src="script.js?v=20260928153446"></script>
   <script>
     (function () {
@@ -1099,24 +1027,6 @@
       document.getElementById('proj-stat-words').textContent = totalWords.toLocaleString();
       document.getElementById('proj-stat-read').textContent = avgRead + ' min';
       document.getElementById('proj-stat-companies').textContent = companies;
-    })();
-  </script>
-  <script>
-    (function () {
-      // A job "ghosts" after 21 days of no reply — kept in sync with job-tracker/script.js
-      const GHOST_AFTER_DAYS = 21;
-      function daysSince(dateStr) {
-        return Math.floor((new Date() - new Date(dateStr + 'T00:00:00')) / 86400000);
-      }
-      function effectiveStatus(app) {
-        if (app.status === 'applied' && daysSince(app.dateApplied) >= GHOST_AFTER_DAYS) return 'ghosted';
-        return app.status;
-      }
-      const statuses = APPLICATIONS.map(effectiveStatus);
-      document.getElementById('proj-stat-jt-total').textContent = APPLICATIONS.length;
-      document.getElementById('proj-stat-jt-active').textContent = statuses.filter(s => s === 'applied' || s === 'interview').length;
-      document.getElementById('proj-stat-jt-interviews').textContent = statuses.filter(s => s === 'interview').length;
-      document.getElementById('proj-stat-jt-ghosted').textContent = statuses.filter(s => s === 'ghosted').length;
     })();
   </script>
 </body>
