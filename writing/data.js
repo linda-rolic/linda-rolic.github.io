@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 190,
+    title: "Is Your Attic Secretly Costing You Hundreds of Dollars This Winter?",
+    publication: "Constant Home Comfort",
+    date: "October 26, 2026",
+    dateISO: "2026-10-26",
+    wordCount: 1600,
+    readTime: 8,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=4&slug=is-your-attic-secretly-costing-you-hundreds-of-dollars-this-winter",
+    excerpt: "Ontario homes built before 2010 typically have R-10 to R-32 attic insulation; building code now requires R-60 minimum. Without at least R-50, up to 40% of heated air escapes through the roof, forcing constant furnace cycling. Poor attic insulation also causes ice dams: escaping heat melts roof snow, which refreezes at the eaves, backs up under shingles, and leaks into ceilings. Fix requires air sealing first, then high R-value insulation, then soffit-to-ridge ventilation baffles. Ontario's Home Renovation Savings Program (updated January 2026) offers standalone attic rebates with no assessment needed: $1,250 (starting at R-12 or below), $1,000 (R-12 to R-25), or $800 (R-25 to R-35), all upgrading to R-50+, capped at 50% of material costs. Bundled multi-measure upgrades can reach $7,700. Enbridge HER+ customers may qualify for up to $2,350—sometimes covering the full project cost.",
+    tags: ["HVAC", "Insulation", "Ontario", "GTA", "Energy Efficiency", "Rebates", "Home Comfort", "Attic"],
+    accentGradient: "linear-gradient(180deg, var(--rust), var(--sky))"
+  },
+  {
     id: 189,
     title: "What Temperature Should You Set Your Thermostat in Fall?",
     publication: "Constant Home Comfort",
