@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 189,
+    title: "What Temperature Should You Set Your Thermostat in Fall?",
+    publication: "Constant Home Comfort",
+    date: "October 26, 2026",
+    dateISO: "2026-10-26",
+    wordCount: 1350,
+    readTime: 7,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=4&slug=what-temperature-should-you-set-your-thermostat-in-fall",
+    excerpt: "For Ontario fall heating: daytime 20–22°C when active; 22–24°C for babies or seniors; 17–19°C when sleeping (dropping 1°C saves ~2% on heating); 17°C when the house is empty; never below 16°C (condensation risk) or 12–13°C when away (pipe-freeze risk). Avoid toggling between heating and cooling on the same day—let cycles finish before adjusting. Fire up the furnace when overnight lows consistently hit 10°C. A smart thermostat (Nest, Ecobee, Lennox) cuts bills 8%+ via geofencing and off-peak scheduling. Ontario's Home Renovation Savings Program (to November 30, 2026) offers $75–$100 for a smart thermostat, $7,500 for a cold-climate heat pump, and $800–$1,250 for attic insulation top-ups (standalone, no energy audit required); homes must be on the Ontario electricity grid to qualify.",
+    tags: ["HVAC", "Thermostat", "Ontario", "GTA", "Energy Efficiency", "Rebates", "Home Comfort", "Insulation"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--rust))"
+  },
+  {
     id: 188,
     title: "Whole-Home Humidifiers: Why Ontario Homes Need One",
     publication: "Constant Home Comfort",
