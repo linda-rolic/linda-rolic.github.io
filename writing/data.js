@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 186,
+    title: "Furnace vs. Heat Pump: Which Heating System Saves More Money in Winnipeg?",
+    publication: "WiserAire",
+    date: "October 19, 2026",
+    dateISO: "2026-10-19",
+    wordCount: 1800,
+    readTime: 9,
+    url: "https://wiseraire.com/furnace-vs-heat-pump-which-heating-system-saves-more-money-in-winnipeg/",
+    excerpt: "At current Winnipeg rates (gas 22.88¢/m³ all-in, electricity 9.97¢/kWh), a 96% AFUE gas furnace delivers heat at ~2.3¢/kWh—a heat pump needs a seasonal COP above 4.33 to match it, which Manitoba winters don't sustain (average COP ~1.5–2.0 in deep cold). If you have gas, a dual-fuel hybrid is the sweet spot: heat pump handles mild weather at COP 2.5–3.0, gas furnace takes over below –5 to –10°C. If you heat with electricity, propane, or oil, a cold-climate heat pump cuts bills 33–70%. Upfront: gas furnace replacement runs $3,500–$9,000; cold-climate heat pump $7,000–$16,000. Efficiency Manitoba rebates: $2,000 for a ducted cold-climate heat pump, $1,500 ductless; geothermal up to $24,500. Manitoba Hydro's Home Energy Efficiency Loan finances up to $10,000 for a heat pump over 15 years with no down payment.",
+    tags: ["HVAC", "Heat Pump", "Furnace", "Winnipeg", "Manitoba", "Rebates", "Energy Efficiency", "Natural Gas"],
+    accentGradient: "linear-gradient(180deg, var(--mint), var(--slate))"
+  },
+  {
     id: 185,
     title: "Why You Need to Test Your Winnipeg Furnace Before the First Real Freeze Hits",
     publication: "WiserAire",
