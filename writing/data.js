@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 183,
+    title: "7 Warning Signs Your Furnace is Telling You It's Done",
+    publication: "Constant Home Comfort",
+    date: "October 13, 2026",
+    dateISO: "2026-10-13",
+    wordCount: 1200,
+    readTime: 6,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=7-warning-signs-your-furnace-is-telling-you-its-done",
+    excerpt: "Seven signs your Ontario furnace may be failing: (1) grinding, squealing, or rattling from the basement; (2) uneven heat—one room warm, another cold; (3) unexplained energy bill spikes as worn components force longer run times; (4) short-cycling—the system kicks on and off every few minutes due to overheating or sensor failure; (5) repeated repair calls adding up toward the 50% rule—if a single repair approaches half the cost of a new unit, replace it; (6) heavy dust at vents and chronically dry air from a worn filtration system; (7) a yellow or flickering burner flame indicating incomplete combustion and possible carbon monoxide from a cracked heat exchanger—an immediate safety emergency. Ontario's Home Renovation Savings Program offers up to $12,000 for geothermal, $7,500 for cold-climate air-source heat pumps, and $8,900 for insulation upgrades.",
+    tags: ["HVAC", "Furnace", "Ontario", "GTA", "Rebates", "Energy Efficiency", "Safety", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--amber), var(--rust))"
+  },
+  {
     id: 182,
     title: "Why October Is the Best Time to Schedule a Furnace Tune-Up in Boston",
     publication: "ComfiTrust",
