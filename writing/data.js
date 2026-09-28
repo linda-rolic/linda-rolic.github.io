@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 184,
+    title: "Heat Pump vs Furnace: Which Should Heat Your Home This Fall?",
+    publication: "Constant Home Comfort",
+    date: "October 13, 2026",
+    dateISO: "2026-10-13",
+    wordCount: 1850,
+    readTime: 9,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=2&slug=heat-pump-vs-furnace-which-should-heat-your-home-this-fall",
+    excerpt: "Cold-climate heat pumps and gas furnaces compared for Ontario homes: heat pumps move heat electrically at 200–300%+ efficiency; gas furnaces burn fuel at 95–98% AFUE. For Enbridge gas homes, Ontario's Home Renovation Savings Program pays $500/ton (max $2,000) for a heat pump—ideal for a hybrid setup. Electric, oil, and propane homes get $1,250/ton (max $7,500), and oil homes may stack the federal Oil to Heat Pump Affordability bonus. The federal Greener Homes Grant closed February 24, 2026; the Greener Homes Loan closed March 31, 2026. Ontario electricity jumped ~30% in late 2025; Time-of-Use off-peak runs 9.8¢/kWh, on-peak 20.3¢/kWh. The hybrid (dual-fuel) strategy—heat pump for 80–90% of annual heating, gas furnace for deep freezes below –5 to –10°C—is the most practical solution for most Ontario homes with an active gas line and aging central AC.",
+    tags: ["HVAC", "Heat Pump", "Furnace", "Ontario", "GTA", "Rebates", "Energy Efficiency", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--amber))"
+  },
+  {
     id: 183,
     title: "7 Warning Signs Your Furnace is Telling You It's Done",
     publication: "Constant Home Comfort",
