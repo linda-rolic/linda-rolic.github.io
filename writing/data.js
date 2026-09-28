@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 192,
+    title: "Fall Furnace Maintenance Checklist Every Winnipeg Homeowner Should Complete",
+    publication: "WiserAire",
+    date: "October 26, 2026",
+    dateISO: "2026-10-26",
+    wordCount: 1600,
+    readTime: 8,
+    url: "https://wiseraire.com/fall-furnace-maintenance-checklist-every-winnipeg-homeowner-should-complete/",
+    excerpt: "Winnipeg furnaces idle all summer then face minus-thirty cold: skipping pre-season prep risks a breakdown when it matters most. Key DIY steps: swap air filters on schedule (fiberglass monthly, pleated every 60–90 days, media every 90–180); check thermostat calibration and watch for short-cycling; polish the flame sensor with emery cloth—a dirty rod causes shutdowns—and confirm a blue flame (yellow signals CO risk); replace the humidifier pad. High-efficiency furnaces need condensate-line care: slope 1/8–1/4 in. per foot, upsize to 1.5-inch PVC, add heat cables for cold-space runs. Outdoor PVC exhaust vents freeze easily—check after snowfall and knock ice off gently; never pour hot water (cold PVC shatters). Manitoba 2026: Efficiency Manitoba offers $2,000 for ducted heat pumps or $1,500 for ductless; OHPA covers up to $20,000 for oil-to-heat-pump; Manitoba Hydro provides interest-free loans.",
+    tags: ["HVAC", "Furnace", "Winnipeg", "Manitoba", "Maintenance", "Energy Efficiency", "Rebates", "Winter"],
+    accentGradient: "linear-gradient(135deg, var(--charcoal), var(--sky))"
+  },
+  {
     id: 191,
     title: "Heat Pump or Furnace: Which Heating System Makes Sense for Boston Winters?",
     publication: "ComfiTrust",
