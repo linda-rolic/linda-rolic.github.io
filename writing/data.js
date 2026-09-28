@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 187,
+    title: "Why Does Your Furnace Smell So Weird the First Time You Turn It On?",
+    publication: "Constant Home Comfort",
+    date: "October 19, 2026",
+    dateISO: "2026-10-19",
+    wordCount: 1270,
+    readTime: 6,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=1&slug=why-does-your-furnace-smell-so-weird-the-first-time-you-turn-it-on",
+    excerpt: "Five furnace smells at autumn startup: (1) toasted dust—normal, disappears within 48 hours as accumulated skin cells and pet dander burn off the heat exchanger; (2) melting plastic or burning rubber—turn off immediately, indicates a seized blower motor, overheating wiring, or a foreign object in the registers; (3) sharp chemical or formaldehyde—evacuate, classic sign of a cracked heat exchanger leaking carbon monoxide; (4) rotten eggs or sulfur—pour water down the basement floor drain to refill the P-trap; if the smell remains when the system is off, treat as a gas leak and get out; (5) musty or dirty-sock odor—mold growing in ductwork or on the AC coil, use UV purifiers or schedule a duct cleaning. Preventive habits: change filters every 90 days, keep the area clear, and book an annual professional tune-up.",
+    tags: ["HVAC", "Furnace", "Ontario", "GTA", "Seasonal Maintenance", "Safety", "Rebates", "Home Comfort"],
+    accentGradient: "linear-gradient(180deg, var(--lavender), var(--amber))"
+  },
+  {
     id: 186,
     title: "Furnace vs. Heat Pump: Which Heating System Saves More Money in Winnipeg?",
     publication: "WiserAire",
