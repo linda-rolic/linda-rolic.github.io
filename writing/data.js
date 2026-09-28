@@ -1,5 +1,18 @@
 ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
   {
+    id: 188,
+    title: "Whole-Home Humidifiers: Why Ontario Homes Need One",
+    publication: "Constant Home Comfort",
+    date: "October 19, 2026",
+    dateISO: "2026-10-19",
+    wordCount: 1400,
+    readTime: 7,
+    url: "https://www.constanthomecomfort.com/news-detail?pid=4&slug=whole-home-humidifiers-why-ontario-homes-need-one",
+    excerpt: "Ontario's winter physics: cold outdoor air holds almost no moisture; when your furnace warms it, relative humidity can drop to 10–20%—drier than the Sahara. That dry air pulls moisture from skin, eyes, wood floors, and door frames, raising virus survival rates, causing hardwood to crack, and making homes feel cooler than the thermostat reads (costing ~4% more in heating bills). Whole-home humidifiers connect directly to your ductwork and water line, eliminating the constant refilling and mold risk of portable units. Three types: bypass (Aprilaire 600, Lennox HCWB17) for standard homes; fan-powered for larger homes or heat pumps; steam (Aprilaire 800) for electric heat pumps or homes with valuable hardwood. In hard-water areas like Waterloo, London, Hamilton, and Burlington, pair with a water softener or inline RO filter to prevent scale buildup.",
+    tags: ["HVAC", "Indoor Air Quality", "Ontario", "GTA", "Humidifier", "Energy Efficiency", "Home Comfort", "Hard Water"],
+    accentGradient: "linear-gradient(180deg, var(--sky), var(--mint))"
+  },
+  {
     id: 187,
     title: "Why Does Your Furnace Smell So Weird the First Time You Turn It On?",
     publication: "Constant Home Comfort",
