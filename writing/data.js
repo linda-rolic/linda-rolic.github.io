@@ -1,4 +1,17 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿const BLOGS = [
+  {
+    id: 191,
+    title: "Heat Pump or Furnace: Which Heating System Makes Sense for Boston Winters?",
+    publication: "ComfiTrust",
+    date: "October 26, 2026",
+    dateISO: "2026-10-26",
+    wordCount: 1400,
+    readTime: 7,
+    url: "https://comfitrust.com/heat-pump-or-furnace-which-heating-system-makes-sense-for-boston-winters/",
+    excerpt: "Boston homeowners choosing between a heat pump and furnace face a core efficiency gap: top furnaces max out at 98% AFUE, losing at least 2–5% of every fuel dollar out the flue. Cold-climate heat pumps move heat instead of creating it, hitting 300%+ efficiency. Modern inverter compressors maintain 100% heating capacity at −5°F, putting the old myth about New England heat pump failure to rest. For gas-connected homes, a hybrid system—heat pump on mild days, furnace in deep cold—often wins on economics. Mass Save 2026 rebates reach $8,500: $2,650/ton for whole-home electrification (old system removed) or $1,125/ton for supplemental installs that keep the furnace, plus $500 sizing and $500 weatherization bonuses. Income-eligible households may receive up to $16,000. Stack with a 30% federal tax credit up to $2,000. New refrigerant rules require R-32 or R-454B; R-410A no longer qualifies.",
+    tags: ["HVAC", "Heat Pumps", "Boston", "Massachusetts", "Energy Efficiency", "Rebates", "Heating", "Mass Save"],
+    accentGradient: "linear-gradient(135deg, var(--sky), var(--rust))"
+  },
   {
     id: 190,
     title: "Is Your Attic Secretly Costing You Hundreds of Dollars This Winter?",
