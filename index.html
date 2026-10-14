@@ -128,6 +128,24 @@
               </div>
               <span class="timeline-date">Dec 2025 — Oct 2026</span>
             </div>
+            <div class="project-metrics">
+              <div class="proj-metric" style="--pm-color: var(--lavender)">
+                <span class="proj-metric-val">413K+</span>
+                <span class="proj-metric-label">Search Impressions Analyzed</span>
+              </div>
+              <div class="proj-metric" style="--pm-color: var(--mint)">
+                <span class="proj-metric-val">7×</span>
+                <span class="proj-metric-label">CTR Outperformance — Chinese Community vs. Site Average</span>
+              </div>
+              <div class="proj-metric" style="--pm-color: var(--peach)">
+                <span class="proj-metric-val" id="job-stat-articles">—</span>
+                <span class="proj-metric-label">Articles Published</span>
+              </div>
+              <div class="proj-metric" style="--pm-color: var(--pink)">
+                <span class="proj-metric-val" id="job-stat-words">—</span>
+                <span class="proj-metric-label">Words Written</span>
+              </div>
+            </div>
             <ul>
               <li>Supported digital and traditional marketing initiatives by creating content, managing social media, coordinating events, and preparing marketing materials and presentations.</li>
               <li>Maintained CRM records, conducted competitor and market research, updated web content and listings, and supported reporting through weekly performance tracking and analytics.</li>
@@ -1040,6 +1058,8 @@
       document.getElementById('proj-stat-words').textContent = totalWords.toLocaleString();
       document.getElementById('proj-stat-read').textContent = avgRead + ' min';
       document.getElementById('proj-stat-companies').textContent = companies;
+      document.getElementById('job-stat-articles').textContent = BLOGS.length;
+      document.getElementById('job-stat-words').textContent = totalWords.toLocaleString();
     })();
   </script>
 </body>

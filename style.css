@@ -765,6 +765,8 @@ section {
   gap: 16px;
 }
 
+.timeline-card .project-metrics { margin: 18px 0; }
+
 .proj-metric {
   background: var(--pm-color);
   border-radius: var(--radius-sm);
